@@ -1,0 +1,6 @@
+Champ	                                         Valeur
+Date de naissance	                         À remplir
+Adresse complète	                         Après domiciliation
+Nom du conjoint + régime PACS	                 À remplir
+Date du dépôt + banque + date certificat	Après ouverture compte bancaire
+Date de signature	                        Jour J

@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>WaveFi — One-Pager</title>
+<style>
+  @page { size: A4; margin: 0; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Inter', Arial, sans-serif; color: #1a1a1a; background: #fff; }
+  .page { width: 210mm; height: 297mm; padding: 15mm; display: flex; flex-direction: column; }
+  
+  /* HEADER */
+  .header { display: flex; justify-content: space-between; align-items: center; border-bottom: 3px solid #0066CC; padding-bottom: 10px; margin-bottom: 20px; }
+  .logo { font-size: 32pt; font-weight: 800; color: #0066CC; }
+  .logo span { color: #1a1a1a; }
+  .contact-top { text-align: right; font-size: 9pt; color: #666; line-height: 1.5; }
+  
+  /* HERO */
+  .hero { text-align: center; margin-bottom: 20px; }
+  .hero h1 { font-size: 22pt; font-weight: 800; color: #0066CC; line-height: 1.2; margin-bottom: 10px; }
+  .hero p { font-size: 11pt; color: #444; line-height: 1.5; }
+  
+  /* PROBLEM / SOLUTION */
+  .blocks { display: flex; gap: 15px; margin-bottom: 20px; }
+  .block { flex: 1; padding: 15px; border-radius: 8px; }
+  .block.problem { background: #fff3cd; border-left: 4px solid #ffc107; }
+  .block.solution { background: #d4edda; border-left: 4px solid #28a745; }
+  .block h3 { font-size: 10pt; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 8px; }
+  .block.problem h3 { color: #856404; }
+  .block.solution h3 { color: #155724; }
+  .block p { font-size: 10pt; line-height: 1.5; }
+  
+  /* BENEFITS */
+  .benefits { display: flex; gap: 12px; margin-bottom: 20px; }
+  .benefit { flex: 1; text-align: center; padding: 15px 10px; background: #f8f9fa; border-radius: 8px; }
+  .benefit .icon { font-size: 24pt; margin-bottom: 8px; }
+  .benefit h4 { font-size: 11pt; color: #0066CC; margin-bottom: 5px; }
+  .benefit p { font-size: 9pt; color: #666; line-height: 1.4; }
+  
+  /* PRICING */
+  .pricing { margin-bottom: 20px; }
+  .pricing h3 { font-size: 12pt; color: #0066CC; margin-bottom: 10px; text-align: center; }
+  table { width: 100%; border-collapse: collapse; }
+  th { background: #0066CC; color: #fff; padding: 8px; font-size: 9pt; text-align: left; }
+  td { padding: 8px; font-size: 9pt; border-bottom: 1px solid #eee; }
+  tr:nth-child(even) td { background: #f8f9fa; }
+  td.price { font-weight: 700; color: #0066CC; }
+  
+  /* WHY */
+  .why { background: #f0f7ff; padding: 15px; border-radius: 8px; margin-bottom: 20px; }
+  .why h3 { font-size: 12pt; color: #0066CC; margin-bottom: 10px; }
+  .why ul { list-style: none; display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+  .why li { font-size: 9.5pt; line-height: 1.4; }
+  .why li::before { content: "✅ "; }
+  
+  /* CTA */
+  .cta { background: #0066CC; color: #fff; padding: 20px; border-radius: 8px; text-align: center; margin-top: auto; }
+  .cta h3 { font-size: 14pt; margin-bottom: 8px; }
+  .cta p { font-size: 10pt; }
+  .cta .email { font-size: 12pt; font-weight: 700; margin-top: 8px; }
+  
+  /* FOOTER */
+  .footer { text-align: center; font-size: 8pt; color: #999; margin-top: 10px; }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <!-- HEADER -->
+  <div class="header">
+    <div class="logo">Wave<span>Fi</span>.</div>
+    <div class="contact-top">
+      contact@wavefi.tech<br>
+      wavefi.tech<br>
+      Papeete, Polynésie française
+    </div>
+  </div>
+
+  <!-- HERO -->
+  <div class="hero">
+    <h1>Transformez votre WiFi<br>en machine à clients</h1>
+    <p>La solution de WiFi marketing pensée pour la Polynésie française</p>
+  </div>
+
+  <!-- PROBLEM / SOLUTION -->
+  <div class="blocks">
+    <div class="block problem">
+      <h3>⚠️ Le problème</h3>
+      <p>Vos clients se connectent au WiFi, puis repartent sans laisser de trace. Vous ne savez pas qui ils sont, quand ils reviennent, ni comment les faire revenir.</p>
+    </div>
+    <div class="block solution">
+      <h3>✅ La solution</h3>
+      <p>WaveFi capture automatiquement les coordonnées de vos clients WiFi. Email, téléphone, consentement RGPD. Sans effort, sans matériel supplémentaire.</p>
+    </div>
+  </div>
+
+  <!-- BENEFITS -->
+  <div class="benefits">
+    <div class="benefit">
+      <div class="icon">📧</div>
+      <h4>Capturez</h4>
+      <p>Email et téléphone de chaque client WiFi</p>
+    </div>
+    <div class="benefit">
+      <div class="icon">📱</div>
+      <h4>Engagez</h4>
+      <p>Campagnes SMS et email automatisées</p>
+    </div>
+    <div class="benefit">
+      <div class="icon">📊</div>
+      <h4>Analysez</h4>
+      <p>Fréquentation, habitudes, fidélité</p>
+    </div>
+  </div>
+
+  <!-- PRICING -->
+  <div class="pricing">
+    <h3>💼 Nos tarifs</h3>
+    <table>
+      <tr>
+        <th>Plan</th>
+        <th>Prix / mois</th>
+        <th>Lieux</th>
+        <th>Invités / mois</th>
+      </tr>
+      <tr>
+        <td><strong>Free</strong></td>
+        <td class="price">0 XPF</td>
+        <td>1</td>
+        <td>100</td>
+      </tr>
+      <tr>
+        <td><strong>Starter</strong></td>
+        <td class="price">2 297 XPF</td>
+        <td>1</td>
+        <td>1 000</td>
+      </tr>
+      <tr>
+        <td><strong>Pro</strong></td>
+        <td class="price">5 851 XPF</td>
+        <td>5</td>
+        <td>10 000</td>
+      </tr>
+      <tr>
+        <td><strong>Business</strong></td>
+        <td class="price">17 780 XPF</td>
+        <td>20</td>
+        <td>100 000</td>
+      </tr>
+    </table>
+  </div>
+
+  <!-- WHY -->
+  <div class="why">
+    <h3>🎯 Pourquoi WaveFi ?</h3>
+    <ul>
+      <li><strong>Marque blanche</strong> — votre logo, vos couleurs</li>
+      <li><strong>Support en français</strong> — basé à Tahiti</li>
+      <li><strong>Assistant IA intégré</strong> — analyse automatique</li>
+      <li><strong>12 langues</strong> — touristes inclus</li>
+      <li><strong>Conforme RGPD</strong> — consentement intégré</li>
+      <li><strong>Compatible</strong> — 22 marques de routeurs</li>
+    </ul>
+  </div>
+
+  <!-- CTA -->
+  <div class="cta">
+    <h3>Demandez votre démo gratuite</h3>
+    <p>15 minutes pour découvrir la puissance du WiFi marketing</p>
+    <div class="email">📧 contact@wavefi.tech</div>
+  </div>
+
+  <!-- FOOTER -->
+  <div class="footer">
+    WaveFi — WiFi marketing en marque blanche pour la Polynésie française
+  </div>
+
+</div>
+</body>
+</html>

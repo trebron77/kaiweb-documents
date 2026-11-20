@@ -1,0 +1,21 @@
+# environnements et caches
+.venv/
+__pycache__/
+*.pyc
+*.log
+.pytest_cache/
+
+# fichiers système
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# sauvegardes temporaires
+*.tmp
+*.bak
+~$*
+wavefi/ops/legacy-agent/
+
+# pièces d'identité : ne jamais versionner
+CARTE D'IDENTITE*
+PROCURATION*

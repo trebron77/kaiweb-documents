@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Annexe 1 — DPA WaveFi v1.1</title>
+<style>
+  body { font-family: Arial, sans-serif; font-size: 11pt; line-height: 1.6; max-width: 800px; margin: 20px auto; padding: 20px; color: #1a1a1a; }
+  h1 { font-size: 20pt; border-bottom: 3px solid #0066CC; padding-bottom: 8px; color: #0066CC; text-align: center; }
+  h2 { font-size: 14pt; color: #0066CC; margin-top: 30px; border-bottom: 1px solid #ccc; padding-bottom: 4px; }
+  h3 { font-size: 12pt; color: #333; margin-top: 18px; }
+  table { border-collapse: collapse; width: 100%; margin: 12px 0; font-size: 10pt; }
+  th { background-color: #0066CC; color: white; padding: 8px; text-align: left; border: 1px solid #ccc; }
+  td { padding: 6px 8px; border: 1px solid #ccc; }
+  tr:nth-child(even) td { background-color: #f9f9f9; }
+  ul, ol { margin: 6px 0; padding-left: 22px; }
+  li { margin-bottom: 4px; }
+  .version { text-align: center; color: #666; font-size: 10pt; margin-bottom: 25px; }
+  .info { background-color: #e6f2ff; padding: 12px; border-left: 4px solid #0066CC; margin: 15px 0; }
+  .warning { background-color: #fff3cd; padding: 12px; border-left: 4px solid #ffc107; margin: 15px 0; }
+  .signature-line { border-bottom: 1px solid #000; width: 300px; display: inline-block; margin-top: 20px; }
+</style>
+</head>
+<body>
+
+<h1>ANNEXE 1 — ACCORD DE SOUS-TRAITANCE DES DONNÉES (DPA)</h1>
+<p class="version"><strong>WaveFi — Annexe aux CGU/CGV v1.3</strong><br>Version 1.1 — En vigueur au 11 octobre 2026</p>
+
+<h2>PRÉAMBULE</h2>
+<p>Le présent Accord de Sous-Traitance des Données (ci-après « DPA » ou « Accord ») est conclu entre :</p>
+
+<div class="info">
+<p><strong>Le Responsable de Traitement :</strong><br>
+Le Client Final, tel que défini dans les CGU/CGV WaveFi.</p>
+
+<p><strong>Et</strong></p>
+
+<p><strong>Le Sous-Traitant :</strong><br>
+WaveFi, SASU au capital de 200 000 F CFP, immatriculée au RCS de Papeete sous le numéro [TAHITI en cours d'attribution], dont le siège social est situé à [Adresse à compléter après domiciliation], représentée par Norbert KAIMUKO, en qualité de Président.</p>
+</div>
+
+<p>Ci-après dénommés collectivement « les Parties ».</p>
+<p>Le présent Accord complète les CGU/CGV WaveFi et définit les conditions dans lesquelles le Sous-Traitant traite les données à caractère personnel pour le compte du Responsable de Traitement, conformément à la réglementation applicable en matière de protection des données personnelles.</p>
+
+<h2>ARTICLE 1 — DÉFINITIONS</h2>
+<table>
+<tr><th>Terme</th><th>Définition</th></tr>
+<tr><td>Données à caractère personnel</td><td>Toute information relative à une personne physique identifiée ou identifiable</td></tr>
+<tr><td>Personne concernée</td><td>L'Invité (utilisateur final se connectant au WiFi)</td></tr>
+<tr><td>Responsable de traitement</td><td>Le Client Final, qui détermine les finalités et les moyens du traitement</td></tr>
+<tr><td>Sous-traitant</td><td>L'Éditeur (WaveFi), qui traite les données pour le compte du Responsable</td></tr>
+<tr><td>Sous-traitant ultérieur</td><td>Prestataire tiers utilisé par le Sous-traitant</td></tr>
+<tr><td>Traitement</td><td>Toute opération sur les données (collecte, stockage, modification, suppression, etc.)</td></tr>
+<tr><td>Violation de données</td><td>Accès non autorisé, perte, destruction ou altération de données</td></tr>
+<tr><td>Autorité de contrôle</td><td>En Polynésie française : la Commission de l'Informatique et des Libertés (CIL)</td></tr>
+</table>
+
+<h2>ARTICLE 2 — OBJET ET DURÉE</h2>
+
+<h3>2.1 — Objet</h3>
+<p>Le présent Accord a pour objet de définir les obligations du Sous-traitant concernant le traitement des données à caractère personnel des Invités, dans le cadre de l'utilisation de la Plateforme WaveFi.</p>
+
+<h3>2.2 — Durée</h3>
+<p>Le présent Accord est conclu pour la durée des CGU/CGV. Il prend fin automatiquement à la résiliation du contrat principal, sous réserve des obligations de conservation légale.</p>
+
+<h3>2.3 — Données concernées</h3>
+<p>Les catégories de données traitées sont :</p>
+<table>
+<tr><th>Catégorie</th><th>Exemples</th></tr>
+<tr><td>Données d'identification</td><td>Nom, prénom, email, téléphone</td></tr>
+<tr><td>Données de connexion</td><td>Adresse MAC, adresse IP, horodatage</td></tr>
+<tr><td>Données de navigation</td><td>Pages visitées, durée de session, appareil utilisé</td></tr>
+<tr><td>Données de consentement</td><td>Consentement marketing, consentement analytics</td></tr>
+<tr><td>Données de localisation</td><td>Lieu de connexion (nom du site WiFi)</td></tr>
+</table>
+<div class="warning">
+<p><strong>Aucune donnée sensible</strong> (santé, religion, orientation sexuelle, etc.) ne doit être collectée.</p>
+</div>
+
+<h2>ARTICLE 3 — RÔLES ET RESPONSABILITÉS</h2>
+
+<h3>3.1 — Responsable de traitement</h3>
+<p>Le Client Final est <strong>Responsable de Traitement</strong> au sens de la réglementation. À ce titre, il lui appartient de :</p>
+<ol>
+<li>Déterminer les <strong>finalités</strong> du traitement (marketing, analytics, fidélisation)</li>
+<li>Définir les <strong>bases légales</strong> (consentement, intérêt légitime, contrat)</li>
+<li>Informer les Invités de la collecte de leurs données</li>
+<li>Recueillir leur <strong>consentement valide</strong> (marketing, analytics)</li>
+<li>Respecter leurs <strong>droits</strong> (accès, rectification, effacement, portabilité)</li>
+<li>Mettre en œuvre les <strong>mesures de sécurité</strong> appropriées</li>
+<li>Tenir un <strong>registre des traitements</strong></li>
+</ol>
+
+<h3>3.2 — Sous-traitant</h3>
+<p>Le Sous-traitant s'engage à :</p>
+<ol>
+<li>Traiter les données <strong>uniquement sur instructions documentées</strong> du Responsable</li>
+<li>Ne pas utiliser les données à des fins propres</li>
+<li>Assurer la <strong>confidentialité</strong> des données</li>
+<li>Mettre en œuvre les <strong>mesures de sécurité</strong> prévues à l'Article 5</li>
+<li><strong>Notifier</strong> toute violation de données dans les 72 heures</li>
+<li><strong>Assister</strong> le Responsable dans l'exercice des droits des personnes concernées</li>
+<li><strong>Restituer ou supprimer</strong> les données en fin de contrat</li>
+</ol>
+
+<h2>ARTICLE 4 — INSTRUCTIONS DU RESPONSABLE DE TRAITEMENT</h2>
+
+<h3>4.1 — Instructions initiales</h3>
+<p>Le Responsable de Traitement donne au Sous-traitant les instructions suivantes :</p>
+<ol>
+<li>Collecter et stocker les données des Invités via le portail captif</li>
+<li>Traiter les données pour les finalités suivantes :
+<ul>
+<li>Permettre la connexion WiFi</li>
+<li>Envoyer des campagnes marketing (email, SMS, WhatsApp)</li>
+<li>Produire des statistiques et analyses</li>
+<li>Gérer les consentements RGPD</li>
+</ul>
+</li>
+<li>Conserver les données pendant la durée définie à l'Article 7</li>
+<li>Restituer ou supprimer les données à la fin du contrat</li>
+</ol>
+
+<h3>4.2 — Nouvelles instructions</h3>
+<p>Toute nouvelle instruction doit faire l'objet d'un <strong>écrit</strong> (email avec accusé de réception) et être conforme à la réglementation.</p>
+<p>Le Sous-traitant peut refuser une instruction qui lui semble illégale ou contraire au RGPD.</p>
+
+<h2>ARTICLE 5 — SÉCURITÉ DES DONNÉES</h2>
+<p>Le Sous-traitant met en œuvre les mesures techniques et organisationnelles suivantes :</p>
+
+<h3>5.1 — Mesures techniques</h3>
+<table>
+<tr><th>Mesure</th><th>Description</th></tr>
+<tr><td>Chiffrement en transit</td><td>TLS 1.3 pour toutes les communications</td></tr>
+<tr><td>Chiffrement au repos</td><td>Chiffrement des bases de données et des sauvegardes</td></tr>
+<tr><td>Authentification</td><td>Mots de passe forts, MFA pour les administrateurs</td></tr>
+<tr><td>Gestion des accès</td><td>Principe du moindre privilège, journalisation des accès</td></tr>
+<tr><td>Sauvegardes</td><td>Quotidiennes, chiffrées, testées mensuellement</td></tr>
+<tr><td>Isolation multi-tenant</td><td>Row Level Security (RLS) sur toutes les tables</td></tr>
+<tr><td>Rate limiting</td><td>Protection contre les attaques par force brute</td></tr>
+<tr><td>WAF</td><td>Protection contre les injections SQL, XSS, etc.</td></tr>
+</table>
+
+<h3>5.2 — Mesures organisationnelles</h3>
+<table>
+<tr><th>Mesure</th><th>Description</th></tr>
+<tr><td>Formation</td><td>Sensibilisation du personnel à la protection des données</td></tr>
+<tr><td>Politique de sécurité</td><td>Document interne définissant les règles</td></tr>
+<tr><td>Gestion des incidents</td><td>Procédure documentée de réponse aux violations</td></tr>
+<tr><td>Audit</td><td>Audit annuel de sécurité</td></tr>
+<tr><td>Tests d'intrusion</td><td>Réalisés par un prestataire externe</td></tr>
+</table>
+
+<h3>5.3 — Notification des violations</h3>
+<p>En cas de violation de données, le Sous-traitant s'engage à :</p>
+<ol>
+<li><strong>Notifier</strong> le Responsable de Traitement dans les <strong>72 heures</strong> suivant la découverte</li>
+<li>Fournir les informations suivantes :
+<ul>
+<li>Nature de la violation</li>
+<li>Catégories et nombre approximatif de personnes concernées</li>
+<li>Conséquences probables</li>
+<li>Mesures prises ou envisagées</li>
+</ul>
+</li>
+<li><strong>Documenter</strong> la violation dans un registre interne</li>
+</ol>
+
+<h2>ARTICLE 6 — SOUS-TRAITANCE ULTÉRIEURE</h2>
+
+<h3>6.1 — Sous-traitants autorisés</h3>
+<p>Le Responsable de Traitement autorise le Sous-traitant à faire appel aux sous-traitants ultérieurs suivants :</p>
+<table>
+<tr><th>Sous-traitant</th><th>Rôle</th><th>Localisation</th><th>Garanties</th></tr>
+<tr><td>Supabase</td><td>Hébergement base de données</td><td>Southeast Asia (Singapour)</td><td>Chiffrement, RLS, SOC 2</td></tr>
+<tr><td>Lovable Cloud</td><td>Hébergement application</td><td>Union européenne</td><td>Chiffrement, sauvegardes</td></tr>
+<tr><td>OpenAI</td><td>Assistant IA</td><td>États-Unis</td><td>Clauses contractuelles types</td></tr>
+<tr><td>Dodo Payments</td><td>Traitement des paiements</td><td>Union européenne</td><td>PCI-DSS, chiffrement</td></tr>
+<tr><td>MyWiFi</td><td>Gestion RADIUS et portails captifs</td><td>États-Unis</td><td>Chiffrement, SOC 2</td></tr>
+<tr><td>Brevo</td><td>Envoi d'emails marketing</td><td>Europe</td><td>RGPD, chiffrement</td></tr>
+<tr><td>Meta Platforms</td><td>WhatsApp Business API</td><td>États-Unis</td><td>Clauses contractuelles types</td></tr>
+</table>
+
+<h3>6.2 — Changement de sous-traitant</h3>
+<p>Tout changement de sous-traitant ultérieur sera notifié au Responsable de Traitement avec un <strong>préavis de 30 jours</strong>.</p>
+<p>Le Responsable peut : accepter le changement ; s'y opposer et résilier le contrat sans frais ; demander des garanties supplémentaires.</p>
+
+<h3>6.3 — Responsabilité</h3>
+<p>Le Sous-traitant reste <strong>responsable</strong> du respect du RGPD par ses sous-traitants ultérieurs. Il s'engage à leur imposer les mêmes obligations que celles du présent Accord.</p>
+
+<h2>ARTICLE 7 — DURÉE DE CONSERVATION</h2>
+
+<h3>7.1 — Données de connexion (logs)</h3>
+<table>
+<tr><th>Type de donnée</th><th>Durée de conservation</th></tr>
+<tr><td>Logs d'accès WiFi (MAC, IP, horodatage)</td><td>1 an (obligation légale)</td></tr>
+<tr><td>Sessions WiFi (durée, bande passante)</td><td>3 ans (analytics)</td></tr>
+</table>
+
+<h3>7.2 — Données marketing</h3>
+<table>
+<tr><th>Type de donnée</th><th>Durée de conservation</th></tr>
+<tr><td>Email, téléphone</td><td>Durée du contrat + 3 ans</td></tr>
+<tr><td>Consentement marketing</td><td>3 ans après le dernier contact</td></tr>
+<tr><td>Consentement analytics</td><td>3 ans après le dernier contact</td></tr>
+</table>
+
+<h3>7.3 — Suppression</h3>
+<p>À l'expiration des durées ci-dessus, les données sont <strong>automatiquement supprimées</strong> ou <strong>anonymisées</strong> par le Sous-traitant.</p>
+<p>Le Responsable de Traitement peut demander une <strong>suppression anticipée</strong> à tout moment.</p>
+
+<h2>ARTICLE 8 — DROITS DES PERSONNES CONCERNÉES</h2>
+
+<h3>8.1 — Droits des Invités</h3>
+<p>Les Invités disposent des droits suivants :</p>
+<table>
+<tr><th>Droit</th><th>Description</th></tr>
+<tr><td>Accès</td><td>Obtenir une copie de leurs données</td></tr>
+<tr><td>Rectification</td><td>Corriger les données inexactes</td></tr>
+<tr><td>Effacement</td><td>Demander la suppression de leurs données</td></tr>
+<tr><td>Portabilité</td><td>Recevoir leurs données dans un format structuré</td></tr>
+<tr><td>Opposition</td><td>S'opposer au traitement marketing</td></tr>
+<tr><td>Limitation</td><td>Limiter le traitement dans certains cas</td></tr>
+</table>
+
+<h3>8.2 — Assistance du Sous-traitant</h3>
+<p>Le Sous-traitant s'engage à <strong>assister</strong> le Responsable de Traitement dans l'exercice de ces droits :</p>
+<ol>
+<li><strong>Mise à disposition d'outils</strong> : export, suppression, modification</li>
+<li><strong>Réponse aux demandes</strong> : dans un délai de 5 jours ouvrés</li>
+<li><strong>Documentation</strong> : traçabilité des demandes et des réponses</li>
+</ol>
+
+<h3>8.3 — Exercice direct</h3>
+<p>Si un Invité contacte directement le Sous-traitant, celui-ci <strong>redirigera</strong> la demande vers le Responsable de Traitement dans un délai de 2 jours ouvrés.</p>
+
+<h2>ARTICLE 9 — TRANSFERTS HORS POLYNÉSIE / UE</h2>
+
+<h3>9.1 — Transferts autorisés</h3>
+<p>Certaines données peuvent être transférées hors de Polynésie française / UE vers :</p>
+<ul>
+<li><strong>OpenAI</strong> (États-Unis) : pour l'assistant IA</li>
+<li><strong>MyWiFi</strong> (États-Unis) : pour la gestion RADIUS</li>
+<li><strong>Meta</strong> (États-Unis) : pour WhatsApp</li>
+<li><strong>Supabase</strong> (Singapour) : pour l'hébergement base de données</li>
+</ul>
+
+<h3>9.2 — Garanties</h3>
+<p>Ces transferts sont encadrés par :</p>
+<ul>
+<li><strong>Clauses contractuelles types</strong> de la Commission européenne</li>
+<li><strong>Mesures de sécurité</strong> supplémentaires (chiffrement, pseudonymisation)</li>
+<li><strong>Évaluation d'impact</strong> sur la vie privée</li>
+</ul>
+
+<h3>9.3 — Information du Responsable</h3>
+<p>Le Responsable de Traitement est informé de ces transferts et peut s'y opposer en résiliant le contrat.</p>
+
+<h2>ARTICLE 10 — AUDIT</h2>
+
+<h3>10.1 — Droit d'audit</h3>
+<p>Le Responsable de Traitement peut, <strong>une fois par an</strong> et avec un préavis de 30 jours, réaliser un audit de conformité du Sous-traitant.</p>
+
+<h3>10.2 — Modalités</h3>
+<p>L'audit peut prendre la forme :</p>
+<ul>
+<li>D'un <strong>questionnaire</strong> de conformité</li>
+<li>D'une <strong>visite sur site</strong> (si pertinent)</li>
+<li>D'un <strong>audit externe</strong> réalisé par un tiers</li>
+</ul>
+
+<h3>10.3 — Coûts</h3>
+<p>Les coûts de l'audit sont à la charge du Responsable de Traitement, sauf en cas de manquement avéré du Sous-traitant.</p>
+
+<h2>ARTICLE 11 — SORT DES DONNÉES EN FIN DE CONTRAT</h2>
+
+<h3>11.1 — Restitution</h3>
+<p>À la fin du contrat, le Sous-traitant s'engage à :</p>
+<ol>
+<li><strong>Restituer</strong> au Responsable l'ensemble des données au format CSV/JSON</li>
+<li><strong>Documenter</strong> la restitution (date, périmètre, format)</li>
+</ol>
+
+<h3>11.2 — Suppression</h3>
+<p>Après la restitution, le Sous-traitant <strong>supprime</strong> les données dans un délai de <strong>30 jours</strong>, sauf :</p>
+<ul>
+<li><strong>Obligations légales</strong> de conservation (logs de connexion : 1 an)</li>
+<li><strong>Données anonymisées</strong> (statistiques agrégées)</li>
+</ul>
+
+<h3>11.3 — Attestation</h3>
+<p>Le Sous-traitant fournit une <strong>attestation de suppression</strong> sur demande du Responsable.</p>
+
+<h2>ARTICLE 12 — RESPONSABILITÉ</h2>
+
+<h3>12.1 — Responsabilité du Sous-traitant</h3>
+<p>Le Sous-traitant est responsable :</p>
+<ul>
+<li>Du <strong>respect des instructions</strong> du Responsable</li>
+<li>De la <strong>sécurité</strong> des données</li>
+<li>De la <strong>notification</strong> des violations</li>
+<li>De la <strong>conformité</strong> de ses sous-traitants ultérieurs</li>
+</ul>
+
+<h3>12.2 — Responsabilité du Responsable</h3>
+<p>Le Responsable de Traitement est responsable :</p>
+<ul>
+<li>De la <strong>légalité</strong> du traitement</li>
+<li>De l'<strong>information</strong> des Invités</li>
+<li>Du <strong>recueil</strong> des consentements</li>
+<li>De l'<strong>exercice</strong> des droits des Invités</li>
+</ul>
+
+<h3>12.3 — Limitation</h3>
+<p>La responsabilité du Sous-traitant est limitée au montant total des sommes versées par le Responsable au cours des <strong>12 derniers mois</strong>.</p>
+
+<h2>ARTICLE 13 — DURÉE ET RÉSILIATION</h2>
+
+<h3>13.1 — Durée</h3>
+<p>Le présent Accord est conclu pour la durée des CGU/CGV.</p>
+
+<h3>13.2 — Résiliation</h3>
+<p>L'Accord prend fin automatiquement à la résiliation du contrat principal.</p>
+
+<h3>13.3 — Survie</h3>
+<p>Les Articles 7 (Conservation), 11 (Sort des données), 12 (Responsabilité) et 13 (Durée) survivent à la résiliation.</p>
+
+<h2>ARTICLE 14 — DROIT APPLICABLE ET JURIDICTION</h2>
+
+<h3>14.1 — Droit applicable</h3>
+<p>Le présent Accord est régi par le <strong>droit polynésien</strong> et, le cas échéant, par le <strong>RGPD</strong> pour les Invités européens.</p>
+
+<h3>14.2 — Juridiction</h3>
+<p>Tout litige sera porté devant le <strong>Tribunal Mixte de Commerce de Papeete</strong>.</p>
+
+<h2>ARTICLE 15 — DISPOSITIONS DIVERSES</h2>
+<ul>
+<li><strong>Intégralité</strong> : Le présent Accord complète les CGU/CGV</li>
+<li><strong>Divisibilité</strong> : Si une clause est nulle, les autres restent en vigueur</li>
+<li><strong>Notification</strong> : Par email avec accusé de réception</li>
+<li><strong>Langue</strong> : Rédigé en français</li>
+</ul>
+
+<h2>ANNEXES</h2>
+<ul>
+<li><strong>Annexe 1.1</strong> : Liste détaillée des sous-traitants ultérieurs</li>
+<li><strong>Annexe 1.2</strong> : Mesures de sécurité techniques et organisationnelles</li>
+<li><strong>Annexe 1.3</strong> : Procédure de notification des violations</li>
+<li><strong>Annexe 1.4</strong> : Modèle de registre des traitements</li>
+</ul>
+
+<p style="margin-top: 40px;"><strong>Fait à Papeete, le 11 octobre 2026</strong></p>
+<p><strong>En 2 exemplaires originaux.</strong></p>
+
+<p style="margin-top: 30px;"><strong>Le Responsable de Traitement :</strong><br>
+[Client Final]</p>
+<p>Signature : <span class="signature-line"></span><br>
+Date : <span class="signature-line"></span></p>
+
+<p style="margin-top: 30px;"><strong>Le Sous-traitant :</strong><br>
+WaveFi<br>
+Représentée par Norbert KAIMUKO, Président</p>
+<p>Signature : <span class="signature-line"></span><br>
+Date : <span class="signature-line"></span></p>
+
+<p style="margin-top: 40px; text-align: center; color: #666; font-size: 10pt;">
+<strong>Dernière mise à jour : 11 octobre 2026</strong><br>
+Version : 1.1
+</p>
+
+</body>
+</html>

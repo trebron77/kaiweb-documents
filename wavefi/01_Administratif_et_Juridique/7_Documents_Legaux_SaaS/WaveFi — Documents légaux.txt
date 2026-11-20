@@ -1,0 +1,19 @@
+WaveFi — Documents légaux
+===========================
+Dernière mise à jour : 11 octobre 2026
+
+Documents actifs :
+- CGU/CGV — v1.3 (11 oct 2026)
+- Annexe 1 DPA — v1.1 (11 oct 2026)
+- Annexe 2 Cookies — v1.1 (11 oct 2026)
+- Annexe 3 Mentions légales — v1.1 (11 oct 2026)
+- Annexe 4 Confidentialité — v1.1 (11 oct 2026)
+- Annexe 5 SLA — v1.1 (11 oct 2026)
+- Contrat de revente — v1.1 (11 oct 2026)
+- Checklist revendeurs — v1.0 (10 oct 2026)
+- Politique de remboursement — v1.1 (11 oct 2026)
+- Modèle d'avenant — v1.0 (10 oct 2026)
+
+Historique :
+- v1.0 → v1.1 : mise à jour des prix + clause requalification + Meta
+- v1.1 → v1.3 (CGU) : ajout requalification + grille détaillée

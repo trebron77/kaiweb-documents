@@ -1,0 +1,24 @@
+WaveFi — Documents légaux/
+│
+├── 📁 v1.0 — Archivé (10 oct 2026)/
+│   ├── CGU-CGV-v1.0.html
+│   ├── Annexe-1-DPA-v1.0.html
+│   ├── ...
+│   └── Politique-Remboursement-v1.0.html
+│
+├── 📁 v1.1 — Archivé (11 oct 2026)/
+│   ├── Contrat-Revente-v1.1.html
+│   ├── Annexe-2-Cookies-v1.1.html
+│   └── ...
+│
+└── 📁 VERSION ACTUELLE/
+    ├── CGU-CGV-v1.3.html (actif)
+    ├── Annexe-1-DPA-v1.1.html (actif)
+    ├── Annexe-2-Cookies-v1.1.html (actif)
+    ├── Annexe-3-Mentions-legales-v1.1.html (actif)
+    ├── Annexe-4-Confidentialite-v1.1.html (actif)
+    ├── Annexe-5-SLA-v1.1.html (actif)
+    ├── Contrat-Revente-v1.1.html (actif)
+    ├── Checklist-Revendeurs-v1.0.html (actif)
+    ├── Politique-Remboursement-v1.1.html (actif)
+    └── Modele-Avenant-v1.0.html (actif)

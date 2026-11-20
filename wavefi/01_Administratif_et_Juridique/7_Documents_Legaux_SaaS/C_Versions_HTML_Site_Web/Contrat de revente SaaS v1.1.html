@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Contrat de Revente SaaS WaveFi v1.1</title>
+<style>
+  body { font-family: Arial, sans-serif; font-size: 11pt; line-height: 1.6; max-width: 800px; margin: 20px auto; padding: 20px; color: #1a1a1a; }
+  h1 { font-size: 20pt; border-bottom: 3px solid #0066CC; padding-bottom: 8px; color: #0066CC; text-align: center; }
+  h2 { font-size: 14pt; color: #0066CC; margin-top: 30px; border-bottom: 1px solid #ccc; padding-bottom: 4px; }
+  h3 { font-size: 12pt; color: #333; margin-top: 18px; }
+  table { border-collapse: collapse; width: 100%; margin: 12px 0; font-size: 10pt; }
+  th { background-color: #0066CC; color: white; padding: 8px; text-align: left; border: 1px solid #ccc; }
+  td { padding: 6px 8px; border: 1px solid #ccc; }
+  tr:nth-child(even) td { background-color: #f9f9f9; }
+  ul, ol { margin: 6px 0; padding-left: 22px; }
+  li { margin-bottom: 4px; }
+  .version { text-align: center; color: #666; font-size: 10pt; margin-bottom: 25px; }
+  .info { background-color: #e6f2ff; padding: 12px; border-left: 4px solid #0066CC; margin: 15px 0; }
+  .signature-line { border-bottom: 1px solid #000; width: 300px; display: inline-block; margin-top: 20px; }
+</style>
+</head>
+<body>
+
+<h1>CONTRAT DE REVENTE SAAS</h1>
+<p class="version"><strong>WaveFi — Marque Blanche</strong><br>Version 1.1 — En vigueur au 11 octobre 2026</p>
+
+<h2>ENTRE LES SOUSSIGNÉS</h2>
+
+<div class="info">
+<p><strong>Le Fournisseur :</strong></p>
+<p>WaveFi, SASU au capital de 200 000 F CFP, immatriculée au RCS de Papeete sous le numéro [TAHITI en cours d'attribution], dont le siège social est situé à [Adresse à compléter après domiciliation], représentée par Norbert KAIMUKO, en qualité de Président.</p>
+<p><strong>Ci-après dénommé « le Fournisseur »</strong></p>
+</div>
+
+<p style="text-align: center;"><strong>ET</strong></p>
+
+<div class="info">
+<p><strong>Le Revendeur :</strong></p>
+<p>[Raison sociale], [Forme juridique] au capital de [Montant] F CFP, immatriculée au RCS de [Ville] sous le numéro [XXX], dont le siège social est situé à [Adresse complète], représentée par [Nom du représentant], en qualité de [Fonction].</p>
+<p><strong>Ci-après dénommé « le Revendeur »</strong></p>
+</div>
+
+<p style="text-align: center; margin-top: 25px;"><strong>IL A ÉTÉ CONVENU CE QUI SUIT :</strong></p>
+
+<h2>ARTICLE 1 — OBJET</h2>
+<p>Le présent contrat a pour objet de définir les conditions dans lesquelles le Fournisseur autorise le Revendeur à commercialiser, sous sa propre marque (marque blanche), la plateforme SaaS <strong>WaveFi</strong> de WiFi marketing.</p>
+<p>Le Revendeur agit en qualité de <strong>revendeur indépendant</strong>. Il n'est ni agent commercial, ni salarié, ni mandataire du Fournisseur.</p>
+
+<h2>ARTICLE 2 — DÉFINITIONS</h2>
+<ul>
+<li><strong>Plateforme</strong> : Le logiciel SaaS WaveFi accessible via wavefi.tech et app.wavefi.tech</li>
+<li><strong>Marque Blanche</strong> : Mode permettant au Revendeur d'utiliser sa propre identité visuelle</li>
+<li><strong>Client Final</strong> : Commerce ou entreprise utilisant la Plateforme via le Revendeur</li>
+<li><strong>Invité</strong> : Utilisateur final se connectant au WiFi d'un Client Final</li>
+<li><strong>Compte Réservé</strong> : Entité que le Fournisseur se réserve (Article 8)</li>
+<li><strong>MRR</strong> : Revenu Mensuel Récurrent</li>
+<li><strong>SLA</strong> : Service Level Agreement (niveau de service)</li>
+</ul>
+
+<h2>ARTICLE 3 — TERRITOIRE</h2>
+<p>Le présent contrat est valable sur le territoire suivant :</p>
+<ul>
+<li><strong>Polynésie française</strong> (zone principale)</li>
+<li><strong>Nouvelle-Calédonie</strong> (zone secondaire, sur accord écrit)</li>
+<li><strong>Autres territoires du Pacifique</strong> (sur accord écrit préalable)</li>
+</ul>
+<p>Le Revendeur ne peut commercialiser la Plateforme en dehors de ces territoires sans autorisation écrite du Fournisseur.</p>
+
+<h2>ARTICLE 4 — DROITS ACCORDÉS</h2>
+<p>Le Fournisseur accorde au Revendeur, pour la durée du contrat, un droit <strong>non exclusif, non transférable et révocable</strong> de :</p>
+<ol>
+<li>Accéder à la Plateforme via son compte revendeur</li>
+<li>Créer et gérer des comptes Clients Finaux</li>
+<li>Configurer des portails captifs en marque blanche</li>
+<li>Commercialiser les abonnements auprès de Clients Finaux</li>
+<li>Facturer les Clients Finaux à son propre tarif</li>
+<li>Accéder à l'API et aux webhooks</li>
+<li>Utiliser la documentation et les supports marketing du Fournisseur</li>
+</ol>
+<p><strong>Le Revendeur ne peut pas :</strong></p>
+<ul>
+<li>Revendre, sous-licencier ou céder ses droits sans accord écrit</li>
+<li>Modifier, décompiler ou faire de la rétro-ingénierie sur la Plateforme</li>
+<li>Utiliser la Plateforme pour un usage illicite ou contraire aux CGU</li>
+</ul>
+
+<h2>ARTICLE 5 — PLANS ET TARIFICATION</h2>
+
+<h3>5.1 — Plans disponibles</h3>
+<table>
+<tr><th>Plan</th><th>Prix wholesale</th><th>Lieux</th><th>Invités/mois</th><th>Cible</th></tr>
+<tr><td>Starter</td><td>4 995 XPF/mois</td><td>3</td><td>1 000</td><td>TPE / petit commerce</td></tr>
+<tr><td>Pro</td><td>12 950 XPF/mois</td><td>10</td><td>20 000</td><td>PME / restaurant / café</td></tr>
+<tr><td>Business</td><td>34 950 XPF/mois</td><td>20</td><td>100 000</td><td>Chaîne locale / hôtel 4★</td></tr>
+<tr><td>Enterprise</td><td>À partir de 79 950 XPF/mois</td><td>Illimité</td><td>Illimité</td><td>Groupe international / 5★</td></tr>
+</table>
+
+<h3>5.2 — Prix de revente</h3>
+<p>Le Revendeur est <strong>libre de fixer ses propres prix</strong> aux Clients Finaux. Il conserve l'intégralité de la marge réalisée.</p>
+
+<h3>5.3 — Facturation</h3>
+<p>Le Fournisseur facture le Revendeur mensuellement, par prélèvement automatique ou virement, à terme échu, selon les modalités convenues à l'Annexe 1.</p>
+
+<h3>5.4 — Révision des prix</h3>
+<p>Le Fournisseur se réserve le droit de réviser ses prix wholesale avec un <strong>préavis de 60 jours</strong>. Le Revendeur peut résilier le contrat s'il refuse la nouvelle grille.</p>
+
+<h3>5.5 — Requalification du plan d'un Client Final</h3>
+<p>Le Revendeur s'engage à ne pas placer un Client Final sur un plan inférieur à ses besoins réels, notamment si ce client relève objectivement d'un plan supérieur selon les critères suivants (nombre de lieux, invités/mois, chiffre d'affaires, nombre de salariés, fonctionnalités requises, exigences de support).</p>
+<p>En cas de requalification par le Fournisseur, le Revendeur en est informé avec un préavis de 30 jours. Le prix wholesale applicable devient celui du plan requis.</p>
+
+<h2>ARTICLE 6 — MODALITÉS DE PAIEMENT</h2>
+<ul>
+<li><strong>Fréquence</strong> : mensuelle</li>
+<li><strong>Moyen</strong> : prélèvement automatique ou virement</li>
+<li><strong>Délai</strong> : 30 jours à compter de la date de facture</li>
+<li><strong>Pénalités de retard</strong> : 1,5% par mois de retard</li>
+<li><strong>Devise</strong> : Franc Pacifique (XPF) ou Euro (EUR) au choix du Revendeur</li>
+</ul>
+<p>En cas de défaut de paiement de plus de 30 jours, le Fournisseur peut suspendre l'accès à la Plateforme sans préavis.</p>
+
+<h2>ARTICLE 7 — OBLIGATIONS DU FOURNISSEUR</h2>
+<p>Le Fournisseur s'engage à :</p>
+<ol>
+<li>Fournir la Plateforme avec un taux de disponibilité conforme au SLA</li>
+<li>Assurer le support technique au Revendeur</li>
+<li>Maintenir la Plateforme à jour</li>
+<li>Protéger les données conformément à la réglementation</li>
+<li>Fournir la documentation technique et commerciale</li>
+<li>Notifier le Revendeur de tout changement majeur avec un préavis de 30 jours</li>
+<li>Maintenir la confidentialité des données du Revendeur et de ses Clients Finaux</li>
+</ol>
+
+<h2>ARTICLE 8 — COMPTES RÉSERVÉS</h2>
+<p>Le Fournisseur se réserve le droit de prospecter, négocier et contracter <strong>directement</strong> avec les entités suivantes, sans que le Revendeur puisse s'y opposer ou réclamer une commission :</p>
+<ol>
+<li><strong>Tous les aéroports et aérodromes</strong> de Polynésie française, y compris l'aéroport international de Faa'a</li>
+<li><strong>Toutes les infrastructures gérées par le Port Autonome de Papeete (PAP)</strong></li>
+<li><strong>Toutes les mairies</strong> et administrations communales</li>
+<li><strong>Tous les établissements publics</strong> (EPIC et EPA) : OPT, EGAT, G2P, CHPF, ILM</li>
+<li><strong>Toutes les infrastructures du Pays et de l'État</strong></li>
+<li><strong>Tous les établissements d'enseignement supérieur</strong> : UPF, CFPA</li>
+<li><strong>Toutes les chambres consulaires</strong> : CCISM, CAPF, CAPL</li>
+<li><strong>Tous les groupes hôteliers internationaux</strong> (InterContinental, Four Seasons, St. Regis, Conrad, etc.)</li>
+<li><strong>Toute autre entité publique ou grand compte</strong> non listée explicitement</li>
+</ol>
+<p>Le Revendeur s'interdit expressément de répondre à tout appel d'offres, de démarcher ou de contracter avec ces entités pour la fourniture des Services.</p>
+<p><strong>Sanction</strong> : résiliation immédiate du contrat + dommages-intérêts.</p>
+<p>Le Fournisseur peut, à sa seule discrétion, accorder une <strong>dérogation écrite</strong> au Revendeur pour l'un de ces comptes.</p>
+
+<h2>ARTICLE 9 — OBLIGATIONS DU REVENDEUR</h2>
+<p>Le Revendeur s'engage à :</p>
+<ol>
+<li>Commercialiser la Plateforme de bonne foi et activement</li>
+<li>Respecter les CGU de la Plateforme et les faire respecter à ses Clients Finaux</li>
+<li>Assurer le support de premier niveau auprès de ses Clients Finaux</li>
+<li>Former ses Clients Finaux à l'utilisation de la Plateforme</li>
+<li>Protéger les données personnelles des Invités conformément à la réglementation</li>
+<li>Ne pas dénigrer le Fournisseur, la Plateforme ou ses autres revendeurs</li>
+<li>Signaler au Fournisseur tout dysfonctionnement ou incident de sécurité</li>
+<li>Respecter les Comptes Réservés (Article 8)</li>
+<li>Maintenir son compte à jour (informations légales, coordonnées bancaires)</li>
+<li>Ne pas utiliser la Plateforme pour du spam, du phishing ou toute activité illicite</li>
+<li>Ne pas placer un Client Final sur un plan inférieur à ses besoins réels (Article 5.5)</li>
+</ol>
+
+<h2>ARTICLE 10 — MARQUE BLANCHE</h2>
+
+<h3>10.1 — Droits d'usage</h3>
+<p>Le Revendeur peut :</p>
+<ul>
+<li>Personnaliser le logo, les couleurs et le domaine du portail captif</li>
+<li>Utiliser sa propre marque commerciale</li>
+<li>Masquer la mention « Propulsé par WaveFi » (selon le plan souscrit)</li>
+</ul>
+
+<h3>10.2 — Restrictions</h3>
+<p>Le Revendeur ne peut pas :</p>
+<ul>
+<li>Revendiquer la propriété de la Plateforme WaveFi</li>
+<li>Déposer une marque identique ou similaire à WaveFi</li>
+<li>Utiliser la marque WaveFi dans sa communication sans accord écrit</li>
+</ul>
+
+<h3>10.3 — Propriété</h3>
+<p>La Plateforme WaveFi, son code source, ses marques et sa documentation restent la <strong>propriété exclusive du Fournisseur</strong>. Le Revendeur ne dispose que d'un droit d'usage temporaire.</p>
+
+<h2>ARTICLE 11 — DONNÉES PERSONNELLES</h2>
+
+<h3>11.1 — Rôles</h3>
+<ul>
+<li><strong>Fournisseur</strong> : sous-traitant au sens de la réglementation sur les données personnelles</li>
+<li><strong>Revendeur</strong> : responsable de traitement pour les données de ses Clients Finaux et Invités</li>
+<li><strong>Client Final</strong> : responsable de traitement pour ses propres Invités</li>
+</ul>
+
+<h3>11.2 — Obligations du Fournisseur</h3>
+<p>Le Fournisseur s'engage à :</p>
+<ul>
+<li>Traiter les données uniquement pour fournir le service</li>
+<li>Mettre en œuvre les mesures de sécurité appropriées</li>
+<li>Notifier toute violation de données dans les 72 heures</li>
+<li>Restituer ou supprimer les données à la fin du contrat</li>
+</ul>
+
+<h3>11.3 — Obligations du Revendeur</h3>
+<p>Le Revendeur s'engage à :</p>
+<ul>
+<li>Obtenir le consentement des Invités (RGPD)</li>
+<li>Informer les Invités de leurs droits</li>
+<li>Respecter le droit à l'effacement</li>
+</ul>
+
+<h3>11.4 — Localisation des données</h3>
+<p>Les données sont hébergées sur les serveurs de Supabase (Singapour) et Lovable Cloud (Union européenne). Le Fournisseur s'engage à informer le Revendeur de tout changement.</p>
+
+<h2>ARTICLE 12 — PROPRIÉTÉ INTELLECTUELLE</h2>
+<ul>
+<li><strong>Plateforme WaveFi</strong> : propriété exclusive du Fournisseur</li>
+<li><strong>Code source</strong> : propriété du Fournisseur (dépôt GitHub privé)</li>
+<li><strong>Marque WaveFi</strong> : propriété du Fournisseur</li>
+<li><strong>Données des Invités</strong> : propriété du Revendeur ou du Client Final</li>
+<li><strong>Contenus créés par le Revendeur</strong> (campagnes, portails) : propriété du Revendeur</li>
+</ul>
+<p>Toute reproduction, modification ou exploitation non autorisée est interdite.</p>
+
+<h2>ARTICLE 13 — CONFIDENTIALITÉ</h2>
+<p>Chaque partie s'engage à :</p>
+<ul>
+<li>Garder confidentielles les informations échangées</li>
+<li>Ne pas divulguer les informations à des tiers sans accord écrit</li>
+<li>Restituer ou détruire les documents confidentiels à la fin du contrat</li>
+</ul>
+<p><strong>Durée</strong> : 5 ans après la fin du contrat.</p>
+<p><strong>Exceptions</strong> : informations publiques, obligations légales, décisions de justice.</p>
+
+<h2>ARTICLE 14 — DURÉE</h2>
+<p>Le présent contrat est conclu pour une durée de <strong>12 mois</strong> à compter de sa signature.</p>
+<p>Il est <strong>renouvelable par tacite reconduction</strong> pour des périodes de 12 mois, sauf dénonciation par l'une des parties avec un <strong>préavis de 60 jours</strong>.</p>
+
+<h2>ARTICLE 15 — RÉSILIATION</h2>
+
+<h3>15.1 — Résiliation pour faute</h3>
+<p>Chaque partie peut résilier le contrat de plein droit, sans préavis, en cas de :</p>
+<ul>
+<li>Violation grave des obligations (non-paiement, violation des Comptes Réservés)</li>
+<li>Manquement à la confidentialité</li>
+<li>Activité illicite</li>
+</ul>
+
+<h3>15.2 — Résiliation pour convenance</h3>
+<p>Chaque partie peut résilier le contrat sans motif, avec un <strong>préavis de 60 jours</strong> par lettre recommandée.</p>
+
+<h3>15.3 — Conséquences</h3>
+<p>En cas de résiliation :</p>
+<ul>
+<li>L'accès à la Plateforme est suspendu à la fin du préavis</li>
+<li>Les Clients Finaux du Revendeur peuvent être transférés au Fournisseur (sur accord)</li>
+<li>Les factures impayées restent dues</li>
+<li>Les données sont conservées 30 jours puis supprimées</li>
+</ul>
+
+<h2>ARTICLE 16 — RESPONSABILITÉ</h2>
+
+<h3>16.1 — Limitation</h3>
+<p>La responsabilité du Fournisseur est limitée au <strong>montant total des sommes versées par le Revendeur au cours des 12 derniers mois</strong>.</p>
+
+<h3>16.2 — Exclusions</h3>
+<p>Le Fournisseur ne peut être tenu responsable :</p>
+<ul>
+<li>Des dommages indirects (perte de chiffre d'affaires, de données, de clientèle)</li>
+<li>Des interruptions de service dues à des tiers (hébergeur, FAI)</li>
+<li>Des cas de force majeure</li>
+</ul>
+
+<h3>16.3 — Assurance</h3>
+<p>Le Revendeur s'engage à souscrire une <strong>assurance Responsabilité Civile Professionnelle</strong> couvrant son activité de revente.</p>
+
+<h2>ARTICLE 17 — FORCE MAJEURE</h2>
+<p>Aucune partie ne peut être tenue responsable d'un manquement dû à un cas de force majeure (catastrophe naturelle, cyclone, pandémie, cyberattaque majeure, décision gouvernementale).</p>
+<p>La partie invoquant la force majeure doit en informer l'autre dans les 7 jours.</p>
+
+<h2>ARTICLE 18 — MODIFICATION DU CONTRAT</h2>
+<p>Toute modification du présent contrat doit faire l'objet d'un <strong>avenant écrit signé par les deux parties</strong>.</p>
+<p>Le Fournisseur peut modifier les prix (Article 5.4) et les fonctionnalités avec un préavis de 60 jours.</p>
+
+<h2>ARTICLE 19 — RÈGLEMENT DES LITIGES</h2>
+
+<h3>19.1 — Médiation</h3>
+<p>En cas de litige, les parties s'engagent à rechercher une solution amiable dans un délai de <strong>30 jours</strong>.</p>
+
+<h3>19.2 — Juridiction</h3>
+<p>À défaut d'accord amiable, le litige sera porté devant le <strong>Tribunal Mixte de Commerce de Papeete</strong> (Polynésie française).</p>
+
+<h3>19.3 — Droit applicable</h3>
+<p>Le présent contrat est régi par le <strong>droit polynésien</strong>.</p>
+
+<h2>ARTICLE 20 — DISPOSITIONS DIVERSES</h2>
+<ul>
+<li><strong>Intégralité</strong> : le contrat remplace tous accords antérieurs</li>
+<li><strong>Divisibilité</strong> : si une clause est nulle, les autres restent en vigueur</li>
+<li><strong>Non-renonciation</strong> : le fait de ne pas exercer un droit ne vaut pas renonciation</li>
+<li><strong>Notification</strong> : toute notification doit être faite par écrit (email avec accusé de réception ou lettre recommandée)</li>
+<li><strong>Langue</strong> : le contrat est rédigé en français</li>
+</ul>
+
+<h2>ANNEXES</h2>
+<ul>
+<li><strong>Annexe 1</strong> : Modalités de facturation et coordonnées bancaires</li>
+<li><strong>Annexe 2</strong> : Liste détaillée des Comptes Réservés</li>
+<li><strong>Annexe 3</strong> : SLA (niveau de service)</li>
+<li><strong>Annexe 4</strong> : Documentation technique (API, webhooks)</li>
+<li><strong>Annexe 5</strong> : Charte d'utilisation de la marque blanche</li>
+</ul>
+
+<p style="margin-top: 40px;"><strong>Fait à Papeete, le 11 octobre 2026</strong></p>
+<p><strong>En 2 exemplaires originaux.</strong></p>
+
+<p style="margin-top: 30px;"><strong>Le Fournisseur :</strong><br>
+WaveFi<br>
+Représentée par Norbert KAIMUKO, Président</p>
+<p>Signature : <span class="signature-line"></span><br>
+Date : <span class="signature-line"></span></p>
+
+<p style="margin-top: 30px;"><strong>Le Revendeur :</strong><br>
+[Raison sociale]<br>
+Représentée par [Nom], [Fonction]</p>
+<p>Signature : <span class="signature-line"></span><br>
+Date : <span class="signature-line"></span></p>
+
+<p style="margin-top: 40px; text-align: center; color: #666; font-size: 10pt;">
+<strong>Dernière mise à jour : 11 octobre 2026</strong><br>
+Version : 1.1
+</p>
+
+</body>
+</html>

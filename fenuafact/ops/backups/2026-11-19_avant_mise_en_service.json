@@ -1,0 +1,86 @@
+{
+  "date": "2026-11-19T05:57:41",
+  "motif": "remise à zéro avant le premier client réel",
+  "documents": [
+    {
+      "id": "453e8cec-aa94-46b8-8d1f-c278ff8c4759",
+      "created_at": "2026-11-19T04:49:30.666943+00:00",
+      "client_name": null,
+      "transcript": null,
+      "structured_data": null,
+      "articles": [
+        {
+          "quantite": 4,
+          "description": "Heure de main d'oeuvre",
+          "prix_unitaire": 5500
+        },
+        {
+          "quantite": 1,
+          "description": "Déplacement",
+          "prix_unitaire": 1500
+        }
+      ],
+      "client": "Teva",
+      "notes": "Devis pour 4 heures de main d'oeuvre et un déplacement, selon le catalogue.",
+      "client_email": "nkaimuko@gmail.com",
+      "statut": "Accepté",
+      "tenant_id": "11111111-1111-1111-1111-111111111111",
+      "numero": "DEV-2026-0001",
+      "type_document": "devis",
+      "parent_id": null,
+      "date_emission": "2026-11-19",
+      "date_echeance": "2026-12-19",
+      "pdf_path": "/var/www/fenuafact-api/media/DEV-2026-0001.pdf",
+      "nb_relances": 0,
+      "derniere_relance": null,
+      "date_envoi": "2026-11-19T04:50:43.024369+00:00"
+    },
+    {
+      "id": "202cfeaf-b581-42dc-9925-b5a0b8c0b42c",
+      "created_at": "2026-11-19T05:53:16.822211+00:00",
+      "client_name": null,
+      "transcript": null,
+      "structured_data": null,
+      "articles": [
+        {
+          "quantite": 4,
+          "description": "Heure de main d'oeuvre",
+          "prix_unitaire": 5500
+        },
+        {
+          "quantite": 1,
+          "description": "Déplacement",
+          "prix_unitaire": 1500
+        }
+      ],
+      "client": "Teva",
+      "notes": "Devis pour 4 heures de main d'oeuvre et un déplacement, selon le catalogue.",
+      "client_email": "nkaimuko@gmail.com",
+      "statut": "À envoyer",
+      "tenant_id": "11111111-1111-1111-1111-111111111111",
+      "numero": "FAC-2026-0001",
+      "type_document": "facture",
+      "parent_id": "453e8cec-aa94-46b8-8d1f-c278ff8c4759",
+      "date_emission": "2026-11-19",
+      "date_echeance": "2026-12-19",
+      "pdf_path": "/var/www/fenuafact-api/media/facture_FAC-2026-0001.pdf",
+      "nb_relances": 0,
+      "derniere_relance": null,
+      "date_envoi": null
+    }
+  ],
+  "compteurs": [
+    {
+      "tenant_id": "11111111-1111-1111-1111-111111111111",
+      "annee": 2026,
+      "type_document": "devis",
+      "dernier_numero": 1
+    },
+    {
+      "tenant_id": "11111111-1111-1111-1111-111111111111",
+      "annee": 2026,
+      "type_document": "facture",
+      "dernier_numero": 1
+    }
+  ]
+}

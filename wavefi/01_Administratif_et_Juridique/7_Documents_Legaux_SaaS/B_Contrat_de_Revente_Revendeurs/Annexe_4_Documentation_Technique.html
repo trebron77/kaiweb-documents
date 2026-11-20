@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Annexe 4 — Documentation Technique WaveFi</title>
+<style>
+  body { font-family: Arial, sans-serif; font-size: 11pt; line-height: 1.6; max-width: 800px; margin: 20px auto; padding: 20px; color: #1a1a1a; }
+  h1 { font-size: 18pt; border-bottom: 3px solid #0066CC; padding-bottom: 8px; color: #0066CC; text-align: center; margin-bottom: 10px; }
+  .subtitle { text-align: center; font-size: 10pt; color: #666; margin-bottom: 30px; }
+  h2 { font-size: 14pt; color: #0066CC; margin-top: 25px; border-bottom: 1px solid #ccc; padding-bottom: 4px; }
+  h3 { font-size: 11pt; color: #333; margin-top: 15px; }
+  table { width: 100%; border-collapse: collapse; margin: 15px 0; font-size: 10pt; }
+  th { background-color: #0066CC; color: white; padding: 8px; text-align: left; }
+  td { padding: 8px; border: 1px solid #ccc; }
+  code { background-color: #f4f4f4; padding: 2px 4px; border-radius: 4px; font-family: monospace; }
+  pre { background-color: #f4f4f4; padding: 15px; border-radius: 6px; overflow-x: auto; font-size: 9pt; }
+  .info { background-color: #e6f2ff; padding: 12px; border-left: 4px solid #0066CC; margin: 15px 0; }
+</style>
+</head>
+<body>
+
+<h1>ANNEXE 4 — DOCUMENTATION TECHNIQUE<br>API ET WEBHOOKS</h1>
+<div class="subtitle">Annexe au Contrat de Revente SaaS WaveFi — Version 1.0 — 16 octobre 2026</div>
+
+<h2>1. URL DE BASE</h2>
+<p>Toutes les requêtes vers l'API WaveFi doivent être effectuées à l'adresse suivante :</p>
+<pre>https://app.wavefi.tech/api/v1/</pre>
+
+<h2>2. AUTHENTIFICATION</h2>
+<p>L'API utilise le système de clés API. Chaque Revendeur peut générer ses clés depuis son tableau de bord (Paramètres > API et intégrations).</p>
+<p>La clé doit être transmise dans l'en-tête <code>Authorization</code> de chaque requête :</p>
+<pre>Authorization: Bearer [VOTRE_CLE_API]</pre>
+
+<h2>3. ENDPOINTS DISPONIBLES</h2>
+<p>L'API permet d'interagir avec les ressources principales de WaveFi :</p>
+<table>
+  <tr><th>Méthode</th><th>Endpoint</th><th>Description</th></tr>
+  <tr><td>GET</td><td><code>/locations</code></td><td>Lister les lieux WiFi du revendeur</td></tr>
+  <tr><td>POST</td><td><code>/locations</code></td><td>Créer un nouveau lieu</td></tr>
+  <tr><td>GET</td><td><code>/guests</code></td><td>Lister les invités capturés (avec filtres)</td></tr>
+  <tr><td>GET</td><td><code>/sessions</code></td><td>Lister l'historique des sessions WiFi</td></tr>
+  <tr><td>POST</td><td><code>/campaigns</code></td><td>Déclencher une campagne email/SMS</td></tr>
+</table>
+
+<h2>4. PAGINATION ET LIMITES DE TAUX (RATE LIMITS)</h2>
+<p>L'API est protégée contre les abus. Les limites dépendent du plan du Revendeur :</p>
+<ul>
+  <li><strong>Starter :</strong> 60 requêtes / minute</li>
+  <li><strong>Pro & Business :</strong> 120 requêtes / minute</li>
+  <li><strong>Enterprise :</strong> Sur mesure</li>
+</ul>
+<p>Les réponses sont paginées par 50 éléments maximum (paramètres <code>?page=1&limit=50</code>).</p>
+
+<h2>5. WEBHOOKS (TEMPS RÉEL)</h2>
+<p>Le Revendeur peut configurer des URL de webhooks pour recevoir des notifications instantanées lors d'événements.</p>
+<h3>Événements disponibles :</h3>
+<ul>
+  <li><code>guest.created</code> : Un nouvel invité s'est connecté.</li>
+  <li><code>session.ended</code> : Une session WiFi est terminée.</li>
+  <li><code>campaign.sent</code> : Une campagne a été envoyée.</li>
+</ul>
+
+<h3>Format du Payload (Exemple) :</h3>
+<pre>
+{
+  "event": "guest.created",
+  "created_at": "2026-10-16T14:30:00Z",
+  "data": {
+    "guest_id": "550e8400-e29b-41d4-a716-446655440000",
+    "email": "client@exemple.pf",
+    "location_id": "123e4567-e89b-12d3-a456-426614174000"
+  }
+}
+</pre>
+
+<h2>6. SÉCURITÉ ET SIGNATURE</h2>
+<p>Chaque requête webhook envoyée par WaveFi est signée. Le Revendeur doit vérifier la signature via l'en-tête <code>X-WaveFi-Signature</code> pour s'assurer que l'appel provient bien de nos serveurs.</p>
+
+</body>
+</html>

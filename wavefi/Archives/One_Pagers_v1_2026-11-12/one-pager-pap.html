@@ -1,0 +1,947 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>WaveFi x Port Autonome de Papeete — One-Pager</title>
+  <style>
+    :root {
+      --navy: #001A4D;
+      --gold: #C89B54;
+      --ink: #2C3036;
+      --muted: #5F6873;
+      --sand: #F8F4EC;
+      --hairline: #E5D6BE;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      -webkit-text-size-adjust: 100%;
+    }
+
+    body {
+      margin: 0;
+      padding: 26px 14px 54px;
+      background: #E8E5DE;
+      color: var(--ink);
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 9.2pt;
+      line-height: 1.55;
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+    }
+
+    .page {
+      position: relative;
+      width: 210mm;
+      height: 297mm;
+      margin: 0 auto;
+      overflow: hidden;
+      background: #FFFFFF;
+      box-shadow: 0 1px 0 rgba(0, 26, 77, 0.08), 0 22px 65px rgba(0, 26, 77, 0.17);
+    }
+
+    .topbar {
+      position: relative;
+      height: 3.5mm;
+      background: var(--navy);
+    }
+
+    .topbar::after {
+      content: "";
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      height: 0.45mm;
+      background: var(--gold);
+    }
+
+    .page-inner {
+      display: flex;
+      flex-direction: column;
+      height: 293.5mm;
+      padding: 10mm 15mm 8mm;
+    }
+
+    /* ---------- En-tête ---------- */
+
+    .masthead {
+      display: flex;
+      flex: none;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 8mm;
+      padding-bottom: 3.4mm;
+      border-bottom: 1px solid var(--gold);
+    }
+
+    .co-brand {
+      display: flex;
+      align-items: center;
+      gap: 3.2mm;
+      min-width: 0;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      min-width: 0;
+    }
+
+    .logo-wavefi {
+      gap: 2mm;
+    }
+
+    .wf-icon {
+      display: block;
+      flex: none;
+      width: 7mm;
+      height: 7mm;
+      color: var(--navy);
+    }
+
+    .wf-name {
+      color: var(--navy);
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 19.5pt;
+      font-weight: 700;
+      letter-spacing: -0.055em;
+      line-height: 1;
+    }
+
+    .wf-name .accent {
+      color: var(--gold);
+    }
+
+    .brand-x {
+      flex: none;
+      color: var(--gold);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 13pt;
+      font-style: italic;
+      line-height: 1;
+    }
+
+    .logo-pap {
+      gap: 2.2mm;
+    }
+
+    .pap-monogram {
+      display: flex;
+      flex: none;
+      align-items: center;
+      justify-content: center;
+      width: 9.6mm;
+      height: 9.6mm;
+      border-bottom: 1.1mm solid var(--gold);
+      background: var(--navy);
+      color: #FFFFFF;
+      font-size: 7.4pt;
+      font-weight: 700;
+      letter-spacing: 0.03em;
+    }
+
+    .pap-name {
+      color: var(--navy);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 10.3pt;
+      line-height: 1.13;
+    }
+
+    .brand-img {
+      display: block;
+      width: auto;
+      max-width: 44mm;
+      max-height: 10mm;
+    }
+
+    .doc-meta {
+      flex: none;
+      min-width: 45mm;
+      padding-left: 4.5mm;
+      border-left: 1px solid var(--hairline);
+      text-align: right;
+    }
+
+    .doc-type {
+      display: block;
+      color: var(--navy);
+      font-size: 6.8pt;
+      font-weight: 700;
+      letter-spacing: 0.15em;
+      line-height: 1.35;
+      text-transform: uppercase;
+    }
+
+    .doc-sub {
+      display: block;
+      margin-top: 1.2mm;
+      color: var(--muted);
+      font-size: 7.1pt;
+      letter-spacing: 0.015em;
+      line-height: 1.35;
+    }
+
+    /* ---------- Titre ---------- */
+
+    .hero {
+      flex: none;
+      padding-top: 4.9mm;
+    }
+
+    .hero-eyebrow {
+      display: flex;
+      align-items: center;
+      gap: 2.8mm;
+      margin: 0;
+      color: var(--navy);
+      font-size: 6.8pt;
+      font-weight: 700;
+      letter-spacing: 0.17em;
+      line-height: 1.25;
+      text-transform: uppercase;
+    }
+
+    .hero-eyebrow::before {
+      content: "";
+      flex: none;
+      width: 9mm;
+      height: 1px;
+      background: var(--gold);
+    }
+
+    h1 {
+      max-width: 180mm;
+      margin: 2.6mm 0 0;
+      color: var(--navy);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 28pt;
+      font-weight: 400;
+      letter-spacing: -0.022em;
+      line-height: 1.055;
+      text-wrap: balance;
+    }
+
+    .subtitle {
+      max-width: 158mm;
+      margin: 2.7mm 0 0;
+      color: #3B4653;
+      font-size: 10.7pt;
+      line-height: 1.45;
+    }
+
+    /* ---------- Rythme vertical et séparateurs ---------- */
+
+    .separator {
+      flex: none;
+      height: 1px;
+      margin-top: 5.4mm;
+      background: linear-gradient(90deg, var(--gold) 0%, var(--hairline) 38%, rgba(229, 214, 190, 0) 100%);
+    }
+
+    .section {
+      flex: none;
+      padding-top: 4.1mm;
+    }
+
+    .section-head {
+      display: flex;
+      align-items: center;
+      gap: 2.8mm;
+      margin-bottom: 3.2mm;
+    }
+
+    .section-num {
+      flex: none;
+      color: var(--gold);
+      font-size: 7pt;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      line-height: 1;
+    }
+
+    .section-head h2 {
+      flex: none;
+      margin: 0;
+      color: var(--navy);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 15pt;
+      font-weight: 400;
+      letter-spacing: -0.012em;
+      line-height: 1;
+    }
+
+    .head-line {
+      flex: 1;
+      height: 1px;
+      margin-left: 2.5mm;
+      background: linear-gradient(90deg, var(--hairline), rgba(229, 214, 190, 0));
+    }
+
+    /* ---------- 01 · Le constat ---------- */
+
+    .constat-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      column-gap: 8mm;
+    }
+
+    .constat-col {
+      min-width: 0;
+    }
+
+    .constat-col + .constat-col {
+      padding-left: 8mm;
+      border-left: 1px solid var(--hairline);
+    }
+
+    .col-label {
+      display: block;
+      margin-bottom: 1.3mm;
+      color: #8E6A35;
+      font-size: 6.5pt;
+      font-weight: 700;
+      letter-spacing: 0.15em;
+      line-height: 1.2;
+      text-transform: uppercase;
+    }
+
+    .constat-col p {
+      margin: 0;
+      color: var(--ink);
+      font-size: 9.35pt;
+      line-height: 1.57;
+    }
+
+    /* ---------- 02 · La solution ---------- */
+
+    .solution-grid {
+      display: grid;
+      grid-template-columns: 1.32fr 0.68fr;
+      gap: 8mm;
+      align-items: stretch;
+    }
+
+    .solution-copy {
+      display: flex;
+      align-items: flex-start;
+      padding-top: 0.5mm;
+    }
+
+    .solution-copy p {
+      margin: 0;
+      color: var(--ink);
+      font-size: 9.45pt;
+      line-height: 1.58;
+    }
+
+    .solution-copy strong {
+      color: var(--navy);
+      font-weight: 700;
+    }
+
+    .overlay-card {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 3.2mm 3.8mm 3.4mm;
+      border: 1px solid #EFE4D2;
+      border-top: 2px solid var(--gold);
+      background: var(--sand);
+    }
+
+    .overlay-kicker {
+      display: block;
+      margin-bottom: 2.4mm;
+      color: #8E6A35;
+      font-size: 6.2pt;
+      font-weight: 700;
+      letter-spacing: 0.14em;
+      line-height: 1.2;
+      text-transform: uppercase;
+    }
+
+    .overlay-chain {
+      display: flex;
+      align-items: center;
+      gap: 1.6mm;
+      white-space: nowrap;
+    }
+
+    .overlay-node {
+      display: inline-block;
+      padding: 1.3mm 1.8mm;
+      border: 1px solid #DCC9AB;
+      background: #FFFFFF;
+      color: var(--navy);
+      font-size: 6.6pt;
+      font-weight: 700;
+      line-height: 1.1;
+    }
+
+    .overlay-node.is-wave {
+      border-color: var(--navy);
+      background: var(--navy);
+      color: #FFFFFF;
+    }
+
+    .overlay-symbol {
+      color: var(--gold);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 9pt;
+      line-height: 1;
+    }
+
+    .overlay-result {
+      margin: 1.9mm 0 0;
+      color: var(--navy);
+      font-size: 7.1pt;
+      font-weight: 700;
+      line-height: 1.25;
+    }
+
+    .overlay-result .symbol {
+      margin-right: 1mm;
+      color: var(--gold);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 9pt;
+      font-weight: 400;
+    }
+
+    .overlay-note {
+      margin: 1.3mm 0 0;
+      color: var(--muted);
+      font-size: 6.6pt;
+      line-height: 1.3;
+    }
+
+    /* ---------- 03 · Les bénéfices ---------- */
+
+    .benefits {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      column-gap: 9mm;
+      row-gap: 5.1mm;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .benefit {
+      display: grid;
+      grid-template-columns: 3.5mm minmax(0, 1fr);
+      gap: 1.8mm;
+      padding-top: 2.2mm;
+      border-top: 1px solid var(--hairline);
+      break-inside: avoid;
+    }
+
+    .benefit-bullet {
+      width: 1.9mm;
+      height: 1.9mm;
+      margin-top: 1.15mm;
+      background: var(--gold);
+      transform: rotate(45deg);
+    }
+
+    .benefit h3 {
+      margin: 0 0 0.8mm;
+      color: var(--navy);
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 8.8pt;
+      font-weight: 700;
+      letter-spacing: 0.005em;
+      line-height: 1.25;
+    }
+
+    .benefit p {
+      margin: 0;
+      color: var(--ink);
+      font-size: 8.6pt;
+      line-height: 1.47;
+    }
+
+    /* ---------- 04 · Proposition ---------- */
+
+    .proposal-section {
+      flex: none;
+      padding-top: 4.4mm;
+    }
+
+    .proposal {
+      position: relative;
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      gap: 8mm;
+      align-items: center;
+      padding: 4.8mm 5.4mm 5mm 6mm;
+      overflow: hidden;
+      border-top: 1.4mm solid var(--gold);
+      background: var(--navy);
+      color: #FFFFFF;
+    }
+
+    .proposal::after {
+      content: "";
+      position: absolute;
+      top: -26mm;
+      right: 16mm;
+      width: 58mm;
+      height: 58mm;
+      border: 1px solid rgba(200, 155, 84, 0.18);
+      border-radius: 50%;
+      pointer-events: none;
+    }
+
+    .proposal-copy {
+      position: relative;
+      z-index: 1;
+      min-width: 0;
+    }
+
+    .proposal-heading {
+      margin: 0 0 2mm;
+      color: var(--gold);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 12pt;
+      font-weight: 400;
+      letter-spacing: 0.005em;
+      line-height: 1.1;
+    }
+
+    .proposal-heading .section-num {
+      margin-right: 2mm;
+      color: var(--gold);
+      font-size: 6.5pt;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+    }
+
+    .proposal-text {
+      max-width: 145mm;
+      margin: 0;
+      color: #FFFFFF;
+      font-size: 10pt;
+      line-height: 1.48;
+    }
+
+    .proposal-text strong {
+      color: var(--gold);
+      font-weight: 700;
+    }
+
+    .proposal-seal {
+      position: relative;
+      z-index: 1;
+      display: flex;
+      flex: none;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 21mm;
+      height: 21mm;
+      border: 1px solid rgba(200, 155, 84, 0.75);
+      border-radius: 50%;
+      color: var(--gold);
+      text-align: center;
+    }
+
+    .proposal-seal span {
+      font-size: 5.6pt;
+      font-weight: 700;
+      letter-spacing: 0.18em;
+      line-height: 1;
+      text-transform: uppercase;
+    }
+
+    .proposal-seal strong {
+      margin-top: 1mm;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 13pt;
+      font-weight: 400;
+      letter-spacing: 0.04em;
+      line-height: 1;
+    }
+
+    /* ---------- Pied de page ---------- */
+
+    .footer {
+      display: flex;
+      flex: none;
+      align-items: flex-end;
+      justify-content: space-between;
+      gap: 8mm;
+      margin-top: auto;
+      padding-top: 4.2mm;
+      border-top: 1px solid var(--gold);
+    }
+
+    .footer-name {
+      margin: 0;
+      color: var(--navy);
+      font-size: 9.2pt;
+      font-weight: 700;
+      line-height: 1.35;
+    }
+
+    .footer-name .role {
+      color: var(--muted);
+      font-weight: 400;
+    }
+
+    .footer-contact {
+      margin: 0.9mm 0 0;
+      color: var(--ink);
+      font-size: 8.7pt;
+      line-height: 1.35;
+    }
+
+    .footer-contact a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .footer-contact .dot {
+      padding: 0 1.2mm;
+      color: var(--gold);
+    }
+
+    .footer-badge {
+      display: flex;
+      align-items: center;
+      gap: 2mm;
+      max-width: 62mm;
+      color: var(--muted);
+      font-size: 7.2pt;
+      line-height: 1.35;
+      text-align: right;
+    }
+
+    .footer-badge::before {
+      content: "";
+      flex: none;
+      width: 1.8mm;
+      height: 1.8mm;
+      background: var(--gold);
+      transform: rotate(45deg);
+    }
+
+    .footer-badge strong {
+      color: var(--navy);
+      font-weight: 700;
+    }
+
+    /* ---------- Impression A4 ---------- */
+
+    @page {
+      size: A4 portrait;
+      margin: 0;
+    }
+
+    @media print {
+      html,
+      body {
+        width: 210mm;
+        height: 296.8mm;
+        margin: 0 !important;
+        padding: 0 !important;
+        background: #FFFFFF !important;
+      }
+
+      body {
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+      }
+
+      .page {
+        width: 210mm;
+        height: 296.8mm;
+        min-height: 0;
+        margin: 0;
+        overflow: hidden;
+        box-shadow: none;
+        break-inside: avoid;
+        break-after: avoid;
+        page-break-after: avoid;
+      }
+
+      .page-inner {
+        height: 293.3mm;
+      }
+
+      .no-print {
+        display: none !important;
+      }
+
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+    }
+
+    /* ---------- Confort d'écran ---------- */
+
+    .print-button {
+      position: fixed;
+      top: 18px;
+      right: 20px;
+      z-index: 10;
+      padding: 9px 15px;
+      border: 1px solid var(--navy);
+      border-radius: 2px;
+      background: var(--navy);
+      color: #FFFFFF;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0.03em;
+      cursor: pointer;
+      box-shadow: 0 5px 16px rgba(0, 26, 77, 0.2);
+    }
+
+    .print-button:hover {
+      background: #082B68;
+    }
+
+    .print-button:focus-visible {
+      outline: 2px solid var(--gold);
+      outline-offset: 3px;
+    }
+
+    @media screen and (max-width: 840px) {
+      body {
+        padding: 0;
+        background: #FFFFFF;
+      }
+
+      .page {
+        width: 100%;
+        height: auto;
+        min-height: 100vh;
+        overflow: visible;
+        box-shadow: none;
+      }
+
+      .page-inner {
+        height: auto;
+        min-height: 100vh;
+        padding: 8mm 7mm;
+      }
+
+      .print-button {
+        top: auto;
+        right: 14px;
+        bottom: 14px;
+      }
+
+      .masthead {
+        flex-wrap: wrap;
+      }
+
+      .doc-meta {
+        min-width: 0;
+        padding-left: 0;
+        border-left: 0;
+        text-align: left;
+      }
+
+      .co-brand {
+        flex-wrap: wrap;
+        row-gap: 2mm;
+      }
+
+      .solution-grid,
+      .benefits,
+      .constat-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .constat-col + .constat-col {
+        margin-top: 4mm;
+        padding-top: 4mm;
+        padding-left: 0;
+        border-top: 1px solid var(--hairline);
+        border-left: 0;
+      }
+
+      .proposal {
+        grid-template-columns: 1fr;
+      }
+
+      .proposal-seal {
+        display: none;
+      }
+
+      .footer {
+        margin-top: 8mm;
+      }
+    }
+  </style>
+</head>
+<body>
+  <button class="print-button no-print" type="button" onclick="window.print()">Imprimer / PDF A4</button>
+
+  <main class="page">
+    <div class="topbar" aria-hidden="true"></div>
+
+    <div class="page-inner">
+      <header class="masthead">
+        <div class="co-brand" aria-label="WaveFi x Port Autonome de Papeete">
+          <!-- Logo WaveFi : remplacer le contenu de .logo-wavefi par
+               <img class="brand-img" src="logo-wavefi.svg" alt="WaveFi"> -->
+          <div class="logo logo-wavefi">
+            <svg class="wf-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+              <path d="M2.7 8.5a15 15 0 0 1 18.6 0" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round"/>
+              <path d="M6.4 12.4a9.6 9.6 0 0 1 11.2 0" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round"/>
+              <circle cx="12" cy="17.8" r="2" fill="#C89B54"/>
+            </svg>
+            <span class="wf-name">Wave<span class="accent">Fi</span></span>
+          </div>
+
+          <span class="brand-x" aria-hidden="true">x</span>
+
+          <!-- Logo PAP : remplacer le contenu de .logo-pap par
+               <img class="brand-img" src="logo-pap.svg" alt="Port Autonome de Papeete"> -->
+          <div class="logo logo-pap">
+            <span class="pap-monogram" aria-hidden="true">PAP</span>
+            <span class="pap-name">Port Autonome<br>de Papeete</span>
+          </div>
+        </div>
+
+        <div class="doc-meta">
+          <span class="doc-type">Proposition de pilote</span>
+          <span class="doc-sub">Terminal de Croisière International<br>Papeete · 2026</span>
+        </div>
+      </header>
+
+      <section class="hero" aria-labelledby="main-title">
+        <p class="hero-eyebrow">Accueil des croisiéristes · Terminal de Croisière International</p>
+        <h1 id="main-title">Moderniser l’accueil des croisiéristes au Port de Papeete</h1>
+        <p class="subtitle">Transformer l’accès Wi-Fi du Terminal en un levier d’expérience voyageur et de données stratégiques.</p>
+      </section>
+
+      <div class="separator" aria-hidden="true"></div>
+
+      <section class="section" aria-labelledby="constat-title">
+        <header class="section-head">
+          <span class="section-num" aria-hidden="true">01</span>
+          <h2 id="constat-title">Le constat</h2>
+          <span class="head-line" aria-hidden="true"></span>
+        </header>
+
+        <div class="constat-grid">
+          <div class="constat-col">
+            <span class="col-label">La fréquentation</span>
+            <p>Avec l’arrivée massive de paquebots et de nouveaux vols long-courriers, le Port de Papeete accueille des milliers de passagers en transit.</p>
+          </div>
+          <div class="constat-col">
+            <span class="col-label">Le point de friction</span>
+            <p>Aujourd’hui, l’accès Wi-Fi est souvent une simple barrière technique, générant de la frustration et n’apportant aucune valeur ajoutée au Port ni à ses commerçants.</p>
+          </div>
+        </div>
+      </section>
+
+      <div class="separator" aria-hidden="true"></div>
+
+      <section class="section" aria-labelledby="solution-title">
+        <header class="section-head">
+          <span class="section-num" aria-hidden="true">02</span>
+          <h2 id="solution-title">La solution (Mode Overlay)</h2>
+          <span class="head-line" aria-hidden="true"></span>
+        </header>
+
+        <div class="solution-grid">
+          <div class="solution-copy">
+            <p><strong>Une surcouche logicielle (Mode Overlay).</strong> Aucun matériel à installer, aucune modification de votre infrastructure Alcatel-Lucent/Cisco. WaveFi se branche sur votre réseau existant et transforme le Wi-Fi public en un portail captif nouvelle génération.</p>
+          </div>
+
+          <aside class="overlay-card" aria-label="Principe du Mode Overlay">
+            <span class="overlay-kicker">Architecture</span>
+            <div class="overlay-chain" aria-hidden="true">
+              <span class="overlay-node">Alcatel-Lucent / Cisco</span>
+              <span class="overlay-symbol">+</span>
+              <span class="overlay-node is-wave">WaveFi</span>
+            </div>
+            <p class="overlay-result"><span class="symbol" aria-hidden="true">=</span>Portail captif nouvelle génération</p>
+            <p class="overlay-note">Sans matériel · sans modification</p>
+          </aside>
+        </div>
+      </section>
+
+      <div class="separator" aria-hidden="true"></div>
+
+      <section class="section" aria-labelledby="benefits-title">
+        <header class="section-head">
+          <span class="section-num" aria-hidden="true">03</span>
+          <h2 id="benefits-title">Les bénéfices pour le Port Autonome</h2>
+          <span class="head-line" aria-hidden="true"></span>
+        </header>
+
+        <ul class="benefits">
+          <li class="benefit">
+            <span class="benefit-bullet" aria-hidden="true"></span>
+            <div>
+              <h3>Expérience Voyageur Premium</h3>
+              <p>Un portail aux couleurs du PAP, avec un message de bienvenue et l’accès aux services du port.</p>
+            </div>
+          </li>
+          <li class="benefit">
+            <span class="benefit-bullet" aria-hidden="true"></span>
+            <div>
+              <h3>Monétisation &amp; Partenaires</h3>
+              <p>Mise en avant des excursions, boutiques et services locaux dès la connexion.</p>
+            </div>
+          </li>
+          <li class="benefit">
+            <span class="benefit-bullet" aria-hidden="true"></span>
+            <div>
+              <h3>Données Stratégiques</h3>
+              <p>Analyse des pics de fréquentation et collecte de contacts (avec consentement) pour vos campagnes.</p>
+            </div>
+          </li>
+          <li class="benefit">
+            <span class="benefit-bullet" aria-hidden="true"></span>
+            <div>
+              <h3>Conformité Totale</h3>
+              <p>Solution officiellement validée par la DGEN.</p>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <div class="separator" aria-hidden="true"></div>
+
+      <section class="proposal-section" aria-labelledby="proposal-title">
+        <div class="proposal">
+          <div class="proposal-copy">
+            <h2 class="proposal-heading" id="proposal-title"><span class="section-num" aria-hidden="true">04</span>Proposition</h2>
+            <p class="proposal-text">Une phase de test <strong>(Pilote)</strong> sur le Terminal de Croisière International (TCI) pour valider l’intégration, l’expérience utilisateur et l’impact sur la fréquentation.</p>
+          </div>
+          <div class="proposal-seal" aria-hidden="true">
+            <span>Pilote</span>
+            <strong>TCI</strong>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <div class="footer-contact-block">
+          <p class="footer-name">Norbert Kaimuko <span class="role">— Fondateur de WaveFi</span></p>
+          <p class="footer-contact">
+            <a href="mailto:contact@wavefi.tech">contact@wavefi.tech</a>
+            <span class="dot" aria-hidden="true">·</span>
+            <a href="tel:+68987077019">+689 87 07 70 19</a>
+          </p>
+        </div>
+        <div class="footer-badge">
+          <span><strong>WaveFi</strong> — Solution validée par la DGEN</span>
+        </div>
+      </footer>
+    </div>
+  </main>
+</body>
+</html>

@@ -1,0 +1,8 @@
+# Secrets locaux — ne jamais versionner.
+discord.env
+*.local.env
+check_server.log
+__pycache__/
+deepseek.env
+.venv/
+cron_weekly_article.log

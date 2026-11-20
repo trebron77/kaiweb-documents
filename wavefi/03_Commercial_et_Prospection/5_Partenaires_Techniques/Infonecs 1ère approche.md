@@ -1,0 +1,40 @@
+**Objet : Complémentarité entre vos installations réseaux et le logiciel WaveFi**
+
+
+
+
+
+Bonjour,
+
+
+
+Je me permets de vous contacter car je suis le fondateur de WaveFi, un logiciel de WiFi marketing que je viens de développer à Papeete.
+
+
+
+J'ai remarqué qu'INFONECS accompagne de nombreux commerces locaux, notamment sur les infrastructures réseaux et les solutions de caisse. Je vous écris car je réfléchis à la façon dont un outil comme le nôtre pourrait s'intégrer à l'écosystème que vous proposez déjà.
+
+
+
+Le principe de WaveFi : c'est une couche logicielle qui se place par-dessus les routeurs existants, quelle que soit la marque (Ubiquiti, TP-Link, Cisco, Aruba, etc.). Elle permet aux commerces de capturer les emails/téléphones de leurs clients via le portail WiFi et de leur envoyer des campagnes email, WhatsApp ou SMS.
+
+
+
+Je ne cherche pas à vendre un outil de plus, mais plutôt à échanger avec vous. Ayant besoin d'être installé et configuré, ce type de solution est souvent plus pertinent lorsqu'il est proposé par un intégrateur de confiance qui gère déjà le réseau du client.
+
+
+
+Si le sujet vous intéresse, je serais ravi de vous faire une démonstration de 10 minutes de l'interface, sans aucun engagement, juste pour avoir votre regard d'expert sur le marché local.
+
+
+
+Seriez-vous disponible dans les prochains jours pour un court échange ?
+
+
+
+Bien cordialement,
+
+
+
+
+

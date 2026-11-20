@@ -1,0 +1,247 @@
+{
+  "date": "2026-11-18T23:03:07",
+  "motif": "nettoyage avant le premier client réel",
+  "documents": [
+    {
+      "id": "b532fa38-8436-45ff-ba1e-05fd083148d4",
+      "created_at": "2026-11-17T21:27:22.222989+00:00",
+      "client_name": null,
+      "transcript": null,
+      "structured_data": null,
+      "articles": [
+        {
+          "quantite": 2,
+          "description": "heure de main d'oeuvre",
+          "prix_unitaire": 5500
+        },
+        {
+          "quantite": 1,
+          "description": "déplacement",
+          "prix_unitaire": 1500
+        }
+      ],
+      "client": "Madame Tavita",
+      "notes": "Devis demandé par appel téléphonique",
+      "client_email": null,
+      "statut": "Envoyé",
+      "tenant_id": "11111111-1111-1111-1111-111111111111",
+      "numero": "DEV-2026-0004",
+      "type_document": "devis",
+      "parent_id": null,
+      "date_emission": "2026-11-17",
+      "date_echeance": "2026-12-17",
+      "pdf_path": "/var/www/fenuafact-api/media/devis_1493217429573364.pdf",
+      "nb_relances": 0,
+      "derniere_relance": null,
+      "date_envoi": null
+    },
+    {
+      "id": "1085d784-9100-4449-81ea-a486ad39af20",
+      "created_at": "2026-11-17T22:12:26.327743+00:00",
+      "client_name": null,
+      "transcript": null,
+      "structured_data": null,
+      "articles": [
+        {
+          "quantite": 2,
+          "description": "Heure de main d'oeuvre",
+          "prix_unitaire": 5500
+        },
+        {
+          "quantite": 1,
+          "description": "Déplacement",
+          "prix_unitaire": 1500
+        }
+      ],
+      "client": "Madame Tabitha",
+      "notes": null,
+      "client_email": null,
+      "statut": "Accepté",
+      "tenant_id": "11111111-1111-1111-1111-111111111111",
+      "numero": "DEV-2026-0005",
+      "type_document": "devis",
+      "parent_id": null,
+      "date_emission": "2026-11-17",
+      "date_echeance": "2026-12-17",
+      "pdf_path": "/var/www/fenuafact-api/media/devis_1634215567554728.pdf",
+      "nb_relances": 0,
+      "derniere_relance": "2026-11-18T05:15:28.568746+00:00",
+      "date_envoi": "2026-11-18T05:16:19.712733+00:00"
+    },
+    {
+      "id": "dede42e1-04be-4898-b56b-4c1eb89ab246",
+      "created_at": "2026-11-17T05:50:39.637731+00:00",
+      "client_name": null,
+      "transcript": null,
+      "structured_data": null,
+      "articles": [
+        {
+          "quantite": 3,
+          "description": "main d'oeuvre",
+          "prix_unitaire": 5500
+        },
+        {
+          "quantite": 1,
+          "description": "déplacement",
+          "prix_unitaire": 1500
+        }
+      ],
+      "client": "Teva",
+      "notes": "Devis pour 3 heures de main d'oeuvre et déplacement.",
+      "client_email": null,
+      "statut": "Envoyé",
+      "tenant_id": "11111111-1111-1111-1111-111111111111",
+      "numero": "DEV-2026-0001",
+      "type_document": "devis",
+      "parent_id": null,
+      "date_emission": "2026-11-17",
+      "date_echeance": "2026-12-17",
+      "pdf_path": "/var/www/fenuafact-api/media/devis_1124338127067590.pdf",
+      "nb_relances": 0,
+      "derniere_relance": null,
+      "date_envoi": null
+    },
+    {
+      "id": "b01f8133-02dd-4d5c-963f-f492ab190195",
+      "created_at": "2026-11-17T06:48:48.252587+00:00",
+      "client_name": null,
+      "transcript": null,
+      "structured_data": null,
+      "articles": [
+        {
+          "quantite": 3,
+          "description": "Heure de main d'oeuvre",
+          "prix_unitaire": 5000
+        },
+        {
+          "quantite": 2,
+          "description": "Pot de peinture blanche",
+          "prix_unitaire": 3500
+        }
+      ],
+      "client": "Monsieur Teva",
+      "notes": "Devis basé sur les prix dictés par le client.",
+      "client_email": null,
+      "statut": "Envoyé",
+      "tenant_id": "11111111-1111-1111-1111-111111111111",
+      "numero": "DEV-2026-0002",
+      "type_document": "devis",
+      "parent_id": null,
+      "date_emission": "2026-11-17",
+      "date_echeance": "2026-12-17",
+      "pdf_path": "/var/www/fenuafact-api/media/devis_1613150637159884.pdf",
+      "nb_relances": 0,
+      "derniere_relance": null,
+      "date_envoi": null
+    },
+    {
+      "id": "932ade88-c074-4f1d-9e4a-50f33c3a13fb",
+      "created_at": "2026-11-17T07:56:04.729648+00:00",
+      "client_name": null,
+      "transcript": null,
+      "structured_data": null,
+      "articles": [
+        {
+          "quantite": 3,
+          "description": "Heure de main d'oeuvre",
+          "prix_unitaire": 5000
+        },
+        {
+          "quantite": 2,
+          "description": "Pot de peinture blanche",
+          "prix_unitaire": 3500
+        }
+      ],
+      "client": "Monsieur Teva",
+      "notes": "Devis basé sur les prix dictés par le client.",
+      "client_email": null,
+      "statut": "À envoyer",
+      "tenant_id": "11111111-1111-1111-1111-111111111111",
+      "numero": "FAC-2026-0001",
+      "type_document": "facture",
+      "parent_id": "b01f8133-02dd-4d5c-963f-f492ab190195",
+      "date_emission": "2026-11-17",
+      "date_echeance": "2026-12-17",
+      "pdf_path": "/var/www/fenuafact-api/media/facture_FAC-2026-0001.pdf",
+      "nb_relances": 0,
+      "derniere_relance": null,
+      "date_envoi": null
+    },
+    {
+      "id": "c989a896-686e-4877-ab64-bbc1e5028ac5",
+      "created_at": "2026-11-17T21:12:08.642024+00:00",
+      "client_name": null,
+      "transcript": null,
+      "structured_data": null,
+      "articles": [
+        {
+          "quantite": 2,
+          "description": "Heure de main d'oeuvre",
+          "prix_unitaire": 5500
+        },
+        {
+          "quantite": 1,
+          "description": "Déplacement",
+          "prix_unitaire": 1500
+        }
+      ],
+      "client": "Mme Tavita",
+      "notes": "Devis extrait du dicté.",
+      "client_email": null,
+      "statut": "Envoyé",
+      "tenant_id": "11111111-1111-1111-1111-111111111111",
+      "numero": "DEV-2026-0003",
+      "type_document": "devis",
+      "parent_id": null,
+      "date_emission": "2026-11-17",
+      "date_echeance": "2026-12-17",
+      "pdf_path": "/var/www/fenuafact-api/media/DEV-2026-0003.pdf",
+      "nb_relances": 0,
+      "derniere_relance": null,
+      "date_envoi": "2026-11-14T18:00:21.517823+00:00"
+    }
+  ],
+  "compteurs": [
+    {
+      "tenant_id": "11111111-1111-1111-1111-111111111111",
+      "annee": 2026,
+      "type_document": "devis",
+      "dernier_numero": 5
+    },
+    {
+      "tenant_id": "11111111-1111-1111-1111-111111111111",
+      "annee": 2026,
+      "type_document": "facture",
+      "dernier_numero": 1
+    }
+  ],
+  "catalogue": [
+    {
+      "id": "ea064b6b-2b49-4f85-815c-6feb065c7e11",
+      "tenant_id": "11111111-1111-1111-1111-111111111111",
+      "nom_article": "Heure de main d'œuvre",
+      "description": null,
+      "prix_unitaire_xpf": 5500,
+      "unite": "unité",
+      "created_at": "2026-11-16T22:10:51.719281+00:00"
+    },
+    {
+      "id": "ed870b76-7020-43b3-a598-58a13913d75c",
+      "tenant_id": "11111111-1111-1111-1111-111111111111",
+      "nom_article": "Pot de peinture blanche",
+      "description": null,
+      "prix_unitaire_xpf": 3500,
+      "unite": "unité",
+      "created_at": "2026-11-16T22:10:51.719281+00:00"
+    },
+    {
+      "id": "efb7d4ea-c32e-48f1-bf56-15d73c753c37",
+      "tenant_id": "11111111-1111-1111-1111-111111111111",
+      "nom_article": "Déplacement",
+      "description": null,
+      "prix_unitaire_xpf": 1500,
+      "unite": "unité",
+      "created_at": "2026-11-16T22:10:51.719281+00:00"
+    }
+  ]
+}

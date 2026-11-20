@@ -1,0 +1,16 @@
+🌅 **Rappels du matin — mercredi 18 novembre**
+
+**1. Brevo** 🔑
+Créer un compte Brevo pour `support@fenuafact.com` (l'actuel est `contact@wavefi.tech`).
+Ensuite : nouvelle clé API → `/var/www/fenuafact-api/.env` (BREVO_API_KEY) → `systemctl restart fenuafact`.
+
+**2. Avocat** ⚖️
+Relancer Maître Peuillot — SASU KaiWeb Marketing + numéro TAHITI.
+
+**3. Commandant de port** ⚓
+Appeler pour demander un RDV (dossier WaveFi).
+
+**4. Tahiti Tourisme** 📣
+Ta cousine, directrice marketing — à contacter.
+
+**Priorité technique :** passer l'application Meta en mode **Live** (sinon aucun vrai artisan ne peut utiliser le bot).

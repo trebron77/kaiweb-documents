@@ -1,0 +1,319 @@
+{
+  "date": "2026-11-17T05:37:21",
+  "motif": "nettoyage des données de test avant mise en production",
+  "documents": [
+    {
+      "id": "4c642cc8-33e1-4275-9166-3dec0553545b",
+      "created_at": "2026-11-16T18:09:01.821746+00:00",
+      "client_name": "M. Teva",
+      "transcript": null,
+      "structured_data": null,
+      "articles": [
+        {
+          "quantite": 3,
+          "description": "heure de main d'oeuvre",
+          "prix_unitaire": 5000
+        },
+        {
+          "quantite": 2,
+          "description": "poute de peinture",
+          "prix_unitaire": 3500
+        }
+      ],
+      "client": null,
+      "notes": "Devis demandé par le client M. Teva",
+      "client_email": null,
+      "statut": "Envoyé",
+      "tenant_id": "11111111-1111-1111-1111-111111111111",
+      "numero": null,
+      "type_document": "devis",
+      "parent_id": null,
+      "date_emission": "2026-11-17",
+      "date_echeance": null,
+      "pdf_path": null
+    },
+    {
+      "id": "bc5d5e08-3090-44da-bb2f-216575658ae8",
+      "created_at": "2026-11-16T22:15:42.867007+00:00",
+      "client_name": null,
+      "transcript": null,
+      "structured_data": null,
+      "articles": [
+        {
+          "quantite": 4,
+          "description": "Heure de main d'oeuvre",
+          "prix_unitaire": 5500
+        },
+        {
+          "quantite": 1,
+          "description": "Déplacement",
+          "prix_unitaire": 1500
+        }
+      ],
+      "client": "Marie",
+      "notes": "Devis basé sur 4 heures de main d'oeuvre et un déplacement",
+      "client_email": null,
+      "statut": "Envoyé",
+      "tenant_id": "11111111-1111-1111-1111-111111111111",
+      "numero": null,
+      "type_document": "devis",
+      "parent_id": null,
+      "date_emission": "2026-11-17",
+      "date_echeance": null,
+      "pdf_path": null
+    },
+    {
+      "id": "de62b194-f13d-4df9-bdde-4f3347fcc038",
+      "created_at": "2026-11-16T23:03:20.675+00:00",
+      "client_name": null,
+      "transcript": null,
+      "structured_data": null,
+      "articles": [
+        {
+          "quantite": 4,
+          "description": "Heure de main d'oeuvre",
+          "prix_unitaire": 5500
+        },
+        {
+          "quantite": 1,
+          "description": "Déplacement",
+          "prix_unitaire": 1500
+        }
+      ],
+      "client": "Mme Marie",
+      "notes": "Devis basé sur 4 heures de main d'oeuvre et un déplacement.",
+      "client_email": null,
+      "statut": "Envoyé",
+      "tenant_id": "11111111-1111-1111-1111-111111111111",
+      "numero": null,
+      "type_document": "devis",
+      "parent_id": null,
+      "date_emission": "2026-11-17",
+      "date_echeance": null,
+      "pdf_path": null
+    },
+    {
+      "id": "b0392ed2-569c-4dd8-8d0c-57ff2dfff7d2",
+      "created_at": "2026-11-16T23:28:06.877033+00:00",
+      "client_name": null,
+      "transcript": null,
+      "structured_data": null,
+      "articles": [
+        {
+          "quantite": 4,
+          "description": "Heure de main d'oeuvre",
+          "prix_unitaire": 5500
+        },
+        {
+          "quantite": 1,
+          "description": "Déplacement",
+          "prix_unitaire": 1500
+        }
+      ],
+      "client": "Mme Marie",
+      "notes": "Devis établi d'après les informations fournies.",
+      "client_email": null,
+      "statut": "Envoyé",
+      "tenant_id": "11111111-1111-1111-1111-111111111111",
+      "numero": null,
+      "type_document": "devis",
+      "parent_id": null,
+      "date_emission": "2026-11-17",
+      "date_echeance": null,
+      "pdf_path": null
+    },
+    {
+      "id": "aefdb694-65a3-4bad-af65-68f43e89204e",
+      "created_at": "2026-11-17T04:40:00.94238+00:00",
+      "client_name": null,
+      "transcript": null,
+      "structured_data": null,
+      "articles": [
+        {
+          "quantite": 4,
+          "description": "Heure de main d'oeuvre",
+          "prix_unitaire": 5500
+        },
+        {
+          "quantite": 1,
+          "description": "Déplacement",
+          "prix_unitaire": 1500
+        }
+      ],
+      "client": "Mme Marie",
+      "notes": "Devis établi d'après les informations fournies.",
+      "client_email": null,
+      "statut": "À envoyer",
+      "tenant_id": "11111111-1111-1111-1111-111111111111",
+      "numero": "FAC-2026-0001",
+      "type_document": "facture",
+      "parent_id": "b0392ed2-569c-4dd8-8d0c-57ff2dfff7d2",
+      "date_emission": "2026-11-17",
+      "date_echeance": "2026-12-17",
+      "pdf_path": "/var/www/fenuafact-api/media/facture_FAC-2026-0001.pdf"
+    },
+    {
+      "id": "eb65e47d-5a71-46a7-bf9c-aa8071ab68ad",
+      "created_at": "2026-11-17T05:26:50.202608+00:00",
+      "client_name": null,
+      "transcript": null,
+      "structured_data": null,
+      "articles": [
+        {
+          "quantite": 3,
+          "description": "heure de main d'oeuvre",
+          "prix_unitaire": 5000
+        },
+        {
+          "quantite": 2,
+          "description": "poute de peinture",
+          "prix_unitaire": 3500
+        }
+      ],
+      "client": null,
+      "notes": "Devis demandé par le client M. Teva",
+      "client_email": null,
+      "statut": "À envoyer",
+      "tenant_id": "11111111-1111-1111-1111-111111111111",
+      "numero": "FAC-2026-0002",
+      "type_document": "facture",
+      "parent_id": "4c642cc8-33e1-4275-9166-3dec0553545b",
+      "date_emission": "2026-11-17",
+      "date_echeance": "2026-12-17",
+      "pdf_path": "/var/www/fenuafact-api/media/facture_FAC-2026-0002.pdf"
+    },
+    {
+      "id": "a615b82a-67a3-4bd7-a06a-c760d2d2463e",
+      "created_at": "2026-11-16T18:29:21.794939+00:00",
+      "client_name": null,
+      "transcript": null,
+      "structured_data": null,
+      "articles": [
+        {
+          "quantite": 3,
+          "description": "heure de main d'oeuvre",
+          "prix_unitaire": 5000
+        },
+        {
+          "quantite": 2,
+          "description": "pot de peinture",
+          "prix_unitaire": 3500
+        }
+      ],
+      "client": "M. Teva",
+      "notes": "Devis demandé pour 3 heures de main d'oeuvre et 2 pots de peinture.",
+      "client_email": null,
+      "statut": "Envoyé",
+      "tenant_id": "11111111-1111-1111-1111-111111111111",
+      "numero": "DEV-2026-0001",
+      "type_document": "devis",
+      "parent_id": null,
+      "date_emission": "2026-11-17",
+      "date_echeance": null,
+      "pdf_path": "/var/www/fenuafact-api/media/DEV-2026-0001.pdf"
+    },
+    {
+      "id": "170a598a-0a4d-4281-9afa-2e26c5ba427f",
+      "created_at": "2026-11-17T05:30:25.633947+00:00",
+      "client_name": null,
+      "transcript": null,
+      "structured_data": null,
+      "articles": [
+        {
+          "quantite": 4,
+          "description": "Heure de main d'oeuvre",
+          "prix_unitaire": 5500
+        },
+        {
+          "quantite": 1,
+          "description": "Déplacement",
+          "prix_unitaire": 1500
+        }
+      ],
+      "client": "Marie",
+      "notes": "Devis pour Madame Marie incluant 4 heures de main d'oeuvre et le déplacement.",
+      "client_email": null,
+      "statut": "À envoyer",
+      "tenant_id": "11111111-1111-1111-1111-111111111111",
+      "numero": "FAC-2026-0003",
+      "type_document": "facture",
+      "parent_id": "43deee00-af30-4720-a464-8fd40fc52443",
+      "date_emission": "2026-11-17",
+      "date_echeance": "2026-12-17",
+      "pdf_path": "/var/www/fenuafact-api/media/facture_FAC-2026-0003.pdf"
+    },
+    {
+      "id": "43deee00-af30-4720-a464-8fd40fc52443",
+      "created_at": "2026-11-16T23:19:47.03941+00:00",
+      "client_name": null,
+      "transcript": null,
+      "structured_data": null,
+      "articles": [
+        {
+          "quantite": 4,
+          "description": "Heure de main d'oeuvre",
+          "prix_unitaire": 5500
+        },
+        {
+          "quantite": 1,
+          "description": "Déplacement",
+          "prix_unitaire": 1500
+        }
+      ],
+      "client": "Marie",
+      "notes": "Devis pour Madame Marie incluant 4 heures de main d'oeuvre et le déplacement.",
+      "client_email": null,
+      "statut": "Envoyé",
+      "tenant_id": "11111111-1111-1111-1111-111111111111",
+      "numero": "DEV-2026-0002",
+      "type_document": "devis",
+      "parent_id": null,
+      "date_emission": "2026-11-17",
+      "date_echeance": null,
+      "pdf_path": "/var/www/fenuafact-api/media/DEV-2026-0002.pdf"
+    }
+  ],
+  "compteurs": [
+    {
+      "tenant_id": "11111111-1111-1111-1111-111111111111",
+      "annee": 2026,
+      "type_document": "facture",
+      "dernier_numero": 3
+    },
+    {
+      "tenant_id": "11111111-1111-1111-1111-111111111111",
+      "annee": 2026,
+      "type_document": "devis",
+      "dernier_numero": 2
+    }
+  ],
+  "catalogue": [
+    {
+      "id": "ea064b6b-2b49-4f85-815c-6feb065c7e11",
+      "tenant_id": "11111111-1111-1111-1111-111111111111",
+      "nom_article": "Heure de main d'œuvre",
+      "description": null,
+      "prix_unitaire_xpf": 5500,
+      "unite": "unité",
+      "created_at": "2026-11-16T22:10:51.719281+00:00"
+    },
+    {
+      "id": "ed870b76-7020-43b3-a598-58a13913d75c",
+      "tenant_id": "11111111-1111-1111-1111-111111111111",
+      "nom_article": "Pot de peinture blanche",
+      "description": null,
+      "prix_unitaire_xpf": 3500,
+      "unite": "unité",
+      "created_at": "2026-11-16T22:10:51.719281+00:00"
+    },
+    {
+      "id": "efb7d4ea-c32e-48f1-bf56-15d73c753c37",
+      "tenant_id": "11111111-1111-1111-1111-111111111111",
+      "nom_article": "Déplacement",
+      "description": null,
+      "prix_unitaire_xpf": 1500,
+      "unite": "unité",
+      "created_at": "2026-11-16T22:10:51.719281+00:00"
+    }
+  ]
+}

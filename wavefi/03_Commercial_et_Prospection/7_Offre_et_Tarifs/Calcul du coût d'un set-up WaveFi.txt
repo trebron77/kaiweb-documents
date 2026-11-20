@@ -1,0 +1,175 @@
+Ok, avant d'entamer Lou Pescadou, dit moi à combien estime tu (en terme de cout) le set-up pour le "Starter" plan càd, j'installe, je paramètre tout ensemble? Idem pour le "Pro" plan et ainsi de suite. Parce que le but pour nous, c'est que les 3 premiers clients, je leurs offre la mise en place/set-up. Ton avis sur ce point et à combien estime tu le set-up pour chacun des plans. A prendre en compte également, les différents "uses cases". Merci
+Analyser la demande de l'utilisateur :
+
+Objectif : Estimer le coût du "Set-up" (installation, configuration, mise en place) pour chaque plan (Starter, Pro, Business, Entreprise).
+
+Stratégie commerciale : Offrir le set-up aux 3 premiers clients (dont Lou Pescadou).
+
+Contraintes/Contextes : Prendre en compte les "use cases" (Managed vs. Overlay), le fait que l'utilisateur ne fournit pas le matériel, et l'infrastructure actuelle (OpenWISP, portail Lovable).
+
+Attentes : Un avis argumenté et des estimations chiffrées.
+
+Comprendre la notion de "Coût de Set-up" pour WaveFi :
+
+Il y a le coût réel (temps passé par Norbert, déplacements, éventuels frais techniques).
+
+Il y a le prix de vente du set-up (ce qu'on facturerait normalement, mais qu'on offre pour les 3 premiers).
+
+Puisqu'il n'y a pas de matériel fourni, le coût est essentiellement du temps humain (service).
+
+Décomposer par Plan/Use Case :
+
+Starter (Managed - Lou Pescadou type) :
+
+Actions : Créer le compte dans le SaaS, configurer le portail (logo, couleurs, textes), configurer OpenWISP (créer l'organisation, le SSID), configurer la box/routeur du client (si compatible ou via un petit boîtier), faire un test de bout en bout, former le gérant.
+
+Temps estimé : 1 à 2 heures sur place + 1 heure de préparation.
+
+Pro (Managed multi-sites - petit réseau) :
+
+Actions : Similaire au Starter, mais multiplié par le nombre de sites (ex: 2 ou 3). Configuration de VLANs, tests sur plusieurs bornes. Coordination avec l'informaticien du client si besoin.
+
+Temps estimé : 3 à 5 heures.
+
+Business (Managed/Optimisé - chaîne d'hôtels) :
+
+Actions : Configuration centralisée, intégration API, formation des équipes, déploiement multi-sites. Souvent, cela nécessite de travailler avec leur équipe IT.
+
+Temps estimé : 1 à 2 jours (8 à 16 heures).
+
+Entreprise (Overlay - Aéroport, TCI) :
+
+Actions : Réunions avec leur DSI, configuration de leur contrôleur (Cisco/Ruckus) pour pointer vers ton RADIUS, tests de charge, mise en place du support dédié. C'est de l'ingénierie réseau avancée.
+
+Temps estimé : 3 à 5 jours (voire plus) + phase de test.
+
+Estimer les coûts (en FCFP) :
+
+Le taux horaire d'un freelance/consultant IT en Polynésie est généralement de 5 000 à 10 000 FCFP/heure. Prenons une base moyenne de 7 500 FCFP/h.
+
+Starter : ~2h de travail = 15 000 FCFP.
+
+Pro : ~4h de travail = 30 000 FCFP.
+
+Business : ~10h de travail = 75 000 FCFP.
+
+Entreprise (Overlay) : ~30h+ de travail = 150 000 à 250 000 FCFP (souvent facturé en jours-homme).
+
+Analyser la stratégie "Offrir le set-up aux 3 premiers" :
+
+Avantage : Lève le frein à l'entrée pour Lou Pescadou. Permet d'apprendre sur le terrain. Crée une relation de confiance.
+
+Inconvénient : Norbert va y passer du temps. Il faut "borner" l'offre pour ne pas se faire exploiter (ex: "installation gratuite sur le site existant, sans câblage supplémentaire").
+
+Positionnement : C'est une "offre de lancement" (Early Adopter).
+
+Structurer la réponse :
+
+Partie 1 : L'estimation des coûts de set-up par plan (Temps + Valeur estimée en FCFP).
+
+Partie 2 : L'analyse de la stratégie "Set-up offert" (Pourquoi c'est bien, comment le formuler, les limites à poser).
+
+Partie 3 : Le cas spécifique de Lou Pescadou (Ce qu'il faut inclure précisément, car il n'a pas le matériel).
+
+Partie 4 : Le tableau récapitulatif (Clair et synthétique).
+
+Affiner les chiffres et le vocabulaire :
+
+Managed : Configuration du SaaS, création de l'organisation OpenWISP, paramétrage du portail, liaison avec le routeur, test, formation.
+
+Overlay : Focus sur le RADIUS, le dialogue avec l'équipe IT du client, les tests de connexion.
+
+Le "coût" pour Norbert, c'est son temps. Le "prix", c'est ce qu'il devrait facturer.
+
+C'est une excellente question stratégique. Offrir le set-up aux 3 premiers clients est une très bonne idée pour lever le frein à l'entrée, surtout avec Lou Pescadou. Mais il faut savoir ce que tu offres exactement pour ne pas te faire piéger et y passer des journées entières.
+
+Puisque tu ne fournis pas le matériel, le "coût" du set-up est essentiellement un coût en temps (main d'œuvre). En Polynésie, le taux horaire d'un consultant IT/freelance tourne autour de 5 000 à 8 000 FCFP de l'heure.
+
+Voici mon estimation détaillée, plan par plan, avec les "use cases" associés.
+
+🟢 1. Plan Starter (Managed - Ex: Lou Pescadou)
+Use case : 1 établissement, 1 routeur/box existant, 1 portail.
+Ce que tu fais :
+
+Création du compte client dans app.wavefi.tech et paramétrage du portail (logo, couleurs).
+
+Création de l'organisation dans OpenWISP.
+
+Configuration du routeur/boîtier sur place (mise en réseau, redirection portail).
+
+Tests réels (Facebook, Google, Email) avec ton téléphone.
+
+Formation rapide du gérant (10 min).
+
+⏱️ Temps réel : 1h de préparation + 1h30 sur place = 2h30.
+💰 Valeur estimée (prix normal) : 15 000 FCFP.
+Ton coût réel : Ton déplacement + 2h30 de ton temps.
+
+🔵 2. Plan Pro (Managed - Ex: Hôtel avec restaurant/annexe)
+Use case : 2 à 3 établissements ou un plus grand site avec 2-3 bornes Wi-Fi.
+Ce que tu fais :
+
+Tout ce que fait le plan Starter.
+
+Configuration de plusieurs lieux (VLANs si nécessaire, ou plusieurs SSID).
+
+Coordination avec l'informaticien du client s'il y en a un.
+
+Tests de roaming (passer d'une borne à l'autre sans perdre la connexion).
+
+⏱️ Temps réel : 2h de préparation + 4h sur place = 6h.
+💰 Valeur estimée (prix normal) : 35 000 FCFP.
+
+🟣 3. Plan Business (Managed / Hybride - Ex: Chaîne de magasins)
+Use case : Jusqu'à 10 lieux. Configuration centralisée.
+Ce que tu fais :
+
+Déploiement du portail sur plusieurs sites.
+
+Création des accès pour les différents managers.
+
+Formation des équipes (souvent à distance via visio).
+
+Mise en place des premières campagnes Brevo avec eux.
+
+⏱️ Temps réel : 3h de préparation + 1 à 2 jours de déploiement = 12h à 15h.
+💰 Valeur estimée (prix normal) : 75 000 FCFP.
+
+🔴 4. Plan Entreprise (Overlay - Ex: TCI, Aéroport)
+Use case : Intégration dans une infra existante (Cisco, Ruckus, Aruba). 0 matériel fourni.
+Ce que tu fais :
+
+Réunions techniques avec leur DSI.
+
+Configuration de leur contrôleur pour pointer vers ton RADIUS (radius.wavefi.tech).
+
+Mise en place des règles de sécurité et tests de charge (100 000 invités).
+
+Définition du SLA (Support prioritaire).
+
+⏱️ Temps réel : 1 à 2 semaines de projet (échanges, tests, recette) = 40h à 60h.
+💰 Valeur estimée (prix normal) : 250 000 à 350 000 FCFP. (C'est ce qu'on appelle des "frais d'intégration").
+
+💡 Mon avis sur ta stratégie "Set-up offert aux 3 premiers"
+C'est une excellente idée, mais à condition de poser des limites claires.
+
+Quand tu vas voir Lou Pescadou, ne lui dis pas "je t'installe tout gratuitement". Dis-lui :
+
+"Dans le cadre de mon lancement, je vous offre les frais d'installation et de configuration (d'une valeur de 15 000 FCFP). Vous n'avez donc que l'abonnement de 4 995 FCFP/mois à régler. En échange, j'aimerais juste avoir votre autorisation pour utiliser votre établissement comme "cas d'usage" dans ma communication."
+
+⚠️ Les 3 pièges à éviter dans ton offre de set-up :
+
+Le câblage : Si le restaurant n'a pas de câble réseau qui va jusqu'à la borne, ne le fais pas toi-même. Dis-lui de faire venir son électricien. Toi, tu ne touches qu'au logiciel et au paramétrage.
+
+Le matériel défectueux : Si sa box est trop vieille et ne supporte pas le portail captif, tu ne dois pas payer pour changer sa box. C'est à lui de le faire.
+
+L'exploitation : Le set-up, c'est l'installation. Si dans 2 mois il change sa box ou déménage, c'est une nouvelle prestation (facturée, elle).
+
+🎯 En résumé pour Lou Pescadou :
+Abonnement : 4 995 FCFP/mois.
+
+Set-up : 0 FCFP (offert, valeur 15 000 FCFP).
+
+Matériel : Fourni par lui (ou tu peux lui proposer un boîtier UniFi/TP-Link à 15 000-20 000 FCFP s'il n'a rien de compatible, à acheter par lui).
+
+C'est un deal extrêmement attractif pour lui (zéro frais d'entrée) et très sain pour toi (tu ne perds pas d'argent, tu investis 2h30 de ton temps pour gagner un client récurrent).

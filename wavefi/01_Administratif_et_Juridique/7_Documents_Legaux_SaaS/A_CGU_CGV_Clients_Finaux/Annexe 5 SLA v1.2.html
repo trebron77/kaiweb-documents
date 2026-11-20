@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Annexe 5 — SLA WaveFi v1.2</title>
+<style>
+  body { font-family: Arial, sans-serif; font-size: 11pt; line-height: 1.6; max-width: 800px; margin: 20px auto; padding: 20px; color: #1a1a1a; }
+  h1 { font-size: 20pt; border-bottom: 3px solid #0066CC; padding-bottom: 8px; color: #0066CC; text-align: center; }
+  h2 { font-size: 14pt; color: #0066CC; margin-top: 30px; border-bottom: 1px solid #ccc; padding-bottom: 4px; }
+  h3 { font-size: 12pt; color: #333; margin-top: 18px; }
+  table { border-collapse: collapse; width: 100%; margin: 12px 0; font-size: 10pt; }
+  th { background-color: #0066CC; color: white; padding: 8px; text-align: left; border: 1px solid #ccc; }
+  td { padding: 6px 8px; border: 1px solid #ccc; }
+  tr:nth-child(even) td { background-color: #f9f9f9; }
+  ul, ol { margin: 6px 0; padding-left: 22px; }
+  li { margin-bottom: 4px; }
+  .version { text-align: center; color: #666; font-size: 10pt; margin-bottom: 25px; }
+  .info { background-color: #e6f2ff; padding: 12px; border-left: 4px solid #0066CC; margin: 15px 0; }
+  .warning { background-color: #fff3cd; padding: 12px; border-left: 4px solid #ffc107; margin: 15px 0; }
+  .success { background-color: #d4edda; padding: 12px; border-left: 4px solid #28a745; margin: 15px 0; }
+</style>
+</head>
+<body>
+
+<h1>ANNEXE 5 — SERVICE LEVEL AGREEMENT (SLA)</h1>
+<p class="version"><strong>WaveFi — Annexe aux CGU/CGV v1.4</strong><br>Version 1.2 — En vigueur au [DATE À FIXER APRÈS VALIDATION]</p>
+
+<h2>PRÉAMBULE</h2>
+<p>Le présent Service Level Agreement (ci-après « SLA ») définit les niveaux de service garantis par l'Éditeur aux Clients Finaux de la Plateforme WaveFi.</p>
+<p>Il précise :</p>
+<ul>
+<li>Les engagements de disponibilité</li>
+<li>Les délais de réponse du support</li>
+<li>Les modalités de compensation en cas de manquement</li>
+<li>Les exclusions et limitations</li>
+</ul>
+<p>Le présent SLA complète les CGU/CGV WaveFi (version 1.3) et l'Annexe 1 (DPA).</p>
+
+<h2>ARTICLE 1 — DÉFINITIONS</h2>
+<table>
+<tr><th>Terme</th><th>Définition</th></tr>
+<tr><td>Disponibilité</td><td>Pourcentage de temps pendant lequel la Plateforme est accessible et fonctionnelle</td></tr>
+<tr><td>Indisponibilité</td><td>Période pendant laquelle la Plateforme est inaccessible ou non fonctionnelle</td></tr>
+<tr><td>Incident</td><td>Événement affectant la disponibilité ou les performances de la Plateforme</td></tr>
+<tr><td>Incident critique</td><td>Incident bloquant l'accès à la Plateforme ou entraînant une perte de données</td></tr>
+<tr><td>Incident majeur</td><td>Incident affectant une fonctionnalité importante sans blocage total</td></tr>
+<tr><td>Incident mineur</td><td>Incident affectant une fonctionnalité secondaire</td></tr>
+<tr><td>Heures ouvrées</td><td>Lundi au vendredi, 7h30-16h30 (heure de Tahiti), hors jours fériés</td></tr>
+<tr><td>RTO</td><td>Recovery Time Objective — délai de restauration après sinistre</td></tr>
+<tr><td>RPO</td><td>Recovery Point Objective — perte de données maximale acceptable</td></tr>
+</table>
+
+<h2>ARTICLE 2 — DISPONIBILITÉ GARANTIE</h2>
+
+<h3>2.1 — Taux de disponibilité par plan</h3>
+<table>
+<tr><th>Plan</th><th>Disponibilité mensuelle garantie</th></tr>
+<tr><td>Free</td><td>Aucun SLA contractuel</td></tr>
+<tr><td>Starter</td><td>99,0%</td></tr>
+<tr><td>Pro</td><td>99,5%</td></tr>
+<tr><td>Business</td><td>99,5%</td></tr>
+<tr><td>Enterprise</td><td>99,9% (sur contrat spécifique)</td></tr>
+</table>
+
+<h3>2.2 — Calcul de la disponibilité</h3>
+<p>La disponibilité mensuelle est calculée selon la formule suivante :</p>
+<p><strong>Disponibilité = [(Temps total – Indisponibilité) / Temps total] × 100</strong></p>
+<ul>
+<li><strong>Temps total</strong> = nombre de minutes dans le mois civil</li>
+<li><strong>Indisponibilité</strong> = somme des minutes d'indisponibilité constatées</li>
+<li><strong>Exclusions</strong> : maintenances planifiées, force majeure, problèmes réseau du Client</li>
+</ul>
+
+<h3>2.3 — Maintenance planifiée</h3>
+<p>Les maintenances planifiées sont :</p>
+<ul>
+<li>Annoncées avec un <strong>préavis de 48 heures minimum</strong></li>
+<li>Réalisées en dehors des heures de forte activité (nuit, week-end)</li>
+<li>Limitées à <strong>4 heures par mois maximum</strong></li>
+</ul>
+<p>Les maintenances planifiées ne sont <strong>pas comptabilisées</strong> dans le calcul de l'indisponibilité.</p>
+
+<h2>ARTICLE 3 — COMPENSATIONS EN CAS DE NON-RESPECT DU SLA</h2>
+
+<h3>3.1 — Barème de compensation</h3>
+<table>
+<tr><th>Disponibilité mensuelle constatée</th><th>Compensation</th></tr>
+<tr><td>&lt; 99,5% et ≥ 99,0%</td><td>5% de crédit sur la facture suivante</td></tr>
+<tr><td>&lt; 99,0% et ≥ 95,0%</td><td>10% de crédit sur la facture suivante</td></tr>
+<tr><td>&lt; 95,0% et ≥ 90,0%</td><td>25% de crédit sur la facture suivante</td></tr>
+<tr><td>&lt; 90,0%</td><td>50% de crédit sur la facture suivante</td></tr>
+</table>
+
+<h3>3.2 — Modalités de demande</h3>
+<p>Le Client Final doit :</p>
+<ol>
+<li>Constater l'indisponibilité</li>
+<li>En faire la demande dans les <strong>30 jours</strong> suivant l'incident</li>
+<li>Envoyer un email à <strong>support@wavefi.tech</strong> avec :
+<ul>
+<li>La date et l'heure de l'incident</li>
+<li>La durée constatée</li>
+<li>Les preuves éventuelles (captures d'écran, logs)</li>
+</ul>
+</li>
+</ol>
+
+<h3>3.3 — Plafond de compensation</h3>
+<p>Le cumul des compensations sur un mois ne peut excéder <strong>50% de la facture mensuelle</strong> du Client Final.</p>
+
+<h3>3.4 — Modalité d'application</h3>
+<p>Les compensations sont appliquées sous forme de <strong>crédit</strong> sur la facture suivante. Elles ne donnent pas lieu à un remboursement en numéraire.</p>
+
+<h2>ARTICLE 4 — SUPPORT TECHNIQUE</h2>
+
+<h3>4.1 — Canaux de support</h3>
+<table>
+<tr><th>Canal</th><th>Disponibilité</th></tr>
+<tr><td>Email (support@wavefi.tech)</td><td>24h/24, 7j/7</td></tr>
+<tr><td>Chat (dans le tableau de bord)</td><td>Heures ouvrées</td></tr>
+<tr><td>Documentation (wavefi.tech/docs)</td><td>24h/24, 7j/7</td></tr>
+<tr><td>Téléphone</td><td>Enterprise uniquement</td></tr>
+</table>
+
+<h3>4.2 — Délais de première réponse</h3>
+<table>
+<tr><th>Plan</th><th>Incident critique</th><th>Incident majeur</th><th>Incident mineur</th></tr>
+<tr><td>Free</td><td colspan="3">Non garanti</td></tr>
+<tr><td>Starter</td><td>24h ouvrées</td><td>48h ouvrées</td><td>72h ouvrées</td></tr>
+<tr><td>Pro</td><td>8h ouvrées</td><td>24h ouvrées</td><td>48h ouvrées</td></tr>
+<tr><td>Business</td><td>4h ouvrées</td><td>8h ouvrées</td><td>24h ouvrées</td></tr>
+<tr><td>Enterprise</td><td>1h (24/7)</td><td>4h (24/7)</td><td>12h (24/7)</td></tr>
+</table>
+
+<h3>4.3 — Délais de résolution (objectif)</h3>
+<table>
+<tr><th>Plan</th><th>Incident critique</th><th>Incident majeur</th><th>Incident mineur</th></tr>
+<tr><td>Starter</td><td>72h ouvrées</td><td>5 jours ouvrés</td><td>10 jours ouvrés</td></tr>
+<tr><td>Pro</td><td>48h ouvrées</td><td>3 jours ouvrés</td><td>7 jours ouvrés</td></tr>
+<tr><td>Business</td><td>24h ouvrées</td><td>48h ouvrées</td><td>5 jours ouvrés</td></tr>
+<tr><td>Enterprise</td><td>8h</td><td>24h</td><td>3 jours ouvrés</td></tr>
+</table>
+
+<h3>4.4 — Escalade</h3>
+<p>En cas de non-résolution dans les délais, le Client Final peut demander une escalade :</p>
+<ul>
+<li><strong>Niveau 1</strong> : Support technique</li>
+<li><strong>Niveau 2</strong> : Responsable technique</li>
+<li><strong>Niveau 3</strong> : Direction</li>
+</ul>
+
+<h2>ARTICLE 5 — CLASSIFICATION DES INCIDENTS</h2>
+
+<h3>5.1 — Incident critique (P1)</h3>
+<p><strong>Définition</strong> : Plateforme totalement inaccessible ou perte de données.</p>
+<p><strong>Exemples</strong> : panne serveur ; base de données inaccessible ; perte de données ; faille de sécurité majeure.</p>
+<p><strong>Impact</strong> : Service totalement indisponible.</p>
+
+<h3>5.2 — Incident majeur (P2)</h3>
+<p><strong>Définition</strong> : Fonctionnalité importante indisponible ou dégradée.</p>
+<p><strong>Exemples</strong> : portail captif ne fonctionne pas ; envoi de campagnes bloqué ; analytics ne se mettent pas à jour.</p>
+<p><strong>Impact</strong> : Service partiellement dégradé.</p>
+
+<h3>5.3 — Incident mineur (P3)</h3>
+<p><strong>Définition</strong> : Fonctionnalité secondaire affectée.</p>
+<p><strong>Exemples</strong> : bug d'affichage ; lenteur sur une page ; fonctionnalité cosmétique.</p>
+<p><strong>Impact</strong> : Service utilisable mais perfectible.</p>
+
+<h2>ARTICLE 6 — SAUVEGARDES ET RESTAURATION</h2>
+
+<h3>6.1 — Fréquence des sauvegardes</h3>
+<table>
+<tr><th>Élément</th><th>Fréquence</th></tr>
+<tr><td>Base de données</td><td>Quotidienne (nuit)</td></tr>
+<tr><td>Fichiers et assets</td><td>Quotidienne (nuit)</td></tr>
+<tr><td>Configuration</td><td>À chaque modification</td></tr>
+</table>
+
+<h3>6.2 — Rétention</h3>
+<table>
+<tr><th>Type de sauvegarde</th><th>Durée de rétention</th></tr>
+<tr><td>Quotidienne</td><td>7 jours</td></tr>
+<tr><td>Hebdomadaire</td><td>4 semaines</td></tr>
+<tr><td>Mensuelle</td><td>12 mois</td></tr>
+</table>
+
+<h3>6.3 — RTO et RPO</h3>
+<table>
+<tr><th>Plan</th><th>RTO (restauration)</th><th>RPO (perte max)</th></tr>
+<tr><td>Starter</td><td>24h</td><td>24h</td></tr>
+<tr><td>Pro</td><td>8h</td><td>4h</td></tr>
+<tr><td>Business</td><td>4h</td><td>1h</td></tr>
+<tr><td>Enterprise</td><td>1h</td><td>15 min</td></tr>
+</table>
+
+<h3>6.4 — Restauration</h3>
+<p>La restauration est effectuée par WaveFi sur demande écrite du Client Final, en cas de :</p>
+<ul>
+<li>Perte de données accidentelle</li>
+<li>Corruption de données</li>
+<li>Sinistre</li>
+</ul>
+
+<h2>ARTICLE 7 — SÉCURITÉ</h2>
+
+<h3>7.1 — Engagements</h3>
+<p>WaveFi s'engage à :</p>
+<ul>
+<li>Maintenir un niveau de sécurité conforme aux meilleures pratiques</li>
+<li>Chiffrer toutes les communications (TLS 1.3)</li>
+<li>Chiffrer les données au repos</li>
+<li>Mettre en œuvre l'authentification multi-facteurs (MFA) pour les administrateurs</li>
+<li>Effectuer des tests d'intrusion annuels</li>
+<li>Notifier toute violation dans les 72 heures</li>
+</ul>
+
+<h3>7.2 — Audits</h3>
+<p>WaveFi réalise :</p>
+<ul>
+<li>Un <strong>audit interne</strong> trimestriel</li>
+<li>Un <strong>audit externe</strong> annuel</li>
+<li>Des <strong>tests d'intrusion</strong> annuels</li>
+</ul>
+<p>Les rapports d'audit peuvent être communiqués sur demande (plan Business et Enterprise).</p>
+
+<h2>ARTICLE 8 — PERFORMANCES</h2>
+
+<h3>8.1 — Temps de réponse</h3>
+<table>
+<tr><th>Élément</th><th>Objectif</th></tr>
+<tr><td>Chargement du dashboard</td><td>&lt; 2 secondes</td></tr>
+<tr><td>Chargement du portail captif</td><td>&lt; 1 seconde</td></tr>
+<tr><td>Requêtes API</td><td>&lt; 500 ms (95e percentile)</td></tr>
+</table>
+
+<h3>8.2 — Capacité</h3>
+<p>WaveFi s'engage à supporter :</p>
+<ul>
+<li><strong>10 000 utilisateurs simultanés</strong> par instance</li>
+<li><strong>1 000 requêtes API/seconde</strong></li>
+<li><strong>10 000 invités/mois</strong> sur le plan Business</li>
+<li><strong>Invités illimités</strong> sur le plan Enterprise</li>
+</ul>
+
+<h3>8.3 — Monitoring</h3>
+<p>WaveFi surveille en permanence :</p>
+<ul>
+<li>La disponibilité (uptime)</li>
+<li>Les performances (temps de réponse)</li>
+<li>Les erreurs (taux d'erreur)</li>
+<li>La sécurité (tentatives d'intrusion)</li>
+</ul>
+
+<h2>ARTICLE 9 — EXCLUSIONS</h2>
+
+<h3>9.1 — Le SLA ne s'applique pas en cas de :</h3>
+<ol>
+<li><strong>Force majeure</strong> : catastrophe naturelle, cyclone, pandémie, guerre</li>
+<li><strong>Problème réseau</strong> : panne du FAI du Client, mauvaise configuration locale</li>
+<li><strong>Matériel défectueux</strong> : panne du matériel WiFi du Client</li>
+<li><strong>Utilisation incorrecte</strong> : non-respect des CGU/CGV, mauvaise configuration</li>
+<li><strong>Maintenance planifiée</strong> : annoncée 48h à l'avance</li>
+<li><strong>Intervention de tiers</strong> : modifications effectuées par le Client ou un tiers</li>
+<li><strong>Attaque informatique</strong> : DDoS massif, cyberattaque</li>
+<li><strong>Décision administrative</strong> : ordre d'un tribunal ou d'une autorité</li>
+</ol>
+
+<h3>9.2 — Cas particulier</h3>
+<p>Si l'indisponibilité est due à un sous-traitant (Lovable, Supabase, Dodo, Brevo, Meta), WaveFi s'engage à :</p>
+<ul>
+<li>Informer le Client dans les 24 heures</li>
+<li>Escalader auprès du sous-traitant</li>
+<li>Appliquer les compensations prévues</li>
+</ul>
+
+<h2>ARTICLE 10 — MESURE ET RAPPORTS</h2>
+
+<h3>10.1 — Mesure de la disponibilité</h3>
+<p>WaveFi utilise des outils de monitoring tiers (UptimeRobot, Pingdom) pour mesurer la disponibilité de manière indépendante.</p>
+
+<h3>10.2 — Rapports mensuels</h3>
+<p>Sur demande, WaveFi fournit :</p>
+<ul>
+<li>Un <strong>rapport mensuel de disponibilité</strong></li>
+<li>Les <strong>incidents survenus</strong></li>
+<li>Les <strong>compensations appliquées</strong></li>
+</ul>
+<p>Disponible pour les plans <strong>Business</strong> et <strong>Enterprise</strong>.</p>
+
+<h3>10.3 — Tableau de bord public</h3>
+<p>Un <strong>status page</strong> est accessible à l'adresse : <strong>status.wavefi.tech</strong></p>
+<p>Il affiche en temps réel :</p>
+<ul>
+<li>L'état des services</li>
+<li>Les incidents en cours</li>
+<li>L'historique des incidents</li>
+</ul>
+
+<h2>ARTICLE 11 — RÉVISION DU SLA</h2>
+
+<h3>11.1 — Révision</h3>
+<p>WaveFi peut réviser le présent SLA avec un <strong>préavis de 60 jours</strong>.</p>
+<p>Le Client Final sera informé par email. En cas de refus, il peut résilier sans frais.</p>
+
+<h3>11.2 — Négociation</h3>
+<p>Les plans <strong>Enterprise</strong> peuvent bénéficier d'un <strong>SLA négocié</strong> (sur contrat spécifique).</p>
+
+<h2>ARTICLE 12 — CONTACT</h2>
+<p>Pour toute question relative au SLA :</p>
+<ul>
+<li><strong>Support technique :</strong> support@wavefi.tech</li>
+<li><strong>Statut du service :</strong> status.wavefi.tech</li>
+<li><strong>Escalade :</strong> escalade@wavefi.tech</li>
+</ul>
+
+<h2>ARTICLE 13 — DATE DE MISE À JOUR</h2>
+<table>
+<tr><th>Élément</th><th>Valeur</th></tr>
+<tr><td>Version</td><td>1.2</td></tr>
+<tr><td>Dernière mise à jour</td><td>11 octobre 2026</td></tr>
+<tr><td>Prochaine révision prévue</td><td>11 octobre 2027</td></tr>
+</table>
+
+<h2>RÉCAPITULATIF DES SLA PAR PLAN</h2>
+<table>
+<tr><th>Critère</th><th>Free</th><th>Starter</th><th>Pro</th><th>Business</th><th>Enterprise</th></tr>
+<tr><td>Disponibilité</td><td>—</td><td>99,0%</td><td>99,5%</td><td>99,5%</td><td>99,9%</td></tr>
+<tr><td>Support</td><td>FAQ</td><td>Email</td><td>Email + Chat</td><td>Prioritaire</td><td>24/7</td></tr>
+<tr><td>Délai critique</td><td>—</td><td>24h</td><td>8h</td><td>4h</td><td>1h</td></tr>
+<tr><td>Délai majeur</td><td>—</td><td>48h</td><td>24h</td><td>8h</td><td>4h</td></tr>
+<tr><td>Délai mineur</td><td>—</td><td>72h</td><td>48h</td><td>24h</td><td>12h</td></tr>
+<tr><td>RTO</td><td>—</td><td>24h</td><td>8h</td><td>4h</td><td>1h</td></tr>
+<tr><td>RPO</td><td>—</td><td>24h</td><td>4h</td><td>1h</td><td>15 min</td></tr>
+<tr><td>Rapports</td><td>—</td><td>—</td><td>—</td><td>Mensuel</td><td>Mensuel + perso.</td></tr>
+<tr><td>Status page</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td></tr>
+</table>
+
+<h2>ANNEXES LIÉES</h2>
+<ul>
+<li><strong>Annexe 1</strong> : Accord de Sous-traitance des Données (DPA)</li>
+<li><strong>Annexe 2</strong> : Politique de gestion des Cookies et Traceurs</li>
+<li><strong>Annexe 3</strong> : Mentions Légales</li>
+<li><strong>Annexe 4</strong> : Politique de Confidentialité</li>
+</ul>
+
+<p style="margin-top: 40px; text-align: center; color: #666; font-size: 10pt;">
+<strong>Document accessible à l'adresse :</strong> wavefi.tech/legal/sla<br>
+<strong>Dernière mise à jour :</strong> 11 octobre 2026<br>
+<strong>Version :</strong> 1.2
+</p>
+
+</body>
+</html>

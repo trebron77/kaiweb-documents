@@ -1,0 +1,495 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Count 3 /Kids [7 0 R 9 0 R 11 0 R] >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier /Encoding /WinAnsiEncoding >>
+endobj
+6 0 obj
+<< /Length 10489 >>
+stream
+BT /F1 7.4 Tf 1 0 0 1 57.00 34 Tm (WaveFi \227 Fiche technique \267 Portail Wi-Fi du TCI \267 19/11/2026) Tj ET
+BT /F1 7.4 Tf 1 0 0 1 512.28 34 Tm (1 / 3) Tj ET
+0.75 0.75 0.75 RG 0.5 w 57.00 44 m 538.28 44 l S
+0 0 0 rg BT /F2 17.00 Tf 1 0 0 1 57.00 784.89 Tm (Fiche technique \227 Portail Wi-Fi d'accueil du TCI) Tj ET
+0.15 0.31 0.44 RG 1.2 w 57.00 759.89 m 147.00 759.89 l S
+0 0 0 rg BT /F2 8.30 Tf 1 0 0 1 61.00 736.89 Tm (Destinataire) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 113.28 736.89 Tm (Service informatique du Port Autonome de Papeete) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 734.39 m 57.00 745.89 l S
+0.72 0.72 0.72 RG 0.6 w 109.28 734.39 m 109.28 745.89 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 734.39 m 538.28 734.39 l S
+0 0 0 rg BT /F2 8.30 Tf 1 0 0 1 61.00 722.39 Tm (\311metteur) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 113.28 722.39 Tm (Norbert Kaimuko \227 WaveFi \(KaiWeb Marketing\)) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 719.89 m 57.00 731.39 l S
+0.72 0.72 0.72 RG 0.6 w 109.28 719.89 m 109.28 731.39 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 719.89 m 538.28 719.89 l S
+0 0 0 rg BT /F2 8.30 Tf 1 0 0 1 61.00 707.89 Tm (Version) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 113.28 707.89 Tm (1.0 \227 19/11/2026) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 705.39 m 57.00 716.89 l S
+0.72 0.72 0.72 RG 0.6 w 109.28 705.39 m 109.28 716.89 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 705.39 m 538.28 705.39 l S
+0 0 0 rg BT /F2 8.30 Tf 1 0 0 1 61.00 693.39 Tm (Objet) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 113.28 693.39 Tm (D\351crire le fonctionnement, les pr\351requis et les limites du portail d'accueil WaveFi, pour permettre \340 vos \351quipes) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 113.28 683.39 Tm (d'\351valuer sa faisabilit\351 sur l'infrastructure du TCI.) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 680.89 m 57.00 702.39 l S
+0.72 0.72 0.72 RG 0.6 w 109.28 680.89 m 109.28 702.39 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 680.89 m 538.28 680.89 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 677.89 m 538.28 677.89 l S
+0 0 0 rg BT /F1 9.20 Tf 1 0 0 1 71.00 665.89 Tm (Ce document d\351crit uniquement le dispositif technique. Il ne contient ni engagement commercial, ni prix : ces) Tj ET
+0 0 0 rg BT /F1 9.20 Tf 1 0 0 1 71.00 653.29 Tm (\351l\351ments rel\350vent d'une proposition s\351par\351e. Les points marqu\351s ) Tj ET
+0 0 0 rg BT /F2 9.20 Tf 1 0 0 1 339.69 653.29 Tm (\253 \340 valider \273) Tj ET
+0 0 0 rg BT /F1 9.20 Tf 1 0 0 1 390.86 653.29 Tm ( sont volontairement laiss\351s) Tj ET
+0 0 0 rg BT /F1 9.20 Tf 1 0 0 1 71.00 640.69 Tm (ouverts : ils d\351pendent de votre infrastructure et de vos r\350gles internes.) Tj ET
+0.15 0.31 0.44 RG 2 w 59.00 675.89 m 59.00 630.09 l S
+0.8 0.8 0.8 RG 0.6 w 57.00 620.09 m 538.28 620.09 l S
+0 0 0 rg BT /F2 12.50 Tf 1 0 0 1 57.00 602.09 Tm (1. Le principe : overlay, sans remplacement) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 57.00 581.59 Tm (WaveFi ne fournit pas de mat\351riel, ne remplace ni l'op\351rateur, ni le contr\364leur, ni le fournisseur d'acc\350s. Le) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 57.00 568.19 Tm (dispositif s'ajoute \340 l'installation existante : il prend en charge la ) Tj ET
+0 0 0 rg BT /F2 10.00 Tf 1 0 0 1 339.84 568.19 Tm (page d'accueil) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 408.36 568.19 Tm ( que voit le passager au) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 57.00 554.79 Tm (moment o\371 il se connecte au r\351seau invit\351.) Tj ET
+0.96 0.96 0.96 rg 53.00 435.69 489.28 113.20 re f
+0 0 0 rg BT /F3 7.60 Tf 1 0 0 1 59.00 532.89 Tm (  Passager) Tj ET
+0 0 0 rg BT /F3 7.60 Tf 1 0 0 1 59.00 523.69 Tm (     |  association au SSID invit\351 \(existant\)) Tj ET
+0 0 0 rg BT /F3 7.60 Tf 1 0 0 1 59.00 514.49 Tm (     v) Tj ET
+0 0 0 rg BT /F3 7.60 Tf 1 0 0 1 59.00 505.29 Tm (  Borne / contr\364leur du PAP --------------> DHCP / DNS \(existants\)) Tj ET
+0 0 0 rg BT /F3 7.60 Tf 1 0 0 1 59.00 496.09 Tm (     |) Tj ET
+0 0 0 rg BT /F3 7.60 Tf 1 0 0 1 59.00 486.89 Tm (     |  requ\352te d'authentification \(RADIUS\)) Tj ET
+0 0 0 rg BT /F3 7.60 Tf 1 0 0 1 59.00 477.69 Tm (     v) Tj ET
+0 0 0 rg BT /F3 7.60 Tf 1 0 0 1 59.00 468.49 Tm (  radius.wavefi.tech --> page d'accueil personnalis\351e \(portail\)) Tj ET
+0 0 0 rg BT /F3 7.60 Tf 1 0 0 1 59.00 459.29 Tm (                              |) Tj ET
+0 0 0 rg BT /F3 7.60 Tf 1 0 0 1 59.00 450.09 Tm (                              v) Tj ET
+0 0 0 rg BT /F3 7.60 Tf 1 0 0 1 59.00 440.89 Tm (                    contenus, langues, statistiques agr\351g\351es) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 57.00 425.69 Tm (Trois cons\351quences concr\350tes :) Tj ET
+BT /F2 10.00 Tf 1 0 0 1 57.00 409.79 Tm (1.) Tj ET
+0 0 0 rg BT /F2 10.00 Tf 1 0 0 1 73.00 409.79 Tm (Aucun c\342blage, aucune borne, aucun routeur \340 installer.) Tj ET
+BT /F2 10.00 Tf 1 0 0 1 57.00 394.39 Tm (2.) Tj ET
+0 0 0 rg BT /F2 10.00 Tf 1 0 0 1 73.00 394.39 Tm (Aucun changement d'op\351rateur ni de prestataire r\351seau.) Tj ET
+BT /F2 10.00 Tf 1 0 0 1 57.00 378.99 Tm (3.) Tj ET
+0 0 0 rg BT /F2 10.00 Tf 1 0 0 1 73.00 378.99 Tm (Le r\351seau d'exploitation du port n'est jamais concern\351) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 331.17 378.99 Tm ( : seul le SSID invit\351 est en jeu.) Tj ET
+0 0 0 rg BT /F2 12.50 Tf 1 0 0 1 57.00 359.59 Tm (2. Ce que le dispositif ne fait pas) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 57.00 339.09 Tm (Le p\351rim\350tre exclu est aussi important que le p\351rim\350tre inclus \227 il \351vite les malentendus.) Tj ET
+0.93 0.93 0.93 rg 57.00 311.69 481.28 11.50 re f
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 61.00 314.19 Tm (Exclu) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 230.45 314.19 Tm (Pr\351cision) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 311.69 m 57.00 323.19 l S
+0.72 0.72 0.72 RG 0.6 w 226.45 311.69 m 226.45 323.19 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 311.69 m 538.28 311.69 l S
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 61.00 299.69 Tm (S\373ret\351 portuaire, contr\364le d'acc\350s) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 230.45 299.69 Tm (WaveFi ne contr\364le personne et ne se substitue \340 aucun dispositif de s\373ret\351.) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 297.19 m 57.00 308.69 l S
+0.72 0.72 0.72 RG 0.6 w 226.45 297.19 m 226.45 308.69 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 297.19 m 538.28 297.19 l S
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 61.00 285.19 Tm (Vid\351osurveillance) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 230.45 285.19 Tm (Aucun lien, aucune cam\351ra.) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 282.69 m 57.00 294.19 l S
+0.72 0.72 0.72 RG 0.6 w 226.45 282.69 m 226.45 294.19 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 282.69 m 538.28 282.69 l S
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 61.00 270.69 Tm (Filtrage de contenu) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 230.45 270.69 Tm (Reste du ressort du contr\364leur ou de la politique du PAP.) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 268.19 m 57.00 279.69 l S
+0.72 0.72 0.72 RG 0.6 w 226.45 268.19 m 226.45 279.69 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 268.19 m 538.28 268.19 l S
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 61.00 256.19 Tm (Acc\350s aux syst\350mes d'information du port) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 230.45 256.19 Tm (Le portail n'acc\350de \340 aucun SI interne.) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 253.69 m 57.00 265.19 l S
+0.72 0.72 0.72 RG 0.6 w 226.45 253.69 m 226.45 265.19 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 253.69 m 538.28 253.69 l S
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 61.00 241.69 Tm (Remplacement du portail existant) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 230.45 241.69 Tm (Si un portail existe d\351j\340, il est remplac\351 ) Tj ET
+0 0 0 rg BT /F2 8.30 Tf 1 0 0 1 376.68 241.69 Tm (ou) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 386.82 241.69 Tm ( compl\351t\351, au choix du PAP.) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 239.19 m 57.00 250.69 l S
+0.72 0.72 0.72 RG 0.6 w 226.45 239.19 m 226.45 250.69 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 239.19 m 538.28 239.19 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 236.19 m 538.28 236.19 l S
+0 0 0 rg BT /F2 12.50 Tf 1 0 0 1 57.00 220.19 Tm (3. Composants) Tj ET
+0.93 0.93 0.93 rg 57.00 188.19 481.28 11.50 re f
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 61.00 190.69 Tm (Composant) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 200.70 190.69 Tm (R\364le) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 423.46 190.69 Tm (H\351bergement) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 188.19 m 57.00 199.69 l S
+0.72 0.72 0.72 RG 0.6 w 196.70 188.19 m 196.70 199.69 l S
+0.72 0.72 0.72 RG 0.6 w 419.46 188.19 m 419.46 199.69 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 188.19 m 538.28 188.19 l S
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 61.00 176.19 Tm (Portail captif) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 200.70 176.19 Tm (Page d'accueil, consentement, informations passagers) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 423.46 176.19 Tm (WaveFi \(cloud\)) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 173.69 m 57.00 185.19 l S
+0.72 0.72 0.72 RG 0.6 w 196.70 173.69 m 196.70 185.19 l S
+0.72 0.72 0.72 RG 0.6 w 419.46 173.69 m 419.46 185.19 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 173.69 m 538.28 173.69 l S
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 61.00 161.69 Tm (Service d'authentification RADIUS) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 200.70 161.69 Tm (Identification des invit\351s, autorisation de session) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 423.46 161.69 Tm (WaveFi \227 radius.wavefi.tech) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 159.19 m 57.00 170.69 l S
+0.72 0.72 0.72 RG 0.6 w 196.70 159.19 m 196.70 170.69 l S
+0.72 0.72 0.72 RG 0.6 w 419.46 159.19 m 419.46 170.69 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 159.19 m 538.28 159.19 l S
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 61.00 147.19 Tm (Console d'administration) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 200.70 147.19 Tm (Gabarits, contenus, langues, statistiques) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 423.46 147.19 Tm (WaveFi) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 144.69 m 57.00 156.19 l S
+0.72 0.72 0.72 RG 0.6 w 196.70 144.69 m 196.70 156.19 l S
+0.72 0.72 0.72 RG 0.6 w 419.46 144.69 m 419.46 156.19 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 144.69 m 538.28 144.69 l S
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 61.00 132.69 Tm (Supervision) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 200.70 132.69 Tm (Contr\364le de disponibilit\351 et alerte) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 423.46 132.69 Tm (WaveFi) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 130.19 m 57.00 141.69 l S
+0.72 0.72 0.72 RG 0.6 w 196.70 130.19 m 196.70 141.69 l S
+0.72 0.72 0.72 RG 0.6 w 419.46 130.19 m 419.46 141.69 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 130.19 m 538.28 130.19 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 127.19 m 538.28 127.19 l S
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 57.00 115.19 Tm (Aucun de ces composants ne s'ex\351cute sur le r\351seau du PAP.) Tj ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 6 0 R >>
+endobj
+8 0 obj
+<< /Length 11922 >>
+stream
+BT /F1 7.4 Tf 1 0 0 1 57.00 34 Tm (WaveFi \227 Fiche technique \267 Portail Wi-Fi du TCI \267 19/11/2026) Tj ET
+BT /F1 7.4 Tf 1 0 0 1 512.28 34 Tm (2 / 3) Tj ET
+0.75 0.75 0.75 RG 0.5 w 57.00 44 m 538.28 44 l S
+0 0 0 rg BT /F2 12.50 Tf 1 0 0 1 57.00 780.89 Tm (4. Pr\351requis c\364t\351 PAP) Tj ET
+0.93 0.93 0.93 rg 57.00 748.89 481.28 11.50 re f
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 61.00 751.39 Tm (#) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 73.61 751.39 Tm (Pr\351requis) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 191.33 751.39 Tm (D\351tail) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 748.89 m 57.00 760.39 l S
+0.72 0.72 0.72 RG 0.6 w 69.61 748.89 m 69.61 760.39 l S
+0.72 0.72 0.72 RG 0.6 w 187.33 748.89 m 187.33 760.39 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 748.89 m 538.28 748.89 l S
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 61.00 736.89 Tm (1) Tj ET
+0 0 0 rg BT /F2 8.30 Tf 1 0 0 1 73.61 736.89 Tm (SSID invit\351) Tj ET
+0 0 0 rg BT /F2 8.30 Tf 1 0 0 1 191.33 736.89 Tm (D\351j\340 en place : GUEST_TCI) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 298.34 736.89 Tm ( \227 \340 conserver tel quel. Reste \340 v\351rifier l'isolation VLAN avec) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 191.33 726.89 Tm (votre \351quipe r\351seau) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 724.39 m 57.00 745.89 l S
+0.72 0.72 0.72 RG 0.6 w 69.61 724.39 m 69.61 745.89 l S
+0.72 0.72 0.72 RG 0.6 w 187.33 724.39 m 187.33 745.89 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 724.39 m 538.28 724.39 l S
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 61.00 712.39 Tm (2) Tj ET
+0 0 0 rg BT /F2 8.30 Tf 1 0 0 1 73.61 712.39 Tm (DHCP et DNS) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 126.64 712.39 Tm ( sur le r\351seau) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 73.61 702.39 Tm (invit\351) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 191.33 712.39 Tm (Fournis par l'infrastructure existante) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 699.89 m 57.00 721.39 l S
+0.72 0.72 0.72 RG 0.6 w 69.61 699.89 m 69.61 721.39 l S
+0.72 0.72 0.72 RG 0.6 w 187.33 699.89 m 187.33 721.39 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 699.89 m 538.28 699.89 l S
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 61.00 687.89 Tm (3) Tj ET
+0 0 0 rg BT /F2 8.30 Tf 1 0 0 1 73.61 687.89 Tm (Acc\350s sortant RADIUS) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 191.33 687.89 Tm (UDP 1812/1813 vers radius.wavefi.tech \(ou 1645/1646 selon configuration\) : ) Tj ET
+0 0 0 rg BT /F2 8.30 Tf 1 0 0 1 474.59 687.89 Tm (port \340 ouvrir) Tj ET
+0 0 0 rg BT /F2 8.30 Tf 1 0 0 1 191.33 677.89 Tm (par vos \351quipes) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 675.39 m 57.00 696.89 l S
+0.72 0.72 0.72 RG 0.6 w 69.61 675.39 m 69.61 696.89 l S
+0.72 0.72 0.72 RG 0.6 w 187.33 675.39 m 187.33 696.89 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 675.39 m 538.28 675.39 l S
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 61.00 663.39 Tm (4) Tj ET
+0 0 0 rg BT /F2 8.30 Tf 1 0 0 1 73.61 663.39 Tm (HTTPS sortant) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 191.33 663.39 Tm (Pour l'affichage du portail et de ses contenus) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 660.89 m 57.00 672.39 l S
+0.72 0.72 0.72 RG 0.6 w 69.61 660.89 m 69.61 672.39 l S
+0.72 0.72 0.72 RG 0.6 w 187.33 660.89 m 187.33 672.39 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 660.89 m 538.28 660.89 l S
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 61.00 648.89 Tm (5) Tj ET
+0 0 0 rg BT /F2 8.30 Tf 1 0 0 1 73.61 648.89 Tm (Un interlocuteur technique) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 191.33 648.89 Tm (Pour la configuration du contr\364leur et la recette) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 646.39 m 57.00 657.89 l S
+0.72 0.72 0.72 RG 0.6 w 69.61 646.39 m 69.61 657.89 l S
+0.72 0.72 0.72 RG 0.6 w 187.33 646.39 m 187.33 657.89 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 646.39 m 538.28 646.39 l S
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 61.00 634.39 Tm (6) Tj ET
+0 0 0 rg BT /F2 8.30 Tf 1 0 0 1 73.61 634.39 Tm (Adresse d'exp\351dition) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 73.61 624.39 Tm (\(facultatif\)) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 191.33 634.39 Tm (Pour les e-mails \351ventuels au nom du PAP) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 621.89 m 57.00 643.39 l S
+0.72 0.72 0.72 RG 0.6 w 69.61 621.89 m 69.61 643.39 l S
+0.72 0.72 0.72 RG 0.6 w 187.33 621.89 m 187.33 643.39 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 621.89 m 538.28 621.89 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 618.89 m 538.28 618.89 l S
+0 0 0 rg BT /F2 12.50 Tf 1 0 0 1 57.00 602.89 Tm (5. Mat\351riel et contr\364leurs) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 57.00 582.39 Tm (Le TCI est \351quip\351 en ) Tj ET
+0 0 0 rg BT /F2 10.00 Tf 1 0 0 1 152.61 582.39 Tm (Alcatel-Lucent Enterprise) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 273.75 582.39 Tm (, en ) Tj ET
+0 0 0 rg BT /F2 10.00 Tf 1 0 0 1 293.21 582.39 Tm (Wi-Fi 6 \(802.11ax\)) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 377.13 582.39 Tm ( \227 relev\351 NetAnalyzer de la) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 57.00 568.99 Tm (campagne terrain WaveFi, confirm\351 par un relev\351 radio sur site le 19/11/2026.) Tj ET
+0 0 0 rg BT /F2 10.00 Tf 1 0 0 1 57.00 553.09 Tm (Un SSID invit\351 existe d\351j\340 : GUEST_TCI.) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 247.06 553.09 Tm ( Le projet ne consiste donc pas \340 cr\351er un r\351seau invit\351, mais \340) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 57.00 539.69 Tm (en changer le portail d'accueil : le SSID, le VLAN et l'adressage restent en place.) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 57.00 523.79 Tm (Ces \351quipements de g\351n\351ration Wi-Fi 6 disposent des fonctions requises \227 redirection vers un portail) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 57.00 510.39 Tm (externe et authentification aupr\350s d'un service RADIUS externe. Le param\351trage pr\351cis \(profil) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 57.00 496.99 Tm (d'authentification, r\350gle de redirection, gabarit du portail\) sera arr\352t\351 avec vos \351quipes lors du cadrage : c'est) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 57.00 483.59 Tm (un travail de configuration, pas un changement d'\351quipement.) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 57.00 467.69 Tm (\300 titre indicatif, les environnements d\351j\340 relev\351s sur le territoire sont majoritairement Ruckus Wireless, Cisco) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 57.00 454.29 Tm (Systems, Ubiquiti, Hewlett Packard Enterprise et Edgecore. La compatibilit\351 ne d\351pend pas de la marque,) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 57.00 440.89 Tm (mais de deux capacit\351s du contr\364leur : pointer vers un RADIUS externe et afficher un portail externe.) Tj ET
+0 0 0 rg BT /F2 12.50 Tf 1 0 0 1 57.00 420.99 Tm (6. Donn\351es personnelles) Tj ET
+0.93 0.93 0.93 rg 57.00 388.99 481.28 11.50 re f
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 61.00 391.49 Tm (Sujet) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 150.43 391.49 Tm (Position) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 388.99 m 57.00 400.49 l S
+0.72 0.72 0.72 RG 0.6 w 146.43 388.99 m 146.43 400.49 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 388.99 m 538.28 388.99 l S
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 61.00 376.99 Tm (Donn\351es collect\351es) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 150.43 376.99 Tm (E-mail et/ou t\351l\351phone ) Tj ET
+0 0 0 rg BT /F2 8.30 Tf 1 0 0 1 235.78 376.99 Tm (si le passager les saisit) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 328.06 376.99 Tm ( ; sinon donn\351es de session) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 374.49 m 57.00 385.99 l S
+0.72 0.72 0.72 RG 0.6 w 146.43 374.49 m 146.43 385.99 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 374.49 m 538.28 374.49 l S
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 61.00 362.49 Tm (Base) Tj ET
+0 0 0 rg BT /F2 8.30 Tf 1 0 0 1 150.43 362.49 Tm (Consentement explicite) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 243.60 362.49 Tm ( \340 la connexion, finalit\351 affich\351e sur la page d'accueil) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 359.99 m 57.00 371.49 l S
+0.72 0.72 0.72 RG 0.6 w 146.43 359.99 m 146.43 371.49 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 359.99 m 538.28 359.99 l S
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 61.00 347.99 Tm (Statistiques) Tj ET
+0 0 0 rg BT /F2 8.30 Tf 1 0 0 1 150.43 347.99 Tm (Agr\351g\351es et anonymis\351es) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 252.84 347.99 Tm ( : affluence, pics, langues, rubriques consult\351es) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 345.49 m 57.00 356.99 l S
+0.72 0.72 0.72 RG 0.6 w 146.43 345.49 m 146.43 356.99 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 345.49 m 538.28 345.49 l S
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 61.00 333.49 Tm (Revente) Tj ET
+0 0 0 rg BT /F2 8.30 Tf 1 0 0 1 150.43 333.49 Tm (Aucune) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 330.99 m 57.00 342.49 l S
+0.72 0.72 0.72 RG 0.6 w 146.43 330.99 m 146.43 342.49 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 330.99 m 538.28 330.99 l S
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 61.00 318.99 Tm (Conservation) Tj ET
+0 0 0 rg BT /F2 8.30 Tf 1 0 0 1 150.43 318.99 Tm (\300 d\351finir avec le PAP) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 233.47 318.99 Tm ( \227 nous appliquons la dur\351e que vous fixez) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 316.49 m 57.00 327.99 l S
+0.72 0.72 0.72 RG 0.6 w 146.43 316.49 m 146.43 327.99 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 316.49 m 538.28 316.49 l S
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 61.00 304.49 Tm (Sous-traitants) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 150.43 304.49 Tm (H\351bergement cloud et e-mailing ; liste d\351taill\351e fournie dans une annexe DPA) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 301.99 m 57.00 313.49 l S
+0.72 0.72 0.72 RG 0.6 w 146.43 301.99 m 146.43 313.49 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 301.99 m 538.28 301.99 l S
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 61.00 289.99 Tm (Gouvernance) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 150.43 289.99 Tm (Le PAP reste ) Tj ET
+0 0 0 rg BT /F2 8.30 Tf 1 0 0 1 201.64 289.99 Tm (responsable des finalit\351s) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 300.82 289.99 Tm ( ; nous sommes sous-traitant) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 287.49 m 57.00 298.99 l S
+0.72 0.72 0.72 RG 0.6 w 146.43 287.49 m 146.43 298.99 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 287.49 m 538.28 287.49 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 284.49 m 538.28 284.49 l S
+0 0 0 rg BT /F2 12.50 Tf 1 0 0 1 57.00 268.49 Tm (7. S\351curit\351) Tj ET
+0.35 0.35 0.35 RG 0.6 w 60.00 250.99 m 65.00 250.99 l S
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 73.00 247.99 Tm (\311changes en ) Tj ET
+0 0 0 rg BT /F2 10.00 Tf 1 0 0 1 134.15 247.99 Tm (HTTPS) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 166.93 247.99 Tm ( entre le passager et le portail.) Tj ET
+0.35 0.35 0.35 RG 0.6 w 60.00 235.59 m 65.00 235.59 l S
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 73.00 232.59 Tm (L'isolation du r\351seau invit\351 rel\350ve de l'architecture du PAP \(VLAN\) \227 c'est le point de s\351curit\351 principal, et) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 73.00 219.19 Tm (il est d\351j\340 de votre responsabilit\351.) Tj ET
+0.35 0.35 0.35 RG 0.6 w 60.00 206.79 m 65.00 206.79 l S
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 73.00 203.79 Tm (Le portail n'a ) Tj ET
+0 0 0 rg BT /F2 10.00 Tf 1 0 0 1 132.72 203.79 Tm (aucun acc\350s) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 192.75 203.79 Tm ( aux syst\350mes d'information du port.) Tj ET
+0.35 0.35 0.35 RG 0.6 w 60.00 191.39 m 65.00 191.39 l S
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 73.00 188.39 Tm (Comptes d'administration : \340 cadrer avec vous \(comptes nominatifs, authentification forte\).) Tj ET
+0.35 0.35 0.35 RG 0.6 w 60.00 175.99 m 65.00 175.99 l S
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 73.00 172.99 Tm (Journalisation : ) Tj ET
+0 0 0 rg BT /F2 10.00 Tf 1 0 0 1 143.03 172.99 Tm (\340 pr\351ciser) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 190.28 172.99 Tm ( selon vos exigences.) Tj ET
+0 0 0 rg BT /F2 12.50 Tf 1 0 0 1 57.00 153.59 Tm (8. Supervision et disponibilit\351) Tj ET
+0.35 0.35 0.35 RG 0.6 w 60.00 136.09 m 65.00 136.09 l S
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 73.00 133.09 Tm (Un contr\364le de disponibilit\351 du portail est d\351j\340 en place, avec alerte quotidienne.) Tj ET
+0.35 0.35 0.35 RG 0.6 w 60.00 120.69 m 65.00 120.69 l S
+0 0 0 rg BT /F2 10.00 Tf 1 0 0 1 73.00 117.69 Tm (Aucun SLA contractuel n'existe \340 ce jour.) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 269.88 117.69 Tm ( Si le projet se poursuit, un engagement de service est \340) Tj ET
+endstream
+endobj
+9 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 8 0 R >>
+endobj
+10 0 obj
+<< /Length 11104 >>
+stream
+BT /F1 7.4 Tf 1 0 0 1 57.00 34 Tm (WaveFi \227 Fiche technique \267 Portail Wi-Fi du TCI \267 19/11/2026) Tj ET
+BT /F1 7.4 Tf 1 0 0 1 512.28 34 Tm (3 / 3) Tj ET
+0.75 0.75 0.75 RG 0.5 w 57.00 44 m 538.28 44 l S
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 73.00 784.89 Tm (d\351finir conjointement \227 c'est l'un des objets de la phase de cadrage.) Tj ET
+0 0 0 rg BT /F2 12.50 Tf 1 0 0 1 57.00 765.49 Tm (9. Mise en \234uvre envisag\351e) Tj ET
+0.93 0.93 0.93 rg 57.00 733.49 481.28 11.50 re f
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 61.00 735.99 Tm (Phase) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 290.97 735.99 Tm (Charge) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 348.44 735.99 Tm (Qui) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 733.49 m 57.00 744.99 l S
+0.72 0.72 0.72 RG 0.6 w 286.97 733.49 m 286.97 744.99 l S
+0.72 0.72 0.72 RG 0.6 w 344.44 733.49 m 344.44 744.99 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 733.49 m 538.28 733.49 l S
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 61.00 721.49 Tm (Cadrage et r\351union technique) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 290.97 721.49 Tm (1 r\351union) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 348.44 721.49 Tm (PAP + WaveFi) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 718.99 m 57.00 730.49 l S
+0.72 0.72 0.72 RG 0.6 w 286.97 718.99 m 286.97 730.49 l S
+0.72 0.72 0.72 RG 0.6 w 344.44 718.99 m 344.44 730.49 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 718.99 m 538.28 718.99 l S
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 61.00 706.99 Tm (Analyse de l'infrastructure existante) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 290.97 706.99 Tm (1 \340 2 jours) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 348.44 706.99 Tm (WaveFi, sur documents fournis) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 704.49 m 57.00 715.99 l S
+0.72 0.72 0.72 RG 0.6 w 286.97 704.49 m 286.97 715.99 l S
+0.72 0.72 0.72 RG 0.6 w 344.44 704.49 m 344.44 715.99 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 704.49 m 538.28 704.49 l S
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 61.00 692.49 Tm (Configuration du portail et du RADIUS) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 290.97 692.49 Tm (2 \340 3 jours) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 348.44 692.49 Tm (WaveFi) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 689.99 m 57.00 701.49 l S
+0.72 0.72 0.72 RG 0.6 w 286.97 689.99 m 286.97 701.49 l S
+0.72 0.72 0.72 RG 0.6 w 344.44 689.99 m 344.44 701.49 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 689.99 m 538.28 689.99 l S
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 61.00 677.99 Tm (Tests d'int\351gration) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 290.97 677.99 Tm (1 \340 2 jours) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 348.44 677.99 Tm (PAP + WaveFi) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 675.49 m 57.00 686.99 l S
+0.72 0.72 0.72 RG 0.6 w 286.97 675.49 m 286.97 686.99 l S
+0.72 0.72 0.72 RG 0.6 w 344.44 675.49 m 344.44 686.99 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 675.49 m 538.28 675.49 l S
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 61.00 663.49 Tm (Recette) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 290.97 663.49 Tm (1 jour) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 348.44 663.49 Tm (PAP) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 660.99 m 57.00 672.49 l S
+0.72 0.72 0.72 RG 0.6 w 286.97 660.99 m 286.97 672.49 l S
+0.72 0.72 0.72 RG 0.6 w 344.44 660.99 m 344.44 672.49 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 660.99 m 538.28 660.99 l S
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 61.00 648.99 Tm (Documentation et passation) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 290.97 648.99 Tm (1 jour) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 348.44 648.99 Tm (WaveFi) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 646.49 m 57.00 657.99 l S
+0.72 0.72 0.72 RG 0.6 w 286.97 646.49 m 286.97 657.99 l S
+0.72 0.72 0.72 RG 0.6 w 344.44 646.49 m 344.44 657.99 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 646.49 m 538.28 646.49 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 643.49 m 538.28 643.49 l S
+0 0 0 rg BT /F2 10.00 Tf 1 0 0 1 57.00 631.49 Tm (Dur\351e indicative : 1 \340 2 semaines) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 213.74 631.49 Tm (, hors d\351lais de disponibilit\351 des interlocuteurs.) Tj ET
+0 0 0 rg BT /F2 12.50 Tf 1 0 0 1 57.00 611.59 Tm (10. Dimensionnement \227 donn\351es publiques du PAP) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 57.00 591.09 Tm (Les volumes ci-dessous sont issus du Trafic portuaire 2025 publi\351 par le Port autonome de Papeete. Ils) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 57.00 577.69 Tm (servent \340 cadrer la capacit\351 du portail, pas \340 pr\351sumer du taux de connexion r\351el.) Tj ET
+0.93 0.93 0.93 rg 57.00 550.29 481.28 11.50 re f
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 61.00 552.79 Tm (P\351rim\350tre) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 235.94 552.79 Tm (2025) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 411.13 552.79 Tm (Ordre de grandeur mensuel) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 550.29 m 57.00 561.79 l S
+0.72 0.72 0.72 RG 0.6 w 231.94 550.29 m 231.94 561.79 l S
+0.72 0.72 0.72 RG 0.6 w 407.13 550.29 m 407.13 561.79 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 550.29 m 538.28 550.29 l S
+0 0 0 rg BT /F2 8.30 Tf 1 0 0 1 61.00 538.29 Tm (Croisi\350re) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 96.98 538.29 Tm ( \(escales \340 Papeete\)) Tj ET
+0 0 0 rg BT /F2 8.30 Tf 1 0 0 1 235.94 538.29 Tm (145 739 passagers) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 309.31 538.29 Tm ( \(+34 % sur 2024\)) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 411.13 538.29 Tm (~12 100 / mois) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 535.79 m 57.00 547.29 l S
+0.72 0.72 0.72 RG 0.6 w 231.94 535.79 m 231.94 547.29 l S
+0.72 0.72 0.72 RG 0.6 w 407.13 535.79 m 407.13 547.29 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 535.79 m 538.28 535.79 l S
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 61.00 523.79 Tm (\227 dont transpacifique) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 235.94 523.79 Tm (132 029) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 521.29 m 57.00 532.79 l S
+0.72 0.72 0.72 RG 0.6 w 231.94 521.29 m 231.94 532.79 l S
+0.72 0.72 0.72 RG 0.6 w 407.13 521.29 m 407.13 532.79 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 521.29 m 538.28 521.29 l S
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 61.00 509.29 Tm (\227 dont interinsulaire) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 235.94 509.29 Tm (13 710) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 506.79 m 57.00 518.29 l S
+0.72 0.72 0.72 RG 0.6 w 231.94 506.79 m 231.94 518.29 l S
+0.72 0.72 0.72 RG 0.6 w 407.13 506.79 m 407.13 518.29 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 506.79 m 538.28 506.79 l S
+0 0 0 rg BT /F2 8.30 Tf 1 0 0 1 61.00 494.79 Tm (Cabotage interinsulaire) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 153.25 494.79 Tm ( \(hors Moorea\)) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 235.94 494.79 Tm (69 063 passagers) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 411.13 494.79 Tm (~5 800 / mois) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 492.29 m 57.00 503.79 l S
+0.72 0.72 0.72 RG 0.6 w 231.94 492.29 m 231.94 503.79 l S
+0.72 0.72 0.72 RG 0.6 w 407.13 492.29 m 407.13 503.79 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 492.29 m 538.28 492.29 l S
+0 0 0 rg BT /F2 8.30 Tf 1 0 0 1 61.00 480.29 Tm (Bornage Tahiti\226Moorea) Tj ET
+0 0 0 rg BT /F2 8.30 Tf 1 0 0 1 235.94 480.29 Tm (1 980 634 passagers) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 411.13 480.29 Tm (~165 000 / mois) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 477.79 m 57.00 489.29 l S
+0.72 0.72 0.72 RG 0.6 w 231.94 477.79 m 231.94 489.29 l S
+0.72 0.72 0.72 RG 0.6 w 407.13 477.79 m 407.13 489.29 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 477.79 m 538.28 477.79 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 474.79 m 538.28 474.79 l S
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 57.00 462.79 Tm (Escales 2025 : 180 au total \(132 transpacifique, 48 interinsulaire\). Plus grands navires observ\351s : Anthem of) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 57.00 449.39 Tm (the Seas \(4 900 passagers\) et Crown Princess \(3 600\).) Tj ET
+0 0 0 rg BT /F2 10.00 Tf 1 0 0 1 57.00 433.49 Tm (Lecture :) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 99.23 433.49 Tm ( le TCI est un site \340 ) Tj ET
+0 0 0 rg BT /F2 10.00 Tf 1 0 0 1 188.16 433.49 Tm (forte valeur) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 242.62 433.49 Tm ( \227 passagers internationaux, souvent sans forfait local, en attente) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 57.00 420.09 Tm (prolong\351e. La gare maritime est un site \340 ) Tj ET
+0 0 0 rg BT /F2 10.00 Tf 1 0 0 1 241.53 420.09 Tm (fort volume) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 295.98 420.09 Tm ( \227 navettes Moorea, trafic quotidien de r\351sidents. Le) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 57.00 406.69 Tm (dimensionnement d\351pend donc du ) Tj ET
+0 0 0 rg BT /F2 10.00 Tf 1 0 0 1 213.20 406.69 Tm (taux de connexion) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 301.00 406.69 Tm ( que vous observez, pas du trafic total : c'est le seul) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 57.00 393.29 Tm (chiffre qui nous manque pour calibrer l'offre.) Tj ET
+0 0 0 rg BT /F1 9.20 Tf 1 0 0 1 71.00 377.39 Tm (Source : Trafic portuaire 2025, Port autonome de Papeete \227) Tj ET
+0 0 0 rg BT /F1 9.20 Tf 1 0 0 1 71.00 364.79 Tm (https://www.portdepapeete.pf/wp-content/uploads/2026/07/Trafic-portuaire-2025.pdf) Tj ET
+0.15 0.31 0.44 RG 2 w 59.00 387.39 m 59.00 354.19 l S
+0 0 0 rg BT /F2 12.50 Tf 1 0 0 1 57.00 340.19 Tm (11. Points \340 valider ensemble) Tj ET
+BT /F2 10.00 Tf 1 0 0 1 57.00 319.69 Tm (1.) Tj ET
+0 0 0 rg BT /F2 10.00 Tf 1 0 0 1 73.00 319.69 Tm (Mode de gestion du Wi-Fi) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 194.12 319.69 Tm ( : contr\364leur local ou gestion cloud, et acc\350s administrateur n\351cessaire pour) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 73.00 306.29 Tm (configurer le profil d'authentification.) Tj ET
+BT /F2 10.00 Tf 1 0 0 1 57.00 290.89 Tm (2.) Tj ET
+0 0 0 rg BT /F2 10.00 Tf 1 0 0 1 73.00 290.89 Tm (Portail actuel) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 135.80 290.89 Tm ( : existe-t-il ? qui l'exploite ? que doit-il devenir ?) Tj ET
+BT /F2 10.00 Tf 1 0 0 1 57.00 275.49 Tm (3.) Tj ET
+0 0 0 rg BT /F2 10.00 Tf 1 0 0 1 73.00 275.49 Tm (Taux de connexion) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 163.58 275.49 Tm ( : part des passagers qui se connectent au Wi-Fi invit\351 aujourd'hui, si un SSID) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 73.00 262.09 Tm (existe. C'est ce chiffre \227 et non le trafic total \227 qui dimensionne l'abonnement.) Tj ET
+BT /F2 10.00 Tf 1 0 0 1 57.00 246.69 Tm (4.) Tj ET
+0 0 0 rg BT /F2 10.00 Tf 1 0 0 1 73.00 246.69 Tm (Conservation des donn\351es) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 200.81 246.69 Tm ( : dur\351e et r\350gles internes du PAP.) Tj ET
+BT /F2 10.00 Tf 1 0 0 1 57.00 231.29 Tm (5.) Tj ET
+0 0 0 rg BT /F2 10.00 Tf 1 0 0 1 73.00 231.29 Tm (H\351bergement) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 136.90 231.29 Tm ( : exigences \351ventuelles de localisation des donn\351es.) Tj ET
+BT /F2 10.00 Tf 1 0 0 1 57.00 215.89 Tm (6.) Tj ET
+0 0 0 rg BT /F2 10.00 Tf 1 0 0 1 73.00 215.89 Tm (Cadre d'achat) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 138.73 215.89 Tm ( : pilote, ou proc\351dure formalis\351e \227 votre service achats tranche.) Tj ET
+0.8 0.8 0.8 RG 0.6 w 57.00 200.49 m 538.28 200.49 l S
+0 0 0 rg BT /F2 10.00 Tf 1 0 0 1 57.00 186.49 Tm (Contact technique) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 144.23 186.49 Tm ( \227 Norbert Kaimuko \267 contact@wavefi.tech \267 +689 87 70 01 79 WaveFi \227 solution de Wi-Fi) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 57.00 173.09 Tm (marketing valid\351e par la DGEN \(Direction g\351n\351rale de l'\351conomie num\351rique\).) Tj ET
+endstream
+endobj
+11 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 10 0 R >>
+endobj
+xref
+0 12
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000134 00000 n 
+0000000231 00000 n 
+0000000333 00000 n 
+0000000428 00000 n 
+0000010970 00000 n 
+0000011122 00000 n 
+0000023097 00000 n 
+0000023249 00000 n 
+0000034407 00000 n 
+trailer
+<< /Size 12 /Root 1 0 R >>
+startxref
+34561
+%%EOF

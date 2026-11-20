@@ -1,0 +1,8 @@
+# WaveFi — supervision OpenWISP (08:00 heure de Tahiti, UTC-10)
+# Système en UTC : 08:00 Tahiti = 18:00 UTC (Tahiti ne pratique pas l'heure d'été).
+0 18 * * * cd /root/workspace && /usr/bin/python3 ops/check_server.py >> /root/workspace/ops/check_server.log 2>&1
+
+# BEGIN wavefi-weekly-article
+# WaveFi — article SEO hebdomadaire (lundi 08:00 Tahiti = lundi 18:00 UTC)
+0 18 * * 1 cd /root/workspace && /root/workspace/ops/cron_weekly_article.sh >> /root/workspace/ops/cron_weekly_article.log 2>&1
+# END wavefi-weekly-article
