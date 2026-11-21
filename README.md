@@ -10,7 +10,7 @@ Dépôt privé des documents de **KaiWeb Marketing** (SASU en constitution).
 ## Liens utiles
 
 - Société : statuts et dossier avocat → `wavefi/01_Administratif_et_Juridique/`
-- Immatriculation CCISM → `wavefi/01_Administratif_et_Juridique/2_Avocat/CHECKLIST_CCISM.md`
+- Immatriculation CCISM → `wavefi/01_Administratif_et_Juridique/5_Immatriculation_CCISM/CHECKLIST_CCISM.md`
 - Actifs et propriété intellectuelle → `wavefi/01_Administratif_et_Juridique/2_Avocat/ACTIFS_ET_PROPRIETE.md`
 - État technique FenuaFact → `fenuafact/ops/ETAT_TECHNIQUE.md`
 

@@ -56,4 +56,4 @@ Voir [`ACTIFS_ET_PROPRIETE.md`](ACTIFS_ET_PROPRIETE.md).
 4. Dépôt du dossier à la CCISM → RCS puis TAHITI
 5. Mission avocat ciblée sur la PI, une fois la société immatriculée
 
-Détail des pièces : [`CHECKLIST_CCISM.md`](CHECKLIST_CCISM.md).
+Détail des pièces : [`CHECKLIST_CCISM.md`](../5_Immatriculation_CCISM/CHECKLIST_CCISM.md).
