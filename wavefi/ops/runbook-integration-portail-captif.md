@@ -42,9 +42,9 @@ Tout contrôleur du marché se configure avec les **mêmes cinq éléments**. Le
 
 | # | Réglage | Valeur WaveFi |
 |---|---|---|
-| **1** | **Serveur RADIUS** | `radius.wavefi.tech` — auth UDP 1812, accounting UDP 1813, secret partagé fourni |
+| **1** | **Serveur RADIUS** | `radius.wavefi.tech` — **31.220.21.53** · auth UDP 1812, accounting UDP 1813 · secret partagé fourni |
 | **2** | **Profil AAA** | le profil qui regroupe le serveur ci-dessus et qui sera référencé par le WLAN invité |
-| **3** | **Portail externe** | URL `https://app.wavefi.tech/portail/<client>/login` |
+| **3** | **Portail externe** | URL `https://app.wavefi.tech/portail/<client>/login` — hôte **185.158.133.1** |
 | **4** | **Walled garden** | `app.wavefi.tech`, `wavefi.tech`, et les domaines CDN utilisés par la page |
 | **5** | **SSID invité** | réseau ouvert ou WPA2, isolation VLAN, portail externe activé |
 
@@ -234,7 +234,8 @@ n'es pas là.
 
 ---
 
-## Sources
+## 12. Sources
+
 
 - Alcatel-Lucent Enterprise — configuration RADIUS et portail externe :
   https://help.ironwifi.com/configuration-guides/other/alcatel-lucent
@@ -244,3 +245,29 @@ n'es pas là.
   https://help.ironwifi.com/configuration-guides/ubiquiti/unifi-hotspot
 
 *Chemins de menus relevés au 20 novembre 2026 — à revérifier selon la version de firmware sur site.*
+
+---
+
+## 13. Lexique
+
+Les mots que tu entendras en réunion, et ce que tu en fais.
+
+| Terme | Ce que c'est | Ce que tu en fais |
+|---|---|---|
+| **SSID** | Nom du réseau Wi-Fi vu par le client | Tu le repères, sans le renommer |
+| **Contrôleur** | Le cerveau qui pilote les bornes | Tu y accèdes, ou l'admin ouvre |
+| **Portail captif** | La page affichée avant l'accès internet | C'est ta page WaveFi |
+| **Splash page** | Synonyme anglais de portail captif | Même chose |
+| **RADIUS** | Le service qui répond oui ou non | C'est `radius.wavefi.tech` |
+| **1812 / 1813** | Ports d'authentification et de comptabilité | Les deux à ouvrir au pare-feu |
+| **Secret partagé** | Mot de passe entre contrôleur et RADIUS | Identique des deux côtés |
+| **Access-Accept / Reject** | Les deux réponses du RADIUS | Ce que tu lis dans les journaux |
+| **Accounting** | Comptabilité des sessions | Alimente les statistiques (300 s) |
+| **Walled garden** | Liste blanche avant authentification | Sans le portail, page invisible |
+| **VLAN** | Réseau séparé dans le réseau physique | L'invité ne voit pas l'exploitation |
+| **DHCP / DNS** | Distribue les adresses / traduit les noms | S'ils cassent, le portail ne charge pas |
+| **UDP** | Transport sans connexion, rapide | C'est ce qu'utilise le RADIUS |
+| **802.1X** | Authentification par identifiant | Alternative au portail, pour le personnel |
+| **Profil AAA** | Regroupement des serveurs RADIUS | Là où tu déclares WaveFi |
+| **Access role profile** | Portail et liste blanche, chez Alcatel Cirrus | Le deuxième objet à configurer |
+| **Firmware** | Version du logiciel du contrôleur | À demander avant tout rendez-vous |
