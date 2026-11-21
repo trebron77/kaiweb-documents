@@ -1,0 +1,741 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Count 5 /Kids [7 0 R 9 0 R 11 0 R 13 0 R 15 0 R] >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier /Encoding /WinAnsiEncoding >>
+endobj
+6 0 obj
+<< /Length 12509 >>
+stream
+BT /F1 7.4 Tf 1 0 0 1 57.00 34 Tm (WaveFi \227 Runbook int\351gration portail captif \267 20/11/2026) Tj ET
+BT /F1 7.4 Tf 1 0 0 1 512.28 34 Tm (1 / 5) Tj ET
+0.75 0.75 0.75 RG 0.5 w 57.00 44 m 538.28 44 l S
+0 0 0 rg BT /F2 17.00 Tf 1 0 0 1 57.00 784.89 Tm (Runbook \227 int\351grer le portail WaveFi sur une infrastructure) Tj ET
+0 0 0 rg BT /F2 17.00 Tf 1 0 0 1 57.00 763.89 Tm (existante) Tj ET
+0.15 0.31 0.44 RG 1.2 w 57.00 738.89 m 147.00 738.89 l S
+0 0 0 rg BT /F1 9.20 Tf 1 0 0 1 71.00 724.89 Tm (R\351dig\351 le ) Tj ET
+0 0 0 rg BT /F2 9.20 Tf 1 0 0 1 112.42 724.89 Tm (2026-11-20) Tj ET
+0 0 0 rg BT /F1 9.20 Tf 1 0 0 1 159.47 724.89 Tm ( par Hotumana pour Norbert Kaimuko. Objet : transformer une int\351gration chez un client) Tj ET
+0 0 0 rg BT /F1 9.20 Tf 1 0 0 1 71.00 712.29 Tm (\(port, a\351roport, commerce\) en ) Tj ET
+0 0 0 rg BT /F2 9.20 Tf 1 0 0 1 195.75 712.29 Tm (proc\351dure ma\356tris\351e) Tj ET
+0 0 0 rg BT /F1 9.20 Tf 1 0 0 1 283.69 712.29 Tm (, au lieu d'une d\351couverte le jour J. \300 lire la veille, \340 avoir) Tj ET
+0 0 0 rg BT /F1 9.20 Tf 1 0 0 1 71.00 699.69 Tm (ouvert pendant la r\351union.) Tj ET
+0.15 0.31 0.44 RG 2 w 59.00 734.89 m 59.00 689.09 l S
+0 0 0 rg BT /F2 12.50 Tf 1 0 0 1 57.00 675.09 Tm (0. La r\350gle d'or) Tj ET
+0 0 0 rg BT /F2 10.00 Tf 1 0 0 1 57.00 654.59 Tm (Tu ne configures jamais seul chez un client.) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 265.96 654.59 Tm ( Tu apportes la m\351thode, le client apporte l'acc\350s et la) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 57.00 641.19 Tm (connaissance de son r\351seau. Une int\351gration r\351ussie, c'est deux personnes devant le m\352me \351cran : son) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 57.00 627.79 Tm (administrateur qui clique, toi qui dictes les valeurs.) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 57.00 611.89 Tm (Si un client te demande de \253 faire tout, tout seul, sans lui \273, c'est un signal : soit il n'a pas d'administrateur) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 57.00 598.49 Tm (\(donc personne pour valider la recette\), soit il ne mesure pas ce qu'il demande.) Tj ET
+0.8 0.8 0.8 RG 0.6 w 57.00 582.59 m 538.28 582.59 l S
+0 0 0 rg BT /F2 12.50 Tf 1 0 0 1 57.00 564.59 Tm (1. Les huit informations \340 obtenir avant tout) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 57.00 544.09 Tm (\300 demander ) Tj ET
+0 0 0 rg BT /F2 10.00 Tf 1 0 0 1 114.25 544.09 Tm (par \351crit) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 153.71 544.09 Tm (, avant la r\351union technique. Sans elles, tu ne peux pas pr\351parer.) Tj ET
+0.93 0.93 0.93 rg 57.00 516.69 481.28 11.50 re f
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 61.00 519.19 Tm (#) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 73.61 519.19 Tm (Question) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 359.13 519.19 Tm (Pourquoi) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 516.69 m 57.00 528.19 l S
+0.72 0.72 0.72 RG 0.6 w 69.61 516.69 m 69.61 528.19 l S
+0.72 0.72 0.72 RG 0.6 w 355.13 516.69 m 355.13 528.19 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 516.69 m 538.28 516.69 l S
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 61.00 504.69 Tm (1) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 73.61 504.69 Tm (Quel est le ) Tj ET
+0 0 0 rg BT /F2 8.30 Tf 1 0 0 1 115.60 504.69 Tm (fabricant et le mod\350le) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 200.93 504.69 Tm ( du contr\364leur \(ou des bornes si gestion) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 73.61 494.69 Tm (locale\) ?) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 359.13 504.69 Tm (d\351termine la fiche \340 appliquer) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 492.19 m 57.00 513.69 l S
+0.72 0.72 0.72 RG 0.6 w 69.61 492.19 m 69.61 513.69 l S
+0.72 0.72 0.72 RG 0.6 w 355.13 492.19 m 355.13 513.69 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 492.19 m 538.28 492.19 l S
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 61.00 480.19 Tm (2) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 73.61 480.19 Tm (Quelle ) Tj ET
+0 0 0 rg BT /F2 8.30 Tf 1 0 0 1 99.91 480.19 Tm (version de firmware) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 178.33 480.19 Tm ( ?) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 359.13 480.19 Tm (les menus changent, certaines fonctions) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 359.13 470.19 Tm (manquent) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 467.69 m 57.00 489.19 l S
+0.72 0.72 0.72 RG 0.6 w 69.61 467.69 m 69.61 489.19 l S
+0.72 0.72 0.72 RG 0.6 w 355.13 467.69 m 355.13 489.19 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 467.69 m 538.28 467.69 l S
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 61.00 455.69 Tm (3) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 73.61 455.69 Tm (Le contr\364leur est-il ) Tj ET
+0 0 0 rg BT /F2 8.30 Tf 1 0 0 1 144.19 455.69 Tm (local, h\351berg\351 ou cloud) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 236.90 455.69 Tm ( ? Qui a les droits admin ?) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 359.13 455.69 Tm (d\351termine qui clique) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 453.19 m 57.00 464.69 l S
+0.72 0.72 0.72 RG 0.6 w 69.61 453.19 m 69.61 464.69 l S
+0.72 0.72 0.72 RG 0.6 w 355.13 453.19 m 355.13 464.69 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 453.19 m 538.28 453.19 l S
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 61.00 441.19 Tm (4) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 73.61 441.19 Tm (Existe-t-il d\351j\340 un ) Tj ET
+0 0 0 rg BT /F2 8.30 Tf 1 0 0 1 139.57 441.19 Tm (SSID invit\351) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 182.93 441.19 Tm ( ? Quel portail affiche-t-il aujourd'hui ?) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 359.13 441.19 Tm (\351vite de casser l'existant) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 438.69 m 57.00 450.19 l S
+0.72 0.72 0.72 RG 0.6 w 69.61 438.69 m 69.61 450.19 l S
+0.72 0.72 0.72 RG 0.6 w 355.13 438.69 m 355.13 450.19 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 438.69 m 538.28 438.69 l S
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 61.00 426.69 Tm (5) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 73.61 426.69 Tm (Le r\351seau invit\351 est-il sur un ) Tj ET
+0 0 0 rg BT /F2 8.30 Tf 1 0 0 1 179.71 426.69 Tm (VLAN s\351par\351) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 231.37 426.69 Tm ( ?) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 359.13 426.69 Tm (isolation, responsabilit\351 du client) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 424.19 m 57.00 435.69 l S
+0.72 0.72 0.72 RG 0.6 w 69.61 424.19 m 69.61 435.69 l S
+0.72 0.72 0.72 RG 0.6 w 355.13 424.19 m 355.13 435.69 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 424.19 m 538.28 424.19 l S
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 61.00 412.19 Tm (6) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 73.61 412.19 Tm (Le r\351seau peut-il \351mettre du ) Tj ET
+0 0 0 rg BT /F2 8.30 Tf 1 0 0 1 179.72 412.19 Tm (UDP sortant vers 1812/1813) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 288.59 412.19 Tm ( ?) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 359.13 412.19 Tm (sinon le RADIUS ne passe pas) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 409.69 m 57.00 421.19 l S
+0.72 0.72 0.72 RG 0.6 w 69.61 409.69 m 69.61 421.19 l S
+0.72 0.72 0.72 RG 0.6 w 355.13 409.69 m 355.13 421.19 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 409.69 m 538.28 409.69 l S
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 61.00 397.69 Tm (7) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 73.61 397.69 Tm (Y a-t-il un ) Tj ET
+0 0 0 rg BT /F2 8.30 Tf 1 0 0 1 111.44 397.69 Tm (filtrage sortant) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 169.55 397.69 Tm ( ou un proxy ?) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 359.13 397.69 Tm (bloque le portail et le walled garden) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 395.19 m 57.00 406.69 l S
+0.72 0.72 0.72 RG 0.6 w 69.61 395.19 m 69.61 406.69 l S
+0.72 0.72 0.72 RG 0.6 w 355.13 395.19 m 355.13 406.69 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 395.19 m 538.28 395.19 l S
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 61.00 383.19 Tm (8) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 73.61 383.19 Tm (Qui ) Tj ET
+0 0 0 rg BT /F2 8.30 Tf 1 0 0 1 88.84 383.19 Tm (signe la recette) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 149.27 383.19 Tm ( ?) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 359.13 383.19 Tm (d\351signe la personne qui validera) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 380.69 m 57.00 392.19 l S
+0.72 0.72 0.72 RG 0.6 w 69.61 380.69 m 69.61 392.19 l S
+0.72 0.72 0.72 RG 0.6 w 355.13 380.69 m 355.13 392.19 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 380.69 m 538.28 380.69 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 377.69 m 538.28 377.69 l S
+0 0 0 rg BT /F2 10.00 Tf 1 0 0 1 57.00 365.69 Tm (Et une question politique, pas technique :) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 255.37 365.69 Tm ( \253 si nous devons ouvrir un port UDP sortant, qui l'autorise et) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 57.00 352.29 Tm (sous quel d\351lai ? \273 Chez un \351tablissement public, c'est souvent trois semaines.) Tj ET
+0.8 0.8 0.8 RG 0.6 w 57.00 336.39 m 538.28 336.39 l S
+0 0 0 rg BT /F2 12.50 Tf 1 0 0 1 57.00 318.39 Tm (2. Le mod\350le en cinq r\351glages) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 57.00 297.89 Tm (Tout contr\364leur du march\351 se configure avec les ) Tj ET
+0 0 0 rg BT /F2 10.00 Tf 1 0 0 1 273.76 297.89 Tm (m\352mes cinq \351l\351ments) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 377.69 297.89 Tm (. Le reste, c'est de l'ergonomie.) Tj ET
+0.93 0.93 0.93 rg 57.00 270.49 481.28 11.50 re f
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 61.00 272.99 Tm (#) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 73.61 272.99 Tm (R\351glage) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 160.60 272.99 Tm (Valeur WaveFi) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 270.49 m 57.00 281.99 l S
+0.72 0.72 0.72 RG 0.6 w 69.61 270.49 m 69.61 281.99 l S
+0.72 0.72 0.72 RG 0.6 w 156.60 270.49 m 156.60 281.99 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 270.49 m 538.28 270.49 l S
+0 0 0 rg BT /F2 8.30 Tf 1 0 0 1 61.00 258.49 Tm (1) Tj ET
+0 0 0 rg BT /F2 8.30 Tf 1 0 0 1 73.61 258.49 Tm (Serveur RADIUS) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 160.60 258.49 Tm (radius.wavefi.tech \227 auth UDP 1812, accounting UDP 1813, secret partag\351 fourni) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 255.99 m 57.00 267.49 l S
+0.72 0.72 0.72 RG 0.6 w 69.61 255.99 m 69.61 267.49 l S
+0.72 0.72 0.72 RG 0.6 w 156.60 255.99 m 156.60 267.49 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 255.99 m 538.28 255.99 l S
+0 0 0 rg BT /F2 8.30 Tf 1 0 0 1 61.00 243.99 Tm (2) Tj ET
+0 0 0 rg BT /F2 8.30 Tf 1 0 0 1 73.61 243.99 Tm (Profil AAA) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 160.60 243.99 Tm (le profil qui regroupe le serveur ci-dessus et qui sera r\351f\351renc\351 par le WLAN invit\351) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 241.49 m 57.00 252.99 l S
+0.72 0.72 0.72 RG 0.6 w 69.61 241.49 m 69.61 252.99 l S
+0.72 0.72 0.72 RG 0.6 w 156.60 241.49 m 156.60 252.99 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 241.49 m 538.28 241.49 l S
+0 0 0 rg BT /F2 8.30 Tf 1 0 0 1 61.00 229.49 Tm (3) Tj ET
+0 0 0 rg BT /F2 8.30 Tf 1 0 0 1 73.61 229.49 Tm (Portail externe) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 160.60 229.49 Tm (URL https://app.wavefi.tech/portail/<client>/login) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 226.99 m 57.00 238.49 l S
+0.72 0.72 0.72 RG 0.6 w 69.61 226.99 m 69.61 238.49 l S
+0.72 0.72 0.72 RG 0.6 w 156.60 226.99 m 156.60 238.49 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 226.99 m 538.28 226.99 l S
+0 0 0 rg BT /F2 8.30 Tf 1 0 0 1 61.00 214.99 Tm (4) Tj ET
+0 0 0 rg BT /F2 8.30 Tf 1 0 0 1 73.61 214.99 Tm (Walled garden) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 160.60 214.99 Tm (app.wavefi.tech, wavefi.tech, et les domaines CDN utilis\351s par la page) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 212.49 m 57.00 223.99 l S
+0.72 0.72 0.72 RG 0.6 w 69.61 212.49 m 69.61 223.99 l S
+0.72 0.72 0.72 RG 0.6 w 156.60 212.49 m 156.60 223.99 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 212.49 m 538.28 212.49 l S
+0 0 0 rg BT /F2 8.30 Tf 1 0 0 1 61.00 200.49 Tm (5) Tj ET
+0 0 0 rg BT /F2 8.30 Tf 1 0 0 1 73.61 200.49 Tm (SSID invit\351) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 160.60 200.49 Tm (r\351seau ouvert ou WPA2, isolation VLAN, portail externe activ\351) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 197.99 m 57.00 209.49 l S
+0.72 0.72 0.72 RG 0.6 w 69.61 197.99 m 69.61 209.49 l S
+0.72 0.72 0.72 RG 0.6 w 156.60 197.99 m 156.60 209.49 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 197.99 m 538.28 197.99 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 194.99 m 538.28 194.99 l S
+0 0 0 rg BT /F2 10.00 Tf 1 0 0 1 57.00 182.99 Tm (Le pi\350ge num\351ro un de toutes les int\351grations : le walled garden.) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 365.42 182.99 Tm ( Un invit\351 non authentifi\351 n'a aucun) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 57.00 169.59 Tm (acc\350s internet \227 donc il ne peut pas charger le portail. Si app.wavefi.tech n'est pas dans la liste blanche, ) Tj ET
+0 0 0 rg BT /F2 10.00 Tf 1 0 0 1 517.47 169.59 Tm (la) Tj ET
+0 0 0 rg BT /F2 10.00 Tf 1 0 0 1 57.00 156.19 Tm (page ne s'affiche jamais) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 171.65 156.19 Tm (. C'est l'erreur qui fait perdre une journ\351e.) Tj ET
+0.8 0.8 0.8 RG 0.6 w 57.00 140.29 m 538.28 140.29 l S
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 6 0 R >>
+endobj
+8 0 obj
+<< /Length 8807 >>
+stream
+BT /F1 7.4 Tf 1 0 0 1 57.00 34 Tm (WaveFi \227 Runbook int\351gration portail captif \267 20/11/2026) Tj ET
+BT /F1 7.4 Tf 1 0 0 1 512.28 34 Tm (2 / 5) Tj ET
+0.75 0.75 0.75 RG 0.5 w 57.00 44 m 538.28 44 l S
+0 0 0 rg BT /F2 12.50 Tf 1 0 0 1 57.00 780.89 Tm (3. Fiche Alcatel-Lucent Enterprise \227 le cas du PAP) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 57.00 760.39 Tm (L'infrastructure du TCI est en ) Tj ET
+0 0 0 rg BT /F2 10.00 Tf 1 0 0 1 188.41 760.39 Tm (Alcatel-Lucent Enterprise) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 309.55 760.39 Tm (, Wi-Fi 6, avec un SSID invit\351 existant) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 57.00 746.99 Tm (\(GUEST_TCI\). Trois cas de figure possibles selon la g\351n\351ration.) Tj ET
+0 0 0 rg BT /F2 11.00 Tf 1 0 0 1 57.00 727.09 Tm (3.1 Gestion par OmniVista 2500 \(contr\364leur\)) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 57.00 712.09 Tm (Ordre des op\351rations :) Tj ET
+BT /F2 10.00 Tf 1 0 0 1 57.00 696.19 Tm (1.) Tj ET
+0 0 0 rg BT /F2 10.00 Tf 1 0 0 1 73.00 696.19 Tm (RADIUS) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 111.33 696.19 Tm ( \227 Network > Unified Access > RADIUS Servers > ) Tj ET
+0 0 0 rg BT /F2 10.00 Tf 1 0 0 1 332.23 696.19 Tm (Add) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 57.00 680.79 Tm (- Nom : WaveFi) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 57.00 664.89 Tm (- Adresse IP : celle fournie par WaveFi) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 57.00 648.99 Tm (- Port d'authentification : ) Tj ET
+0 0 0 rg BT /F2 10.00 Tf 1 0 0 1 167.30 648.99 Tm (1812) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 189.54 648.99 Tm ( \227 port d'accounting : ) Tj ET
+0 0 0 rg BT /F2 10.00 Tf 1 0 0 1 282.61 648.99 Tm (1813) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 57.00 633.09 Tm (- Secret partag\351 : celui fourni \(\340 saisir deux fois\)) Tj ET
+BT /F2 10.00 Tf 1 0 0 1 57.00 617.19 Tm (2.) Tj ET
+0 0 0 rg BT /F2 10.00 Tf 1 0 0 1 73.00 617.19 Tm (Profil d'authentification) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 184.28 617.19 Tm ( \227 Authentication > Profiles > ) Tj ET
+0 0 0 rg BT /F2 10.00 Tf 1 0 0 1 312.68 617.19 Tm (Add) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 57.00 601.79 Tm (- Serveur primaire : WaveFi) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 57.00 585.89 Tm (- Type : 802.1X ou MAC selon le mode retenu) Tj ET
+BT /F2 10.00 Tf 1 0 0 1 57.00 569.99 Tm (3.) Tj ET
+0 0 0 rg BT /F2 10.00 Tf 1 0 0 1 73.00 569.99 Tm (WLAN invit\351) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 131.89 569.99 Tm ( \227 Wireless > WLANs > ) Tj ET
+0 0 0 rg BT /F2 10.00 Tf 1 0 0 1 235.80 569.99 Tm (Add WLAN) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 57.00 554.59 Tm (- SSID : GUEST_TCI \(conserver l'existant\)) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 57.00 538.69 Tm (- S\351curit\351 : ouverte avec portail, ou WPA2-Enterprise si 802.1X) Tj ET
+BT /F2 10.00 Tf 1 0 0 1 57.00 522.79 Tm (4.) Tj ET
+0 0 0 rg BT /F2 10.00 Tf 1 0 0 1 73.00 522.79 Tm (Portail captif) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 133.57 522.79 Tm ( \227 dans les r\351glages du WLAN, section Captive Portal) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 57.00 507.39 Tm (- Activer ) Tj ET
+0 0 0 rg BT /F2 10.00 Tf 1 0 0 1 96.45 507.39 Tm (External Captive Portal) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 57.00 491.49 Tm (- URL de redirection : celle de WaveFi) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 57.00 475.59 Tm (- ) Tj ET
+0 0 0 rg BT /F2 10.00 Tf 1 0 0 1 63.11 475.59 Tm (Walled garden) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 131.46 475.59 Tm ( : ajouter les domaines) Tj ET
+BT /F2 10.00 Tf 1 0 0 1 57.00 459.69 Tm (5.) Tj ET
+0 0 0 rg BT /F2 10.00 Tf 1 0 0 1 73.00 459.69 Tm (V\351rification) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 127.46 459.69 Tm ( \227 Monitoring > RADIUS : le serveur doit appara\356tre ) Tj ET
+0 0 0 rg BT /F2 10.00 Tf 1 0 0 1 353.93 459.69 Tm (connect\351) Tj ET
+0 0 0 rg BT /F2 11.00 Tf 1 0 0 1 57.00 440.29 Tm (3.2 Gestion par OmniVista Cirrus \(cloud\)) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 57.00 425.29 Tm (M\352me logique, avec le vocabulaire ALE :) Tj ET
+0.35 0.35 0.35 RG 0.6 w 60.00 412.39 m 65.00 412.39 l S
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 73.00 409.39 Tm (Les serveurs RADIUS se d\351clarent dans un ) Tj ET
+0 0 0 rg BT /F2 10.00 Tf 1 0 0 1 269.19 409.39 Tm (AAA server profile) Tj ET
+0.35 0.35 0.35 RG 0.6 w 60.00 396.99 m 65.00 396.99 l S
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 73.00 393.99 Tm (Le portail externe et la liste blanche vivent dans un ) Tj ET
+0 0 0 rg BT /F2 10.00 Tf 1 0 0 1 300.34 393.99 Tm (access role profile) Tj ET
+0.35 0.35 0.35 RG 0.6 w 60.00 381.59 m 65.00 381.59 l S
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 73.00 378.59 Tm (Le ) Tj ET
+0 0 0 rg BT /F2 10.00 Tf 1 0 0 1 86.90 378.59 Tm (WLAN invit\351) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 145.79 378.59 Tm ( r\351f\351rence ces deux profils) Tj ET
+0.35 0.35 0.35 RG 0.6 w 60.00 366.19 m 65.00 366.19 l S
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 73.00 363.19 Tm (L'accounting doit \352tre activ\351 avec un ) Tj ET
+0 0 0 rg BT /F2 10.00 Tf 1 0 0 1 237.22 363.19 Tm (intervalle de 300 secondes) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 363.95 363.19 Tm ( \227 c'est lui qui alimente les statistiques) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 73.00 349.79 Tm (de session) Tj ET
+0 0 0 rg BT /F2 11.00 Tf 1 0 0 1 57.00 330.39 Tm (3.3 Bornes en mode Instant AP \(cluster autonome\)) Tj ET
+0.35 0.35 0.35 RG 0.6 w 60.00 318.39 m 65.00 318.39 l S
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 73.00 315.39 Tm (Security > Authentication Servers > ) Tj ET
+0 0 0 rg BT /F2 10.00 Tf 1 0 0 1 232.52 315.39 Tm (Add) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 251.96 315.39 Tm ( : nom, IP, ports, cl\351 partag\351e) Tj ET
+0.35 0.35 0.35 RG 0.6 w 60.00 302.99 m 65.00 302.99 l S
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 73.00 299.99 Tm (Network > Networks > ) Tj ET
+0 0 0 rg BT /F2 10.00 Tf 1 0 0 1 174.14 299.99 Tm (+) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 179.98 299.99 Tm ( : nom, SSID, type ) Tj ET
+0 0 0 rg BT /F2 10.00 Tf 1 0 0 1 263.91 299.99 Tm (Guest) Tj ET
+0.35 0.35 0.35 RG 0.6 w 60.00 287.59 m 65.00 287.59 l S
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 73.00 284.59 Tm (Security : niveau Enterprise si 802.1X, sinon r\351seau ouvert) Tj ET
+0.35 0.35 0.35 RG 0.6 w 60.00 272.19 m 65.00 272.19 l S
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 73.00 269.19 Tm (Captive Portal : s\351lectionner ) Tj ET
+0 0 0 rg BT /F2 10.00 Tf 1 0 0 1 200.83 269.19 Tm (External) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 240.29 269.19 Tm (, saisir l'URL) Tj ET
+0 0 0 rg BT /F2 11.00 Tf 1 0 0 1 57.00 249.79 Tm (3.4 Ce qui peut bloquer chez le PAP) Tj ET
+0.93 0.93 0.93 rg 57.00 223.29 481.28 11.50 re f
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 61.00 225.79 Tm (Risque) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 259.60 225.79 Tm (\300 v\351rifier au cadrage) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 223.29 m 57.00 234.79 l S
+0.72 0.72 0.72 RG 0.6 w 255.60 223.29 m 255.60 234.79 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 223.29 m 538.28 223.29 l S
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 61.00 211.29 Tm (Version de firmware ancienne) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 259.60 211.29 Tm (la fonction portail externe peut manquer \227 demander la version) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 208.79 m 57.00 220.29 l S
+0.72 0.72 0.72 RG 0.6 w 255.60 208.79 m 255.60 220.29 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 208.79 m 538.28 208.79 l S
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 61.00 196.79 Tm (Compte admin d\351l\351gu\351) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 259.60 196.79 Tm (le PAP peut refuser de donner les droits ; pr\351voir une session partag\351e) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 194.29 m 57.00 205.79 l S
+0.72 0.72 0.72 RG 0.6 w 255.60 194.29 m 255.60 205.79 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 194.29 m 538.28 194.29 l S
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 61.00 182.29 Tm (Ouverture UDP 1812/1813) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 259.60 182.29 Tm (peut n\351cessiter une demande interne de plusieurs semaines) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 179.79 m 57.00 191.29 l S
+0.72 0.72 0.72 RG 0.6 w 255.60 179.79 m 255.60 191.29 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 179.79 m 538.28 179.79 l S
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 61.00 167.79 Tm (Le SSID GUEST_TCI sert d\351j\340 \340 quelque chose) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 259.60 167.79 Tm (son portail actuel doit \352tre identifi\351 avant de le remplacer) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 165.29 m 57.00 176.79 l S
+0.72 0.72 0.72 RG 0.6 w 255.60 165.29 m 255.60 176.79 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 165.29 m 538.28 165.29 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 162.29 m 538.28 162.29 l S
+0 0 0 rg BT /F1 9.20 Tf 1 0 0 1 71.00 150.29 Tm (Source des chemins de menus : guide d'int\351gration Alcatel-Lucent et guide OmniAccess Stellar. \300 rev\351rifier) Tj ET
+0 0 0 rg BT /F1 9.20 Tf 1 0 0 1 71.00 137.69 Tm (selon la version de firmware constat\351e sur site.) Tj ET
+0.15 0.31 0.44 RG 2 w 59.00 160.29 m 59.00 127.09 l S
+0.8 0.8 0.8 RG 0.6 w 57.00 117.09 m 538.28 117.09 l S
+endstream
+endobj
+9 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 8 0 R >>
+endobj
+10 0 obj
+<< /Length 11300 >>
+stream
+BT /F1 7.4 Tf 1 0 0 1 57.00 34 Tm (WaveFi \227 Runbook int\351gration portail captif \267 20/11/2026) Tj ET
+BT /F1 7.4 Tf 1 0 0 1 512.28 34 Tm (3 / 5) Tj ET
+0.75 0.75 0.75 RG 0.5 w 57.00 44 m 538.28 44 l S
+0 0 0 rg BT /F2 12.50 Tf 1 0 0 1 57.00 780.89 Tm (4. Fiche Ubiquiti UniFi \227 ton labo) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 57.00 760.39 Tm (C'est ce que tu utiliseras pour t'entra\356ner.) Tj ET
+BT /F2 10.00 Tf 1 0 0 1 57.00 744.49 Tm (1.) Tj ET
+0 0 0 rg BT /F2 10.00 Tf 1 0 0 1 73.00 744.49 Tm (R\351seau invit\351) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 137.47 744.49 Tm ( \227 Settings > Networks > Create New : nom du r\351seau, VLAN libre, DHCP automatique,) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 73.00 731.09 Tm (option ) Tj ET
+0 0 0 rg BT /F2 10.00 Tf 1 0 0 1 103.02 731.09 Tm (Network Isolation) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 186.37 731.09 Tm ( activ\351e.) Tj ET
+BT /F2 10.00 Tf 1 0 0 1 57.00 715.69 Tm (2.) Tj ET
+0 0 0 rg BT /F2 10.00 Tf 1 0 0 1 73.00 715.69 Tm (SSID) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 96.34 715.69 Tm ( \227 Settings > WiFi > Create New : nom, mot de passe vide \(r\351seau ouvert\), r\351seau choisi \340 l'\351tape 1,) Tj ET
+0 0 0 rg BT /F2 10.00 Tf 1 0 0 1 73.00 702.29 Tm (Application) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 127.45 702.29 Tm ( sur Hotspot, ) Tj ET
+0 0 0 rg BT /F2 10.00 Tf 1 0 0 1 186.92 702.29 Tm (Hotspot Type) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 250.81 702.29 Tm ( sur Captive Portal.) Tj ET
+BT /F2 10.00 Tf 1 0 0 1 57.00 686.89 Tm (3.) Tj ET
+0 0 0 rg BT /F2 10.00 Tf 1 0 0 1 73.00 686.89 Tm (Portail) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 104.12 686.89 Tm ( \227 Clients > Hotspot > Landing Page : activer ) Tj ET
+0 0 0 rg BT /F2 10.00 Tf 1 0 0 1 303.11 686.89 Tm (External Portal Server) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 407.60 686.89 Tm (, saisir l'IP du portail, activer) Tj ET
+0 0 0 rg BT /F2 10.00 Tf 1 0 0 1 73.00 673.49 Tm (Secure Portal) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 137.47 673.49 Tm (, renseigner le domaine de redirection.) Tj ET
+BT /F2 10.00 Tf 1 0 0 1 57.00 658.09 Tm (4.) Tj ET
+0 0 0 rg BT /F2 10.00 Tf 1 0 0 1 73.00 658.09 Tm (Walled garden) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 141.35 658.09 Tm ( \227 Authorization Access > Pre-Authorization Allowances : ajouter l'IP ou les domaines du) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 73.00 644.69 Tm (portail.) Tj ET
+BT /F2 10.00 Tf 1 0 0 1 57.00 629.29 Tm (5.) Tj ET
+0 0 0 rg BT /F2 10.00 Tf 1 0 0 1 73.00 629.29 Tm (RADIUS) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 111.33 629.29 Tm ( \227 Settings > Networks > RADIUS Servers, uniquement si authentification 802.1X.) Tj ET
+0 0 0 rg BT /F2 10.00 Tf 1 0 0 1 57.00 613.89 Tm (Attention.) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 103.66 613.89 Tm ( Le contr\364leur doit \352tre joignable depuis l'internet si tu utilises le portail externe : IP publique et) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 57.00 600.49 Tm (redirection de port \(443 pour un UDM, 8443 pour un contr\364leur auto-h\351berg\351\). Un contr\364leur sur un portable) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 57.00 587.09 Tm (derri\350re une box ne suffira pas.) Tj ET
+0 0 0 rg BT /F2 12.50 Tf 1 0 0 1 57.00 567.19 Tm (5. Fiche MikroTik \227 le kit \253 petits commerces \273) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 57.00 546.69 Tm (Le plus simple pour un test complet : le hotspot et le client RADIUS sont natifs.) Tj ET
+BT /F2 10.00 Tf 1 0 0 1 57.00 530.79 Tm (1.) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 73.00 530.79 Tm (IP > Hotspot > Server Profiles : cr\351er un profil \(DNS name du portail\)) Tj ET
+BT /F2 10.00 Tf 1 0 0 1 57.00 515.39 Tm (2.) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 73.00 515.39 Tm (IP > Hotspot > Servers : associer le profil \340 l'interface du r\351seau invit\351) Tj ET
+BT /F2 10.00 Tf 1 0 0 1 57.00 499.99 Tm (3.) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 73.00 499.99 Tm (RADIUS : ajouter le serveur \(IP, secret\), cocher ) Tj ET
+0 0 0 rg BT /F2 10.00 Tf 1 0 0 1 286.40 499.99 Tm (Hotspot) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 324.17 499.99 Tm ( dans les services) Tj ET
+BT /F2 10.00 Tf 1 0 0 1 57.00 484.59 Tm (4.) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 73.00 484.59 Tm (IP > Hotspot > Walled Garden : ajouter les domaines du portail) Tj ET
+BT /F2 10.00 Tf 1 0 0 1 57.00 469.19 Tm (5.) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 73.00 469.19 Tm (Hotspot > User Profiles : mode HTTP CHAP ou HTTP PAP selon la configuration du RADIUS) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 57.00 453.79 Tm (C'est le montage qui te permet de tester ) Tj ET
+0 0 0 rg BT /F2 10.00 Tf 1 0 0 1 237.33 453.79 Tm (toute la cha\356ne) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 307.35 453.79 Tm ( pour le prix d'un routeur.) Tj ET
+0.8 0.8 0.8 RG 0.6 w 57.00 437.89 m 538.28 437.89 l S
+0 0 0 rg BT /F2 12.50 Tf 1 0 0 1 57.00 419.89 Tm (6. Les autres fabricants \227 ce qu'il faut chercher) Tj ET
+0.93 0.93 0.93 rg 57.00 387.89 481.28 11.50 re f
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 61.00 390.39 Tm (Fabricant) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 164.76 390.39 Tm (O\371 se trouve le r\351glage) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 366.73 390.39 Tm (Le pi\350ge) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 387.89 m 57.00 399.39 l S
+0.72 0.72 0.72 RG 0.6 w 160.76 387.89 m 160.76 399.39 l S
+0.72 0.72 0.72 RG 0.6 w 362.73 387.89 m 362.73 399.39 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 387.89 m 538.28 387.89 l S
+0 0 0 rg BT /F2 8.30 Tf 1 0 0 1 61.00 375.89 Tm (Ruckus) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 90.98 375.89 Tm ( \(SmartZone /) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 61.00 365.89 Tm (Ruckus One\)) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 164.76 375.89 Tm (RADIUS puis portail tiers WISPr dans le profil du) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 164.76 365.89 Tm (WLAN) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 366.73 375.89 Tm (cl\351 d'int\351gration et domaine de redirection \340) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 366.73 365.89 Tm (d\351clarer) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 363.39 m 57.00 384.89 l S
+0.72 0.72 0.72 RG 0.6 w 160.76 363.39 m 160.76 384.89 l S
+0.72 0.72 0.72 RG 0.6 w 362.73 363.39 m 362.73 384.89 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 363.39 m 538.28 363.39 l S
+0 0 0 rg BT /F2 8.30 Tf 1 0 0 1 61.00 351.39 Tm (Cisco) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 83.60 351.39 Tm ( \(WLC / Catalyst) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 61.00 341.39 Tm (9800\)) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 164.76 351.39 Tm (Security > RADIUS > AAA Servers, puis Web Auth /) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 164.76 341.39 Tm (External Web Auth) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 366.73 351.39 Tm (le portail externe se d\351clare dans la m\351thode) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 366.73 341.39 Tm (de s\351curit\351 du WLAN) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 338.89 m 57.00 360.39 l S
+0.72 0.72 0.72 RG 0.6 w 160.76 338.89 m 160.76 360.39 l S
+0.72 0.72 0.72 RG 0.6 w 362.73 338.89 m 362.73 360.39 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 338.89 m 538.28 338.89 l S
+0 0 0 rg BT /F2 8.30 Tf 1 0 0 1 61.00 326.89 Tm (Aruba) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 84.98 326.89 Tm ( \(Central / Instant\)) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 164.76 326.89 Tm (profils RADIUS + External Captive Portal dans le) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 164.76 316.89 Tm (profil de r\351seau) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 366.73 326.89 Tm (les Instant AP g\350rent le portail localement,) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 366.73 316.89 Tm (Central le pousse) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 314.39 m 57.00 335.89 l S
+0.72 0.72 0.72 RG 0.6 w 160.76 314.39 m 160.76 335.89 l S
+0.72 0.72 0.72 RG 0.6 w 362.73 314.39 m 362.73 335.89 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 314.39 m 538.28 314.39 l S
+0 0 0 rg BT /F2 8.30 Tf 1 0 0 1 61.00 302.39 Tm (TP-Link Omada) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 164.76 302.39 Tm (Controller > RADIUS Profile puis portail dans le) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 164.76 292.39 Tm (SSID) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 366.73 302.39 Tm (fonction portail externe limit\351e selon les) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 366.73 292.39 Tm (versions) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 289.89 m 57.00 311.39 l S
+0.72 0.72 0.72 RG 0.6 w 160.76 289.89 m 160.76 311.39 l S
+0.72 0.72 0.72 RG 0.6 w 362.73 289.89 m 362.73 311.39 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 289.89 m 538.28 289.89 l S
+0 0 0 rg BT /F2 8.30 Tf 1 0 0 1 61.00 277.89 Tm (Juniper Mist) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 164.76 277.89 Tm (portail externe via API, pas via RADIUS) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 366.73 277.89 Tm (mod\350le diff\351rent : le portail n'est pas pilot\351) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 366.73 267.89 Tm (par RADIUS) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 265.39 m 57.00 286.89 l S
+0.72 0.72 0.72 RG 0.6 w 160.76 265.39 m 160.76 286.89 l S
+0.72 0.72 0.72 RG 0.6 w 362.73 265.39 m 362.73 286.89 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 265.39 m 538.28 265.39 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 262.39 m 538.28 262.39 l S
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 57.00 250.39 Tm (Pour ces cinq-l\340, ) Tj ET
+0 0 0 rg BT /F2 10.00 Tf 1 0 0 1 134.25 250.39 Tm (ne pr\351pare rien de m\351moire) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 265.41 250.39 Tm ( : demande la version de firmware au cadrage et ouvre la) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 57.00 236.99 Tm (documentation du fabricant la veille.) Tj ET
+0.8 0.8 0.8 RG 0.6 w 57.00 221.09 m 538.28 221.09 l S
+0 0 0 rg BT /F2 12.50 Tf 1 0 0 1 57.00 203.09 Tm (7. Le walled garden \227 la liste \340 pr\351parer) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 57.00 182.59 Tm (\300 donner au client, pr\352te \340 copier :) Tj ET
+0.93 0.93 0.93 rg 57.00 155.19 481.28 11.50 re f
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 61.00 157.69 Tm (\311l\351ment) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 260.92 157.69 Tm (Valeur) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 155.19 m 57.00 166.69 l S
+0.72 0.72 0.72 RG 0.6 w 256.92 155.19 m 256.92 166.69 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 155.19 m 538.28 155.19 l S
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 61.00 143.19 Tm (Portail) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 260.92 143.19 Tm (app.wavefi.tech) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 140.69 m 57.00 152.19 l S
+0.72 0.72 0.72 RG 0.6 w 256.92 140.69 m 256.92 152.19 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 140.69 m 538.28 140.69 l S
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 61.00 128.69 Tm (Site) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 260.92 128.69 Tm (wavefi.tech) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 126.19 m 57.00 137.69 l S
+0.72 0.72 0.72 RG 0.6 w 256.92 126.19 m 256.92 137.69 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 126.19 m 538.28 126.19 l S
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 61.00 114.19 Tm (API appel\351e par le portail) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 260.92 114.19 Tm (\340 relever dans la console du navigateur) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 111.69 m 57.00 123.19 l S
+0.72 0.72 0.72 RG 0.6 w 256.92 111.69 m 256.92 123.19 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 111.69 m 538.28 111.69 l S
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 61.00 99.69 Tm (Polices et CDN) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 260.92 99.69 Tm (\340 relever \(souvent un CDN externe\)) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 97.19 m 57.00 108.69 l S
+0.72 0.72 0.72 RG 0.6 w 256.92 97.19 m 256.92 108.69 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 97.19 m 538.28 97.19 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 94.19 m 538.28 94.19 l S
+endstream
+endobj
+11 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 10 0 R >>
+endobj
+12 0 obj
+<< /Length 13776 >>
+stream
+BT /F1 7.4 Tf 1 0 0 1 57.00 34 Tm (WaveFi \227 Runbook int\351gration portail captif \267 20/11/2026) Tj ET
+BT /F1 7.4 Tf 1 0 0 1 512.28 34 Tm (4 / 5) Tj ET
+0.75 0.75 0.75 RG 0.5 w 57.00 44 m 538.28 44 l S
+0 0 0 rg BT /F2 10.00 Tf 1 0 0 1 57.00 784.89 Tm (Deux subtilit\351s :) Tj ET
+0.35 0.35 0.35 RG 0.6 w 60.00 771.99 m 65.00 771.99 l S
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 73.00 768.99 Tm (Le ) Tj ET
+0 0 0 rg BT /F2 10.00 Tf 1 0 0 1 86.90 768.99 Tm (RADIUS ne passe pas par le walled garden) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 289.75 768.99 Tm ( : c'est de l'UDP, autoris\351 par le pare-feu, pas par la) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 73.00 755.59 Tm (liste blanche HTTP. Ne confonds pas les deux dans la demande au client.) Tj ET
+0.35 0.35 0.35 RG 0.6 w 60.00 743.19 m 65.00 743.19 l S
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 73.00 740.19 Tm (La ) Tj ET
+0 0 0 rg BT /F2 10.00 Tf 1 0 0 1 86.90 740.19 Tm (d\351tection de portail) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 179.14 740.19 Tm ( des t\351l\351phones \(Apple, Android\) interroge des domaines d\351di\351s. Si le portail ne) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 73.00 726.79 Tm (r\351pond pas correctement, le t\351l\351phone affiche \253 pas d'internet \273 alors que la page fonctionne. \300 tester sur) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 73.00 713.39 Tm (un iPhone ) Tj ET
+0 0 0 rg BT /F2 10.00 Tf 1 0 0 1 120.81 713.39 Tm (et) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 129.70 713.39 Tm ( sur un Android.) Tj ET
+0.8 0.8 0.8 RG 0.6 w 57.00 697.99 m 538.28 697.99 l S
+0 0 0 rg BT /F2 12.50 Tf 1 0 0 1 57.00 679.99 Tm (8. La recette \227 dix v\351rifications \340 faire signer) Tj ET
+0.93 0.93 0.93 rg 57.00 647.99 481.28 11.50 re f
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 61.00 650.49 Tm (#) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 78.23 650.49 Tm (V\351rification) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 362.58 650.49 Tm (R\351sultat attendu) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 647.99 m 57.00 659.49 l S
+0.72 0.72 0.72 RG 0.6 w 74.23 647.99 m 74.23 659.49 l S
+0.72 0.72 0.72 RG 0.6 w 358.58 647.99 m 358.58 659.49 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 647.99 m 538.28 647.99 l S
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 65.61 635.99 Tm (1) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 78.23 635.99 Tm (Le SSID invit\351 appara\356t) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 362.58 635.99 Tm (visible sur un t\351l\351phone) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 633.49 m 57.00 644.99 l S
+0.72 0.72 0.72 RG 0.6 w 74.23 633.49 m 74.23 644.99 l S
+0.72 0.72 0.72 RG 0.6 w 358.58 633.49 m 358.58 644.99 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 633.49 m 538.28 633.49 l S
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 65.61 621.49 Tm (2) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 78.23 621.49 Tm (La connexion d\351clenche le portail) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 362.58 621.49 Tm (la page WaveFi s'affiche) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 618.99 m 57.00 630.49 l S
+0.72 0.72 0.72 RG 0.6 w 74.23 618.99 m 74.23 630.49 l S
+0.72 0.72 0.72 RG 0.6 w 358.58 618.99 m 358.58 630.49 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 618.99 m 538.28 618.99 l S
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 65.61 606.99 Tm (3) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 78.23 606.99 Tm (Le portail s'affiche sans authentification pr\351alable) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 362.58 606.99 Tm (walled garden correct) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 604.49 m 57.00 615.99 l S
+0.72 0.72 0.72 RG 0.6 w 74.23 604.49 m 74.23 615.99 l S
+0.72 0.72 0.72 RG 0.6 w 358.58 604.49 m 358.58 615.99 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 604.49 m 538.28 604.49 l S
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 65.61 592.49 Tm (4) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 78.23 592.49 Tm (Le formulaire enregistre l'invit\351) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 362.58 592.49 Tm (visible dans l'application) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 589.99 m 57.00 601.49 l S
+0.72 0.72 0.72 RG 0.6 w 74.23 589.99 m 74.23 601.49 l S
+0.72 0.72 0.72 RG 0.6 w 358.58 589.99 m 358.58 601.49 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 589.99 m 538.28 589.99 l S
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 65.61 577.99 Tm (5) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 78.23 577.99 Tm (Le RADIUS accepte la session) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 362.58 577.99 Tm (journal RADIUS, Access-Accept) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 575.49 m 57.00 586.99 l S
+0.72 0.72 0.72 RG 0.6 w 74.23 575.49 m 74.23 586.99 l S
+0.72 0.72 0.72 RG 0.6 w 358.58 575.49 m 358.58 586.99 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 575.49 m 538.28 575.49 l S
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 65.61 563.49 Tm (6) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 78.23 563.49 Tm (L'internet est accord\351 apr\350s validation) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 362.58 563.49 Tm (navigation possible) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 560.99 m 57.00 572.49 l S
+0.72 0.72 0.72 RG 0.6 w 74.23 560.99 m 74.23 572.49 l S
+0.72 0.72 0.72 RG 0.6 w 358.58 560.99 m 358.58 572.49 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 560.99 m 538.28 560.99 l S
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 65.61 548.99 Tm (7) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 78.23 548.99 Tm (La session appara\356t en cours) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 362.58 548.99 Tm (\351cran \253 Invit\351s \273 de l'application) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 546.49 m 57.00 557.99 l S
+0.72 0.72 0.72 RG 0.6 w 74.23 546.49 m 74.23 557.99 l S
+0.72 0.72 0.72 RG 0.6 w 358.58 546.49 m 358.58 557.99 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 546.49 m 538.28 546.49 l S
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 65.61 534.49 Tm (8) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 78.23 534.49 Tm (La d\351connexion ou l'expiration fonctionne) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 362.58 534.49 Tm (acc\350s coup\351) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 531.99 m 57.00 543.49 l S
+0.72 0.72 0.72 RG 0.6 w 74.23 531.99 m 74.23 543.49 l S
+0.72 0.72 0.72 RG 0.6 w 358.58 531.99 m 358.58 543.49 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 531.99 m 538.28 531.99 l S
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 65.61 519.99 Tm (9) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 78.23 519.99 Tm (Rendu correct sur iPhone ) Tj ET
+0 0 0 rg BT /F2 8.30 Tf 1 0 0 1 174.64 519.99 Tm (et) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 182.02 519.99 Tm ( Android) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 362.58 519.99 Tm (pas de page blanche) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 517.49 m 57.00 528.99 l S
+0.72 0.72 0.72 RG 0.6 w 74.23 517.49 m 74.23 528.99 l S
+0.72 0.72 0.72 RG 0.6 w 358.58 517.49 m 358.58 528.99 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 517.49 m 538.28 517.49 l S
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 61.00 505.49 Tm (10) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 78.23 505.49 Tm (Le client peut refaire le test seul) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 362.58 505.49 Tm (il a compris o\371 c'\351tait) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 502.99 m 57.00 514.49 l S
+0.72 0.72 0.72 RG 0.6 w 74.23 502.99 m 74.23 514.49 l S
+0.72 0.72 0.72 RG 0.6 w 358.58 502.99 m 358.58 514.49 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 502.99 m 538.28 502.99 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 499.99 m 538.28 499.99 l S
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 57.00 487.99 Tm (La ) Tj ET
+0 0 0 rg BT /F2 10.00 Tf 1 0 0 1 70.90 487.99 Tm (dixi\350me) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 108.14 487.99 Tm ( est la plus importante : elle te prot\350ge le jour o\371 quelque chose tombe et que tu n'es pas l\340.) Tj ET
+0.8 0.8 0.8 RG 0.6 w 57.00 472.09 m 538.28 472.09 l S
+0 0 0 rg BT /F2 12.50 Tf 1 0 0 1 57.00 454.09 Tm (9. Pannes typiques et diagnostic) Tj ET
+0.93 0.93 0.93 rg 57.00 422.09 481.28 11.50 re f
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 61.00 424.59 Tm (Sympt\364me) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 207.45 424.59 Tm (Cause probable) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 331.80 424.59 Tm (Ce que tu v\351rifies) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 422.09 m 57.00 433.59 l S
+0.72 0.72 0.72 RG 0.6 w 203.45 422.09 m 203.45 433.59 l S
+0.72 0.72 0.72 RG 0.6 w 327.80 422.09 m 327.80 433.59 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 422.09 m 538.28 422.09 l S
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 61.00 410.09 Tm (Le portail ne s'affiche jamais) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 207.45 410.09 Tm (walled garden incomplet) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 331.80 410.09 Tm (l'URL du portail est-elle joignable depuis le r\351seau) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 331.80 400.09 Tm (invit\351 ?) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 397.59 m 57.00 419.09 l S
+0.72 0.72 0.72 RG 0.6 w 203.45 397.59 m 203.45 419.09 l S
+0.72 0.72 0.72 RG 0.6 w 327.80 397.59 m 327.80 419.09 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 397.59 m 538.28 397.59 l S
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 61.00 385.59 Tm (Page blanche) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 207.45 385.59 Tm (HTTPS ou certificat) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 331.80 385.59 Tm (ouvrir l'URL en direct dans le navigateur) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 383.09 m 57.00 394.59 l S
+0.72 0.72 0.72 RG 0.6 w 203.45 383.09 m 203.45 394.59 l S
+0.72 0.72 0.72 RG 0.6 w 327.80 383.09 m 327.80 394.59 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 383.09 m 538.28 383.09 l S
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 61.00 371.09 Tm (\253 Pas d'internet \273 mais la page) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 61.00 361.09 Tm (marche) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 207.45 371.09 Tm (d\351tection de portail) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 331.80 371.09 Tm (tester sur un autre t\351l\351phone, v\351rifier les r\351ponses) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 331.80 361.09 Tm (CNA) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 358.59 m 57.00 380.09 l S
+0.72 0.72 0.72 RG 0.6 w 203.45 358.59 m 203.45 380.09 l S
+0.72 0.72 0.72 RG 0.6 w 327.80 358.59 m 327.80 380.09 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 358.59 m 538.28 358.59 l S
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 61.00 346.59 Tm (Le t\351l\351phone ne demande rien) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 207.45 346.59 Tm (SSID encore en WPA2) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 207.45 336.59 Tm (classique) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 331.80 346.59 Tm (le portail n'est activ\351 que sur un r\351seau ouvert ou) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 331.80 336.59 Tm (hotspot) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 334.09 m 57.00 355.59 l S
+0.72 0.72 0.72 RG 0.6 w 203.45 334.09 m 203.45 355.59 l S
+0.72 0.72 0.72 RG 0.6 w 327.80 334.09 m 327.80 355.59 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 334.09 m 538.28 334.09 l S
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 61.00 322.09 Tm (Access-Reject) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 207.45 322.09 Tm (secret partag\351) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 331.80 322.09 Tm (comparer caract\350re par caract\350re) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 319.59 m 57.00 331.09 l S
+0.72 0.72 0.72 RG 0.6 w 203.45 319.59 m 203.45 331.09 l S
+0.72 0.72 0.72 RG 0.6 w 327.80 319.59 m 327.80 331.09 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 319.59 m 538.28 319.59 l S
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 61.00 307.59 Tm (Timeout RADIUS) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 207.45 307.59 Tm (UDP bloqu\351) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 331.80 307.59 Tm (test depuis le contr\364leur, pas depuis ton poste) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 305.09 m 57.00 316.59 l S
+0.72 0.72 0.72 RG 0.6 w 203.45 305.09 m 203.45 316.59 l S
+0.72 0.72 0.72 RG 0.6 w 327.80 305.09 m 327.80 316.59 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 305.09 m 538.28 305.09 l S
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 61.00 293.09 Tm (Session sans statistiques) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 207.45 293.09 Tm (accounting d\351sactiv\351) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 331.80 293.09 Tm (intervalle 300 s) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 290.59 m 57.00 302.09 l S
+0.72 0.72 0.72 RG 0.6 w 203.45 290.59 m 203.45 302.09 l S
+0.72 0.72 0.72 RG 0.6 w 327.80 290.59 m 327.80 302.09 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 290.59 m 538.28 290.59 l S
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 61.00 278.59 Tm (L'invit\351 reste connect\351 apr\350s) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 61.00 268.59 Tm (expiration) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 207.45 278.59 Tm (session non ferm\351e) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 331.80 278.59 Tm (v\351rifier l'accounting Stop) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 266.09 m 57.00 287.59 l S
+0.72 0.72 0.72 RG 0.6 w 203.45 266.09 m 203.45 287.59 l S
+0.72 0.72 0.72 RG 0.6 w 327.80 266.09 m 327.80 287.59 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 266.09 m 538.28 266.09 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 263.09 m 538.28 263.09 l S
+0.8 0.8 0.8 RG 0.6 w 57.00 251.09 m 538.28 251.09 l S
+0 0 0 rg BT /F2 12.50 Tf 1 0 0 1 57.00 233.09 Tm (10. Ce qu'il faut emporter) Tj ET
+0.35 0.35 0.35 RG 0.6 w 60.00 215.59 m 65.00 215.59 l S
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 73.00 212.59 Tm (Un ) Tj ET
+0 0 0 rg BT /F2 10.00 Tf 1 0 0 1 88.56 212.59 Tm (t\351l\351phone Android) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 176.90 212.59 Tm ( et un ) Tj ET
+0 0 0 rg BT /F2 10.00 Tf 1 0 0 1 204.70 212.59 Tm (iPhone) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 238.04 212.59 Tm ( \227 les comportements diff\350rent) Tj ET
+0.35 0.35 0.35 RG 0.6 w 60.00 200.19 m 65.00 200.19 l S
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 73.00 197.19 Tm (Un ) Tj ET
+0 0 0 rg BT /F2 10.00 Tf 1 0 0 1 88.56 197.19 Tm (c\342ble Ethernet) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 157.47 197.19 Tm ( et un petit switch) Tj ET
+0.35 0.35 0.35 RG 0.6 w 60.00 184.79 m 65.00 184.79 l S
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 73.00 181.79 Tm (L'acc\350s \340 la console RADIUS \(journaux en direct\)) Tj ET
+0.35 0.35 0.35 RG 0.6 w 60.00 169.39 m 65.00 169.39 l S
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 73.00 166.39 Tm (Le tableau des cinq r\351glages imprim\351) Tj ET
+0.35 0.35 0.35 RG 0.6 w 60.00 153.99 m 65.00 153.99 l S
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 73.00 150.99 Tm (Les identifiants du contr\364leur ) Tj ET
+0 0 0 rg BT /F2 10.00 Tf 1 0 0 1 203.62 150.99 Tm (si le client les donne) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 301.44 150.99 Tm ( \227 sinon, il clique) Tj ET
+0.8 0.8 0.8 RG 0.6 w 57.00 135.59 m 538.28 135.59 l S
+endstream
+endobj
+13 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 12 0 R >>
+endobj
+14 0 obj
+<< /Length 3449 >>
+stream
+BT /F1 7.4 Tf 1 0 0 1 57.00 34 Tm (WaveFi \227 Runbook int\351gration portail captif \267 20/11/2026) Tj ET
+BT /F1 7.4 Tf 1 0 0 1 512.28 34 Tm (5 / 5) Tj ET
+0.75 0.75 0.75 RG 0.5 w 57.00 44 m 538.28 44 l S
+0 0 0 rg BT /F2 12.50 Tf 1 0 0 1 57.00 780.89 Tm (11. Le jour du PAP, en pratique) Tj ET
+BT /F2 10.00 Tf 1 0 0 1 57.00 760.39 Tm (1.) Tj ET
+0 0 0 rg BT /F2 10.00 Tf 1 0 0 1 73.00 760.39 Tm (Cadrage de 2 heures) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 171.37 760.39 Tm (, en visio ou sur place, avec l'administrateur r\351seau du Port.) Tj ET
+BT /F2 10.00 Tf 1 0 0 1 57.00 744.99 Tm (2.) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 73.00 744.99 Tm (Remplir le tableau du \247 1, en s\351ance.) Tj ET
+BT /F2 10.00 Tf 1 0 0 1 57.00 729.59 Tm (3.) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 73.00 729.59 Tm (Localiser les \351crans du \247 3 sur ) Tj ET
+0 0 0 rg BT /F2 10.00 Tf 1 0 0 1 211.39 729.59 Tm (leur) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 229.73 729.59 Tm ( version de firmware, sans rien modifier.) Tj ET
+BT /F2 10.00 Tf 1 0 0 1 57.00 714.19 Tm (4.) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 73.00 714.19 Tm (Modifier seulement si le client est pr\352t \340 tester dans la foul\351e.) Tj ET
+BT /F2 10.00 Tf 1 0 0 1 57.00 698.79 Tm (5.) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 73.00 698.79 Tm (Recette du \247 8, avec le SSID GUEST_TCI ) Tj ET
+0 0 0 rg BT /F2 10.00 Tf 1 0 0 1 263.08 698.79 Tm (dupliqu\351) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 304.75 698.79 Tm ( ou sur un SSID de test \227 jamais sur l'existant, pour) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 73.00 685.39 Tm (pouvoir revenir en arri\350re en une minute.) Tj ET
+BT /F2 10.00 Tf 1 0 0 1 57.00 669.99 Tm (6.) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 73.00 669.99 Tm (Faire signer la recette.) Tj ET
+0 0 0 rg BT /F2 9.20 Tf 1 0 0 1 71.00 654.59 Tm (R\350gle de survie :) Tj ET
+0 0 0 rg BT /F1 9.20 Tf 1 0 0 1 144.63 654.59 Tm ( ne jamais modifier le SSID GUEST_TCI en production sans avoir un SSID de test \340 c\364t\351. Une) Tj ET
+0 0 0 rg BT /F1 9.20 Tf 1 0 0 1 71.00 641.99 Tm (salle d'embarquement sans Wi-Fi, c'est un incident, m\352me cinq minutes.) Tj ET
+0.15 0.31 0.44 RG 2 w 59.00 664.59 m 59.00 631.39 l S
+0.8 0.8 0.8 RG 0.6 w 57.00 621.39 m 538.28 621.39 l S
+0 0 0 rg BT /F2 12.50 Tf 1 0 0 1 57.00 603.39 Tm (Sources) Tj ET
+0.35 0.35 0.35 RG 0.6 w 60.00 585.89 m 65.00 585.89 l S
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 73.00 582.89 Tm (Alcatel-Lucent Enterprise \227 configuration RADIUS et portail externe :) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 73.00 569.49 Tm (https://help.ironwifi.com/configuration-guides/other/alcatel-lucent) Tj ET
+0.35 0.35 0.35 RG 0.6 w 60.00 557.09 m 65.00 557.09 l S
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 73.00 554.09 Tm (Alcatel-Lucent OmniAccess Stellar \(OmniVista Cirrus\) \227 portail externe, profil AAA et access role :) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 73.00 540.69 Tm (https://www.purple.ai/en-gb/guides/alcatel-lucent-omniaccess-purple-wifi-integration) Tj ET
+0.35 0.35 0.35 RG 0.6 w 60.00 528.29 m 65.00 528.29 l S
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 73.00 525.29 Tm (Ubiquiti UniFi \227 hotspot et portail externe \(Network 8 \340 10\) :) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 73.00 511.89 Tm (https://help.ironwifi.com/configuration-guides/ubiquiti/unifi-hotspot) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 57.00 496.49 Tm (Chemins de menus relev\351s au 20 novembre 2026 \227 \340 rev\351rifier selon la version de firmware sur site.) Tj ET
+endstream
+endobj
+15 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 14 0 R >>
+endobj
+xref
+0 16
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000148 00000 n 
+0000000245 00000 n 
+0000000347 00000 n 
+0000000442 00000 n 
+0000013004 00000 n 
+0000013156 00000 n 
+0000022015 00000 n 
+0000022167 00000 n 
+0000033521 00000 n 
+0000033675 00000 n 
+0000047505 00000 n 
+0000047659 00000 n 
+0000051161 00000 n 
+trailer
+<< /Size 16 /Root 1 0 R >>
+startxref
+51315
+%%EOF
