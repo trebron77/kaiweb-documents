@@ -67,3 +67,34 @@ UniFi ne doit être installé sur cette machine — il lui faut 1 à 1,5 Go à l
 
 **Point de vigilance :** les 2 mises à jour « ESM Apps » signalées par Ubuntu relèvent d'Ubuntu Pro
 (service payant) et ne concernent pas le portail. Sans objet ici.
+
+### 2026-11-21 (Tahiti) — supervision étendue
+
+| Action | Résultat |
+|---|---|
+| Écriture de `ops/check_vps.py` (contrôle local du serveur) | ✅ |
+| Déploiement sur le VPS : `~/wavefi-ops/check_vps.py` | ✅ |
+| Webhook Discord dans `~/.wavefi.env` (droits 600) | ✅ |
+| Tâche cron `hotumana`, toutes les 6 h | ✅ installée, `cron` actif |
+| Test d'envoi Discord (`--heartbeat`) | ✅ message reçu |
+
+**Ce que le script surveille** (et ce que l'ancien contrôle externe ne voyait pas) :
+
+| Contrôle | Seuil d'alerte |
+|---|---|
+| Disque | > 80 % (critique à 90 %) |
+| Mémoire disponible | < 300 Mo (critique < 150 Mo) |
+| Swap | > 50 % utilisé (critique à 90 %) |
+| Mises à jour en attente | > 20, ou toute mise à jour de sécurité |
+| Ports RADIUS 1812/1813 | absents = critique |
+| Portail (HTTP 200) | autre code = critique |
+
+**Principe : silence sauf problème.** Le script n'écrit sur Discord que si un seuil est dépassé —
+`--heartbeat` force le rapport complet quand on veut un état des lieux.
+
+**Relevé du premier passage :** disque 21 % (37,5 Go libres), mémoire **774 Mo disponibles**
+sur 3 911 Mo, swap 0 %, 0 mise à jour, RADIUS en écoute, portail HTTP 200.
+
+⚠️ **774 Mo de marge mémoire : c'est peu.** La valeur oscille entre 0,7 et 1,4 Go selon la charge
+des conteneurs. C'est la confirmation chiffrée qu'un palier à 8 Go est nécessaire **avant** le
+premier client payant — et qu'aucun contrôleur UniFi ne doit être installé ici.

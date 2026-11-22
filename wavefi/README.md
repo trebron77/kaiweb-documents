@@ -155,6 +155,7 @@ Règles éditoriales : mentions locales exactes, validation DGEN sans sur-répé
 | `ops/cron_weekly_article.sh` | cron, lundi à 18:00 UTC (08:00 Tahiti) | Choisit un sujet inédit et lance la génération d'un article SEO dans `content/`. |
 | `ops/generate_article.py` | appelé par le script ci-dessus | Rédige l'article via l'API DeepSeek, l'écrit dans `content/`, puis alerte Discord. |
 | `ops/discord_alert.py` | appelé par les scripts ci-dessus | Envoie un message sur le webhook Discord configuré. |
+| `ops/check_vps.py` | cron **sur le VPS**, toutes les 6 h | Contrôle disque, mémoire, swap, mises à jour et ports RADIUS. Alerte Discord **uniquement en cas de problème** (`--heartbeat` pour un rapport complet). |
 
 Runbooks : [`ops/runbook-supervision-openwisp.md`](ops/runbook-supervision-openwisp.md) et
 [`ops/runbook-alertes-discord.md`](ops/runbook-alertes-discord.md).
