@@ -4,7 +4,7 @@
 << /Type /Catalog /Pages 2 0 R >>
 endobj
 2 0 obj
-<< /Type /Pages /Count 3 /Kids [7 0 R 9 0 R 11 0 R] >>
+<< /Type /Pages /Count 4 /Kids [7 0 R 9 0 R 11 0 R 13 0 R] >>
 endobj
 3 0 obj
 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
@@ -19,7 +19,7 @@ endobj
 << /Length 10489 >>
 stream
 BT /F1 7.4 Tf 1 0 0 1 57.00 34 Tm (WaveFi \227 Fiche technique \267 Portail Wi-Fi du TCI \267 19/11/2026) Tj ET
-BT /F1 7.4 Tf 1 0 0 1 512.28 34 Tm (1 / 3) Tj ET
+BT /F1 7.4 Tf 1 0 0 1 512.28 34 Tm (1 / 4) Tj ET
 0.75 0.75 0.75 RG 0.5 w 57.00 44 m 538.28 44 l S
 0 0 0 rg BT /F2 17.00 Tf 1 0 0 1 57.00 784.89 Tm (Fiche technique \227 Portail Wi-Fi d'accueil du TCI) Tj ET
 0.15 0.31 0.44 RG 1.2 w 57.00 759.89 m 147.00 759.89 l S
@@ -162,7 +162,7 @@ endobj
 << /Length 11922 >>
 stream
 BT /F1 7.4 Tf 1 0 0 1 57.00 34 Tm (WaveFi \227 Fiche technique \267 Portail Wi-Fi du TCI \267 19/11/2026) Tj ET
-BT /F1 7.4 Tf 1 0 0 1 512.28 34 Tm (2 / 3) Tj ET
+BT /F1 7.4 Tf 1 0 0 1 512.28 34 Tm (2 / 4) Tj ET
 0.75 0.75 0.75 RG 0.5 w 57.00 44 m 538.28 44 l S
 0 0 0 rg BT /F2 12.50 Tf 1 0 0 1 57.00 780.89 Tm (4. Pr\351requis c\364t\351 PAP) Tj ET
 0.93 0.93 0.93 rg 57.00 748.89 481.28 11.50 re f
@@ -323,7 +323,7 @@ endobj
 << /Length 11104 >>
 stream
 BT /F1 7.4 Tf 1 0 0 1 57.00 34 Tm (WaveFi \227 Fiche technique \267 Portail Wi-Fi du TCI \267 19/11/2026) Tj ET
-BT /F1 7.4 Tf 1 0 0 1 512.28 34 Tm (3 / 3) Tj ET
+BT /F1 7.4 Tf 1 0 0 1 512.28 34 Tm (3 / 4) Tj ET
 0.75 0.75 0.75 RG 0.5 w 57.00 44 m 538.28 44 l S
 0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 73.00 784.89 Tm (d\351finir conjointement \227 c'est l'un des objets de la phase de cadrage.) Tj ET
 0 0 0 rg BT /F2 12.50 Tf 1 0 0 1 57.00 765.49 Tm (9. Mise en \234uvre envisag\351e) Tj ET
@@ -385,7 +385,7 @@ BT /F1 7.4 Tf 1 0 0 1 512.28 34 Tm (3 / 3) Tj ET
 0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 57.00 577.69 Tm (servent \340 cadrer la capacit\351 du portail, pas \340 pr\351sumer du taux de connexion r\351el.) Tj ET
 0.93 0.93 0.93 rg 57.00 550.29 481.28 11.50 re f
 0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 61.00 552.79 Tm (P\351rim\350tre) Tj ET
-0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 235.94 552.79 Tm (2025) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 384.67 552.79 Tm (2025) Tj ET
 0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 411.13 552.79 Tm (Ordre de grandeur mensuel) Tj ET
 0.72 0.72 0.72 RG 0.6 w 57.00 550.29 m 57.00 561.79 l S
 0.72 0.72 0.72 RG 0.6 w 231.94 550.29 m 231.94 561.79 l S
@@ -401,13 +401,13 @@ BT /F1 7.4 Tf 1 0 0 1 512.28 34 Tm (3 / 3) Tj ET
 0.72 0.72 0.72 RG 0.6 w 407.13 535.79 m 407.13 547.29 l S
 0.72 0.72 0.72 RG 0.6 w 57.00 535.79 m 538.28 535.79 l S
 0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 61.00 523.79 Tm (\227 dont transpacifique) Tj ET
-0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 235.94 523.79 Tm (132 029) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 373.13 523.79 Tm (132 029) Tj ET
 0.72 0.72 0.72 RG 0.6 w 57.00 521.29 m 57.00 532.79 l S
 0.72 0.72 0.72 RG 0.6 w 231.94 521.29 m 231.94 532.79 l S
 0.72 0.72 0.72 RG 0.6 w 407.13 521.29 m 407.13 532.79 l S
 0.72 0.72 0.72 RG 0.6 w 57.00 521.29 m 538.28 521.29 l S
 0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 61.00 509.29 Tm (\227 dont interinsulaire) Tj ET
-0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 235.94 509.29 Tm (13 710) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 377.74 509.29 Tm (13 710) Tj ET
 0.72 0.72 0.72 RG 0.6 w 57.00 506.79 m 57.00 518.29 l S
 0.72 0.72 0.72 RG 0.6 w 231.94 506.79 m 231.94 518.29 l S
 0.72 0.72 0.72 RG 0.6 w 407.13 506.79 m 407.13 518.29 l S
@@ -474,22 +474,116 @@ endobj
 11 0 obj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 10 0 R >>
 endobj
+12 0 obj
+<< /Length 6695 >>
+stream
+BT /F1 7.4 Tf 1 0 0 1 57.00 34 Tm (WaveFi \227 Fiche technique \267 Portail Wi-Fi du TCI \267 19/11/2026) Tj ET
+BT /F1 7.4 Tf 1 0 0 1 512.28 34 Tm (4 / 4) Tj ET
+0.75 0.75 0.75 RG 0.5 w 57.00 44 m 538.28 44 l S
+0 0 0 rg BT /F2 12.50 Tf 1 0 0 1 57.00 780.89 Tm (Annexe A \227 Glossaire) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 57.00 760.39 Tm (Les termes ci-dessous sont employ\351s dans le pr\351sent document ) Tj ET
+0 0 0 rg BT /F2 10.00 Tf 1 0 0 1 344.90 760.39 Tm (au sens suivant) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 419.93 760.39 Tm (. Ils pr\351cisent l'usage) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 57.00 746.99 Tm (retenu, et non la d\351finition g\351n\351rale de ces notions.) Tj ET
+0.93 0.93 0.93 rg 57.00 719.59 481.28 11.50 re f
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 61.00 722.09 Tm (Terme) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 172.27 722.09 Tm (Sens retenu dans ce document) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 719.59 m 57.00 731.09 l S
+0.72 0.72 0.72 RG 0.6 w 168.27 719.59 m 168.27 731.09 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 719.59 m 538.28 719.59 l S
+0 0 0 rg BT /F2 8.30 Tf 1 0 0 1 61.00 707.59 Tm (Overlay) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 172.27 707.59 Tm (Mode de d\351ploiement dans lequel la solution s'ajoute au r\351seau existant sans le remplacer :) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 172.27 697.59 Tm (aucun mat\351riel fourni, aucun changement d'exploitant.) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 695.09 m 57.00 716.59 l S
+0.72 0.72 0.72 RG 0.6 w 168.27 695.09 m 168.27 716.59 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 695.09 m 538.28 695.09 l S
+0 0 0 rg BT /F2 8.30 Tf 1 0 0 1 61.00 683.09 Tm (R\351seau invit\351) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 172.27 683.09 Tm (Le r\351seau Wi-Fi destin\351 aux passagers, distinct du r\351seau d'exploitation. Au TCI : SSID) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 172.27 673.09 Tm (GUEST_TCI.) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 670.59 m 57.00 692.09 l S
+0.72 0.72 0.72 RG 0.6 w 168.27 670.59 m 168.27 692.09 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 670.59 m 538.28 670.59 l S
+0 0 0 rg BT /F2 8.30 Tf 1 0 0 1 61.00 658.59 Tm (Portail d'accueil) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 172.27 658.59 Tm (La page pr\351sent\351e au passager au moment de la connexion, avant l'ouverture de l'acc\350s internet.) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 656.09 m 57.00 667.59 l S
+0.72 0.72 0.72 RG 0.6 w 168.27 656.09 m 168.27 667.59 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 656.09 m 538.28 656.09 l S
+0 0 0 rg BT /F2 8.30 Tf 1 0 0 1 61.00 644.09 Tm (Invit\351) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 172.27 644.09 Tm (Un appareil ayant ouvert une session sur le portail. C'est l'unit\351 de d\351compte des quotas.) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 641.59 m 57.00 653.09 l S
+0.72 0.72 0.72 RG 0.6 w 168.27 641.59 m 168.27 653.09 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 641.59 m 538.28 641.59 l S
+0 0 0 rg BT /F2 8.30 Tf 1 0 0 1 61.00 629.59 Tm (Session) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 172.27 629.59 Tm (La p\351riode comprise entre l'authentification d'un invit\351 et sa d\351connexion ou son expiration.) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 627.09 m 57.00 638.59 l S
+0.72 0.72 0.72 RG 0.6 w 168.27 627.09 m 168.27 638.59 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 627.09 m 538.28 627.09 l S
+0 0 0 rg BT /F2 8.30 Tf 1 0 0 1 61.00 615.09 Tm (Liste d'autorisation) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 61.00 605.09 Tm (\(walled garden\)) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 172.27 615.09 Tm (Les adresses joignables avant authentification, limit\351es au n\351cessaire au fonctionnement du) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 172.27 605.09 Tm (portail.) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 602.59 m 57.00 624.09 l S
+0.72 0.72 0.72 RG 0.6 w 168.27 602.59 m 168.27 624.09 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 602.59 m 538.28 602.59 l S
+0 0 0 rg BT /F2 8.30 Tf 1 0 0 1 61.00 590.59 Tm (Indicateurs agr\351g\351s) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 172.27 590.59 Tm (Donn\351es de fr\351quentation restitu\351es sous forme de totaux \227 affluence, pics, langues \227 sans) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 172.27 580.59 Tm (identification des personnes.) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 578.09 m 57.00 599.59 l S
+0.72 0.72 0.72 RG 0.6 w 168.27 578.09 m 168.27 599.59 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 578.09 m 538.28 578.09 l S
+0 0 0 rg BT /F2 8.30 Tf 1 0 0 1 61.00 566.09 Tm (Sous-traitant) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 172.27 566.09 Tm (WaveFi, qui traite les donn\351es pour le compte du PAP, responsable du traitement.) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 563.59 m 57.00 575.09 l S
+0.72 0.72 0.72 RG 0.6 w 168.27 563.59 m 168.27 575.09 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 563.59 m 538.28 563.59 l S
+0 0 0 rg BT /F2 8.30 Tf 1 0 0 1 61.00 551.59 Tm (Annexe de traitement) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 61.00 541.59 Tm (\(DPA\)) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 172.27 551.59 Tm (Document encadrant les finalit\351s, les dur\351es et les garanties du traitement des donn\351es.) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 539.09 m 57.00 560.59 l S
+0.72 0.72 0.72 RG 0.6 w 168.27 539.09 m 168.27 560.59 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 539.09 m 538.28 539.09 l S
+0 0 0 rg BT /F2 8.30 Tf 1 0 0 1 61.00 527.09 Tm (Prestation d'int\351gration) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 172.27 527.09 Tm (Les travaux de mise en service, factur\351s une fois, distincts de l'abonnement.) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 524.59 m 57.00 536.09 l S
+0.72 0.72 0.72 RG 0.6 w 168.27 524.59 m 168.27 536.09 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 524.59 m 538.28 524.59 l S
+0 0 0 rg BT /F2 8.30 Tf 1 0 0 1 61.00 512.59 Tm (Recette) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 172.27 512.59 Tm (La v\351rification contradictoire des points de contr\364le, qui vaut acceptation du dispositif.) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 510.09 m 57.00 521.59 l S
+0.72 0.72 0.72 RG 0.6 w 168.27 510.09 m 168.27 521.59 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 510.09 m 538.28 510.09 l S
+0 0 0 rg BT /F2 8.30 Tf 1 0 0 1 61.00 498.09 Tm (Niveau de service) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 131.13 498.09 Tm ( \(SLA\)) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 172.27 498.09 Tm (Les engagements de disponibilit\351 et de d\351lai de prise en charge, d\351finis par contrat.) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 495.59 m 57.00 507.09 l S
+0.72 0.72 0.72 RG 0.6 w 168.27 495.59 m 168.27 507.09 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 495.59 m 538.28 495.59 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 492.59 m 538.28 492.59 l S
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 57.00 480.59 Tm (Ce glossaire ne d\351finit pas les notions g\351n\351rales de r\351seau \227 adressage, VLAN, protocoles \227 suppos\351es) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 57.00 467.19 Tm (connues du service destinataire.) Tj ET
+endstream
+endobj
+13 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 12 0 R >>
+endobj
 xref
-0 12
+0 14
 0000000000 65535 f 
 0000000015 00000 n 
 0000000064 00000 n 
-0000000134 00000 n 
-0000000231 00000 n 
-0000000333 00000 n 
-0000000428 00000 n 
-0000010970 00000 n 
-0000011122 00000 n 
-0000023097 00000 n 
-0000023249 00000 n 
-0000034407 00000 n 
+0000000141 00000 n 
+0000000238 00000 n 
+0000000340 00000 n 
+0000000435 00000 n 
+0000010977 00000 n 
+0000011129 00000 n 
+0000023104 00000 n 
+0000023256 00000 n 
+0000034414 00000 n 
+0000034568 00000 n 
+0000041316 00000 n 
 trailer
-<< /Size 12 /Root 1 0 R >>
+<< /Size 14 /Root 1 0 R >>
 startxref
-34561
+41470
 %%EOF

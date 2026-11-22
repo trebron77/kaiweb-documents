@@ -170,3 +170,28 @@ pas du trafic total : c'est le seul chiffre qui nous manque pour calibrer l'offr
 
 **Contact technique** — Norbert Kaimuko · contact@wavefi.tech · +689 87 70 01 79
 WaveFi — solution de Wi-Fi marketing validée par la DGEN (Direction générale de l'économie numérique).
+
+<!-- pagebreak -->
+
+## Annexe A — Glossaire
+
+Les termes ci-dessous sont employés dans le présent document **au sens suivant**. Ils précisent
+l'usage retenu, et non la définition générale de ces notions.
+
+| Terme | Sens retenu dans ce document |
+|---|---|
+| **Overlay** | Mode de déploiement dans lequel la solution s'ajoute au réseau existant sans le remplacer : aucun matériel fourni, aucun changement d'exploitant. |
+| **Réseau invité** | Le réseau Wi-Fi destiné aux passagers, distinct du réseau d'exploitation. Au TCI : SSID `GUEST_TCI`. |
+| **Portail d'accueil** | La page présentée au passager au moment de la connexion, avant l'ouverture de l'accès internet. |
+| **Invité** | Un appareil ayant ouvert une session sur le portail. C'est l'unité de décompte des quotas. |
+| **Session** | La période comprise entre l'authentification d'un invité et sa déconnexion ou son expiration. |
+| **Liste d'autorisation** *(walled garden)* | Les adresses joignables avant authentification, limitées au nécessaire au fonctionnement du portail. |
+| **Indicateurs agrégés** | Données de fréquentation restituées sous forme de totaux — affluence, pics, langues — sans identification des personnes. |
+| **Sous-traitant** | WaveFi, qui traite les données pour le compte du PAP, responsable du traitement. |
+| **Annexe de traitement** *(DPA)* | Document encadrant les finalités, les durées et les garanties du traitement des données. |
+| **Prestation d'intégration** | Les travaux de mise en service, facturés une fois, distincts de l'abonnement. |
+| **Recette** | La vérification contradictoire des points de contrôle, qui vaut acceptation du dispositif. |
+| **Niveau de service** *(SLA)* | Les engagements de disponibilité et de délai de prise en charge, définis par contrat. |
+
+*Ce glossaire ne définit pas les notions générales de réseau — adressage, VLAN, protocoles —
+supposées connues du service destinataire.*
