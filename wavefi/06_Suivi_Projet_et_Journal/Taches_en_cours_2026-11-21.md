@@ -19,9 +19,9 @@
 
 | # | Sujet | Échéance | Bloqué par |
 |---|---|---|---|
-| 1 | **Borne U6-LR** — livraison, puis **demander un bon de livraison daté** (payée d'avance) | **mardi 25/11** | fournisseur |
+| 1 | **Borne U6-LR** — livraison, puis **demander un bon de livraison daté** (payée d'avance) | **mardi 24/11** | fournisseur |
 | 2 | **PAP** — copie du commandant attendue ; **SMS de relance** s'il n'y a rien | **mardi 24/11** | le commandant |
-| 3 | **Contrôleur UniFi sur le VPS** — à installer avant l'arrivée de la borne | avant le 25/11 | rien |
+| 3 | **Contrôleur UniFi sur le VPS** — à installer avant l'arrivée de la borne | avant le 24/11 | rien |
 | 4 | **MyWiFi** — résiliation : aucun lieu à exporter ; puis corriger la CGV v1.4 et l'annexe 4 | — | décision prise |
 | 5 | **CGV v1.4 + annexe SLA v1.2** — brouillons prêts (quotas, classement, franchise en base) | — | validation |
 | 6 | **Devis PAP DEV-2026-001** — prêt (2 268 000 XPF année 1), **inexpediable avant le TAHITI** | — | immatriculation |
