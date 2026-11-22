@@ -45,7 +45,7 @@ Port Autonome de Papeete.
 | **WaveFi Pro** | Établissements en croissance, petits réseaux | 3 lieux, 3 000 invités/mois, campagnes avancées, statistiques détaillées |
 | **WaveFi Business** | Chaînes d'hôtels, groupes multi-sites | 10 lieux, 10 000 invités/mois, gestion centralisée, analytics avancés, support prioritaire |
 | **WaveFi Entreprise** | Grands comptes publics et infrastructures d'accueil (PAP/TCI, aéroports) | Overlay sur infrastructure existante (Cisco, Aruba, Ruckus…), volume élevé, SLA et support prioritaire. **Sur devis — non publié dans la grille aujourd'hui** (voir [`2026-11-19-chiffrage-plan-entreprise.md`](../03_Commercial_et_Prospection/7_Offre_et_Tarifs/2026-11-19-chiffrage-plan-entreprise.md)) |
-| **Pack +10 000 invités** | Pics de fréquentation | 10 000 invités supplémentaires/mois |
+| **Pack +1 000 invités** | Pics de fréquentation | 1 000 invités supplémentaires/mois — **7 990 XPF**, limité à 1 pack par mois |
 
 Détail et calcul du coût d'un set-up : `03_Commercial_et_Prospection/7_Offre_et_Tarifs/`.
 
