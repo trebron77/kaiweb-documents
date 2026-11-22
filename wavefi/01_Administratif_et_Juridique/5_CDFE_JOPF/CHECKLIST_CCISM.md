@@ -31,7 +31,7 @@ Trois points à compléter avant signature :
 | --- | --- |
 | Article 4 — siège | `38 rue du Maréchal Foch, Papeete` (domiciliation Papeete Coworking) |
 | Article 6 — banque | nom de la banque + date de dépôt (après l'étape 1) |
-| Article 15 — annexe | état des actes accomplis pour la société en formation |
+| Article 15 — annexe | ✅ **déjà intégrée** à la fin de `Satut SASU.docx` (sections 1 à 4) |
 
 ### 3. Signer les statuts
 

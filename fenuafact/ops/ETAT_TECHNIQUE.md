@@ -108,6 +108,64 @@ Migrations : `2026-11-17_abonnement.sql`, `2026-11-18_plan.sql`.
 - Un abonnement live non annulé est prélevé chaque mois : ne jamais en créer un pour une démonstration.
 - **Changement d'offre non validé sur abonnement actif** (2026-11-18) : l'endpoint, le JWT et les paramètres Dodo sont corrects, mais le test de bout en bout reste à faire en mode test avec une carte fictive. Codes d'erreur déjà rencontrés et corrigés : `INVALID_PRORATION_MODE_WITH_NEXT_BILLING_DATE` (descente : `full_immediately` obligatoire) et `INACTIVE_SUBSCRIPTION_PLAN_CHANGE_NOT_SUPPORTED` (abonnement annulé).
 
+## 2 quater. Documents de chantier — photos, PV, commandes
+
+Ajouté le 2026-11-21. Ce sont les trois fonctions du plan Pro.
+
+### Endpoints
+
+| Méthode | Chemin | Rôle |
+| --- | --- | --- |
+| POST | `/api/documents/{id}/photos` | envoi d'une photo (multipart, champ `fichier`) |
+| GET | `/api/documents/{id}/photos` | liste + liens signés (1 h) |
+| DELETE | `/api/documents/{id}/photos/{nom}` | suppression |
+| POST | `/api/pv` | procès-verbal de chantier |
+| POST | `/api/commandes` | commande de matériaux |
+
+### Numérotation
+
+Préfixes produits par `next_document_number` : `DEV`, `FAC`, `PV`, `CMD`.
+Deux migrations ont été nécessaires le 2026-11-21 :
+
+1. `2026-11-21_types_documents.sql` — élargit la contrainte de `document_counters`
+   aux types `pv` et `commande`.
+2. `2026-11-21_next_document_number.sql` — élargit la fonction SQL elle-même,
+   qui validait sa propre liste de types.
+
+### Stockage des photos
+
+- Bucket Supabase **`photos`**, privé. Chemin : `{tenant_id}/{document_id}/{uuid}.jpg`
+- Compression serveur à l'envoi : **1920 px** de côté maximum, qualité **82**
+  (≈ 300–500 Ko par photo, contre 1,5–4 Mo en original).
+- Limite applicative : **8 Mo** par photo.
+- **Nginx : `client_max_body_size 12m`** sur `api.fenuafact.com`.
+  Sans cette ligne, la limite par défaut (1 Mo) rejette les photos avant
+  qu'elles n'atteignent l'API — le navigateur affiche alors une erreur réseau.
+- Les liens d'affichage sont des URL signées, valables une heure.
+
+### PDF
+
+- `generate_pdf_pv` : réserves en **gras italique dans un cadre**, 3 cm de blanc
+  pour la signature manuscrite, annexe « PHOTOS DU CHANTIER » (2 par ligne, 8 max).
+- `generate_pdf_commande` : tableau des lignes, totaux HT/TVA/TTC, observations.
+- Le PV est **régénéré à chaque téléchargement** pour intégrer les photos ajoutées.
+- Police italique : `fonts-dejavu-extra` (DejaVuSans-Oblique / BoldOblique).
+
+### Réservé au plan Pro
+
+`_plan_pro_actif(tenant_id)` vérifie `abonnement_plan = 'pro'` **et**
+`abonnement_statut = 'actif'`. Sont refusés en Essentiel : création de PV,
+création de commande, **envoi** de photo. La lecture, la consultation et le
+téléchargement des PDF restent ouverts à tous les plans.
+
+### Données
+
+- Un PV stocke ses champs dans `devis.notes` sous forme de JSON :
+  `{ lieu, nature, observations, reserves }`. `nature` vaut `reception`,
+  `constat` ou `reunion`.
+- Une commande utilise `devis.client` pour le **fournisseur** et `devis.articles`
+  au même format que les devis : `{ description, quantite, prix_unitaire }`.
+
 ## 3. Règle de déploiement
 
 **Toujours vérifier la syntaxe avant de redémarrer.** La panne du 2026-11-17 venait d'une virgule manquante (ligne 276) : `Restart=always` a masqué l'échec en boucle de redémarrage, et l'API est restée muette plus d'une heure sans alerte.
