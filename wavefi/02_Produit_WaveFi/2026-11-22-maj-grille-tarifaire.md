@@ -55,6 +55,10 @@ existeront contractuellement, et n'apparaîtront sur le site que le jour où le 
 **Mention de bas de page :** « Tarifs en francs pacifique (FCFP), par mois. TVA non applicable —
 franchise en base. »
 
+**Bandeau d'engagement, sous le tableau :**
+> **−10 %** pour 12 mois réglés d'avance · **−15 %** pour un engagement de 24 mois.
+> Offre de lancement, première période d'engagement, hors intégration.
+
 ## 3. Application — écran des plans
 
 Trois valeurs à changer dans la source de vérité des limites :
