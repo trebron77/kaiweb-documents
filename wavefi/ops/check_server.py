@@ -4,12 +4,17 @@
 Vérifie que la page de connexion de l'admin OpenWISP répond HTTP 200, puis
 délègue l'envoi du message à `ops/discord_alert.py`.
 
+Silencieux par défaut : n'écrit sur Discord **qu'en cas de panne**. Un message
+quotidien « tout va bien » finit par ne plus être lu — c'est le rôle de
+`check_vps.py` sous `--heartbeat` de fournir un état des lieux à la demande.
+
 Usage :
-    python3 ops/check_server.py            # vérifie et envoie l'alerte
-    python3 ops/check_server.py --dry-run  # vérifie sans envoyer
+    python3 ops/check_server.py              # vérifie, n'alerte qu'en cas de panne
+    python3 ops/check_server.py --heartbeat  # envoie aussi le message « en ligne »
+    python3 ops/check_server.py --dry-run    # vérifie sans envoyer
 
 Codes de sortie :
-    0  serveur en ligne (alerte envoyée)
+    0  serveur en ligne (aucun message envoyé, sauf --heartbeat)
     1  serveur hors ligne (alerte envoyée)
     2  échec de l'envoi de l'alerte Discord
     3  erreur d'exécution (option invalide, etc.)
@@ -164,6 +169,11 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
         help="Vérifie sans envoyer de message Discord.",
     )
     parser.add_argument(
+        "--heartbeat",
+        action="store_true",
+        help="Envoie aussi le message lorsque le serveur est en ligne.",
+    )
+    parser.add_argument(
         "--alert-script",
         type=Path,
         default=ALERT_SCRIPT,
@@ -193,6 +203,10 @@ def main(argv: list[str] | None = None) -> int:
 
     if args.dry_run:
         return 0 if ok else 1
+
+    # Silencieux quand tout va bien : on n'alerte que sur panne.
+    if ok and not args.heartbeat:
+        return 0
 
     message = MESSAGE_ONLINE if ok else MESSAGE_OFFLINE
     if not send_alert(message, args.alert_script):

@@ -1,6 +1,9 @@
 # Runbook — supervision OpenWISP
 
 **Rôle :** vérifier chaque jour que l'admin OpenWISP répond, et alerter sur Discord.
+
+> **Silencieux par défaut** : le script n'écrit sur Discord **qu'en cas de panne**. `--heartbeat` force l'envoi du message « en ligne » quand on veut un état des lieux.
+> La surveillance des ressources du serveur (disque, mémoire, swap, mises à jour) est assurée séparément par `check_vps.py`, toutes les 6 h — voir `MAINTENANCE_VPS.md`.
 **Fichiers :** `ops/check_server.py`, `ops/discord_alert.py`, `ops/discord.env`, journal `ops/check_server.log`.
 
 ## Ce qui est vérifié
