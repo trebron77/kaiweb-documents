@@ -7,9 +7,9 @@
 
 | Élément | Valeur |
 |---|---|
-| Système | Ubuntu 26.04.1 LTS, noyau **7.0.0-44-generic** |
-| RAM | 3,8 Go — **1,4 Go disponibles**, swap à 0 |
-| Disque | 48 Go — **9,9 Go utilisés, 38 Go libres** (21 %) |
+| Système | Ubuntu 26.04.1 LTS, noyau **7.0.0-44-generic** · 2 vCPU |
+| RAM | **7,8 Go — 4,7 Go disponibles**, swap à 0 *(montée KVM 2 le 21/11)* |
+| Disque | **96 Go — 9,9 Go utilisés, 86 Go libres** (11 %) |
 | Services | **tout tourne en Docker** (`docker.service` est le seul service système) |
 | Ports exposés | TCP 80 et 443 · **UDP 1812 et 1813** (RADIUS, confirmé en écoute) |
 | Mises à jour | 39 appliquées le 21/11, redémarrage effectué ; `unattended-upgrades` **enabled** |
@@ -62,8 +62,7 @@ le compte ne peut pas le faire. Deux options si le besoin se présente :
 | Inventaire ports / disque / services | ✅ consigné § 1 |
 
 **Effet secondaire mesuré :** la RAM utilisée est passée de 1,7 à 2,4 Go après redémarrage (les
-services se chargent complètement). Marge réelle : **1,4 Go**. Cela confirme qu'aucun contrôleur
-UniFi ne doit être installé sur cette machine — il lui faut 1 à 1,5 Go à lui seul.
+services se chargent complètement). Marge réelle : **1,4 Go** — d'où la décision de passer à 8 Go.
 
 **Point de vigilance :** les 2 mises à jour « ESM Apps » signalées par Ubuntu relèvent d'Ubuntu Pro
 (service payant) et ne concernent pas le portail. Sans objet ici.
@@ -98,3 +97,25 @@ sur 3 911 Mo, swap 0 %, 0 mise à jour, RADIUS en écoute, portail HTTP 200.
 ⚠️ **774 Mo de marge mémoire : c'est peu.** La valeur oscille entre 0,7 et 1,4 Go selon la charge
 des conteneurs. C'est la confirmation chiffrée qu'un palier à 8 Go est nécessaire **avant** le
 premier client payant — et qu'aucun contrôleur UniFi ne doit être installé ici.
+
+### 2026-11-21 (Tahiti) — montée à 8 Go (KVM 1 → KVM 2)
+
+| Action | Résultat |
+|---|---|
+| Snapshot Hostinger avant opération | ✅ (expirait le 22/11) |
+| Upgrade de plan depuis hPanel | ✅ facture **H55430228**, 344,71 PLN |
+| Redémarrage et migration | ✅ serveur revenu |
+| RAM | ✅ **7,8 Go**, dont **4,7 Go disponibles** (contre 764 Mo) |
+| Disque | ✅ **96 Go** — agrandi automatiquement, pas de `growpart` nécessaire |
+| vCPU | ✅ 2 (contre 1) |
+| `systemctl --failed` | ✅ 0 unité en échec |
+| Port 3030 (application PM2) | ✅ HTTP 200 |
+| Portail `radius.wavefi.tech` | ✅ HTTP 200 |
+| RADIUS UDP 1812/1813 | ✅ toujours en écoute |
+
+**Conséquence :** la contrainte mémoire est levée. Le contrôleur UniFi peut désormais être installé
+sur ce serveur (1 à 1,5 Go), au lieu d'un portable — c'était l'objectif de la montée en gamme.
+
+⚠️ **Point resté ouvert :** au retrait du module Daily Backup, le crédit Hostinger est passé de
+412,37 à 282,19 PLN (−130,18 PLN, ≈ 29 €) sans explication claire. À réclamer sur la base de la
+facture H55430228, si le sujet en vaut encore la peine.
