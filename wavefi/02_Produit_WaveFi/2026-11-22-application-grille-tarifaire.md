@@ -60,6 +60,25 @@ Trois valeurs à changer, une seule fois, là où le produit les lit :
 | Business | 10 | 10 000 |
 | Enterprise | illimité | illimité |
 
+
+### Correspondance produits Dodo → plans de l'application
+
+Les trois plans existants ont gardé leur identifiant. Les trois nouveaux en ont un autre : l'app doit
+les reconnaître aussi, sinon un client annuel serait traité comme un inconnu.
+
+| Produit Dodo | Identifiant | Plan applicatif |
+|---|---|---|
+| WaveFi Starter | `pdT_0Nr6sIWtU9ADTw47cvZzhN` | Starter |
+| WaveFi Pro | `pdT_0Nr6l27Iv63qk6WvSBddY` | Pro |
+| WaveFi Business | `pdT_0Nr6tGhdGGNYuaqx0IZO5` | Business |
+| WaveFi Starter — 12 mois | `pdT_0NsX2RTJhtoNegWB40Liq` | Starter |
+| WaveFi Pro — 12 mois | `pdT_0NsX2psrlXtirqXBNi2CC` | Pro |
+| WaveFi Business — 12 mois | *en attente du relèvement de plafond* | Business |
+| Pack +1 000 invités | `pdT_0NsX5JzIGjhO3pETsGFXO` | option, pas un plan |
+
+**Question à trancher par l'application :** comment reconnaît-elle le plan d'un abonné ? Par
+identifiant produit, par nom, ou par prix ? Si c'est le nom, les produits renommés casseront le lien.
+
 Puis vérifier que **les jauges du dashboard, le seuil d'alerte à 80 % et les textes de la page
 tarifs** lisent cette même source. Si une limite est écrite en dur ailleurs, elle y restera quand tu
 changeras la grille dans deux ans.
