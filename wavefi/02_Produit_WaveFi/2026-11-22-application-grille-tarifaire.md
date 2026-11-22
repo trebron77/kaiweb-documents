@@ -2,8 +2,8 @@
 
 > Rédigé le **2026-11-22**. À garder ouvert pendant la saisie.
 > Grille validée : 9 990 / 26 900 / 79 900 · quotas 1 000 / 3 000 / 10 000 · lieux 1 / 3 / 10.
-> Remise d'engagement : −10 % pour 12 mois réglés d'avance · −15 % sur 24 mois ou pour les trois
-> premiers clients (contre référence écrite).
+> Remise d'engagement : **−10 % pour 12 mois réglés d'avance**. Le −15 % est réservé aux trois
+> premiers clients, contre référence écrite — ce n'est pas une offre publique.
 
 ## L'ordre, et pourquoi il n'est pas négociable
 
@@ -95,8 +95,7 @@ changeras la grille dans deux ans.
 
 ### Bandeau d'engagement, sous le tableau
 
-> **−10 %** pour 12 mois réglés d'avance · **−15 %** pour un engagement de 24 mois.
-> Offre de lancement, première période d'engagement, hors intégration.
+> **−10 %** pour 12 mois réglés d'avance. Offre de lancement, hors intégration.
 
 ### Mention de bas de page
 

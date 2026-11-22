@@ -16,7 +16,7 @@ endobj
 << /Type /Font /Subtype /Type1 /BaseFont /Courier /Encoding /WinAnsiEncoding >>
 endobj
 6 0 obj
-<< /Length 13095 >>
+<< /Length 13242 >>
 stream
 BT /F1 7.4 Tf 1 0 0 1 57.00 34 Tm (WaveFi \227 Application de la grille tarifaire \267 22/11/2026) Tj ET
 BT /F1 7.4 Tf 1 0 0 1 512.28 34 Tm (1 / 2) Tj ET
@@ -26,8 +26,10 @@ BT /F1 7.4 Tf 1 0 0 1 512.28 34 Tm (1 / 2) Tj ET
 0 0 0 rg BT /F1 9.20 Tf 1 0 0 1 71.00 745.89 Tm (R\351dig\351 le ) Tj ET
 0 0 0 rg BT /F2 9.20 Tf 1 0 0 1 112.42 745.89 Tm (2026-11-22) Tj ET
 0 0 0 rg BT /F1 9.20 Tf 1 0 0 1 159.47 745.89 Tm (. \300 garder ouvert pendant la saisie. Grille valid\351e : 9 990 / 26 900 / 79 900 \267 quotas 1 000 /) Tj ET
-0 0 0 rg BT /F1 9.20 Tf 1 0 0 1 71.00 733.29 Tm (3 000 / 10 000 \267 lieux 1 / 3 / 10. Remise d'engagement : -10 % pour 12 mois r\351gl\351s d'avance \267 -15 % sur 24 mois) Tj ET
-0 0 0 rg BT /F1 9.20 Tf 1 0 0 1 71.00 720.69 Tm (ou pour les trois premiers clients \(contre r\351f\351rence \351crite\).) Tj ET
+0 0 0 rg BT /F1 9.20 Tf 1 0 0 1 71.00 733.29 Tm (3 000 / 10 000 \267 lieux 1 / 3 / 10. Remise d'engagement : ) Tj ET
+0 0 0 rg BT /F2 9.20 Tf 1 0 0 1 299.32 733.29 Tm (-10 % pour 12 mois r\351gl\351s d'avance) Tj ET
+0 0 0 rg BT /F1 9.20 Tf 1 0 0 1 454.39 733.29 Tm (. Le -15 % est) Tj ET
+0 0 0 rg BT /F1 9.20 Tf 1 0 0 1 71.00 720.69 Tm (r\351serv\351 aux trois premiers clients, contre r\351f\351rence \351crite \227 ce n'est pas une offre publique.) Tj ET
 0.15 0.31 0.44 RG 2 w 59.00 755.89 m 59.00 710.09 l S
 0 0 0 rg BT /F2 12.50 Tf 1 0 0 1 57.00 696.09 Tm (L'ordre, et pourquoi il n'est pas n\351gociable) Tj ET
 0.93 0.93 0.93 rg 57.00 664.09 481.28 11.50 re f
@@ -218,7 +220,7 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 6 0 R >>
 endobj
 8 0 obj
-<< /Length 10337 >>
+<< /Length 10087 >>
 stream
 BT /F1 7.4 Tf 1 0 0 1 57.00 34 Tm (WaveFi \227 Application de la grille tarifaire \267 22/11/2026) Tj ET
 BT /F1 7.4 Tf 1 0 0 1 512.28 34 Tm (2 / 2) Tj ET
@@ -253,109 +255,106 @@ BT /F1 7.4 Tf 1 0 0 1 512.28 34 Tm (2 / 2) Tj ET
 0.15 0.31 0.44 RG 2 w 59.00 538.09 m 59.00 492.29 l S
 0 0 0 rg BT /F2 11.00 Tf 1 0 0 1 57.00 478.29 Tm (Bandeau d'engagement, sous le tableau) Tj ET
 0 0 0 rg BT /F2 9.20 Tf 1 0 0 1 71.00 463.29 Tm (-10 %) Tj ET
-0 0 0 rg BT /F1 9.20 Tf 1 0 0 1 95.03 463.29 Tm ( pour 12 mois r\351gl\351s d'avance \267 ) Tj ET
-0 0 0 rg BT /F2 9.20 Tf 1 0 0 1 225.14 463.29 Tm (-15 %) Tj ET
-0 0 0 rg BT /F1 9.20 Tf 1 0 0 1 249.17 463.29 Tm ( pour un engagement de 24 mois. Offre de lancement, premi\350re) Tj ET
-0 0 0 rg BT /F1 9.20 Tf 1 0 0 1 71.00 450.69 Tm (p\351riode d'engagement, hors int\351gration.) Tj ET
-0.15 0.31 0.44 RG 2 w 59.00 473.29 m 59.00 440.09 l S
-0 0 0 rg BT /F2 11.00 Tf 1 0 0 1 57.00 426.09 Tm (Mention de bas de page) Tj ET
-0 0 0 rg BT /F1 9.20 Tf 1 0 0 1 71.00 411.09 Tm (Tarifs en francs pacifique \(FCFP\), par mois. ) Tj ET
-0 0 0 rg BT /F2 9.20 Tf 1 0 0 1 251.98 411.09 Tm (TVA non applicable \227 franchise en base.) Tj ET
-0.15 0.31 0.44 RG 2 w 59.00 421.09 m 59.00 400.49 l S
-0.8 0.8 0.8 RG 0.6 w 57.00 390.49 m 538.28 390.49 l S
-0 0 0 rg BT /F2 12.50 Tf 1 0 0 1 57.00 372.49 Tm (4. Ce qu'on ne publie pas encore) Tj ET
-0.93 0.93 0.93 rg 57.00 340.49 481.28 11.50 re f
-0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 61.00 342.99 Tm (\311l\351ment) Tj ET
-0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 289.12 342.99 Tm (Pourquoi) Tj ET
-0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 441.38 342.99 Tm (O\371 il vit en attendant) Tj ET
-0.72 0.72 0.72 RG 0.6 w 57.00 340.49 m 57.00 351.99 l S
-0.72 0.72 0.72 RG 0.6 w 285.12 340.49 m 285.12 351.99 l S
-0.72 0.72 0.72 RG 0.6 w 437.38 340.49 m 437.38 351.99 l S
-0.72 0.72 0.72 RG 0.6 w 57.00 340.49 m 538.28 340.49 l S
-0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 61.00 328.49 Tm (\253 100 messages WhatsApp inclus \273) Tj ET
-0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 289.12 328.49 Tm (le produit ne compte pas les messages) Tj ET
-0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 441.38 328.49 Tm (CGV v1.4, article tarifaire) Tj ET
-0.72 0.72 0.72 RG 0.6 w 57.00 325.99 m 57.00 337.49 l S
-0.72 0.72 0.72 RG 0.6 w 285.12 325.99 m 285.12 337.49 l S
-0.72 0.72 0.72 RG 0.6 w 437.38 325.99 m 437.38 337.49 l S
-0.72 0.72 0.72 RG 0.6 w 57.00 325.99 m 538.28 325.99 l S
-0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 61.00 313.99 Tm (\253 20 min / 1 h / 2 h de support incluses \273) Tj ET
-0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 289.12 313.99 Tm (idem pour le temps) Tj ET
-0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 441.38 313.99 Tm (CGV v1.4) Tj ET
-0.72 0.72 0.72 RG 0.6 w 57.00 311.49 m 57.00 322.99 l S
-0.72 0.72 0.72 RG 0.6 w 285.12 311.49 m 285.12 322.99 l S
-0.72 0.72 0.72 RG 0.6 w 437.38 311.49 m 437.38 322.99 l S
-0.72 0.72 0.72 RG 0.6 w 57.00 311.49 m 538.28 311.49 l S
-0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 61.00 299.49 Tm (Les tarifs de d\351passement \(15 XPF/message, 7 500 XPF/h\)) Tj ET
-0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 289.12 299.49 Tm (supposent un compteur) Tj ET
-0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 441.38 299.49 Tm (CGV v1.4) Tj ET
-0.72 0.72 0.72 RG 0.6 w 57.00 296.99 m 57.00 308.49 l S
-0.72 0.72 0.72 RG 0.6 w 285.12 296.99 m 285.12 308.49 l S
-0.72 0.72 0.72 RG 0.6 w 437.38 296.99 m 437.38 308.49 l S
-0.72 0.72 0.72 RG 0.6 w 57.00 296.99 m 538.28 296.99 l S
-0.72 0.72 0.72 RG 0.6 w 57.00 293.99 m 538.28 293.99 l S
-0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 57.00 281.99 Tm (Le jour o\371 le compteur existe, ces trois lignes remontent sur le site \227 et nulle part avant.) Tj ET
-0.8 0.8 0.8 RG 0.6 w 57.00 266.09 m 538.28 266.09 l S
-0 0 0 rg BT /F2 12.50 Tf 1 0 0 1 57.00 248.09 Tm (5. Tests, avant de consid\351rer que c'est fait) Tj ET
-0.93 0.93 0.93 rg 57.00 216.09 481.28 11.50 re f
-0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 61.00 218.59 Tm (#) Tj ET
-0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 73.61 218.59 Tm (Test) Tj ET
-0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 296.46 218.59 Tm (Attendu) Tj ET
-0.72 0.72 0.72 RG 0.6 w 57.00 216.09 m 57.00 227.59 l S
-0.72 0.72 0.72 RG 0.6 w 69.61 216.09 m 69.61 227.59 l S
-0.72 0.72 0.72 RG 0.6 w 292.46 216.09 m 292.46 227.59 l S
-0.72 0.72 0.72 RG 0.6 w 57.00 216.09 m 538.28 216.09 l S
-0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 61.00 204.09 Tm (1) Tj ET
-0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 73.61 204.09 Tm (Cr\351er un compte de test sur le plan Starter) Tj ET
-0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 296.46 204.09 Tm (jauge \253 0 / 1 000 invit\351s \273, \253 1 lieu \273) Tj ET
-0.72 0.72 0.72 RG 0.6 w 57.00 201.59 m 57.00 213.09 l S
-0.72 0.72 0.72 RG 0.6 w 69.61 201.59 m 69.61 213.09 l S
-0.72 0.72 0.72 RG 0.6 w 292.46 201.59 m 292.46 213.09 l S
-0.72 0.72 0.72 RG 0.6 w 57.00 201.59 m 538.28 201.59 l S
-0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 61.00 189.59 Tm (2) Tj ET
-0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 73.61 189.59 Tm (Passer au plan Pro) Tj ET
-0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 296.46 189.59 Tm (jauge mise \340 jour sans rechargement de configuration) Tj ET
-0.72 0.72 0.72 RG 0.6 w 57.00 187.09 m 57.00 198.59 l S
-0.72 0.72 0.72 RG 0.6 w 69.61 187.09 m 69.61 198.59 l S
-0.72 0.72 0.72 RG 0.6 w 292.46 187.09 m 292.46 198.59 l S
-0.72 0.72 0.72 RG 0.6 w 57.00 187.09 m 538.28 187.09 l S
-0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 61.00 175.09 Tm (3) Tj ET
-0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 73.61 175.09 Tm (D\351passer 80 % du quota sur un compte de test) Tj ET
-0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 296.46 175.09 Tm (alerte affich\351e) Tj ET
-0.72 0.72 0.72 RG 0.6 w 57.00 172.59 m 57.00 184.09 l S
-0.72 0.72 0.72 RG 0.6 w 69.61 172.59 m 69.61 184.09 l S
-0.72 0.72 0.72 RG 0.6 w 292.46 172.59 m 292.46 184.09 l S
-0.72 0.72 0.72 RG 0.6 w 57.00 172.59 m 538.28 172.59 l S
-0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 61.00 160.59 Tm (4) Tj ET
-0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 73.61 160.59 Tm (Aller au paiement Starter mensuel) Tj ET
-0 0 0 rg BT /F2 8.30 Tf 1 0 0 1 296.46 160.59 Tm (9 990 FCFP) Tj ET
-0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 341.20 160.59 Tm (, pas 4 995) Tj ET
-0.72 0.72 0.72 RG 0.6 w 57.00 158.09 m 57.00 169.59 l S
-0.72 0.72 0.72 RG 0.6 w 69.61 158.09 m 69.61 169.59 l S
-0.72 0.72 0.72 RG 0.6 w 292.46 158.09 m 292.46 169.59 l S
-0.72 0.72 0.72 RG 0.6 w 57.00 158.09 m 538.28 158.09 l S
-0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 61.00 146.09 Tm (5) Tj ET
-0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 73.61 146.09 Tm (Aller au paiement Starter annuel) Tj ET
-0 0 0 rg BT /F2 8.30 Tf 1 0 0 1 296.46 146.09 Tm (107 892 FCFP) Tj ET
-0.72 0.72 0.72 RG 0.6 w 57.00 143.59 m 57.00 155.09 l S
-0.72 0.72 0.72 RG 0.6 w 69.61 143.59 m 69.61 155.09 l S
-0.72 0.72 0.72 RG 0.6 w 292.46 143.59 m 292.46 155.09 l S
-0.72 0.72 0.72 RG 0.6 w 57.00 143.59 m 538.28 143.59 l S
-0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 61.00 131.59 Tm (6) Tj ET
-0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 73.61 131.59 Tm (V\351rifier la mention TVA sur la page de paiement) Tj ET
-0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 296.46 131.59 Tm (\253 TVA non applicable \227 franchise en base \273) Tj ET
-0.72 0.72 0.72 RG 0.6 w 57.00 129.09 m 57.00 140.59 l S
-0.72 0.72 0.72 RG 0.6 w 69.61 129.09 m 69.61 140.59 l S
-0.72 0.72 0.72 RG 0.6 w 292.46 129.09 m 292.46 140.59 l S
-0.72 0.72 0.72 RG 0.6 w 57.00 129.09 m 538.28 129.09 l S
-0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 61.00 117.09 Tm (7) Tj ET
-0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 73.61 117.09 Tm (Relire la page tarifs sur un t\351l\351phone) Tj ET
-0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 296.46 117.09 Tm (trois offres lisibles sans zoom) Tj ET
-0.72 0.72 0.72 RG 0.6 w 57.00 114.59 m 57.00 126.09 l S
-0.72 0.72 0.72 RG 0.6 w 69.61 114.59 m 69.61 126.09 l S
-0.72 0.72 0.72 RG 0.6 w 292.46 114.59 m 292.46 126.09 l S
-0.72 0.72 0.72 RG 0.6 w 57.00 114.59 m 538.28 114.59 l S
-0.72 0.72 0.72 RG 0.6 w 57.00 111.59 m 538.28 111.59 l S
+0 0 0 rg BT /F1 9.20 Tf 1 0 0 1 95.03 463.29 Tm ( pour 12 mois r\351gl\351s d'avance. Offre de lancement, hors int\351gration.) Tj ET
+0.15 0.31 0.44 RG 2 w 59.00 473.29 m 59.00 452.69 l S
+0 0 0 rg BT /F2 11.00 Tf 1 0 0 1 57.00 438.69 Tm (Mention de bas de page) Tj ET
+0 0 0 rg BT /F1 9.20 Tf 1 0 0 1 71.00 423.69 Tm (Tarifs en francs pacifique \(FCFP\), par mois. ) Tj ET
+0 0 0 rg BT /F2 9.20 Tf 1 0 0 1 251.98 423.69 Tm (TVA non applicable \227 franchise en base.) Tj ET
+0.15 0.31 0.44 RG 2 w 59.00 433.69 m 59.00 413.09 l S
+0.8 0.8 0.8 RG 0.6 w 57.00 403.09 m 538.28 403.09 l S
+0 0 0 rg BT /F2 12.50 Tf 1 0 0 1 57.00 385.09 Tm (4. Ce qu'on ne publie pas encore) Tj ET
+0.93 0.93 0.93 rg 57.00 353.09 481.28 11.50 re f
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 61.00 355.59 Tm (\311l\351ment) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 289.12 355.59 Tm (Pourquoi) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 441.38 355.59 Tm (O\371 il vit en attendant) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 353.09 m 57.00 364.59 l S
+0.72 0.72 0.72 RG 0.6 w 285.12 353.09 m 285.12 364.59 l S
+0.72 0.72 0.72 RG 0.6 w 437.38 353.09 m 437.38 364.59 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 353.09 m 538.28 353.09 l S
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 61.00 341.09 Tm (\253 100 messages WhatsApp inclus \273) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 289.12 341.09 Tm (le produit ne compte pas les messages) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 441.38 341.09 Tm (CGV v1.4, article tarifaire) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 338.59 m 57.00 350.09 l S
+0.72 0.72 0.72 RG 0.6 w 285.12 338.59 m 285.12 350.09 l S
+0.72 0.72 0.72 RG 0.6 w 437.38 338.59 m 437.38 350.09 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 338.59 m 538.28 338.59 l S
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 61.00 326.59 Tm (\253 20 min / 1 h / 2 h de support incluses \273) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 289.12 326.59 Tm (idem pour le temps) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 441.38 326.59 Tm (CGV v1.4) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 324.09 m 57.00 335.59 l S
+0.72 0.72 0.72 RG 0.6 w 285.12 324.09 m 285.12 335.59 l S
+0.72 0.72 0.72 RG 0.6 w 437.38 324.09 m 437.38 335.59 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 324.09 m 538.28 324.09 l S
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 61.00 312.09 Tm (Les tarifs de d\351passement \(15 XPF/message, 7 500 XPF/h\)) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 289.12 312.09 Tm (supposent un compteur) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 441.38 312.09 Tm (CGV v1.4) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 309.59 m 57.00 321.09 l S
+0.72 0.72 0.72 RG 0.6 w 285.12 309.59 m 285.12 321.09 l S
+0.72 0.72 0.72 RG 0.6 w 437.38 309.59 m 437.38 321.09 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 309.59 m 538.28 309.59 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 306.59 m 538.28 306.59 l S
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 57.00 294.59 Tm (Le jour o\371 le compteur existe, ces trois lignes remontent sur le site \227 et nulle part avant.) Tj ET
+0.8 0.8 0.8 RG 0.6 w 57.00 278.69 m 538.28 278.69 l S
+0 0 0 rg BT /F2 12.50 Tf 1 0 0 1 57.00 260.69 Tm (5. Tests, avant de consid\351rer que c'est fait) Tj ET
+0.93 0.93 0.93 rg 57.00 228.69 481.28 11.50 re f
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 61.00 231.19 Tm (#) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 73.61 231.19 Tm (Test) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 296.46 231.19 Tm (Attendu) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 228.69 m 57.00 240.19 l S
+0.72 0.72 0.72 RG 0.6 w 69.61 228.69 m 69.61 240.19 l S
+0.72 0.72 0.72 RG 0.6 w 292.46 228.69 m 292.46 240.19 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 228.69 m 538.28 228.69 l S
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 61.00 216.69 Tm (1) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 73.61 216.69 Tm (Cr\351er un compte de test sur le plan Starter) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 296.46 216.69 Tm (jauge \253 0 / 1 000 invit\351s \273, \253 1 lieu \273) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 214.19 m 57.00 225.69 l S
+0.72 0.72 0.72 RG 0.6 w 69.61 214.19 m 69.61 225.69 l S
+0.72 0.72 0.72 RG 0.6 w 292.46 214.19 m 292.46 225.69 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 214.19 m 538.28 214.19 l S
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 61.00 202.19 Tm (2) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 73.61 202.19 Tm (Passer au plan Pro) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 296.46 202.19 Tm (jauge mise \340 jour sans rechargement de configuration) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 199.69 m 57.00 211.19 l S
+0.72 0.72 0.72 RG 0.6 w 69.61 199.69 m 69.61 211.19 l S
+0.72 0.72 0.72 RG 0.6 w 292.46 199.69 m 292.46 211.19 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 199.69 m 538.28 199.69 l S
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 61.00 187.69 Tm (3) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 73.61 187.69 Tm (D\351passer 80 % du quota sur un compte de test) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 296.46 187.69 Tm (alerte affich\351e) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 185.19 m 57.00 196.69 l S
+0.72 0.72 0.72 RG 0.6 w 69.61 185.19 m 69.61 196.69 l S
+0.72 0.72 0.72 RG 0.6 w 292.46 185.19 m 292.46 196.69 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 185.19 m 538.28 185.19 l S
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 61.00 173.19 Tm (4) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 73.61 173.19 Tm (Aller au paiement Starter mensuel) Tj ET
+0 0 0 rg BT /F2 8.30 Tf 1 0 0 1 296.46 173.19 Tm (9 990 FCFP) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 341.20 173.19 Tm (, pas 4 995) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 170.69 m 57.00 182.19 l S
+0.72 0.72 0.72 RG 0.6 w 69.61 170.69 m 69.61 182.19 l S
+0.72 0.72 0.72 RG 0.6 w 292.46 170.69 m 292.46 182.19 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 170.69 m 538.28 170.69 l S
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 61.00 158.69 Tm (5) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 73.61 158.69 Tm (Aller au paiement Starter annuel) Tj ET
+0 0 0 rg BT /F2 8.30 Tf 1 0 0 1 296.46 158.69 Tm (107 892 FCFP) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 156.19 m 57.00 167.69 l S
+0.72 0.72 0.72 RG 0.6 w 69.61 156.19 m 69.61 167.69 l S
+0.72 0.72 0.72 RG 0.6 w 292.46 156.19 m 292.46 167.69 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 156.19 m 538.28 156.19 l S
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 61.00 144.19 Tm (6) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 73.61 144.19 Tm (V\351rifier la mention TVA sur la page de paiement) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 296.46 144.19 Tm (\253 TVA non applicable \227 franchise en base \273) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 141.69 m 57.00 153.19 l S
+0.72 0.72 0.72 RG 0.6 w 69.61 141.69 m 69.61 153.19 l S
+0.72 0.72 0.72 RG 0.6 w 292.46 141.69 m 292.46 153.19 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 141.69 m 538.28 141.69 l S
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 61.00 129.69 Tm (7) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 73.61 129.69 Tm (Relire la page tarifs sur un t\351l\351phone) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 296.46 129.69 Tm (trois offres lisibles sans zoom) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 127.19 m 57.00 138.69 l S
+0.72 0.72 0.72 RG 0.6 w 69.61 127.19 m 69.61 138.69 l S
+0.72 0.72 0.72 RG 0.6 w 292.46 127.19 m 292.46 138.69 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 127.19 m 538.28 127.19 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 124.19 m 538.28 124.19 l S
 endstream
 endobj
 9 0 obj
@@ -370,11 +369,11 @@ xref
 0000000224 00000 n 
 0000000326 00000 n 
 0000000421 00000 n 
-0000013569 00000 n 
-0000013721 00000 n 
-0000024111 00000 n 
+0000013716 00000 n 
+0000013868 00000 n 
+0000024008 00000 n 
 trailer
 << /Size 10 /Root 1 0 R >>
 startxref
-24263
+24160
 %%EOF
