@@ -1,0 +1,263 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Count 1 /Kids [7 0 R] >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier /Encoding /WinAnsiEncoding >>
+endobj
+6 0 obj
+<< /Length 16133 >>
+stream
+BT /F1 7.4 Tf 1 0 0 1 57.00 34 Tm (WaveFi \227 Lexique fiche technique PAP \267 interne) Tj ET
+BT /F1 7.4 Tf 1 0 0 1 512.28 34 Tm (1 / 1) Tj ET
+0.75 0.75 0.75 RG 0.5 w 57.00 44 m 538.28 44 l S
+0 0 0 rg BT /F2 17.00 Tf 1 0 0 1 57.00 784.89 Tm (Lexique de la fiche technique PAP) Tj ET
+0.15 0.31 0.44 RG 1.2 w 57.00 759.89 m 147.00 759.89 l S
+0 0 0 rg BT /F1 9.20 Tf 1 0 0 1 71.00 745.89 Tm (R\351dig\351 le ) Tj ET
+0 0 0 rg BT /F2 9.20 Tf 1 0 0 1 112.42 745.89 Tm (2026-11-22) Tj ET
+0 0 0 rg BT /F1 9.20 Tf 1 0 0 1 159.47 745.89 Tm (. Document ) Tj ET
+0 0 0 rg BT /F2 9.20 Tf 1 0 0 1 209.06 745.89 Tm (interne) Tj ET
+0 0 0 rg BT /F1 9.20 Tf 1 0 0 1 239.74 745.89 Tm (. Vocabulaire employ\351 dans 2026-11-19-fiche-technique-PAP.md,) Tj ET
+0 0 0 rg BT /F1 9.20 Tf 1 0 0 1 71.00 733.29 Tm (expliqu\351 en fran\347ais courant. ) Tj ET
+0 0 0 rg BT /F2 9.20 Tf 1 0 0 1 191.17 733.29 Tm (Ne jamais joindre ce lexique au Port.) Tj ET
+0 0 0 rg BT /F1 9.20 Tf 1 0 0 1 351.21 733.29 Tm ( Un service informatique conna\356t ces mots) Tj ET
+0 0 0 rg BT /F1 9.20 Tf 1 0 0 1 71.00 720.69 Tm (par c\234ur ; le lui envoyer serait condescendant, et donnerait le signal inverse de celui recherch\351. Cette feuille est) Tj ET
+0 0 0 rg BT /F1 9.20 Tf 1 0 0 1 71.00 708.09 Tm (pour toi, avant et apr\350s la r\351union.) Tj ET
+0.15 0.31 0.44 RG 2 w 59.00 755.89 m 59.00 697.49 l S
+0.93 0.93 0.93 rg 57.00 675.99 481.28 11.50 re f
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 61.00 678.49 Tm (Terme) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 136.42 678.49 Tm (En une phrase) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 320.97 678.49 Tm (Ce que tu r\351ponds) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 675.99 m 57.00 687.49 l S
+0.72 0.72 0.72 RG 0.6 w 132.42 675.99 m 132.42 687.49 l S
+0.72 0.72 0.72 RG 0.6 w 316.97 675.99 m 316.97 687.49 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 675.99 m 538.28 675.99 l S
+0 0 0 rg BT /F2 8.30 Tf 1 0 0 1 61.00 663.99 Tm (Overlay) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 136.42 663.99 Tm (Couche logicielle par-dessus l'existant) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 320.97 663.99 Tm (\253 On ne remplace ni vos bornes ni votre contr\364leur. \273) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 661.49 m 57.00 672.99 l S
+0.72 0.72 0.72 RG 0.6 w 132.42 661.49 m 132.42 672.99 l S
+0.72 0.72 0.72 RG 0.6 w 316.97 661.49 m 316.97 672.99 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 661.49 m 538.28 661.49 l S
+0 0 0 rg BT /F2 8.30 Tf 1 0 0 1 61.00 649.49 Tm (SSID) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 136.42 649.49 Tm (Nom du r\351seau Wi-Fi visible) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 320.97 649.49 Tm (\253 Le r\351seau invit\351 que vos passagers voient. \273) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 646.99 m 57.00 658.49 l S
+0.72 0.72 0.72 RG 0.6 w 132.42 646.99 m 132.42 658.49 l S
+0.72 0.72 0.72 RG 0.6 w 316.97 646.99 m 316.97 658.49 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 646.99 m 538.28 646.99 l S
+0 0 0 rg BT /F2 8.30 Tf 1 0 0 1 61.00 634.99 Tm (Borne / AP) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 136.42 634.99 Tm (L'antenne qui diffuse le Wi-Fi) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 320.97 634.99 Tm (\253 Vos bornes restent en place. \273) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 632.49 m 57.00 643.99 l S
+0.72 0.72 0.72 RG 0.6 w 132.42 632.49 m 132.42 643.99 l S
+0.72 0.72 0.72 RG 0.6 w 316.97 632.49 m 316.97 643.99 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 632.49 m 538.28 632.49 l S
+0 0 0 rg BT /F2 8.30 Tf 1 0 0 1 61.00 620.49 Tm (Contr\364leur) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 136.42 620.49 Tm (Le cerveau qui pilote les bornes) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 320.97 620.49 Tm (\253 C'est chez vous, on s'y branche. \273) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 617.99 m 57.00 629.49 l S
+0.72 0.72 0.72 RG 0.6 w 132.42 617.99 m 132.42 629.49 l S
+0.72 0.72 0.72 RG 0.6 w 316.97 617.99 m 316.97 629.49 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 617.99 m 538.28 617.99 l S
+0 0 0 rg BT /F2 8.30 Tf 1 0 0 1 61.00 605.99 Tm (RADIUS) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 136.42 605.99 Tm (R\351pond oui ou non \340 une connexion) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 320.97 605.99 Tm (\253 Notre serveur d'authentification. \273) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 603.49 m 57.00 614.99 l S
+0.72 0.72 0.72 RG 0.6 w 132.42 603.49 m 132.42 614.99 l S
+0.72 0.72 0.72 RG 0.6 w 316.97 603.49 m 316.97 614.99 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 603.49 m 538.28 603.49 l S
+0 0 0 rg BT /F2 8.30 Tf 1 0 0 1 61.00 591.49 Tm (UDP) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 136.42 591.49 Tm (Transport rapide, sans accus\351 de r\351ception) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 320.97 591.49 Tm (\253 Le standard pour le RADIUS. \273) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 588.99 m 57.00 600.49 l S
+0.72 0.72 0.72 RG 0.6 w 132.42 588.99 m 132.42 600.49 l S
+0.72 0.72 0.72 RG 0.6 w 316.97 588.99 m 316.97 600.49 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 588.99 m 538.28 588.99 l S
+0 0 0 rg BT /F2 8.30 Tf 1 0 0 1 61.00 576.99 Tm (Ports 1812 / 1813) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 136.42 576.99 Tm (Authentification et comptabilit\351 RADIUS) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 320.97 576.99 Tm (\253 Deux ports UDP \340 autoriser en sortie. \273) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 574.49 m 57.00 585.99 l S
+0.72 0.72 0.72 RG 0.6 w 132.42 574.49 m 132.42 585.99 l S
+0.72 0.72 0.72 RG 0.6 w 316.97 574.49 m 316.97 585.99 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 574.49 m 538.28 574.49 l S
+0 0 0 rg BT /F2 8.30 Tf 1 0 0 1 61.00 562.49 Tm (DHCP) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 136.42 562.49 Tm (Distribue les adresses IP) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 320.97 562.49 Tm (\253 Le v\364tre reste en place. \273) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 559.99 m 57.00 571.49 l S
+0.72 0.72 0.72 RG 0.6 w 132.42 559.99 m 132.42 571.49 l S
+0.72 0.72 0.72 RG 0.6 w 316.97 559.99 m 316.97 571.49 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 559.99 m 538.28 559.99 l S
+0 0 0 rg BT /F2 8.30 Tf 1 0 0 1 61.00 547.99 Tm (DNS) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 136.42 547.99 Tm (Traduit les noms de domaine) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 320.97 547.99 Tm (\253 Sans lui, le portail ne charge pas. \273) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 545.49 m 57.00 556.99 l S
+0.72 0.72 0.72 RG 0.6 w 132.42 545.49 m 132.42 556.99 l S
+0.72 0.72 0.72 RG 0.6 w 316.97 545.49 m 316.97 556.99 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 545.49 m 538.28 545.49 l S
+0 0 0 rg BT /F2 8.30 Tf 1 0 0 1 61.00 533.49 Tm (VLAN) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 136.42 533.49 Tm (R\351seau s\351par\351 dans le r\351seau physique) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 320.97 533.49 Tm (\253 L'invit\351 ne voit pas votre exploitation. \273) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 530.99 m 57.00 542.49 l S
+0.72 0.72 0.72 RG 0.6 w 132.42 530.99 m 132.42 542.49 l S
+0.72 0.72 0.72 RG 0.6 w 316.97 530.99 m 316.97 542.49 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 530.99 m 538.28 530.99 l S
+0 0 0 rg BT /F2 8.30 Tf 1 0 0 1 61.00 518.99 Tm (HTTPS / TLS) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 136.42 518.99 Tm (Chiffrement des \351changes) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 320.97 518.99 Tm (\253 Le portail est chiffr\351. \273) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 516.49 m 57.00 527.99 l S
+0.72 0.72 0.72 RG 0.6 w 132.42 516.49 m 132.42 527.99 l S
+0.72 0.72 0.72 RG 0.6 w 316.97 516.49 m 316.97 527.99 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 516.49 m 538.28 516.49 l S
+0 0 0 rg BT /F2 8.30 Tf 1 0 0 1 61.00 504.49 Tm (Wi-Fi 6) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 136.42 504.49 Tm (G\351n\351ration r\351cente du Wi-Fi) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 320.97 504.49 Tm (\253 Vos bornes sont \340 jour. \273) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 501.99 m 57.00 513.49 l S
+0.72 0.72 0.72 RG 0.6 w 132.42 501.99 m 132.42 513.49 l S
+0.72 0.72 0.72 RG 0.6 w 316.97 501.99 m 316.97 513.49 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 501.99 m 538.28 501.99 l S
+0 0 0 rg BT /F2 8.30 Tf 1 0 0 1 61.00 489.99 Tm (Portail captif) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 136.42 489.99 Tm (Page affich\351e avant l'acc\350s internet) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 320.97 489.99 Tm (\253 C'est la page aux couleurs du Port. \273) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 487.49 m 57.00 498.99 l S
+0.72 0.72 0.72 RG 0.6 w 132.42 487.49 m 132.42 498.99 l S
+0.72 0.72 0.72 RG 0.6 w 316.97 487.49 m 316.97 498.99 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 487.49 m 538.28 487.49 l S
+0 0 0 rg BT /F2 8.30 Tf 1 0 0 1 61.00 475.49 Tm (Walled garden) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 136.42 475.49 Tm (Sites joignables avant authentification) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 320.97 475.49 Tm (\253 \300 configurer chez vous, on donne la liste. \273) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 472.99 m 57.00 484.49 l S
+0.72 0.72 0.72 RG 0.6 w 132.42 472.99 m 132.42 484.49 l S
+0.72 0.72 0.72 RG 0.6 w 316.97 472.99 m 316.97 484.49 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 472.99 m 538.28 472.99 l S
+0 0 0 rg BT /F2 8.30 Tf 1 0 0 1 61.00 460.99 Tm (Consentement) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 136.42 460.99 Tm (Accord explicite du passager) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 320.97 460.99 Tm (\253 Deux cases, aucune pr\351-coch\351e. \273) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 458.49 m 57.00 469.99 l S
+0.72 0.72 0.72 RG 0.6 w 132.42 458.49 m 132.42 469.99 l S
+0.72 0.72 0.72 RG 0.6 w 316.97 458.49 m 316.97 469.99 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 458.49 m 538.28 458.49 l S
+0 0 0 rg BT /F2 8.30 Tf 1 0 0 1 61.00 446.49 Tm (Agr\351g\351) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 136.42 446.49 Tm (Statistiques de groupe, pas de personnes) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 320.97 446.49 Tm (\253 On dit combien, pas qui. \273) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 443.99 m 57.00 455.49 l S
+0.72 0.72 0.72 RG 0.6 w 132.42 443.99 m 132.42 455.49 l S
+0.72 0.72 0.72 RG 0.6 w 316.97 443.99 m 316.97 455.49 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 443.99 m 538.28 443.99 l S
+0 0 0 rg BT /F2 8.30 Tf 1 0 0 1 61.00 431.99 Tm (Sous-traitant) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 136.42 431.99 Tm (Traite des donn\351es pour un autre) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 320.97 431.99 Tm (\253 Vous responsable, nous sous-traitant. \273) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 429.49 m 57.00 440.99 l S
+0.72 0.72 0.72 RG 0.6 w 132.42 429.49 m 132.42 440.99 l S
+0.72 0.72 0.72 RG 0.6 w 316.97 429.49 m 316.97 440.99 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 429.49 m 538.28 429.49 l S
+0 0 0 rg BT /F2 8.30 Tf 1 0 0 1 61.00 417.49 Tm (DPA) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 136.42 417.49 Tm (Contrat encadrant les donn\351es) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 320.97 417.49 Tm (\253 L'annexe est au dossier. \273) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 414.99 m 57.00 426.49 l S
+0.72 0.72 0.72 RG 0.6 w 132.42 414.99 m 132.42 426.49 l S
+0.72 0.72 0.72 RG 0.6 w 316.97 414.99 m 316.97 426.49 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 414.99 m 538.28 414.99 l S
+0 0 0 rg BT /F2 8.30 Tf 1 0 0 1 61.00 402.99 Tm (SLA) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 136.42 402.99 Tm (Engagement de service) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 320.97 402.99 Tm (\253 Il se construit avec vous. \273) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 400.49 m 57.00 411.99 l S
+0.72 0.72 0.72 RG 0.6 w 132.42 400.49 m 132.42 411.99 l S
+0.72 0.72 0.72 RG 0.6 w 316.97 400.49 m 316.97 411.99 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 400.49 m 538.28 400.49 l S
+0 0 0 rg BT /F2 8.30 Tf 1 0 0 1 61.00 388.49 Tm (Supervision) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 136.42 388.49 Tm (Surveillance automatique avec alerte) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 320.97 388.49 Tm (\253 Contr\364le quotidien, alerte si panne. \273) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 385.99 m 57.00 397.49 l S
+0.72 0.72 0.72 RG 0.6 w 132.42 385.99 m 132.42 397.49 l S
+0.72 0.72 0.72 RG 0.6 w 316.97 385.99 m 316.97 397.49 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 385.99 m 538.28 385.99 l S
+0 0 0 rg BT /F2 8.30 Tf 1 0 0 1 61.00 373.99 Tm (Recette) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 136.42 373.99 Tm (Validation finale par le client) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 320.97 373.99 Tm (\253 Vous signez, sur dix v\351rifications. \273) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 371.49 m 57.00 382.99 l S
+0.72 0.72 0.72 RG 0.6 w 132.42 371.49 m 132.42 382.99 l S
+0.72 0.72 0.72 RG 0.6 w 316.97 371.49 m 316.97 382.99 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 371.49 m 538.28 371.49 l S
+0 0 0 rg BT /F2 8.30 Tf 1 0 0 1 61.00 359.49 Tm (Cloud) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 136.42 359.49 Tm (H\351berg\351 chez un prestataire) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 320.97 359.49 Tm (\253 Chez nous, hors de votre r\351seau. \273) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 356.99 m 57.00 368.49 l S
+0.72 0.72 0.72 RG 0.6 w 132.42 356.99 m 132.42 368.49 l S
+0.72 0.72 0.72 RG 0.6 w 316.97 356.99 m 316.97 368.49 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 356.99 m 538.28 356.99 l S
+0 0 0 rg BT /F2 8.30 Tf 1 0 0 1 61.00 344.99 Tm (API) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 136.42 344.99 Tm (Porte d'entr\351e entre deux logiciels) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 320.97 344.99 Tm (\253 Nos \351changes avec vos outils. \273) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 342.49 m 57.00 353.99 l S
+0.72 0.72 0.72 RG 0.6 w 132.42 342.49 m 132.42 353.99 l S
+0.72 0.72 0.72 RG 0.6 w 316.97 342.49 m 316.97 353.99 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 342.49 m 538.28 342.49 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 339.49 m 538.28 339.49 l S
+0 0 0 rg BT /F2 12.50 Tf 1 0 0 1 57.00 323.49 Tm (Les trois mots \340 conna\356tre par c\234ur) Tj ET
+0 0 0 rg BT /F2 10.00 Tf 1 0 0 1 57.00 302.99 Tm (SSID) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 80.34 302.99 Tm (, ) Tj ET
+0 0 0 rg BT /F2 10.00 Tf 1 0 0 1 85.90 302.99 Tm (RADIUS) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 124.23 302.99 Tm (, ) Tj ET
+0 0 0 rg BT /F2 10.00 Tf 1 0 0 1 129.79 302.99 Tm (walled garden) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 196.48 302.99 Tm (. Ce sont ceux qui reviendront dans la conversation, et ceux qui prouvent) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 57.00 289.59 Tm (que tu sais de quoi tu parles. Le reste, tu peux l'apprendre en r\351union \227 un DSI ne juge pas ta vitesse, il juge) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 57.00 276.19 Tm (ta rigueur.) Tj ET
+0 0 0 rg BT /F2 12.50 Tf 1 0 0 1 57.00 256.29 Tm (Et trois tournures qui valent mieux que le jargon) Tj ET
+0.93 0.93 0.93 rg 57.00 224.29 481.28 11.50 re f
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 61.00 226.79 Tm (Au lieu de) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 262.62 226.79 Tm (Dis) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 224.29 m 57.00 235.79 l S
+0.72 0.72 0.72 RG 0.6 w 258.62 224.29 m 258.62 235.79 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 224.29 m 538.28 224.29 l S
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 61.00 212.29 Tm (\253 Il faut ouvrir les ports 1812 et 1813 en UDP sortant) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 61.00 202.29 Tm (\273) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 262.62 212.29 Tm (\253 Il faut autoriser votre contr\364leur \340 joindre notre serveur) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 262.62 202.29 Tm (d'authentification. \273) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 199.79 m 57.00 221.29 l S
+0.72 0.72 0.72 RG 0.6 w 258.62 199.79 m 258.62 221.29 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 199.79 m 538.28 199.79 l S
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 61.00 187.79 Tm (\253 Le walled garden doit inclure app.wavefi.tech \273) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 262.62 187.79 Tm (\253 Avant connexion, il faut laisser passer l'adresse de notre page. \273) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 185.29 m 57.00 196.79 l S
+0.72 0.72 0.72 RG 0.6 w 258.62 185.29 m 258.62 196.79 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 185.29 m 538.28 185.29 l S
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 61.00 173.29 Tm (\253 Le VLAN invit\351 doit \352tre isol\351 \273) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 262.62 173.29 Tm (\253 Le r\351seau invit\351 doit rester s\351par\351 de votre r\351seau d'exploitation. \273) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 170.79 m 57.00 182.29 l S
+0.72 0.72 0.72 RG 0.6 w 258.62 170.79 m 258.62 182.29 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 170.79 m 538.28 170.79 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 167.79 m 538.28 167.79 l S
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 57.00 155.79 Tm (Tu peux nommer les ports et les protocoles ) Tj ET
+0 0 0 rg BT /F2 10.00 Tf 1 0 0 1 251.52 155.79 Tm (apr\350s) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 278.20 155.79 Tm ( avoir dit la phrase simple \227 jamais avant.) Tj ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 6 0 R >>
+endobj
+xref
+0 8
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000121 00000 n 
+0000000218 00000 n 
+0000000320 00000 n 
+0000000415 00000 n 
+0000016601 00000 n 
+trailer
+<< /Size 8 /Root 1 0 R >>
+startxref
+16753
+%%EOF

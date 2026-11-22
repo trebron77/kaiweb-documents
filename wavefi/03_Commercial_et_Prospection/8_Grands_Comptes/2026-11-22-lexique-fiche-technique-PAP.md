@@ -7,31 +7,31 @@
 > le lui envoyer serait condescendant, et donnerait le signal inverse de celui recherché. Cette
 > feuille est pour toi, avant et après la réunion.
 
-| Terme | En une phrase | Ce que tu réponds si on te demande |
+| Terme | En une phrase | Ce que tu réponds |
 |---|---|---|
-| **Overlay** | Une couche logicielle posée **par-dessus** une installation existante, sans la remplacer | « On ne touche ni à vos bornes ni à votre contrôleur : on ajoute la page d'accueil. » |
-| **SSID** | Le nom du réseau Wi-Fi visible par le client (`GUEST_TCI`) | « C'est le réseau invité que vos passagers voient déjà. » |
-| **Borne / AP** | L'antenne qui diffuse le Wi-Fi dans une zone | « Vos bornes restent en place, ce sont des Alcatel-Lucent. » |
-| **Contrôleur** | Le cerveau qui pilote les bornes et porte les règles du réseau | « C'est chez vous, on s'y branche. » |
-| **RADIUS** | Le service qui répond oui ou non à une demande de connexion | « C'est notre serveur d'authentification. » |
-| **UDP** | Protocole de transport rapide, sans accusé de réception | « Le RADIUS utilise UDP, c'est le standard. » |
-| **Port 1812 / 1813** | Les deux « portes » du RADIUS : authentification et comptabilité | « Deux ports UDP à autoriser en sortie vers notre serveur. » |
-| **DHCP** | Le service qui distribue les adresses IP aux appareils | « Le vôtre reste en place, on n'y touche pas. » |
-| **DNS** | Le service qui traduit les noms de domaine en adresses | « Sans lui, le portail ne se charge pas. » |
-| **VLAN** | Un réseau séparé à l'intérieur du réseau physique | « L'invité ne voit jamais votre réseau d'exploitation. » |
-| **HTTPS / TLS** | Le chiffrement des échanges entre le navigateur et le portail | « Le portail est chiffré, comme n'importe quel site sérieux. » |
-| **Wi-Fi 6 / 802.11ax** | La génération récente du Wi-Fi | « Vos bornes sont en Wi-Fi 6 : le matériel est à jour. » |
-| **Portail captif** | La page qui s'affiche avant d'accorder l'accès internet | « C'est la page aux couleurs du Port. » |
-| **Walled garden** | La liste des sites joignables **avant** d'être authentifié | « Ça se configure chez vous, on vous donne la liste. » |
-| **Consentement** | L'accord explicite du passager avant toute collecte | « Deux cases distinctes, aucune pré-cochée. » |
-| **Agrégé / anonymisé** | Des statistiques de groupe, jamais des personnes | « On dit combien de passagers, pas qui. » |
-| **Sous-traitant** | L'entreprise qui traite des données pour le compte d'une autre | « Vous êtes responsable, nous sommes sous-traitant. » |
-| **DPA** | Le contrat qui encadre le traitement des données | « L'annexe de traitement des données est au dossier. » |
-| **SLA** | L'engagement de niveau de service : disponibilité, délais | « Il n'existe pas encore — il se construit avec vous. » |
-| **Supervision** | La surveillance automatique d'un service, avec alerte | « Un contrôle quotidien, avec alerte si le portail ne répond plus. » |
-| **Recette** | La validation finale, faite par le client, avant mise en service | « C'est vous qui signez la recette, sur dix vérifications. » |
-| **Cloud** | Un service hébergé chez un prestataire, pas dans vos murs | « Hébergé chez nous, hors de votre réseau. » |
-| **API** | Une porte d'entrée technique entre deux logiciels | « Nos échanges avec vos outils passent par des API. » |
+| **Overlay** | Couche logicielle par-dessus l'existant | « On ne remplace ni vos bornes ni votre contrôleur. » |
+| **SSID** | Nom du réseau Wi-Fi visible | « Le réseau invité que vos passagers voient. » |
+| **Borne / AP** | L'antenne qui diffuse le Wi-Fi | « Vos bornes restent en place. » |
+| **Contrôleur** | Le cerveau qui pilote les bornes | « C'est chez vous, on s'y branche. » |
+| **RADIUS** | Répond oui ou non à une connexion | « Notre serveur d'authentification. » |
+| **UDP** | Transport rapide, sans accusé de réception | « Le standard pour le RADIUS. » |
+| **Ports 1812 / 1813** | Authentification et comptabilité RADIUS | « Deux ports UDP à autoriser en sortie. » |
+| **DHCP** | Distribue les adresses IP | « Le vôtre reste en place. » |
+| **DNS** | Traduit les noms de domaine | « Sans lui, le portail ne charge pas. » |
+| **VLAN** | Réseau séparé dans le réseau physique | « L'invité ne voit pas votre exploitation. » |
+| **HTTPS / TLS** | Chiffrement des échanges | « Le portail est chiffré. » |
+| **Wi-Fi 6** | Génération récente du Wi-Fi | « Vos bornes sont à jour. » |
+| **Portail captif** | Page affichée avant l'accès internet | « C'est la page aux couleurs du Port. » |
+| **Walled garden** | Sites joignables avant authentification | « À configurer chez vous, on donne la liste. » |
+| **Consentement** | Accord explicite du passager | « Deux cases, aucune pré-cochée. » |
+| **Agrégé** | Statistiques de groupe, pas de personnes | « On dit combien, pas qui. » |
+| **Sous-traitant** | Traite des données pour un autre | « Vous responsable, nous sous-traitant. » |
+| **DPA** | Contrat encadrant les données | « L'annexe est au dossier. » |
+| **SLA** | Engagement de service | « Il se construit avec vous. » |
+| **Supervision** | Surveillance automatique avec alerte | « Contrôle quotidien, alerte si panne. » |
+| **Recette** | Validation finale par le client | « Vous signez, sur dix vérifications. » |
+| **Cloud** | Hébergé chez un prestataire | « Chez nous, hors de votre réseau. » |
+| **API** | Porte d'entrée entre deux logiciels | « Nos échanges avec vos outils. » |
 
 ## Les trois mots à connaître par cœur
 
