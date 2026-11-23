@@ -56,3 +56,36 @@ Vérifié sur le HTML servi par `wavefi.tech` (pas dans l'éditeur).
 
 **Reste optionnel :** les quatre offres standard n'ont pas de champ `availability`. Google le tolère,
 mais l'ajouter (`InStock`) complète la fiche. À faire lors d'une prochaine passe, pas urgent.
+
+## Search Console — état au 23/11/2026
+
+| Élément | Constat |
+|---|---|
+| Propriété | `https://wavefi.tech/` (préfixe d'URL), **déjà vérifiée** |
+| Pages indexées | **22** sur 27 |
+| `sitemap.xml` | **Opération effectuée**, 27 pages découvertes, relu le 21/11 |
+| Canoniques | présentes et auto-référentes sur toutes les pages vérifiées |
+| `http://` → `https://` | **301** correct |
+| Core Web Vitals | pas de données (aucun trafic) — normal |
+
+### Le défaut à surveiller
+
+L'accueil `https://wavefi.tech/` **n'est pas indexé** : Google a choisi `https://www.wavefi.tech/`
+comme origine, faute de canonique lors de l'exploration du **8 novembre** (« URL canonique déclarée
+par l'utilisateur : Aucun »).
+
+**Redirection `www` → apex : 302, imposée par l'hébergement Lovable** (les deux noms pointent sur
+`185.158.133.1`, c'est l'edge de Lovable qui redirige). Non modifiable depuis le projet.
+
+**Décision : ne rien bricoler.** La canonique, désormais présente, assure la consolidation. Ne
+**pas** utiliser d'« URL Redirect » chez Namecheap : il redirigerait avant le HTTPS et casserait le
+certificat de `www`.
+
+**Échéance de contrôle : dans 5 à 7 jours** (≈ 29-30/11). Si l'accueil reste « page en double »,
+écrire au support Lovable pour une 301, avec ce diagnostic.
+
+### Sitemaps fantômes
+
+Des `sitemap.xml` par article (`/blog/*/sitemap.xml`) ont été soumis à la main par Norbert : ils
+renvoient **404**. Search Console ne permet pas de les supprimer — ils restent affichés à titre
+d'historique et sont sans effet. Ne plus en soumettre.
