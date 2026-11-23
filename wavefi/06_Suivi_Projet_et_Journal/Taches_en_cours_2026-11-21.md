@@ -79,3 +79,14 @@ plupart des précautions que nous prenons aujourd'hui.
 - Devise : les totaux du reçu client sont en **CFP**, la ligne produit apparaît en USD (affichage
   interne Dodo).
 - Plafond de panier : **3 000 USD**, demande de relèvement à 10 000 USD déposée le 22/11.
+
+## Numéros WhatsApp — état confirmé le 22/11/2026
+
+| Projet | Numéro | Rôle |
+|---|---|---|
+| FenuaFact | +689 87 04 51 05 (historique) | SaaS facturation artisans |
+| **WaveFi** | **+689 89 63 73 06** | dédié WaveFi, actuellement dans l'app WhatsApp Business d'un téléphone inutilisé |
+
+⚠️ Ne plus confondre : les numéros `87…` appartiennent à FenuaFact. Le `89 63 73 06` est celui de
+WaveFi. Configuré précédemment sur Meta avec un autre agent — **aucune trace de cette configuration
+dans le dépôt** : à reconstituer avant toute migration (voir `ops/meta-whatsapp-etat.md`).
