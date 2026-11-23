@@ -37,7 +37,7 @@
 | **Envoi de campagnes** | à construire — c'est la valeur du produit, et elle n'existe pas encore |
 | **Compteurs** | jauges en place, base d'événements à câbler sur l'envoi réel |
 | **Le port** (8 Grands Comptes) | devis envoyé, attend la copie de la transmission au service informatique |
-| **UniFi** | contrôleur à installer sur le VPS (la RAM le permet depuis le 21/11) |
+| **UniFi** | ✅ contrôleur installé le 22/11 (`https://31.220.21.53:8443`) — reste à adopter la borne mardi |
 | **CGU v1.4 sur le site** | la vitrine publie encore la v1.3 avec des prix neufs |
 
 ## 4. Les pièges à ne pas répéter

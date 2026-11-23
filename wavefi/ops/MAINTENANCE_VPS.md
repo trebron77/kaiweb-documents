@@ -119,3 +119,28 @@ sur ce serveur (1 à 1,5 Go), au lieu d'un portable — c'était l'objectif de l
 ⚠️ **Point resté ouvert :** au retrait du module Daily Backup, le crédit Hostinger est passé de
 412,37 à 282,19 PLN (−130,18 PLN, ≈ 29 €) sans explication claire. À réclamer sur la base de la
 facture H55430228, si le sujet en vaut encore la peine.
+
+### 2026-11-22 (Tahiti) — contrôleur UniFi installé
+
+| Élément | Valeur |
+|---|---|
+| Image | `jacobalberty/unifi:latest` (UniFi Network v10.0.162) |
+| Conteneur | `unifi`, `--restart=always`, réseau hôte |
+| Données | `/opt/unifi` (hors conteneur — survit aux mises à jour) |
+| Fuseau | `Pacific/Tahiti` |
+| Interface | `https://31.220.21.53:8443` |
+| Annonce des bornes | `http://31.220.21.53:8080/inform` |
+| Ports | 8080, 8443, 8843, 8880, 3478/udp, 10001/udp, 6789, 5514/udp |
+| Consommation | ~900 Mo de RAM — il reste 4 Go disponibles |
+
+**Pourquoi cette image :** `lscr.io/linuxserver/unifi-network-controller` a été retirée du registre
+(erreur `denied`) et `linuxserver/unifi-controller` est figée depuis janvier 2024. `jacobalberty/unifi`
+est la référence maintenue (262 M de téléchargements, mise à jour du 12/12/2025).
+
+⚠️ **Gestion :** le compte `hotumana` n'a pas accès à Docker et ne doit pas l'avoir (le groupe `docker`
+équivaut à root). Toute action sur le conteneur — arrêt, mise à jour — se fait depuis la console web
+Hostinger, en root :
+
+```bash
+docker pull jacobalberty/unifi:latest && docker rm -f unifi && <relancer la commande docker run>
+```
