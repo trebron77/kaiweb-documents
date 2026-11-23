@@ -360,7 +360,7 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 8 0 R >>
 endobj
 10 0 obj
-<< /Length 5925 >>
+<< /Length 10727 >>
 stream
 BT /F1 7.4 Tf 1 0 0 1 57.00 34 Tm (WaveFi \227 Application de la grille tarifaire \267 22/11/2026) Tj ET
 BT /F1 7.4 Tf 1 0 0 1 512.28 34 Tm (3 / 3) Tj ET
@@ -450,6 +450,73 @@ BT /F1 7.4 Tf 1 0 0 1 512.28 34 Tm (3 / 3) Tj ET
 0.72 0.72 0.72 RG 0.6 w 292.46 561.99 m 292.46 573.49 l S
 0.72 0.72 0.72 RG 0.6 w 57.00 561.99 m 538.28 561.99 l S
 0.72 0.72 0.72 RG 0.6 w 57.00 558.99 m 538.28 558.99 l S
+0.8 0.8 0.8 RG 0.6 w 57.00 546.99 m 538.28 546.99 l S
+0 0 0 rg BT /F2 12.50 Tf 1 0 0 1 57.00 528.99 Tm (Checklist \227 tout changement de grille tarifaire) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 57.00 508.49 Tm (Un prix appara\356t \340 ) Tj ET
+0 0 0 rg BT /F2 10.00 Tf 1 0 0 1 138.70 508.49 Tm (six endroits) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 194.83 508.49 Tm (. Aucun ne se met \340 jour tout seul.) Tj ET
+0.93 0.93 0.93 rg 57.00 481.09 481.28 11.50 re f
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 61.00 483.59 Tm (#) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 73.61 483.59 Tm (Endroit) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 363.59 483.59 Tm (Qui le porte) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 481.09 m 57.00 492.59 l S
+0.72 0.72 0.72 RG 0.6 w 69.61 481.09 m 69.61 492.59 l S
+0.72 0.72 0.72 RG 0.6 w 359.59 481.09 m 359.59 492.59 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 481.09 m 538.28 481.09 l S
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 61.00 469.09 Tm (1) Tj ET
+0 0 0 rg BT /F2 8.30 Tf 1 0 0 1 73.61 469.09 Tm (Grille en base de donn\351es) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 363.59 469.09 Tm (la source de r\351f\351rence) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 466.59 m 57.00 478.09 l S
+0.72 0.72 0.72 RG 0.6 w 69.61 466.59 m 69.61 478.09 l S
+0.72 0.72 0.72 RG 0.6 w 359.59 466.59 m 359.59 478.09 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 466.59 m 538.28 466.59 l S
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 61.00 454.59 Tm (2) Tj ET
+0 0 0 rg BT /F2 8.30 Tf 1 0 0 1 73.61 454.59 Tm (Textes de l'application) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 162.31 454.59 Tm ( \227 tarifs.ts, register.tsx, aide.tsx, assistant-prompt.ts) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 363.59 454.59 Tm (\340 aligner, puis lancer les tests) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 452.09 m 57.00 463.59 l S
+0.72 0.72 0.72 RG 0.6 w 69.61 452.09 m 69.61 463.59 l S
+0.72 0.72 0.72 RG 0.6 w 359.59 452.09 m 359.59 463.59 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 452.09 m 538.28 452.09 l S
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 61.00 440.09 Tm (3) Tj ET
+0 0 0 rg BT /F2 8.30 Tf 1 0 0 1 73.61 440.09 Tm (Produits Dodo) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 130.79 440.09 Tm ( \227 prix et descriptions) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 363.59 440.09 Tm (le tableau de bord) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 437.59 m 57.00 449.09 l S
+0.72 0.72 0.72 RG 0.6 w 69.61 437.59 m 69.61 449.09 l S
+0.72 0.72 0.72 RG 0.6 w 359.59 437.59 m 359.59 449.09 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 437.59 m 538.28 437.59 l S
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 61.00 425.59 Tm (4) Tj ET
+0 0 0 rg BT /F2 8.30 Tf 1 0 0 1 73.61 425.59 Tm (Vitrine) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 99.44 425.59 Tm ( \(wavefi.tech, projet \253 Pixel Perfect Clone \273\)) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 363.59 425.59 Tm (projet Lovable s\351par\351, aucune donn\351e) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 363.59 415.59 Tm (partag\351e) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 413.09 m 57.00 434.59 l S
+0.72 0.72 0.72 RG 0.6 w 69.61 413.09 m 69.61 434.59 l S
+0.72 0.72 0.72 RG 0.6 w 359.59 413.09 m 359.59 434.59 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 413.09 m 538.28 413.09 l S
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 61.00 401.09 Tm (5) Tj ET
+0 0 0 rg BT /F2 8.30 Tf 1 0 0 1 73.61 401.09 Tm (CGV) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 91.60 401.09 Tm ( \227 article 4.1, grille tarifaire) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 363.59 401.09 Tm (document juridique) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 398.59 m 57.00 410.09 l S
+0.72 0.72 0.72 RG 0.6 w 69.61 398.59 m 69.61 410.09 l S
+0.72 0.72 0.72 RG 0.6 w 359.59 398.59 m 359.59 410.09 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 398.59 m 538.28 398.59 l S
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 61.00 386.59 Tm (6) Tj ET
+0 0 0 rg BT /F2 8.30 Tf 1 0 0 1 73.61 386.59 Tm (Ce document) Tj ET
+0 0 0 rg BT /F1 8.30 Tf 1 0 0 1 363.59 386.59 Tm (la trace \351crite) Tj ET
+0.72 0.72 0.72 RG 0.6 w 57.00 384.09 m 57.00 395.59 l S
+0.72 0.72 0.72 RG 0.6 w 69.61 384.09 m 69.61 395.59 l S
+0.72 0.72 0.72 RG 0.6 w 359.59 384.09 m 359.59 395.59 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 384.09 m 538.28 384.09 l S
+0.72 0.72 0.72 RG 0.6 w 57.00 381.09 m 538.28 381.09 l S
+0 0 0 rg BT /F2 10.00 Tf 1 0 0 1 57.00 369.09 Tm (La r\350gle :) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 101.46 369.09 Tm ( un changement de prix n'est termin\351 que quand les six lignes sont coch\351es. L'application et la) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 57.00 355.69 Tm (vitrine n'\351changent aucune donn\351e \227 c'est un travail manuel, donc oubliable.) Tj ET
+0 0 0 rg BT /F2 10.00 Tf 1 0 0 1 57.00 339.79 Tm (Le test qui prot\350ge :) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 152.57 339.79 Tm ( l'app compare sa grille \340 ses propres textes. Il ne peut rien voir de la vitrine ni de) Tj ET
+0 0 0 rg BT /F1 10.00 Tf 1 0 0 1 57.00 326.39 Tm (Dodo. C'est pourquoi les points 4 et 5 restent \340 la charge de l'op\351rateur.) Tj ET
 endstream
 endobj
 11 0 obj
@@ -468,9 +535,9 @@ xref
 0000013875 00000 n 
 0000024119 00000 n 
 0000024271 00000 n 
-0000030249 00000 n 
+0000035052 00000 n 
 trailer
 << /Size 12 /Root 1 0 R >>
 startxref
-30403
+35206
 %%EOF

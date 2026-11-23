@@ -148,3 +148,22 @@ Le jour où le compteur existe, ces trois lignes remontent sur le site — et nu
 | 5 | Aller au paiement Starter annuel | **107 892 FCFP** |
 | 6 | Vérifier la mention TVA sur la page de paiement | « TVA non applicable — franchise en base » |
 | 7 | Relire la page tarifs sur un téléphone | trois offres lisibles sans zoom |
+
+---
+
+## Checklist — tout changement de grille tarifaire
+
+Un prix apparaît à **six endroits**. Aucun ne se met à jour tout seul.
+
+| # | Endroit | Qui le porte |
+|---|---|---|
+| 1 | **Grille en base de données** | la source de référence |
+| 2 | **Textes de l'application** — `tarifs.ts`, `register.tsx`, `aide.tsx`, `assistant-prompt.ts` | à aligner, puis lancer les tests |
+| 3 | **Produits Dodo** — prix et descriptions | le tableau de bord |
+| 4 | **Vitrine** (`wavefi.tech`, projet « Pixel Perfect Clone ») | projet Lovable séparé, aucune donnée partagée |
+| 5 | **CGV** — article 4.1, grille tarifaire | document juridique |
+| 6 | **Ce document** | la trace écrite |
+
+**La règle :** un changement de prix n'est terminé que quand les six lignes sont cochées. L'application et la vitrine n'échangent aucune donnée — c'est un travail manuel, donc oubliable.
+
+**Le test qui protège :** l'app compare sa grille à ses propres textes. Il ne peut rien voir de la vitrine ni de Dodo. C'est pourquoi les points 4 et 5 restent à la charge de l'opérateur.
