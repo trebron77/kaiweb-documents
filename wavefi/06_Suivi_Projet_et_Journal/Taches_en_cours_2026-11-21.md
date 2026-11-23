@@ -68,3 +68,14 @@ Conséquences pratiques, à ne pas oublier avant de proposer une migration ou un
 
 Le jour où le premier client signe, cette section devra être mise à jour — elle conditionne la
 plupart des précautions que nous prenons aujourd'hui.
+
+### Dodo Payments — état vérifié le 22/11/2026
+
+- **Vérification (KYC) validée** : l'encaissement en mode **live** fonctionne. Ne pas confondre avec un
+  compte « particulier » — la mention `DODO_PAY_INDIVIDUAL` sur le reçu est le **libellé bancaire
+  par défaut** (statement descriptor), personnalisable depuis les réglages Dodo. À remplacer par la
+  dénomination de l'entreprise.
+- Taxe appliquée à un client polynésien : **0 %** (vérifié sur facture réelle, 23/10/2026).
+- Devise : les totaux du reçu client sont en **CFP**, la ligne produit apparaît en USD (affichage
+  interne Dodo).
+- Plafond de panier : **3 000 USD**, demande de relèvement à 10 000 USD déposée le 22/11.
