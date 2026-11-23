@@ -90,3 +90,37 @@ plupart des précautions que nous prenons aujourd'hui.
 ⚠️ Ne plus confondre : les numéros `87…` appartiennent à FenuaFact. Le `89 63 73 06` est celui de
 WaveFi. Configuré précédemment sur Meta avec un autre agent — **aucune trace de cette configuration
 dans le dépôt** : à reconstituer avant toute migration (voir `ops/meta-whatsapp-etat.md`).
+
+## Journal — dimanche 22 novembre 2026
+
+Journée de mise en cohérence complète, du tarif jusqu'au paiement.
+
+| Chantier | Résultat |
+|---|---|
+| Grille tarifaire | 9 990 / 26 900 / 79 900 · Enterprise dès 149 000 · lieux 1/3/10 · invités 1 000/3 000/10 000 |
+| Quotas WhatsApp | divisés par 3 : 100 / 330 / 1 000, dépassement à 15 XPF |
+| Support | 20 min / 1 h / 2 h par mois, 7 500 XPF/h au-delà, hors mise en service |
+| Pack | +1 000 invités à 7 990 XPF, **un par mois et par contrat** |
+| Remise | −10 % pour 12 mois réglés d'avance · −15 % réservé aux 3 premiers clients (référence écrite) |
+| Offres 24 mois | **abandonnées** — personne ne s'engage deux ans sur un outil neuf |
+| CGU-CGV v1.4 | deux canaux de règlement (Dodo MoR / facturation directe), date d'effet 22/11/2026 |
+| Politique de remboursement | v1.2, prix alignés |
+| Vitrine | tarifs, CGU, SLA, pack publiés et vérifiés |
+| Application | source unique des prix, jauges, journal de support, mention XPF |
+| Dodo | 7 produits, IDs vérifiés, libellé `DODO_PAY_WAVEFI`, 3D Secure activé |
+| WhatsApp | 2 modèles soumis (`bienvenue_wifi`, `offre_du_mois`) |
+| UniFi | contrôleur installé et opérationnel sur le VPS |
+
+### Ce que les tests Dodo ont appris
+
+- Taxe **0 %** pour un client polynésien (vérifié sur deux factures réelles).
+- La **facture PDF reste en USD** même quand le paiement est en XPF → note de conversion créée.
+- Le checkout **s'ouvre en USD par défaut** : le client doit choisir XPF.
+- En B2B avec numéro fiscal, Dodo applique le **reverse charge**.
+
+### À reprendre
+
+- **Lundi 23/11** : banque 7h45, DAF 8h30 (40 47 18 18), CCISM 9h00 (40 47 27 00).
+- **Mardi 24/11** : retirer l'U6-LR avant 06h00, récupérer le numéro de série et le bon daté ; relance SMS au commandant si la copie n'est pas arrivée ; adopter la borne (`set-inform`, **deux fois**).
+- Publier l'application, puis déposer le troisième modèle (`demande_avis`).
+- Construire l'envoi de campagnes — la fonctionnalité qu'on vend.
