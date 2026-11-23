@@ -18,9 +18,9 @@ Meta pour gérer cette discussion »*, propre aux comptes gérés par l'API.
 
 | Question | Réponse |
 |---|---|
-| Une **application Meta** existe-t-elle pour WaveFi ? (nom + ID) | ................ |
+| Une **application Meta** existe-t-elle pour WaveFi ? (nom + ID) | ✅ **Wavefi — App ID `1799972834584063`**, statut *Publiée*, cas d'usage WhatsApp actif |
 | Un **compte WhatsApp Business (WABA)** existe-t-il ? | ................ |
-| Le numéro +689 89 63 73 06 y est-il enregistré, avec un `phone_number_id` ? | ................ |
+| Le numéro +689 89 63 73 06 y est-il enregistré, avec un `phone_number_id` ? | en cours de relevé |
 | Nom d'affichage / `verified_name` | ................ |
 | Un **jeton d'accès** (system user token) existe-t-il ? *(ne pas écrire sa valeur)* | ................ |
 | Un **webhook** est-il configuré ? | ................ |
