@@ -54,3 +54,17 @@ enregistrement DAF (sous 1 mois) → annonce légale → dépôt CCISM → TAHIT
 
 > « Lis `wavefi/06_Suivi_Projet_et_Journal/Taches_en_cours_2026-11-21.md`, puis reprends le dossier
 > société. »
+
+## État commercial — à retenir
+
+**Aucun client en production au 22/11/2026.** Aucun abonné, aucune facture émise, aucune donnée
+client sur le VPS.
+
+Conséquences pratiques, à ne pas oublier avant de proposer une migration ou une transition :
+- les changements de version de CGV ne concernent personne — pas d'avenant, pas de préavis ;
+- une remise en état de la base ou des produits Dodo ne casse aucun abonné ;
+- les 130,18 zł d'écart constatés sur la facture Hostinger H55430228 n'ont aucun impact comptable
+  puisqu'aucune vente n'a eu lieu.
+
+Le jour où le premier client signe, cette section devra être mise à jour — elle conditionne la
+plupart des précautions que nous prenons aujourd'hui.
