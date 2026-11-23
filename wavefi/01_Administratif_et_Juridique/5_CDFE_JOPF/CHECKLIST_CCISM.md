@@ -1,105 +1,61 @@
 # Immatriculation SASU KaiWeb Marketing — pièces à réunir
 
-> Préparé le 2026-11-20. Source : CCISM ([pièces à fournir](https://www.ccism.pf/la-ccism/se-lancer/immatriculer-son-entreprise/immatriculer-sa-societe-sarl-eurl)).
-> Aucun avocat ni notaire n'est requis : les statuts peuvent être établis **sous seing privé**.
+> Source officielle : **CCISM, liste « Pièces à fournir pour l'immatriculation d'une SAS-SASU »**,
+> mise à jour au 26/03/2026.
+> Dépôt **sans rendez-vous**, 7h30-11h. Mail : entreprises@ccism.pf
+
+## Coût réel
+
+| Poste | Montant | Détail |
+| --- | --- | --- |
+| Publication au JOPF | **7 147 FCFP** | facture de l'imprimerie officielle (40 500 578) |
+| Frais de dossier CCISM | **7 000 FCFP** | espèces à Papeete / Nuku Hiva / Uturoa, chèque, CB (hors Amex, Papeete) ou virement |
+| Émoluments du teneur du RCS | **10 396 FCFP** | chèque à l'ordre de SELARL GTMC PAPEETE |
+| **Total** | **24 543 FCFP** | hors enregistrement DAF |
+
+Virement CCISM : `FR76 1746 9000 0177 5555 0007 008` (SOCREDO)
+Virement RCS : `FR76 1223 9000 0164 2873 0100 001`
+
+## Pièces pour le dirigeant (personne physique)
+
+- [ ] **3 photocopies** de la carte d'identité ou du passeport en cours de validité
+      *(ou 3 actes de naissance : 1 original + 1 copie de moins de 3 mois)*
+- [ ] **Déclaration sur l'honneur de non-condamnation et de filiation**
+      → https://www.ccism.pf/sites/default/files/docs/declaration-sur-l-honneur-non-condamnation-filiation-r.pdf
+
+## Pièces de la société
+
+- [ ] **2 exemplaires des statuts**, dont 1 original, **signés et enregistrés** à la DAF
+- [ ] **1 original d'annonce légale** signé par le directeur d'un quotidien,
+      ou l'attestation dématérialisée du JOPF
+- [ ] **Procès-verbal de nomination du Président** — *seulement si la nomination n'est pas dans les statuts*
+      (notre article 8 nomme le Président : à vérifier avec l'accueil)
+- [ ] **Attestation de dépôt des fonds** délivrée par la banque
+      (capital social minimum : 200 000 FCFP)
+- [ ] **Liste des souscripteurs** : nombre d'actions souscrites et sommes versées
+- [ ] **Formulaire M1** — à remplir avec le conseiller, ou **3 exemplaires** pour un envoi par courrier
+- [ ] **Annexe C** (formulaire pour les impôts)
+
+## Domiciliation
+
+Chez un domiciliataire agréé (Papeete Coworking) :
+- [ ] **1 copie du contrat de domiciliation**, **enregistré** au service de l'enregistrement (DAF)
 
 ## Ordre des opérations
 
-L'ordre compte : certaines pièces dépendent d'étapes précédentes.
-
-### 1. Compte bancaire et dépôt du capital
-
-**Capital souscrit : 200 000 FCFP** (minimum légal SAS en Polynésie).
-Libération possible en deux temps : **100 000 FCFP à la constitution**, le solde
-dans les **cinq ans** (source : guide de l'entrepreneur CCISM, p. 20).
-
-- Ouvrir un **compte de dépôt** au nom de la société en formation
-- Y déposer **au moins 100 000 FCFP** (la banque peut exiger davantage)
-- Récupérer l'**attestation de dépôt des fonds**, dont le montant doit correspondre
-  au versement réel
-
-**Prérequis** : une clause de libération échelonnée doit figurer dans les statuts,
-sinon le capital est réputé exigible immédiatement.
-
-> C'est l'étape la plus longue. À lancer en premier, dès lundi.
-
-### 2. Finaliser les statuts
-
-Trois points à compléter avant signature :
-
-| Article | À compléter |
-| --- | --- |
-| Article 4 — siège | `38 rue du Maréchal Foch, Papeete` (domiciliation Papeete Coworking) |
-| Article 6 — banque | nom de la banque + date de dépôt (après l'étape 1) |
-| Article 15 — annexe | ✅ **déjà intégrée** à la fin de `Satut SASU.docx` (sections 1 à 4) |
-
-### 3. Signer les statuts
-
-- **2 exemplaires** signés (tu es seul associé)
-- Conserver un original pour toi
-
-### 4. Enregistrer les statuts à la DAF
-
-- **Direction des Affaires Foncières**, rue Dumont d'Urville, Papeete
-- **Dans le mois suivant la signature** — au-delà, pénalité
-- Coût : droit d'enregistrement à confirmer auprès de la DAF
-
-### 5. Annonce légale — 7 145 FCFP
-
-- Imprimerie officielle (43 rue des Poilus Tahitiens) ou Tahiti Infos
-- Ou en ligne : lexpol.cloud.pf
-- Récupérer l'**attestation de publication**
-
-### 6. Pièces personnelles
-
-| Pièce | Détail |
-| --- | --- |
-| Pièce d'identité | 3 photocopies de la carte d'identité ou du passeport en cours de validité |
-| Déclaration de non-condamnation et de filiation | formulaire CCISM, à remplir et signer |
-
-### 7. Justificatif de domiciliation
-
-Déjà en ta possession :
-
-- contrat de domiciliation signé avec Papeete Coworking
-- arrêté d'agrément du Haut-Commissariat
-- procuration et pièce d'identité du représentant (Morival Hugues)
-
-### 8. Formulaires fiscaux et CCISM
-
-- **Imprimé M1** (identité du dirigeant, lieu d'exercice, activités)
-- **Annexe C** (renseignements pour la DICIP : local, matériel)
-
-### 9. Dépôt du dossier à la CCISM
-
-- 41 rue du Docteur Cassiau, Papeete — accueil sans rendez-vous 7h30-11h
-- Frais de dossier CFE : **7 000 FCFP**
-- Possibilité de prendre rendez-vous en ligne : rdv-entreprises.ccism.pf
-
-### 10. Après immatriculation
-
-- Réception du **numéro RCS** puis du **numéro TAHITI**
-- Déblocage du compte
-- Transmission du TAHITI à FenuaFact (paramètres de l'entreprise)
-
-## Budget à prévoir
-
-| Poste | Montant |
-| --- | --- |
-| Capital déposé (récupérable) | 100 000 FCFP à la création, solde sous 5 ans |
-| Annonce légale | 7 145 FCFP |
-| Frais de dossier CFE | 7 000 FCFP |
-| Enregistrement DAF | à confirmer |
-| **Total frais non récupérables** | **≈ 14 150 FCFP + DAF** (hors capital) |
-
-## Trois points à vérifier par téléphone avant de commencer
-
-1. **DAF** (40 47 18 18) — quel est le droit d'enregistrement des statuts, et faut-il un rendez-vous ?
-2. **Banque** — quels documents exige-t-elle pour ouvrir un compte de dépôt d'une société en formation ?
-3. **CCISM** (40 47 27 00) — l'imprimé M1 est-il à remplir en ligne avant le dépôt, et faut-il un rendez-vous ?
+1. **Compte de dépôt** → verser **100 000 FCFP** → obtenir l'attestation
+   (voir `4_Banque/Documents_ouverture_compte.md`)
+2. Compléter et **signer** les statuts (l'article 6 se remplit avec la banque)
+3. **Enregistrer les statuts à la DAF** — dans le mois suivant la signature
+4. **Annonce légale** à l'imprimerie officielle (7 147 FCFP) → facture + attestation
+5. Réunir les pièces ci-dessus
+6. **Déposer à la CCISM** avec les 7 000 FCFP + le chèque RCS de 10 396 FCFP
+7. Réception du **RCS** puis du **numéro TAHITI**
 
 ## Points de vigilance
 
-- Les statuts doivent être enregistrés **dans le mois** suivant leur signature.
-- Sans domiciliation justifiée, **l'immatriculation est refusée** — c'est bon, tu l'as.
-- Conserver une copie numérique de **toutes** les pièces déposées.
+- Le contrat de domiciliation doit être **enregistré à la DAF** : vérifie que Papeete
+  Coworking l'a fait, sinon la CCISM refusera le dossier.
+- L'enregistrement des statuts doit précéder le dépôt CCISM.
+- Les statuts nommant déjà le Président, le PV de nomination est probablement
+  inutile — à confirmer par un appel à `entreprises@ccism.pf` avant le déplacement.
