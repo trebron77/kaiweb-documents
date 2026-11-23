@@ -39,3 +39,37 @@ La page de paiement comportait un menu « Payer en XPF ». Si ce choix existe r�
 Dodo est bien **Merchant of Record** : il vend, il facture, il gère la taxe. KaiWeb Marketing n'apparaît pas sur la facture du client.
 
 C'est cohérent avec la clause 4.2 des CGV (deux canaux) et avec la règle : **toute vente locale ou publique passe en facturation directe**, pas par Dodo.
+
+---
+
+## Deuxième test — 23 novembre 2026, paiement en XPF
+
+Facture `inv_0NsXcPpD6RHllL0YdpydG`, transaction `pay_0NsXcPpD6RHllL0TJJcRY`.
+Produit : Pack +1 000 invités à 7 990 XPF. Carte Deblock, adresse Papeete.
+
+### Ce qui est confirmé
+
+| Point | Constat |
+|---|---|
+| Reçu envoyé au client | **CFP 7 990**, impôt CFP 0 — bien en francs |
+| Libellé bancaire | **DODO_PAY_WAVEFI** (le réglage a fonctionné) |
+| Taxe | **0 %** une seconde fois |
+| Selecteur de devise | le XPF est bien proposé et fonctionne |
+
+### Ce qui reste vrai malgré tout
+
+**La facture PDF est toujours en USD** : `USD 70.63`, soit 113,1 XPF pour 1 USD. Choisir XPF au
+paiement change le reçu, **pas la facture**. Celle-ci est émise dans la devise de Dodo.
+
+### Nouveauté : le reverse charge
+
+La case « Achat en tant qu'entreprise » cochée, avec un numéro fiscal, fait apparaître la mention
+**« Amount of Tax subject to Reverse Charge »**. En B2B, Dodo ne collecte pas la taxe : le client
+l'autoliquide. C'est le traitement normal d'une prestation entre professionnels, mais la facture le
+mentionne explicitement.
+
+### Le piège à retenir
+
+**Le checkout s'ouvre par défaut en USD**, même avec une adresse polynésienne. Un client qui ne
+touche pas au sélecteur paie en dollars sans s'en rendre compte. C'est exactement ce qui s'est
+passé au premier test.
