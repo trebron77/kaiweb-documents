@@ -63,21 +63,24 @@ Trois valeurs à changer, une seule fois, là où le produit les lit :
 
 ### Correspondance produits Dodo → plans de l'application
 
-Les trois plans existants ont gardé leur identifiant. Les trois nouveaux en ont un autre : l'app doit
-les reconnaître aussi, sinon un client annuel serait traité comme un inconnu.
+> Identifiants **copiés depuis le tableau de bord Dodo** le 22/11/2026 (bouton de copie).
+> Préfixe `pdt_` en minuscules — la casse compte.
 
 | Produit Dodo | Identifiant | Plan applicatif |
 |---|---|---|
-| WaveFi Starter | `pdT_0Nr6sIWtU9ADTw47cvZzhN` | Starter |
-| WaveFi Pro | `pdT_0Nr6l27Iv63qk6WvSBddY` | Pro |
-| WaveFi Business | `pdT_0Nr6tGhdGGNYuaqx0IZO5` | Business |
-| WaveFi Starter — 12 mois | `pdT_0NsX2RTJhtoNegWB40Liq` | Starter |
-| WaveFi Pro — 12 mois | `pdT_0NsX2psrlXtirqXBNi2CC` | Pro |
-| WaveFi Business — 12 mois | *en attente du relèvement de plafond* | Business |
-| Pack +1 000 invités | `pdT_0NsX5JzIGjhO3pETsGFXO` | option, pas un plan |
+| WaveFi Starter | `pdt_0Nr6slWtU9ADTw47cvZhN` | Starter |
+| WaveFi Pro | `pdt_0Nr6t27lv63qk6WvSBddY` | Pro |
+| WaveFi Business | `pdt_0Nr6tGhdGGNYuaqx0lZO5` | Business |
+| Starter 12 mois | `pdt_0NsX2RTJhtoNegWB40Liq` | Starter |
+| Pro 12 mois | `pdt_0NsX2psrlXtirqXBNi2CC` | Pro |
+| Business 12 mois | *en attente — produit en brouillon* | Business |
+| Pack +1 000 invités | `pdt_0NsX5JzIGjhO3pETsGFX0` | option, pas un plan |
+| Pack +10 000 invités *(archivé)* | `pdt_0Nr6tVcOw8pIBOcw9o84W` | conservé pour les abonnés existants |
 
-**Question à trancher par l'application :** comment reconnaît-elle le plan d'un abonné ? Par
-identifiant produit, par nom, ou par prix ? Si c'est le nom, les produits renommés casseront le lien.
+**Comment l'application identifie le plan :** par identifiant produit, jamais par le nom ni par le
+prix. Si l'identifiant est inconnu, elle se rabat sur l'étiquette « plan » transmise avec le paiement.
+
+**Point de vigilance :** le pack ne change jamais le plan — il ajoute seulement des invités.
 
 Puis vérifier que **les jauges du dashboard, le seuil d'alerte à 80 % et les textes de la page
 tarifs** lisent cette même source. Si une limite est écrite en dur ailleurs, elle y restera quand tu
