@@ -38,3 +38,21 @@ une adhésion CCISM et deux partenariats produiront des liens entrants, et ce so
 l'autorité.
 
 Le guide pourra être écrit quand il y aura des clients à citer dedans.
+
+## Données structurées — état après publication du 23/11
+
+Vérifié sur le HTML servi par `wavefi.tech` (pas dans l'éditeur).
+
+| Élément | État |
+|---|---|
+| `sameAs` Facebook / LinkedIn | **supprimés** du balisage *et* du pied de page — les deux URL pointaient vers une page inexistante et vers une société américaine homonyme |
+| `Organization` + `ProfessionalService` + `SoftwareApplication` | présents sur toutes les pages |
+| `FAQPage` | accueil et articles |
+| `BreadcrumbList` | pages internes (`Accueil › Tarifs`) |
+| `Product` + offres | `/tarifs` : Free 0 · Starter 9 990 · Pro 26 900 · Business 79 900 XPF |
+| `AggregateOffer` Entreprise | `lowPrice` 149 000 XPF, InStock |
+| `BlogPosting` | **les 11 articles** en portent un |
+| Dates | `datePublished` 2026-11-07 · `dateModified` 2026-11-23 — **identiques aux dates affichées** sur chaque page |
+
+**Reste optionnel :** les quatre offres standard n'ont pas de champ `availability`. Google le tolère,
+mais l'ajouter (`InStock`) complète la fiche. À faire lors d'une prochaine passe, pas urgent.
