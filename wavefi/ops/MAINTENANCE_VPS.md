@@ -144,3 +144,41 @@ Hostinger, en root :
 ```bash
 docker pull jacobalberty/unifi:latest && docker rm -f unifi && <relancer la commande docker run>
 ```
+
+## Inventaire des conteneurs — relevé du 23/11/2026
+
+Le serveur héberge **deux piles distinctes** : OpenWISP (le portail et le RADIUS) et le contrôleur
+UniFi, ajouté le 22/11.
+
+### Pile OpenWISP — `/opt/openwisp/docker-openwisp/`
+
+| Conteneur | Image | Rôle | Ports |
+|---|---|---|---|
+| `docker-openwisp-nginx-1` | openwisp/openwisp-nginx:edge | **reverse proxy + TLS** — c'est lui qui tient le 80 et le 443 | 80, 443 |
+| `docker-openwisp-freeradius-1` | openwisp/openwisp-freeradius:edge | authentification RADIUS | 1812-1813/udp |
+| `docker-openwisp-dashboard-1` | openwisp/openwisp-dashboard:edge | interface d'administration | 8000 (interne) |
+| `docker-openwisp-api-1` | openwisp/openwisp-api:edge | API | 8001 (interne) |
+| `docker-openwisp-websocket-1` | openwisp/openwisp-websocket:edge | temps réel | 8002 (interne) |
+| `docker-openwisp-celery-1` / `celerybeat-1` / `celery_monitoring-1` | dashboard | tâches asynchrones | — |
+| `docker-openwisp-openvpn-1` | openwisp/openwisp-openvpn:edge | **VPN d'administration** — explique l'UDP 1194 | 1194/udp |
+| `docker-openwisp-postgres-1` | postgis/postgis:15-3.4 | base de données | 5432 (interne) |
+| `docker-openwisp-redis-1` | redis:alpine | cache | 6379 (interne) |
+| `docker-openwisp-influxdb-1` | influxdb:1.8-alpine | métriques | 8086 (interne) |
+| `docker-openwisp-postfix-1` | openwisp/openwisp-postfix:edge | envoi d'e-mails | 25 (interne) |
+
+### Contrôleur UniFi
+
+| Conteneur | Image | État | Réseau |
+|---|---|---|---|
+| `unifi` | jacobalberty/unifi:latest | **healthy**, 18 h d'uptime au 23/11 | réseau hôte |
+
+### Conséquences à retenir
+
+- **Le 443 appartient à OpenWISP.** Ajouter un autre sous-domaine suppose de modifier sa
+  configuration nginx — donc de toucher à la pile qui sert le portail client. OpenWISP régénère ses
+  configurations à chaque mise à jour : un vhost ajouté à la main peut disparaître.
+  **Décision du 23/11 : on n'y touche pas.**
+- Le certificat de `radius.wavefi.tech` est un **Let's Encrypt** valide jusqu'au 27/01/2027, géré par
+  certbot (`/opt/certbot`).
+- Le contrôleur UniFi reste accessible sur `https://31.220.21.53:8443` avec son certificat
+  auto-signé. Un accès propre passerait par Cloudflare, pas par une modification d'OpenWISP.
