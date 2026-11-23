@@ -3,17 +3,18 @@
 > À remplir le 22/11/2026. Objectif : reconstituer ce qui a déjà été fait avec DeepSeek, afin de
 > ne pas recréer ce qui existe. Numéro concerné : **+689 89 63 73 06**.
 
-## 1. Le téléphone
+## 1. Le numéro est DÉJÀ sur l'API — établi le 22/11/2026
 
-| Question | Réponse |
-|---|---|
-| Le numéro est-il encore connecté dans l'app WhatsApp Business ? | ................ |
-| L'app affiche-t-elle « numéro non disponible » ? | ................ |
+**Preuve :** le 23/10/2026 à 17h16, un message « Bonjour, ceci est un message de test envoyé depuis
+votre application WaveFi » a été reçu sur le téléphone personnel de Norbert. Il a été émis par
+l'application via l'API Meta — ce qui suppose un `phone_number_id` et un jeton valides. La
+conversation porte en outre la mention *« Cette entreprise utilise un service sécurisé de la société
+Meta pour gérer cette discussion »*, propre aux comptes gérés par l'API.
 
-> Si le numéro est encore connecté dans l'app → **pas encore migré** vers l'API.
-> Si l'app dit « non disponible » → déjà migré, ne pas recommencer.
+→ **Aucune migration à faire. Ne pas refaire l'onboarding : cela créerait un doublon.**
+→ Le téléphone inutilisé n'a pas besoin d'être allumé ; il ne contient aucune application Meta.
 
-## 2. Meta Business Manager
+## 2. Meta Business Manager — *à compléter depuis le tableau de bord*
 
 | Question | Réponse |
 |---|---|
