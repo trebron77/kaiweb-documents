@@ -124,3 +124,16 @@ Journée de mise en cohérence complète, du tarif jusqu'au paiement.
 - **Mardi 24/11** : retirer l'U6-LR avant 06h00, récupérer le numéro de série et le bon daté ; relance SMS au commandant si la copie n'est pas arrivée ; adopter la borne (`set-inform`, **deux fois**).
 - Publier l'application, puis déposer le troisième modèle (`demande_avis`).
 - Construire l'envoi de campagnes — la fonctionnalité qu'on vend.
+
+### À faire demain — accès UniFi sécurisé
+
+| Point | État |
+|---|---|
+| **DNS chez Namecheap** (tous les domaines de Norbert) | à créer : `unifi.wavefi.tech` → **A → 31.220.21.53** |
+| Port 443 du VPS | tenu par **nginx**, qui sert aussi le portail `radius.wavefi.tech` → toute modification doit préserver ce service |
+| Snapshot avant intervention | **à prendre** (celui du 21/11 a expiré le 22/11) |
+| Bloc nginx + certificat Let's Encrypt | à préparer, puis vérifier `radius.wavefi.tech` après application |
+| Liste blanche d'IP | **écartée** — IP dynamique, risque de verrouillage |
+| Fail2ban | **peu utile** — UniFi verrouille déjà après 5 échecs |
+
+> Revenir sur ce point à froid, pas en fin de journée : le nginx touché est celui du portail client.
