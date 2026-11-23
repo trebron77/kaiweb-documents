@@ -40,6 +40,12 @@
 | **UniFi** | ✅ contrôleur installé le 22/11 (`https://31.220.21.53:8443`) — reste à adopter la borne mardi |
 | **CGU v1.4 sur le site** | la vitrine publie encore la v1.3 avec des prix neufs |
 
+## 3 bis. Compte de test — à ne pas confondre avec un défaut
+
+Le compte de test de Norbert affiche **« Lieux 3 / 1 »** alors qu'il est en Starter. Ces trois lieux
+sont des **données de démonstration**, créées avant le changement de grille et **gardées volontairement**
+pour les rendez-vous. Ce n'est pas un dépassement de quota à signaler.
+
 ## 4. Les pièges à ne pas répéter
 
 | Piège | La vérité |
