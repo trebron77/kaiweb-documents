@@ -63,7 +63,7 @@ Trois valeurs à changer, une seule fois, là où le produit les lit :
 
 ### Correspondance produits Dodo → plans de l'application
 
-> Identifiants **copiés depuis le tableau de bord Dodo** le 22/11/2026 (bouton de copie).
+> Identifiants **copiés depuis le tableau de bord Dodo** les 22 et 24/11/2026 (bouton de copie).
 > Préfixe `pdt_` en minuscules — la casse compte.
 
 | Produit Dodo | Identifiant | Plan applicatif |
@@ -73,7 +73,7 @@ Trois valeurs à changer, une seule fois, là où le produit les lit :
 | WaveFi Business | `pdt_0Nr6tGhdGGNYuaqx0lZO5` | Business |
 | Starter 12 mois | `pdt_0NsX2RTJhtoNegWB40Liq` | Starter |
 | Pro 12 mois | `pdt_0NsX2psrlXtirqXBNi2CC` | Pro |
-| Business 12 mois | *en attente — produit en brouillon* | Business |
+| Business 12 mois | `pdt_0NseKgpbrsyb0vQr8XKyn` | Business |
 | Pack +1 000 invités | `pdt_0NsX5JzIGjhO3pETsGFX0` | option, pas un plan |
 | Pack +10 000 invités *(archivé)* | `pdt_0Nr6tVcOw8pIBOcw9o84W` | conservé pour les abonnés existants |
 
