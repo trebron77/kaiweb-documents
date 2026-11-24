@@ -63,8 +63,6 @@ Un échec peut venir d'un numéro invalide, d'un appareil éteint, ou d'un bloca
 Ces statuts sont visibles dans le détail de la campagne. Un message « accepté » n'est pas un message
 « livré ».
 
-<!-- pagebreak -->
-
 ## 6. Données personnelles
 
 - Les numéros de téléphone de vos invités sont des **données personnelles**. Vous en êtes responsable,
