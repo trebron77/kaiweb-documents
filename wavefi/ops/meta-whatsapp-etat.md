@@ -36,3 +36,26 @@ Meta pour gérer cette discussion »*, propre aux comptes gérés par l'API.
 
 - Migrer le numéro vers l'API (seulement s'il est encore dans l'app).
 - Créer ou récupérer l'application Meta, puis donner à Lovable les identifiants (jamais les secrets).
+
+## Identifiants Meta — valeurs confirmées
+
+| Objet | Identifiant | Remarque |
+|---|---|---|
+| Application Meta | `1799972834584063` | « Wavefi », publiée |
+| **Compte WhatsApp Business (WABA)** | **`4626997277626482`** | `asset_id` dans l'URL de WhatsApp Manager. **C'est celui que l'API attend** |
+| Business Manager | `1817199402744833` | `business_id`. **Ne pas l'utiliser comme WABA** — il ne connaît pas `message_templates` |
+| Numéro WaveFi | `+689 89 63 73 06` | le `phone_number_id` associé est distinct du numéro |
+
+### Piège rencontré le 24/11/2026
+
+`META_WABA_ID` contenait une valeur erronée (Business Manager ou `phone_number_id`). L'appel
+`GET /{wabaId}/message_templates` renvoyait alors :
+
+```
+HTTP 400 — OAuthException — code 100
+(#100) Tried accessing nonexisting field (message_templates)
+```
+
+**Signature à retenir :** le code `100` sur `message_templates` signifie presque toujours **mauvais
+type d'objet**, pas un problème de permission. Un `403` / code `200` signifierait, lui, une permission
+`whatsapp_business_management` absente du jeton.
