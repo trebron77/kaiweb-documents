@@ -9,8 +9,20 @@
 Coworking, 38 rue du Maréchal Foch). Président : Norbert Kaimuko. Capital social : 200 000 XPF,
 libéré à 50 %. Régime fiscal : franchise en base de TVA.
 
-**Activité** : édition d'un logiciel de **Wi-Fi marketing** destiné aux établissements recevant du
-public de Polynésie française — hôtels, restaurants, commerces, et grands sites d'accueil.
+**Activité** : **éditeur de logiciels**. La société conçoit, développe et commercialise des
+applications en mode SaaS, avec un savoir-faire commun — conception produit, infrastructure,
+commercialisation — appliqué à des marchés verticaux différents.
+
+**Portefeuille de produits :**
+
+- **WaveFi** — Wi-Fi marketing pour les établissements recevant du public (hôtels, restaurants,
+  commerces, grands sites d'accueil). **En phase de lancement commercial : c'est l'objet du présent
+  dossier.**
+- **FenuaFact** — devis et factures par dictée vocale, destiné aux artisans et petites entreprises.
+  **En développement.**
+
+KaiWeb Marketing n'est ni une holding ni un conglomérat : c'est une société d'exploitation qui édite
+et facture elle-même ses produits.
 
 ## Le produit
 
