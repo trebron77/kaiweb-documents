@@ -76,3 +76,18 @@ pour les rendez-vous. Ce n'est pas un dépassement de quota à signaler.
 
 **Règle de tenue :** toute décision prise dans une conversation doit atterrir ici ou dans un fichier
 cité ci-dessus, le jour même. Une décision qui ne vit que dans un chat est une décision perdue.
+
+## 5 bis. Sécurité de la base — audit RLS du 24/11/2026
+
+Audit des **26 tables** de la base WaveFi Marketing Cloud. Toutes les tables clients filtrent sur
+`revendeur_id` appartenant à `auth.uid()` : **aucune fuite inter-comptes**.
+
+| Point | Constat | Action |
+|---|---|---|
+| `pack_options`, `plan_limites` | `auth.uid() IS NOT NULL` — catalogue global, aucune donnée de compte | rendre la règle explicite, colonnes publiques seulement |
+| **`support_entries`** | le revendeur peut lire **la ligne entière**, donc la note interne réservée au Super Admin. RLS filtre les lignes, pas les colonnes | vue publique sans la colonne de note, ou `REVOKE SELECT` sur la colonne |
+| `cron_jetons`, `revendeur_brevo`, `system_events`, `whatsapp_webhook_events` | aucune politique → accès client bloqué, serveur uniquement | rien à faire |
+| `revendeurs` | pas de politique Super Admin, contrairement à `audit_logs` et `support_entries` | vérifier que l'interface admin passe par le service role |
+
+**Règle retenue :** masquer un champ dans l'interface ne le protège pas. Toute donnée à ne pas exposer
+doit l'être au niveau de la base — vue restreinte ou privilège de colonne.
