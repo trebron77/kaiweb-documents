@@ -44,7 +44,8 @@ Meta pour gérer cette discussion »*, propre aux comptes gérés par l'API.
 | Application Meta | `1799972834584063` | « Wavefi », publiée |
 | **Compte WhatsApp Business (WABA)** | **`4626997277626482`** | `asset_id` dans l'URL de WhatsApp Manager. **C'est celui que l'API attend** |
 | Business Manager | `1817199402744833` | `business_id`. **Ne pas l'utiliser comme WABA** — il ne connaît pas `message_templates` |
-| Numéro WaveFi | `+689 89 63 73 06` | le `phone_number_id` associé est distinct du numéro |
+| Numéro WaveFi | `+689 89 63 73 06` | qualité « Élevée » au 24/11 |
+| **`phone_number_id`** | **`1437401462784496`** | relevé sur WhatsApp Manager → Numéros de téléphone |
 
 ### Piège rencontré le 24/11/2026
 
