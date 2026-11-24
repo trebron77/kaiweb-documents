@@ -73,3 +73,27 @@ mentionne explicitement.
 **Le checkout s'ouvre par défaut en USD**, même avec une adresse polynésienne. Un client qui ne
 touche pas au sélecteur paie en dollars sans s'en rendre compte. C'est exactement ce qui s'est
 passé au premier test.
+
+---
+
+## Réponse de Dodo Payments — 24/11/2026
+
+Trois points, reçus par e-mail après le ticket du 22/11.
+
+| Question posée | Réponse |
+|---|---|
+| Peut-on fixer XPF comme devise par défaut du checkout ? | **Non.** XPF ne figure pas dans la liste des devises supportées (`docs.dodopayments.com/features/adaptive-currency#supported-currencies`). Le checkout restera **en USD par défaut** ; le client choisit XPF manuellement. |
+| La facture PDF peut-elle être émise en XPF ? | **Non.** L'émission directe de factures PDF en XPF n'est pas prise en charge. La facture suit la devise du paiement — elle est en USD. |
+| Notre question sur les taux de taxe | Ticket **clôturé** à notre demande. |
+| Plafond de carte / transaction | **Relevé à 10 000 USD.** |
+
+### Ce que cela verrouille définitivement
+
+1. **L'acheteur doit choisir XPF lui-même.** La mention affichée dans l'application sous les boutons de
+   paiement n'est donc pas décorative : elle est la seule protection contre un règlement en dollars
+   par inadvertance.
+2. **La note d'accompagnement de conversion reste indispensable** dès qu'un client a besoin d'un
+   document en francs. Voir `2026-11-22-modele-note-conversion.md`.
+3. **Pour les clients locaux et publics : facturation directe.** Une facture en dollars émise par une
+   société du Delaware reste inadaptée à un commerce polynésien et rédhibitoire pour un marché public.
+4. **Le Business 12 mois devient vendable** : 862 920 XPF ≈ 7 100 USD, sous le nouveau plafond.

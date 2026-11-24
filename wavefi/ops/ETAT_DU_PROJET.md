@@ -31,7 +31,7 @@
 
 | Sujet | Où c'est bloqué |
 |---|---|
-| **Business 12 mois** (Dodo) | produit en brouillon, plafond de panier 3 000 USD → demande à 10 000 USD **en cours d'examen** |
+| **Business 12 mois** (Dodo) | plafond relevé à **10 000 USD** le 24/11 → produit à **publier** puis à mapper dans l'app |
 | **Vérification d'entreprise Meta** | en cours |
 | **Modèles WhatsApp** | à déposer : `bienvenue_wifi`, `offre_du_mois`, `demande_avis` |
 | **Envoi de campagnes** | à construire — c'est la valeur du produit, et elle n'existe pas encore |
@@ -53,7 +53,8 @@ pour les rendez-vous. Ce n'est pas un dépassement de quota à signaler.
 | Numéros WhatsApp | **WaveFi = 89 63 73 06** · **FenuaFact = 87…**. Ne jamais mélanger. |
 | Le numéro WaveFi serait « à migrer » | **Faux.** Il est déjà sur l'API Cloud depuis octobre. |
 | Devise | Le code est **XPF**. « XFP » n'existe pas. |
-| Facture Dodo | Toujours en **USD** même si le paiement est en XPF — d'où la note de conversion. |
+| Facture Dodo | Toujours en **USD** — Dodo ne sait pas émettre en XPF (confirmé le 24/11). D'où la note de conversion. |
+| Devise du checkout | S'ouvre **en USD par défaut** — Dodo ne peut pas fixer XPF. Le client doit choisir XPF lui-même. |
 | Taxe pour un client polynésien | **0 %**. Les 10 % d'un aperçu ne concernent pas nos clients. |
 | Identifiant du pack | `pdt_0NsX5JzIGjhO3pETsGFX0` — finit par le **chiffre zéro**. |
 | Renommer un produit Dodo | Sans risque sur les prix ; **jamais** sur ce que le produit donne (créer un nouveau). |
