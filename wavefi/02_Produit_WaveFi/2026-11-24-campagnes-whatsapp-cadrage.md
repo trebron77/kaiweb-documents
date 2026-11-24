@@ -41,3 +41,21 @@
 ⚠️ La jauge mensuelle de messages ne compte que les envois `is_test = false` — c'est ce que la
 campagne devra produire, sinon le quota ne sera jamais consommé et la facturation du dépassement
 restera théorique.
+
+## Décision du 24/11 — pas de découverte automatique des modèles
+
+Le jeton Meta porte `whatsapp_business_messaging` (envoi) mais **pas** `whatsapp_business_management`
+(découverte des modèles). Or accorder cette permission exige d'accéder aux paramètres Business
+Manager, bloqués par un contrôle d'identité envoyé à un ancien numéro (Nouméa, inactif).
+
+**Décision :** le sélecteur de modèles lit la table déclarée `whatsapp-templates.ts` — qui contient
+`offre_du_mois` et `demande_avis` avec leur mapping de variables — et **n'interroge plus Meta**.
+`listWhatsAppTemplates` reste dans le code, inutilisée et documentée, pour le jour où la permission
+sera disponible.
+
+**Pourquoi c'est acceptable :** envoyer un message ne requiert que `whatsapp_business_messaging`,
+vérifié fonctionnel (`GET /1437401462784496` → 200, `verified_name: "WaveFi"`). Seule la *découverte*
+des modèles exigeait la permission manquante. Un modèle déclaré mais absent produira l'erreur brute de
+Meta au moment de l'envoi.
+
+**Conséquence :** ajouter un modèle plus tard demande une ligne de code, pas un appel API.
