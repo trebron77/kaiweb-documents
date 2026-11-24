@@ -42,7 +42,8 @@ Meta pour gérer cette discussion »*, propre aux comptes gérés par l'API.
 | Objet | Identifiant | Remarque |
 |---|---|---|
 | Application Meta | `1799972834584063` | « Wavefi », publiée |
-| **Compte WhatsApp Business (WABA)** | **`4626997277626482`** | `asset_id` dans l'URL de WhatsApp Manager. **C'est celui que l'API attend** |
+| **Compte WhatsApp Business — WaveFi** | **`1002263869569248`** | ✅ **le vrai WABA du numéro** — c'est celui que l'API attend |
+| Test Messaging Account | `4626997277626482` | compte de test Meta, créé par défaut. **Ne pas l'utiliser** |
 | Business Manager | `1817199402744833` | `business_id`. **Ne pas l'utiliser comme WABA** — il ne connaît pas `message_templates` |
 | Numéro WaveFi | `+689 89 63 73 06` | qualité « Élevée » au 24/11 |
 | **`phone_number_id`** | **`1437401462784496`** | relevé sur WhatsApp Manager → Numéros de téléphone |
