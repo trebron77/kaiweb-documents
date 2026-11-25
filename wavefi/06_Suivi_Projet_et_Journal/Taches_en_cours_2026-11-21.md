@@ -137,3 +137,19 @@ Journée de mise en cohérence complète, du tarif jusqu'au paiement.
 | Fail2ban | **peu utile** — UniFi verrouille déjà après 5 échecs |
 
 > Revenir sur ce point à froid, pas en fin de journée : le nginx touché est celui du portail client.
+
+## Incidents — mardi 24 novembre 2026
+
+**Perte du téléphone personnel** vers 16h45 (chute à l'eau, non récupérable). Numéro personnel conservé
+via une nouvelle carte SIM Vini (boutique de Taravao), téléphone remplacé dans la soirée.
+
+**Ce qui n'est PAS affecté :**
+- le numéro WaveFi `+689 89 63 73 06`, sur un autre appareil, géré par l'API Meta ;
+- les identifiants et secrets du projet (tous dans les coffres Lovable / GitHub / ce dépôt) ;
+- le VPS et les services en production.
+
+**Ce qui restait à vérifier :** les seconds facteurs d'authentification portés par l'ancien téléphone
+(Google, Meta, Hostinger, Dodo, GitHub, banques). À confirmer le 25/11.
+
+**Conséquence sur le planning :** les trois emails aux banques (Socredo, Banque de Tahiti, Banque de
+Polynésie) et le test d'adoption de la borne UniFi sont reportés au mercredi 25/11.
