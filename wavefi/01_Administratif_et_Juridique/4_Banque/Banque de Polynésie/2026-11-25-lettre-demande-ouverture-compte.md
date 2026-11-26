@@ -43,3 +43,20 @@ Monsieur, l'expression de mes salutations distinguées.
 **Norbert Kaimuko**
 Président
 *(signature)*
+
+---
+
+**Pièces jointes à la présente demande**
+
+| N° | Pièce |
+|---|---|
+| 1 | Copie de la pièce d'identité du président |
+| 2 | Justificatif de domicile de moins de trois mois |
+| 3 | Fiche de renseignements détaillée, complétée et signée |
+| 4 | Questionnaire sanctions, complété et signé |
+| 5 | Statuts de la société, signés |
+| 6 | Procès-verbal de nomination du président |
+| 7 | Prévisionnel d'activité sur trois exercices |
+| 8 | Présentation de l'entreprise |
+
+> Les documents sont numérotés dans cet ordre dans le courriel d'accompagnement.
