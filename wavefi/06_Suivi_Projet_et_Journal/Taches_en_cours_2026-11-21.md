@@ -153,3 +153,24 @@ via une nouvelle carte SIM Vini (boutique de Taravao), téléphone remplacé dan
 
 **Conséquence sur le planning :** les trois emails aux banques (Socredo, Banque de Tahiti, Banque de
 Polynésie) et le test d'adoption de la borne UniFi sont reportés au mercredi 25/11.
+
+## 26 novembre 2026 — première campagne WhatsApp réelle
+
+Les trois modèles ont été approuvés par Meta dans le compte **WaveFi** (`bienvenue_wifi` en utilitaire,
+`offre_du_mois` et `demande_avis` en marketing). Première campagne envoyée : `demande_avis`, un seul
+destinataire de test.
+
+| Contrôle | Résultat |
+|---|---|
+| Message reçu sur le téléphone | ✅ avec prénom, nom du lieu et lien |
+| Jauge mensuelle | ✅ passée de 0 à 1 |
+| Statut de livraison en campagne | ✅ « envoyé » |
+| Statut « livré » | à confirmer — dépend du webhook |
+
+**Reste à valider :** le webhook met-il à jour `campagne_livraisons` (et pas seulement
+`whatsapp_messages`) quand Meta confirme la livraison ? Et le traitement du STOP, non testé à ce jour
+car le WhatsApp du destinataire s'est déconnecté après un changement de carte SIM.
+
+**Leçon technique :** l'erreur `#132001` de la veille venait de modèles créés dans le **compte de test**
+(`4626997277626482`) au lieu du compte **WaveFi** (`1002263869569248`). Un modèle n'existe que dans le
+compte où il a été créé.
