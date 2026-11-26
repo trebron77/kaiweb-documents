@@ -15,7 +15,8 @@ Banque de Polynésie
 BP 530
 98713 — PAPEETE
 
-À l'attention de la Direction de l'agence
+À l'attention de **Madame Cathia PIIRAI**
+Chargée de compte professionnels
 
 Papeete, le ......................
 
