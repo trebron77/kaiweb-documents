@@ -61,3 +61,82 @@ HTTP 400 — OAuthException — code 100
 **Signature à retenir :** le code `100` sur `message_templates` signifie presque toujours **mauvais
 type d'objet**, pas un problème de permission. Un `403` / code `200` signifierait, lui, une permission
 `whatsapp_business_management` absente du jeton.
+
+---
+
+## Le lien d'abonnement manquant — 27/11/2026
+
+### Le symptôme
+
+L'envoi fonctionnait parfaitement : modèles approuvés, campagne envoyée, message reçu sur le
+téléphone, quota consommé. Mais **rien n'entrait** : pas de confirmations de livraison, pas de
+réponses de clients, pas de STOP traité.
+
+### Pourquoi aucune des pistes habituelles ne marchait
+
+| Suspect | Constat |
+|---|---|
+| L'URL de rappel | correcte : `https://app.wavefi.tech/api/public/whatsapp/webhook` |
+| Le champ `messages` | abonné dans la console Meta |
+| `META_WABA_ID` | contenait encore le compte de test — corrigé, sans effet |
+| Le code du webhook | recevait et journalisait correctement (un échantillon envoyé depuis la console a produit un 403 journalisé, avec l'identifiant reçu) |
+| L'application | publiée, joignable, répondait 200 |
+
+Autrement dit : tout était bon, et rien n'arrivait.
+
+### La vraie cause
+
+L'application n'était **abonnée à aucun** compte WhatsApp Business. Ce lien (`subscribed_apps`) est
+distinct de l'abonnement aux champs du webhook : sans lui, Meta ne délivre aucun événement, même si
+l'URL répond.
+
+Indice décisif : la seule ligne présente en base datait du 22 octobre et portait un identifiant de
+test manuel. **Aucun événement réel n'avait jamais été reçu.**
+
+### Le correctif — deux commandes
+
+L'interface Business Manager était bloquée par une vérification d'identité impossible à valider (le
+formulaire était verrouillé sur un ancien numéro inactif de Nouvelle-Calédonie, champ non
+modifiable). La voie API restait : elle exige `whatsapp_business_management`, que le jeton de
+production n'a pas — mais le **jeton temporaire généré depuis « Étape 1. Faites un essai »** le porte.
+
+Depuis la console du VPS, avec ce jeton :
+
+```bash
+curl -s "https://graph.facebook.com/v21.0/1002263869569248?fields=id,name" \
+  -H "Authorization: Bearer $TOKEN"
+# → {"id":"1002263869569248","name":"WaveFi"}   (le compte existe et le jeton le voit)
+
+curl -s -X POST "https://graph.facebook.com/v21.0/1002263869569248/subscribed_apps" \
+  -H "Authorization: Bearer $TOKEN"
+# → {"success":true}
+
+curl -s "https://graph.facebook.com/v21.0/1002263869569248/subscribed_apps" \
+  -H "Authorization: Bearer $TOKEN"
+# → {"data":[{"whatsapp_business_api_data":{"name":"Wavefi","id":"1799972834584063"}}]}
+```
+
+Meta envoie immédiatement une notification `WEBHOOK_CONFIG_UPDATED` / `subscribed_apps` →
+`subscribe`, qui arrive dans `whatsapp_webhook_events`.
+
+### Validation complète, 27/11 à 08h08 (Tahiti)
+
+| Contrôle | Résultat |
+|---|---|
+| Message entrant reçu | `messages`, expéditeur `68987077019`, HTTP 200 |
+| STOP détecté | `system_events` : `whatsapp_stop`, `event_id` `wa-stop:…` |
+| Consentement | passé à `false` à 18:08:03 UTC |
+| Confirmation envoyée | ✅ sans erreur, et Meta a renvoyé `sent` puis `delivered` |
+| Retiré de l'audience | ✅ 0 destinataire sur le lieu après le STOP |
+
+### Les trois leçons
+
+1. **L'envoi et la réception sont deux mécanismes totalement indépendants.** L'envoi passe par le
+   jeton ; la réception passe par l'abonnement de l'application au compte. Un système peut envoyer
+   parfaitement et ne rien recevoir, sans qu'aucun log ne signale d'erreur.
+2. **`subscribed_apps` n'est pas l'abonnement aux champs du webhook.** Le second est visible dans la
+   console et rassure ; le premier est invisible et conditionne tout.
+3. **Le jeton temporaire de l'étape 1 est un jeton de secours précieux.** Il porte
+   `whatsapp_business_management`, il vit 24 heures, et il permet de contourner une interface
+   verrouillée pour une opération ponctuelle. À garder en tête pour toute opération administrative
+   bloquée par les paramètres de l'entreprise.

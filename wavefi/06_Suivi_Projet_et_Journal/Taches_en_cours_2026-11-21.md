@@ -174,3 +174,19 @@ car le WhatsApp du destinataire s'est déconnecté après un changement de carte
 **Leçon technique :** l'erreur `#132001` de la veille venait de modèles créés dans le **compte de test**
 (`4626997277626482`) au lieu du compte **WaveFi** (`1002263869569248`). Un modèle n'existe que dans le
 compte où il a été créé.
+
+## 27 novembre 2026 — chaîne WhatsApp complète, enfin
+
+Après une journée de diagnostic, la cause du silence est trouvée : **l'application n'était abonnée à
+aucun compte WhatsApp Business**. Ni les accusés de livraison, ni les messages entrants n'étaient
+transmis. L'envoi, lui, fonctionnait depuis le début — d'où l'illusion que tout allait bien.
+
+Correctif appliqué par API avec le jeton temporaire de l'étape 1 : `POST /{waba_id}/subscribed_apps`.
+Détail complet et commandes dans `ops/meta-whatsapp-etat.md`.
+
+**Validé de bout en bout le 27/11 à 08h08 :** message entrant reçu (HTTP 200), STOP détecté, `system_events`
+enregistré, consentement passé à `false`, confirmation envoyée et **livrée** (callbacks `sent` puis
+`delivered` reçus), invité retiré de l'audience.
+
+**Reste à faire sur ce chantier :** repasser le consentement de l'invité de test à « Oui » pour de
+futurs essais ; vérifier que la ligne de livraison d'une **nouvelle** campagne passe bien à « livré ».
