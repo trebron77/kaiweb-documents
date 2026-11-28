@@ -20,7 +20,27 @@ Hostinger → VPS → **Terminal** (`phx.hostingvps.com/1213`). L'invite doit af
 root@srv2073733:~#
 ```
 
+## 1 bis. ATTENTION — le VPS ne peut pas joindre app.wavefi.tech
+
+Constaté le 28/11/2026 : depuis le VPS, toute requête vers `app.wavefi.tech` renvoie **`000`**
+après 20 secondes. Le DNS résout (185.158.133.1) mais la **connexion TCP 443 est filtrée** :
+l'hébergeur du site refuse les adresses de datacenter. `graph.facebook.com`, lui, répond
+normalement — le problème est propre à cet hébergement.
+
+**Conséquence : les tests vers `app.wavefi.tech` se font depuis le PC de Norbert, en PowerShell.**
+Les tâches planifiées, elles, sont appelées par Lovable depuis son propre réseau : elles ne sont
+pas concernées.
+
 ## 2. Vérifier qu'une route protégée est vraiment protégée
+
+**Depuis PowerShell (Windows)** — `curl.exe`, avec l'extension, sinon PowerShell appelle un autre
+programme :
+
+```powershell
+curl.exe -s -o NUL -w "%{http_code}" -X POST https://app.wavefi.tech/api/public/cron/surveillance-whatsapp
+```
+
+*(Depuis un serveur Linux joignable :)*
 
 ```bash
 curl -s -o /dev/null -w "%{http_code}\n" -X POST https://app.wavefi.tech/api/public/cron/surveillance-whatsapp
@@ -39,10 +59,10 @@ Attendu : **401** ou **405** — **jamais 200**
 
 ## 3. Déclencher la surveillance WhatsApp à la main
 
-Remplacer `TON_SECRET` par la valeur de `LOVABLE_CRON_SECRET` :
+Remplacer `TON_SECRET` par la valeur de `LOVABLE_CRON_SECRET` — **depuis PowerShell** :
 
-```bash
-curl -s -X POST https://app.wavefi.tech/api/public/cron/surveillance-whatsapp -H "Authorization: Bearer TON_SECRET" -H "Content-Type: application/json" -d '{}'
+```powershell
+curl.exe -s -X POST https://app.wavefi.tech/api/public/cron/surveillance-whatsapp -H "Authorization: Bearer TON_SECRET" -H "Content-Type: application/json" -d '{}'
 ```
 Attendu : un JSON avec trois compteurs. Aucune alerte si tout va bien.
 
