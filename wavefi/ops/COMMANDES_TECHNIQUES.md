@@ -57,7 +57,20 @@ curl -s -o /dev/null -w "%{http_code}\n" https://app.wavefi.tech/api/public/cron
 ```
 Attendu : **401** ou **405** — **jamais 200**
 
-## 3. Déclencher la surveillance WhatsApp à la main
+## 3. Déclencher la surveillance WhatsApp à la main — IMPOSSIBLE, et c'est normal
+
+`LOVABLE_CRON_SECRET` porte le préfixe réservé `LOVABLE_` : ce secret est **créé et géré par
+Lovable**, injecté automatiquement dans les tâches planifiées, et **invisible** dans la liste des
+secrets du projet. On ne peut donc pas le connaître, et l'appel manuel renverra toujours `401`.
+
+Ce n'est pas une panne : la tâche s'exécute côté Lovable, à l'heure prévue.
+
+**Comment vérifier qu'elle tourne :** lire la table `system_events` et y chercher un événement
+`surveillance_executee` portant les trois compteurs. C'est la trace demandée à Lovable le 28/11.
+
+*(Procédure conservée ci-dessous pour mémoire, si un jour le secret devenait accessible.)*
+
+### Ancienne procédure
 
 Remplacer `TON_SECRET` par la valeur de `LOVABLE_CRON_SECRET` — **depuis PowerShell** :
 
