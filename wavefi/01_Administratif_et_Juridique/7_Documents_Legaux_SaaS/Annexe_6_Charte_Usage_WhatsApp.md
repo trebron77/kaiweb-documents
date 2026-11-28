@@ -1,7 +1,7 @@
 # Annexe 6 — Charte d'usage WhatsApp
 
 > Document destiné aux Clients Finaux de la plateforme WaveFi. À publier dans le centre d'aide de
-> l'application **et** à joindre aux CGV. Version 1.0 — 24 novembre 2026.
+> l'application **et** à joindre aux CGV. Version 1.1 — 27 novembre 2026.
 
 ## Pourquoi cette charte
 
@@ -43,7 +43,7 @@ envoyer.
 | Plan | Messages WhatsApp inclus par mois | Au-delà |
 |---|---|---|
 | Starter | 100 | 15 XPF par message |
-| Pro | 330 | 15 XPF par message |
+| Pro | 300 | 15 XPF par message |
 | Business | 1 000 | 15 XPF par message |
 
 Le nombre de messages inclus est **remis à zéro chaque mois**, à l'heure de Tahiti. Les messages de
