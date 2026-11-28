@@ -14,7 +14,7 @@
 | Clients actifs — fin d'exercice 1 | **4** (2 Starter, 2 Pro) |
 | Clients actifs — fin d'exercice 2 | **10** (4 Starter, 4 Pro, 2 Business) |
 | Clients actifs — fin d'exercice 3 | **20** (8 Starter, 8 Pro, 4 Business) |
-| Messages WhatsApp par client | 250 à 300 par mois, 6 XPF l'unité |
+| Messages WhatsApp par client | 250 à 300 par mois, **5,97 XPF l'unité** (tarif Meta vérifié) |
 | Frais du prestataire de paiement | 4 % des encaissements |
 | Prestations d'intégration | **non anticipées sur l'exercice 1** |
 
@@ -45,6 +45,26 @@ par trimestre. C'est le rythme de la prospection en cours, pas une ambition.
 
 *L'impôt sur les bénéfices n'est pas calculé : le régime applicable sera arrêté avec le comptable
 après immatriculation. Les montants ci-dessus sont des résultats avant impôt.*
+
+## Tarifs Meta vérifiés — 27 novembre 2026
+
+La Polynésie française n'a pas de ligne sur la grille tarifaire de Meta : elle relève de la région
+**« Other »**, au tarif suivant *(1 € = 119,33 XPF)* :
+
+| Catégorie | Tarif Meta | En XPF |
+|---|---:|---:|
+| Marketing | 0,0500 € | **5,97 XPF** |
+| Utilitaire | 0,0064 € | **0,76 XPF** |
+| Service | 0,0064 € | **0,76 XPF** |
+
+Meta ne facture que les messages **livrés**. S'y ajoutent deux gratuités : **1 000 messages de service
+par mois** et par numéro, et les messages dans une fenêtre publicitaire « Click to WhatsApp ».
+
+**Le levier à exploiter :** un message utilitaire coûte huit fois moins qu'un message marketing. Le
+modèle `demande_avis` est aujourd'hui classé en marketing ; une demande d'avis consécutive à une visite
+relève du suivi de visite et pourrait être déposée en utilitaire. Sur 1 000 demandes par mois, l'écart
+représente **5 200 XPF mensuels**. Le risque est nul : si Meta reclassifie, le tarif marketing
+s'applique, sans pénalité.
 
 ## Le chiffre qui compte : le point mort
 
