@@ -100,7 +100,7 @@ doit l'être au niveau de la base — vue restreinte ou privilège de colonne.
 |---|---|---|
 | `contact@wavefi.tech` | boîte principale | contact général, expéditeur des e-mails, adresse de secours |
 | `dpo@wavefi.tech` | **redirige vers `contact@wavefi.tech`** *(vérifié le 28/11/2026)* | adresse citée dans les Mentions légales et la Confidentialité |
-| `support@wavefi.tech` | **à vérifier** | citée dans l'Annexe 5 (SLA) comme canal de support — si la boîte n'existe pas, le SLA promet un canal mort |
+| `support@wavefi.tech` | **fonctionnelle** *(vérifié le 28/11/2026)* | canal de support cité dans l'Annexe 5 (SLA) — le SLA promet donc un canal réel |
 | **Numéro WaveFi `89 63 73 06`** | **API WhatsApp uniquement** | ⚠️ **non joignable par téléphone** : un numéro de l'API Cloud est mobilisé par la plateforme. Ne jamais le publier comme contact humain, et aucune redirection n'est possible |
 | **Mobile Norbert `87 07 70 19`** | joignable | **c'est ce numéro qui figure dans les Mentions légales v1.2 et la Confidentialité v1.2** |
 | Numéro FenuaFact `87 04 51 05` | joignable | produit distinct — ne pas mélanger |
