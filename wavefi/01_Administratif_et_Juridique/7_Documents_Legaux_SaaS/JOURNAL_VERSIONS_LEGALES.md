@@ -29,7 +29,7 @@
 
 | Version | Date d'effet | Ce qui change |
 |---|---|---|
-| **1.2** | **novembre 2026** | alignement sur la grille tarifaire en vigueur |
+| **1.2** | **novembre 2026** | alignement sur la grille tarifaire en vigueur ; référence aux CGU/CGV portée à la **v1.5** le 27 novembre 2026 |
 
 ## À propager après chaque nouvelle version
 
