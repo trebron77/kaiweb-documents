@@ -55,3 +55,21 @@
 | Application | grille tarifaire, page Facturation, écran de changement de plan |
 | Centre d'aide | charte WhatsApp (Annexe 6) |
 | Site — page Tarifs | disponibilité, marque blanche, quotas de messages et d'e-mail |
+
+## Règle de version avant le premier client
+
+Aucun client n'a signé au 28 novembre 2026. Tant que c'est le cas, une **correction de cohérence
+interne** (contradiction entre deux documents, entité mal nommée, placeholder oublié) se fait **dans
+la version en cours**, sans incrément : le numéro de version doit désigner un texte, pas un
+historique de brouillons.
+
+Dès le premier contrat signé, la règle change : toute modification donne une **nouvelle version**,
+avec sa date d'effet, et les clients sont informés.
+
+**Corrections du 28/11/2026, sans changement de version** — CGU v1.7, Mentions légales v1.2,
+Confidentialité v1.2 :
+- entité juridique nommée « KaiWeb Marketing, exploitant sous le nom commercial WaveFi » partout ;
+- Dodo Payments Inc., Delaware, États-Unis (au lieu de « Union européenne ») ;
+- barème de compensation de la CGU remplacé par un renvoi à l'annexe 5 (SLA) — les deux barèmes divergeaient sous 90 % ;
+- plus aucun « [à compléter] » (dépôt de marque, assureur, médiateur) ;
+- dates de mise à jour et de révision alignées sur le 28 novembre.
