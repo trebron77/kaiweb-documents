@@ -9,7 +9,8 @@
 |---|---|---|
 | 1.3 | 11 octobre 2026 | version antérieure, publiée sur le site |
 | 1.4 | 22 novembre 2026 | nouvelle grille tarifaire (9 990 / 26 900 / 79 900 / dès 149 000), quotas d'invités, crédits de support, clause Dodo (art. 4.2) |
-| **1.5** | **27 novembre 2026** | **marque blanche retirée du plan Starter** · quotas de campagnes e-mail rendus explicites (1 000 / 3 000 / 10 000) · **messages WhatsApp du plan Pro ramenés de 330 à 300** |
+| **1.6** | **28 novembre 2026** | **canal SMS retiré** des fonctionnalités et de la clause anti-spam : le SMS n'est ni développé ni commercialisé |
+| 1.5 | 27 novembre 2026 | **marque blanche retirée du plan Starter** · quotas de campagnes e-mail rendus explicites (1 000 / 3 000 / 10 000) · **messages WhatsApp du plan Pro ramenés de 330 à 300** |
 
 ## Annexe 5 — SLA
 
