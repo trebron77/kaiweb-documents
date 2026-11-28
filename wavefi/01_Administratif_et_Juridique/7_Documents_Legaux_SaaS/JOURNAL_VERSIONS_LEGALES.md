@@ -9,7 +9,8 @@
 |---|---|---|
 | 1.3 | 11 octobre 2026 | version antérieure, publiée sur le site |
 | 1.4 | 22 novembre 2026 | nouvelle grille tarifaire (9 990 / 26 900 / 79 900 / dès 149 000), quotas d'invités, crédits de support, clause Dodo (art. 4.2) |
-| **1.6** | **28 novembre 2026** | **canal SMS retiré** des fonctionnalités et de la clause anti-spam : le SMS n'est ni développé ni commercialisé |
+| **1.7** | **28 novembre 2026** | **l'Éditeur est nommé « KaiWeb Marketing », exploitant sous le nom commercial WaveFi** — l'entité juridique n'était pas nommée jusque-là |
+| 1.6 | 28 novembre 2026 | **canal SMS retiré** des fonctionnalités et de la clause anti-spam : le SMS n'est ni développé ni commercialisé |
 | 1.5 | 27 novembre 2026 | **marque blanche retirée du plan Starter** · quotas de campagnes e-mail rendus explicites (1 000 / 3 000 / 10 000) · **messages WhatsApp du plan Pro ramenés de 330 à 300** |
 
 ## Annexe 5 — SLA
@@ -25,6 +26,20 @@
 |---|---|---|
 | 1.0 | 24 novembre 2026 | création |
 | **1.1** | **27 novembre 2026** | quota du plan Pro ramené de 330 à 300 messages |
+
+## Annexe 3 — Mentions légales
+
+| Version | Date d'effet | Ce qui change |
+|---|---|---|
+| 1.1 | 11 octobre 2026 | version antérieure |
+| **1.2** | **28 novembre 2026** | **dénomination sociale : KaiWeb Marketing** · **téléphone renseigné** · Dodo Payments **Inc. (Delaware)** au lieu de « Union européenne » · en-tête et date alignés |
+
+## Annexe 4 — Politique de confidentialité
+
+| Version | Date d'effet | Ce qui change |
+|---|---|---|
+| 1.1 | 11 octobre 2026 | version antérieure |
+| **1.2** | **28 novembre 2026** | **dénomination sociale : KaiWeb Marketing** · **téléphone renseigné** |
 
 ## Politique de remboursement
 
